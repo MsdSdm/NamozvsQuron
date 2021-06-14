@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryWhite">#0CCEC5</color>
+    <color name="colorPrimaryDarkWhite">#0BB9B1</color>
+    <color name="colorPrimaryDarkerWhite">#098B85</color>
+    <color name="colorAccentWhite">@color/colorPrimaryWhite</color>
+    <color name="widgetColor">#3B3C44</color>
+    <color name="widgetColorTimer">#5F606D</color>
+    <color name="widgetColorComming">@color/colorPrimaryWhite</color>
+    <color name="widgetColorSettings">#1B1D2B</color>
+    <color name="widgetColorSettingsBox">@color/widgetColor</color>
+    <color name="iconColor">#ffffff</color>
+    <color name="disabled_button">#3A3A3A</color>
+    <color name="enabled_button">@color/colorPrimaryWhite</color>
+    <color name="settings_widget_clicked">@color/widgetColorSettingsBox</color>
+    <color name="colorPrimaryBlack">#CA333B</color>
+    <color name="colorPrimaryDarkBlack">#A8272E</color>
+    <color name="colorPrimaryDarkerBlack">#771C20</color>
+    <color name="colorAccentBlack">@color/colorPrimaryBlack</color>
+    <color name="buttons">#6D8A87</color>
+    <color name="widgetWhite">#FAF3E6</color>
+    <color name="widgetBlack">#2C2C2C</color>
+</resources>

@@ -1,0 +1,946 @@
+<resources>
+    <string name="app_name">Namoz va Qur\'on</string>
+    <string name="navigation_drawer_open">Hapni sirtarin e navigimit</string>
+    <string name="navigation_drawer_close">Mbyllni sirtarin e navigimit</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Titulli i lundrimit</string>
+    <string name="action_settings">Cilësimet</string>
+    <string name="Background">fon</string>
+    <string name="current_location">Vendndodhja aktuale</string>
+    <string name="choose_location_manually">Zgjedhja e vendndodhjes</string>
+    <string name="internet_search">Kërkoni në internet</string>
+    <string name="update_current_location">Përditësoni vendndodhjen aktuale</string>
+    <string name="adjust_current_location">Vendosni vendndodhjen aktuale</string>
+    <string name="last_known_device_location">Vendndodhja e fundit e njohur</string>
+    <string name="gps">GPS</string>
+    <string name="the_network">Rezervat e rrjetit</string>
+    <string name="save">Ruaje</string>
+    <string name="the_time_location">Vendndodhja e kohës</string>
+    <string name="longitude">Gjatësia</string>
+    <string name="latitude">gjerësia</string>
+    <string name="choose_the_country">Zgjidhni vendin</string>
+    <string name="search">Gjej</string>
+    <string name="choose_the_city">Zgjidhni një qytet</string>
+    <string name="stop">Për \ &amp;#39;xta</string>
+    <string name="settings">Cilësimet</string>
+    <string name="convert_date">Rrotulloni kalendarin</string>
+    <string name="compass">Busulla</string>
+    <string name="about_application">Rreth aplikimit</string>
+    <string name="problems_and_suggestions">Problemet dhe sugjerimet</string>
+    <string name="locations">Rezerva</string>
+    <string name="share_application">Ndani aplikacionin</string>
+
+    <string name="hijri_month_1">Muharrem</string>
+    <string name="hijri_month_2">Safar</string>
+    <string name="hijri_month_3">Rabiul Avval</string>
+    <string name="hijri_month_4">Rabiul Oxir</string>
+    <string name="hijri_month_5">Jumodul Avval</string>
+    <string name="hijri_month_6">Fundi i Jumo-dul</string>
+    <string name="hijri_month_7">Rajab</string>
+    <string name="hijri_month_8">Sha\'bon</string>
+    <string name="hijri_month_9">Ramazani</string>
+    <string name="hijri_month_10">Shavval</string>
+    <string name="hijri_month_11">Në Zulqa</string>
+    <string name="hijri_month_12">Zul Hixhaxhi</string>
+
+    <string name="gregorian_month_1">Janar</string>
+    <string name="gregorian_month_2">Shkurt</string>
+    <string name="gregorian_month_3">marsh</string>
+    <string name="gregorian_month_4">Prill</string>
+    <string name="gregorian_month_5">Mund</string>
+    <string name="gregorian_month_6">Qershor</string>
+    <string name="gregorian_month_7">Korrik</string>
+    <string name="gregorian_month_8">Gusht</string>
+    <string name="gregorian_month_9">Shtator</string>
+    <string name="gregorian_month_10">Tetor</string>
+    <string name="gregorian_month_11">Nëntori</string>
+    <string name="gregorian_month_12">Dhjetor</string>
+
+    <string name="day_of_week1">E diel</string>
+    <string name="day_of_week2">E hënë</string>
+    <string name="day_of_week3">E marte</string>
+    <string name="day_of_week4">E merkure</string>
+    <string name="day_of_week5">E enjte</string>
+    <string name="day_of_week6">E premte</string>
+    <string name="day_of_week7">E shtune</string>
+
+    <string name="adjust_time_manually">Vendosni kohën</string>
+    <string name="reset_time_settings">Rikthe cilësimet e kohës</string>
+    <string name="activate_azan_notifications">Aktivizimi i njoftimeve për Azan</string>
+    <string name="activate_iqama_notifications">Aktivizimi i njoftimeve të iqama</string>
+    <string name="choose_alarm_tone">Përzgjedhja e alarmit</string>
+    <string name="prayer_time_settings">caktimin e kohës së lutjes</string>
+    <string name="saved_locations">Vendet e ruajtura</string>
+    <string name="remaining_time">Mbetur</string>
+    <string name="add_location">Shto vendndodhjen</string>
+    <string name="prayer_time">Koha e lutjes</string>
+    <string name="iqama_time">Koha Iqama</string>
+    <string name="convert_from_hijri">Konvertimi nga Hixhri</string>
+    <string name="convert_from_gregorian">Konvertimi nga Gregorian</string>
+    <string name="add_current_location">Shto vendndodhjen aktuale</string>
+    <string name="choose_an_option">Zgjedhja e opsionit</string>
+    <string name="delete_location">Fshi vendndodhjen</string>
+    <string name="set_as_current_location">Vendos si vendndodhjen aktuale</string>
+
+    <string name="MainActivtyMasjid_Toast">GPS është joaktiv, aktivizo GPS dhe lejo që aplikacioni të përdorë shërbimin. Ose programi nuk funksionon si duhet.</string>
+    <string name="MainActivtyMasjid_builder">Manaxher kantieri</string>
+    <string name="MainActivityMasjid_setMessage">Kërkohet një pajisje me GPS që të funksionojë pajisja e zbulimit të xhamisë.</string>
+    <string name="MainActivityMasjid_Toast1">Uebfaqja nuk u gjet, ju lutemi hapni uebfaqen dhe lejojeni aplikacionin të përdorë uebfaqen dhe internetin.</string>
+    <string name="MainActivityMasjid_title394">ti je ketu</string>
+    <string name="MainActivityMasjid_395">Faqja juaj e fundit e regjistruar</string>
+    <string name="MainActivityMasjid_Toast2">Nuk ka lidhje interneti dhe programi nuk funksionon si duhet</string>
+    <string name="MainActivityMasjid_Toast4">Faqja nuk u gjet, ju lutemi hapni faqen dhe lejoni që aplikacioni të përdorë sajtin dhe internetin.</string>
+    <string name="MainActivityMasjid_Toast6">Të dhënat nuk u morën nga serveri</string>
+    <string name="MainActivityMasjid_Toast7">Të dhënat nuk u morën nga serveri</string>
+    <string name="MainActivityMasjid_Toast8">Ju lutemi ndizni internetin, përndryshe programi nuk do të funksionojë si duhet.</string>
+    <string name="app">Oz</string>
+    <string name="kalibrovka">Nëse është i pasaktë, konfiguroni sistemin tuaj</string>
+
+    <string name="prayer_times_settings">Rregullimi i kohëve të lutjes</string>
+    <string name="hijri_settings">Cilësimet e HJ</string>
+    <string name="display_options">Parametrat e ekranit</string>
+    <string name="notification_settings">Cilësimet e njoftimit</string>
+    <string name="fajr_and_sahoor_alarm">Alarmet e Mëngjesit dhe Mëngjesit</string>
+    <string name="silent_settings">Cilësimet e heshtura</string>
+    <string name="backup_and_restore">Rezervimi dhe restaurimi</string>
+
+    <string name="settings_for_calculating_prayer_times">Cilësimet për llogaritjen e kohëve të lutjes</string>
+    <string name="choose_hijri_date_settings">Përzgjedhja e cilësimit të datës HI</string>
+    <string name="change_language_and_colors_for_the_app_and_widgets">Ndryshoni gjuhët dhe ngjyrat për aplikacionet dhe miniaplikacionet</string>
+    <string name="select_your_notifications_and_reminders_settings">Zgjidhni njoftimet dhe cilësimet e kujtesës</string>
+    <string name="fajr_and_sahoor_wake_up_alarm_settings">Aktivizo cilësimet e alarmit në mëngjes dhe mëngjes</string>
+    <string name="adjust_the_silent_mode_settings_for_each_prayer">Vendosni mënyrën \'mënyra e heshtur\' për secilën kohë të lutjes</string>
+    <string name="settings_backup_and_restore">Rezervoni dhe rivendosni cilësimet</string>
+
+    <string name="choose_display_language">Zgjidhni gjuhën e shfaqjes</string>
+    <string name="location_widget_details">Detaje dhe informacione të tjera:</string>
+    <string name="prayer_notification">Mesazh në lidhje me lutjen</string>
+    <string name="iqama_reminders">Shënon Iqoma</string>
+    <string name="general">I përgjithshëm</string>
+    <string name="settings_layouts_notifications_widget1">Kohët e njoftimit të lutjes</string>
+    <string name="settings_layouts_notifications_widget2">Njoftim</string>
+    <string name="settings_layouts_notifications_widget3">Lloji i njoftimit të audios</string>
+    <string name="settings_layouts_notifications_widget4">Një ton që njofton lutjen</string>
+    <string name="settings_layouts_notifications_widget5">Pastro automatikisht njoftimin</string>
+    <string name="settings_layouts_notifications_widget6">Koha e pastrimit</string>
+    <string name="settings_layouts_notifications_widget7">Koha e qëndrimit</string>
+    <string name="settings_layouts_notifications_widget8">Shënim ikama</string>
+    <string name="settings_layouts_notifications_widget9">Kujtesë, lloji i audios</string>
+    <string name="settings_layouts_notifications_widget10">Një ton që të kujton ikama</string>
+    <string name="settings_layouts_notifications_widget11">Pastroni automatikisht shënimin</string>
+    <string name="settings_layouts_notifications_widget12">Koha e pastrimit</string>
+    <string name="settings_layouts_notifications_widget13">Dridhje</string>
+    <string name="settings_layouts_notifications_widget14">Njoftimi LED</string>
+    <string name="settings_layouts_notifications_widget_details1">Vendosni një mesazh lutjeje për çdo lutje</string>
+    <string name="settings_layouts_notifications_widget_details2">Njoftimi i kohës së lutjes</string>
+    <string name="settings_layouts_notifications_widget_details3">Zgjidhni një tingull shënimi në sistem \nPërdorni llojin e alarmit për të raportuar në modalitetin e heshtur</string>
+    <string name="settings_layouts_notifications_widget_details4">Zgjidhni tonin për të njoftuar lutjen</string>
+    <string name="settings_layouts_notifications_widget_details5">Fshini njoftimin pas kohës së specifikuar</string>
+    <string name="settings_layouts_notifications_widget_details6">Vlera aktuale në minuta:</string>
+    <string name="settings_layouts_notifications_widget_details7">Vendosja e kujtesës së ikamës për çdo lutje</string>
+    <string name="settings_layouts_notifications_widget_details8">Mos harroni se lutja është gati të fillojë</string>
+    <string name="settings_layouts_notifications_widget_details9">Zgjidhni një tingull shënimi në sistem \nPërdorni llojin e alarmit për të raportuar në modalitetin e heshtur</string>
+    <string name="settings_layouts_notifications_widget_details10">Zgjidhni tonin e kujtesës iqama</string>
+    <string name="settings_layouts_notifications_widget_details11">Fshini shënimin pas kohës së specifikuar</string>
+    <string name="settings_layouts_notifications_widget_details12">Vlera aktuale në minuta:</string>
+    <string name="settings_layouts_notifications_widget_details13">Aktivizoni dridhjet për njoftimet dhe rikujtesat</string>
+    <string name="settings_layouts_notifications_widget_details14">Aktivizoni njoftimin LED për njoftimet dhe rikujtesat</string>
+    <string name="calculations">Llogaritjet</string>
+    <string name="settings_layouts_prayer_times_widget_details1">Metoda të ndryshme të llogaritjes së namazit të sabahut dhe huftanit</string>
+    <string name="settings_layouts_prayer_times_widget_details2">Llogaritni Mëngjesin dhe Besimin duke e ndarë natën në pjesë bazuar në metodën e llogaritjes të zgjedhur vetëm për gjerësitë gjeografike të larta. \nUmm nuk është në përputhje me metodën Al-Qura</string>
+    <string name="settings_layouts_prayer_times_widget_details3">Shtoni 30 minuta në kohën e Huftanit në muajin e Ramazanit me metodën e Umm Al-Kura</string>
+    <string name="settings_layouts_prayer_times_widget_details4">Metoda e llogaritjes së namazit të Asrit</string>
+    <string name="settings_layouts_prayer_times_widget_details5">Cilësimi 1 orë për të vendosur kohën e verës (DST)</string>
+    <string name="settings_layouts_prayer_times_widget_details6">Futni kohën e duhur për lutjet e së Premtes</string>
+    <string name="settings_layouts_prayer_times_widget_details7">Ndryshimi i kohëve të lutjes</string>
+    <string name="settings_layouts_prayer_times_widget7">Vendosja e kohëmatësit manualisht</string>
+    <string name="settings_layouts_prayer_times_widget6">Koha e namazit të xhumasë</string>
+    <string name="settings_layouts_prayer_times_widget5">Vendosni kohën \'Kurseni kohën e verës\'</string>
+    <string name="settings_layouts_prayer_times_widget4">Metoda e shekullit</string>
+    <string name="settings_layouts_prayer_times_widget3">Vendosja e Huftan (Nam.Vaq.) Në Ramazan</string>
+    <string name="settings_layouts_prayer_times_widget2">Metoda e bazuar në kënd</string>
+    <string name="settings_layouts_prayer_times_widget1">Metodat</string>
+    <string name="settings_layouts_hijri_widget1">Përdorimi i kalendarit Umm al-Kura</string>
+    <string name="settings_layouts_hijri_widget2">Vendosja e manualit</string>
+    <string name="settings_layouts_hijri_widget_details1">Aktivizimi i kalendarit automatik Umm al-Qura të siguruar nga Google. \n Vetëm në Android 7.0 dhe më të ri</string>
+    <string name="settings_layouts_hijri_widget_details2">Ndryshimi i datës Hixhri</string>
+    <string name="hijri_calendar">Kalendari hixhri</string>
+    <string name="app_options">Cilësimet e aplikacionit</string>
+    <string name="widgets_options">Cilësimet e widget-it</string>
+    <string name="settings_layouts_display_options_widget_details1">Ndryshoni gjuhën e shfaqjes dhe emrat e lutjeve</string>
+    <string name="settings_layouts_display_options_widget_details2">Ndryshoni gjuhën e numrave në aplikacion. \n Disa pajisje mund të mos e mbështesin atë</string>
+    <string name="settings_layouts_display_options_widget_details3">Ndryshoni ngjyrat e programit kryesor</string>
+    <string name="settings_layouts_display_options_widget_details4">Ndryshoni fontin kryesor të programit. \n Jo të gjitha pajisjet mbështesin të gjitha shkronjat</string>
+    <string name="settings_layouts_display_options_widget_details5" />
+    <string name="settings_layouts_display_options_widget_details6">Ngjyra widget që tregojnë të gjitha kohët e lutjeve</string>
+    <string name="settings_layouts_display_options_widget_details7">Ngjyrat widget horizontale që tregojnë kohën e lutjes tjetër</string>
+    <string name="settings_layouts_display_options_widget_details8">Ngjyrat widget horizontale që tregojnë të gjitha kohët e lutjeve</string>
+    <string name="settings_layouts_display_options_widget_details9">Ngjyra të mëdha widget për të treguar kohën e ardhshme të lutjes</string>
+    <string name="settings_layouts_display_options_widget_details10">Ngjyrat e miniaplikacioneve që tregojnë të gjitha kohët e lutjeve në ekranin e kyçjes</string>
+    <string name="settings_layouts_display_options_widget1">Gjuha</string>
+    <string name="settings_layouts_display_options_widget2">Gjuha e numrave</string>
+    <string name="settings_layouts_display_options_widget3">Tema e aplikimit</string>
+    <string name="settings_layouts_display_options_widget4">Zbatimi i shkronjave</string>
+    <string name="settings_layouts_display_options_widget5">Përdorni 24 (orë) orë</string>
+    <string name="settings_layouts_display_options_widget6">Vegël për lutjen time</string>
+    <string name="settings_layouts_display_options_widget7">Vegël për lutjen time të rradhës</string>
+    <string name="settings_layouts_display_options_widget8">Vegla e lutjeve të mia (horizontale)</string>
+    <string name="settings_layouts_display_options_widget9">Lutja ime e radhës është widget (i madh)</string>
+    <string name="settings_layouts_display_options_widget10">Një widget për të bllokuar lutjen time</string>
+    <string name="alarm_settings">Vendosja e alarmit</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget1">Lajmerim i RENDESISHEM</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget2">Ndizni alarmin e mëngjesit</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget3">Ora me zile</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget4">Ora me zile</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget5">Dridhje</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget6">Ndizni ekranin</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget7">Çaktivizo modalitetin e heshtur</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget8">Ndaluni automatikisht</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget9">Timeshtë koha të ndalemi</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget10">Koha e vonesës</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details1">Kur ky alarm aktivizohet, tingujt e njoftimit të mëngjesit dhe të kujtesës do të injorohen derisa të ndalet alarmi.</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details2" />
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details3">Vlera aktuale në minuta:</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details4">Zgjidhni një orë alarmi</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details5">Aktivizo dridhjet për alarmin e sabahut</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details6">Ndizni ekranin kur fillon alarmi</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details7">Nëse pajisja është në modalitetin e heshtur ose dridhës, fikni përkohësisht modalitetin e heshtur para se të bie alarmi, pastaj kthejeni pasi të ndaloni.</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details8">Ndaloni alarmin pas orës së caktuar</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details9">Vlera aktuale në minuta:</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details10">Zgjidhni kohën e vonesës në minuta</string>
+    <string name="silent_mode">Modaliteti Jim</string>
+    <string name="settings_layouts_silent_widget1">Kaloni në modalitetin \'Silent Mode\'</string>
+    <string name="settings_layouts_silent_widget2">Vendosja e kohës së qetë</string>
+    <string name="settings_layouts_silent_widget3">Dridhje</string>
+    <string name="settings_layouts_silent_widget4">Vibrimi gjatë ndezjes</string>
+    <string name="settings_layouts_silent_widget5">Shfaqni një mesazh në lidhje me ndërrimin</string>
+    <string name="settings_layouts_silent_widget_details1">Kaloni në heshtje gjatë lutjes</string>
+    <string name="settings_layouts_silent_widget_details2">Vendosni kohën e fillimit dhe kohëzgjatjen e mënyrës së heshtur për çdo lutje</string>
+    <string name="settings_layouts_silent_widget_details3">Aktivizimi i dridhjeve në modalitetin e heshtur</string>
+    <string name="settings_layouts_silent_widget_details4">Dridhni një herë kur kaloni në modalitetin ose mënyrën e heshtur</string>
+    <string name="settings_layouts_silent_widget_details5">Shfaqni një mesazh kur kaloni në modalitetin ose mënyrën e heshtur</string>
+    <string name="_settings">Cilësimet</string>
+    <string name="_locations">Rezerva</string>
+    <string name="settings_layouts_backup_and_restore_widget1">Kushtoj vëmendje</string>
+    <string name="settings_layouts_backup_and_restore_widget2">Cilësimet e rezervimit</string>
+    <string name="settings_layouts_backup_and_restore_widget3">Rikthe cilësimet</string>
+    <string name="settings_layouts_backup_and_restore_widget4">Rikthe cilësimet e parazgjedhura</string>
+    <string name="settings_layouts_backup_and_restore_widget5">Zonat rezervë</string>
+    <string name="settings_layouts_backup_and_restore_widget6">Restaurimi i vendeve</string>
+    <string name="settings_layouts_backup_and_restore_widget_details1">Këto cilësime rezervojnë dhe rikthejnë pak cilësimet dhe vendndodhjen e programit</string>
+    <string name="settings_layouts_backup_and_restore_widget_details2">Cilësimet e rezervimit në kartën SD</string>
+    <string name="settings_layouts_backup_and_restore_widget_details3">Rivendosni ose fshini cilësimet nga karta SD</string>
+    <string name="settings_layouts_backup_and_restore_widget_details4">Rivendosni cilësimet</string>
+    <string name="settings_layouts_backup_and_restore_widget_details5">Rezervo vendet në kartën SD</string>
+    <string name="settings_layouts_backup_and_restore_widget_details6">Rivendosni ose fshini vendet e kartës SD</string>
+    <string name="settings_dialogs_prayer_calculations_methods1">Universiteti Umm Al-Qura</string>
+    <string name="settings_dialogs_prayer_calculations_methods2">Lidhja e Botës Myslimane</string>
+    <string name="settings_dialogs_prayer_calculations_methods3">Universiteti i Shkencave Islame në Karaçi</string>
+    <string name="settings_dialogs_prayer_calculations_methods4">Egyption është autoriteti i përgjithshëm i pyetjes</string>
+    <string name="settings_dialogs_prayer_calculations_methods5">Bashkimi Islamik i Amerikës së Veriut</string>
+    <string name="settings_dialogs_prayer_calculations_methods6">Instituti i Gjeofizikës, Universiteti i Teheranit</string>
+    <string name="settings_dialogs_prayer_calculations_methods7">Një në shtatë gjatë natës</string>
+    <string name="settings_dialogs_asr_methods1">Shafi (etj)</string>
+    <string name="settings_dialogs_asr_methods2">Shkolla Hanefi</string>
+    <string name="adjustments">Korrigjimet</string>
+    <string name="settings_layouts_manual_times_adjustments_widget1">Lajmerim i RENDESISHEM</string>
+    <string name="settings_layouts_manual_times_adjustments_widget2">Koha e mëngjesit</string>
+    <string name="settings_layouts_manual_times_adjustments_widget3">Koha e drekës</string>
+    <string name="settings_layouts_manual_times_adjustments_widget4">Koha e shekullit</string>
+    <string name="settings_layouts_manual_times_adjustments_widget5">Koha e mbrëmjes</string>
+    <string name="settings_layouts_manual_times_adjustments_widget6">Koha e natës</string>
+    <string name="settings_layouts_manual_times_adjustments_widget7">Rikthe kohën e paracaktuar</string>
+    <string name="settings_layouts_manual_times_adjustments_widget8">Koha e lindjes së diellit</string>
+    <string name="settings_layouts_manual_times_adjustments_widget_details1">Para se të ndryshoni kohën, sigurohuni që të zgjidhni cilësimin më të mirë për rajonin tuaj dhe të zgjidhni zonën e saktë të kohës nga cilësimet e pajisjes.</string>
+    <string name="settings_layouts_manual_times_adjustments_widget_details2">Vlera aktuale në minuta:</string>
+    <string name="settings_layouts_manual_times_adjustments_widget_details7">Rivendosja e kohës së të gjitha lutjeve në origjinal</string>
+    <string name="app_language">Gjuha e aplikimit</string>
+    <string name="settings_dialogs_app_theme1">E bardhë</string>
+    <string name="settings_dialogs_app_theme2">E zezë</string>
+    <string name="settings_dialogs_app_font1">Shkronja e imët</string>
+    <string name="settings_dialogs_app_font2">Shkronja standarde e pajisjes</string>
+    <string name="settings_dialogs_app_font3">Shkronja e trashë e pajisjes</string>
+    <string name="settings_dialogs_widget_theme1">E bardhë</string>
+    <string name="settings_dialogs_widget_theme2">E zezë</string>
+    <string name="settings_dialogs_widget_theme3">Ngjyra origjinale</string>
+    <string name="fajr">fajr</string>
+    <string name="zuhr">Dreka</string>
+    <string name="asr">Asr</string>
+    <string name="magrib">Sham</string>
+    <string name="isha">isha</string>
+    <string name="jumuah">E premte</string>
+    <string name="settings_layouts_prayer_notification_time_widget1">Koha e njoftimit</string>
+    <string name="settings_layouts_prayer_notification_time_widget2">Njoftim në mëngjes</string>
+    <string name="settings_layouts_prayer_notification_time_widget4">Njoftim për drekë</string>
+    <string name="settings_layouts_prayer_notification_time_widget6">Njoftimi i Shekullit</string>
+    <string name="settings_layouts_prayer_notification_time_widget8">Njoftim për mbrëmjen</string>
+    <string name="settings_layouts_prayer_notification_time_widget10">Njoftimi i Hufton</string>
+    <string name="settings_layouts_prayer_notification_time_widget12">Njoftimi i së premtes</string>
+    <string name="settings_layouts_prayer_notification_time_widget_details1">Vlera aktuale në minuta:</string>
+    <string name="settings_layouts_prayer_notification_time_widget_details2" />
+    <string name="settings_dialogs_notification_audio_type1">Telefonatë</string>
+    <string name="settings_dialogs_notification_audio_type2">Njoftimet</string>
+    <string name="settings_dialogs_notification_audio_type3">Multimedia (punon në heshtje)</string>
+    <string name="settings_dialogs_notification_audio_type4">Alarm (funksionon në heshtje)</string>
+    <string name="each_prayer_notification_tone">Tonet e njoftimit të çdo lutjeje</string>
+    <string name="settings_layouts_prayer_notification_tone_widget1">Përzgjedhja e toneve të sistemit</string>
+    <string name="settings_layouts_prayer_notification_tone_widget2">Përdorimi i një karte SD</string>
+    <string name="settings_layouts_prayer_notification_tone_widget3">Zgjidhni nga karta SD</string>
+    <string name="settings_layouts_prayer_notification_tone_widget4">Përdorimi i toneve të ndryshme</string>
+    <string name="settings_layouts_prayer_notification_tone_widget5">Një ton që njofton agimin</string>
+    <string name="settings_layouts_prayer_notification_tone_widget6">Një ton që njofton drekën</string>
+    <string name="settings_layouts_prayer_notification_tone_widget7">Një ton që informon për shekullin</string>
+    <string name="settings_layouts_prayer_notification_tone_widget8">Një ton që njofton mbrëmjen</string>
+    <string name="settings_layouts_prayer_notification_tone_widget9">Një ton që informon për natën</string>
+    <string name="settings_layouts_prayer_notification_tone_widget_details1">Zgjidhni një ton mesazhi lutjeje nga tonet e sistemit</string>
+    <string name="settings_layouts_prayer_notification_tone_widget_details2">Aktivizoni duke përdorur kartën tuaj SD për të zgjedhur tonin e njoftimit tuaj MP3</string>
+    <string name="settings_layouts_prayer_notification_tone_widget_details3">Zile e zgjedhur:</string>
+    <string name="settings_layouts_prayer_notification_tone_widget_details4">Përdorni një ton të ndryshëm të të shprehurit për çdo lutje</string>
+    <string name="settings_layouts_prayer_notification_tone_widget_details5">Zgjidhni tonin për të njoftuar lutjen</string>
+    <string name="settings_layouts_iqama_reminder_time_widget1">Koha Iqama</string>
+    <string name="settings_layouts_iqama_reminder_time_widget2">Një shënim për agimin</string>
+    <string name="settings_layouts_iqama_reminder_time_widget4">Shënim dreke</string>
+    <string name="settings_layouts_iqama_reminder_time_widget6">Shënim i shekullit</string>
+    <string name="settings_layouts_iqama_reminder_time_widget8">Shënim mbrëmje</string>
+    <string name="settings_layouts_iqama_reminder_time_widget10">Më kujto natën</string>
+    <string name="settings_layouts_iqama_reminder_time_widget12">Shënim \'e Premte \'</string>
+    <string name="before_prayer_time">Para kohës së namazit</string>
+    <string name="no_tone_set">Toni i ziles nuk u zgjodh nga karta SD</string>
+    <string name="after_prayer_time">Pas kohës së namazit</string>
+    <string name="please_set_location_first">Ju lutemi shënoni fillimisht vendndodhjen!</string>
+    <string name="prayer_time_notification1">Koha e namazit të sabahut</string>
+    <string name="prayer_time_notification2">Koha e drekës</string>
+    <string name="prayer_time_notification3">Timeshtë koha për namazin e Asrit</string>
+    <string name="prayer_time_notification4">Koha e lutjes në mbrëmje</string>
+    <string name="prayer_time_notification5">Timeshtë koha për namazin e natës</string>
+    <string name="prayer_time_notification6">Koha e namazit të xhumasë</string>
+    <string name="iqama_time_notification1">Koha e qëndrimit në mëngjes</string>
+    <string name="iqama_time_notification2">Koha e drekës</string>
+    <string name="iqama_time_notification3">Koha e qëndrimit në shek</string>
+    <string name="iqama_time_notification4">Koha e mbrëmjes</string>
+    <string name="iqama_time_notification5">Koha e Hufton iqama</string>
+    <string name="iqama_time_notification6">Koha e qëndrimit të së premtes</string>
+    <string name="sahoor_alarm_stop">Ndal</string>
+    <string name="sahoor_alarm_snooze">Përsëritja</string>
+    <string name="wake_up_fajr_prayer_is_near">Zgjohu! Namazi i sabahut është afër</string>
+    <string name="alarm_time_from_fajr_time">Ora me zile (nga ora e mëngjesit)</string>
+    <string name="sahoor_activty_fajr_time_apex">Namazi i mëngjesit:</string>
+    <string name="sahoor_activity_time_to_stop_dialog_title">Pas alarmit të mëngjesit</string>
+    <string name="settings_layouts_silent_time_settings_widget1">Ndryshimi i orës së mëngjesit</string>
+    <string name="settings_layouts_silent_time_settings_widget2">Ndryshoni kohën e drekës</string>
+    <string name="settings_layouts_silent_time_settings_widget3">Ndryshimi i kohës së shekullit</string>
+    <string name="settings_layouts_silent_time_settings_widget4">Ndryshimi i orës së mbrëmjes</string>
+    <string name="settings_layouts_silent_time_settings_widget5">Ndryshoni kohën e alarmit</string>
+    <string name="settings_layouts_silent_time_settings_widget6">Ndryshoni kohën e së Premtes</string>
+    <string name="settings_layouts_silent_time_settings_widget7">Modaliteti Jim</string>
+    <string name="settings_layouts_silent_time_settings_widget8">Aktivizimi</string>
+    <string name="settings_layouts_silent_time_settings_widget_details1">Vlera aktuale në minuta:</string>
+    <string name="settings_layouts_silent_time_settings_widget_details2" />
+    <string name="silent_period_in_minutes">Modaliteti i heshtur për minutë</string>
+    <string name="the_device_is_set_on_silent_mode">Pajisja është vendosur në modalitetin e heshtur</string>
+    <string name="remembrance">Lutje dhe Shënime të Përditshme</string>
+    <string name="azkar_spinner_list1">Kujtesë në mëngjes</string>
+    <string name="azkar_spinner_list2">Një kujtesë e mbrëmjes</string>
+    <string name="azkar_spinner_list3">Pas namazit</string>
+    <string name="azkar_spinner_list4">Para gjumit</string>
+    <string name="please_enable_gps_first">Ju lutemi sigurohuni që GPS është i ndezur!</string>
+    <string name="this_device_has_no_gps_equipment">Kjo pajisje nuk ka pajisje GPS</string>
+    <string name="please_check_for_internet_connection">Ju lutemi kontrolloni për t\'u lidhur me internetin</string>
+    <string name="settings_dialogs_jumuah_time_different_array1">Përdorimi i kohës së drekës</string>
+    <string name="settings_dialogs_jumuah_time_different_array2">Zgjidhni një herë tjetër</string>
+    <string name="adjustments_is_reset">Koha është rikthyer</string>
+    <string name="set_file_name">Emri i file</string>
+    <string name="backup_list">Lista rezervë</string>
+    <string name="backup_and_restore_dialog3">Cilësimet fshihen dhe rivendosen.</string>
+    <string name="sunrise">Lindja e Diellit</string>
+    <string name="current_location_not_found">Vendndodhja juaj aktuale nuk mund të gjendej, kështu që aplikacioni përdor vendndodhjen e fundit të njohur në pajisje. \nNëse kjo është e pasaktë, rinisni pajisjen.</string>
+    <string name="current_location_not_found_and_last">Pajisja nuk mund ta përcaktojë vendndodhjen tuaj. \n Provoni një metodë tjetër ose rifilloni pajisjen.</string>
+    <string name="update_current_activity_last_known_location_not_found">Vendndodhja e fundit e njohur nuk u gjet!</string>
+    <string name="alert_dialog_updating_location">Vendndodhja po azhurnohet</string>
+    <string name="toast_location_updated_successfully">Vendndodhja u përditësua me sukses!</string>
+    <string name="toast_failed_to_update_location">Vendndodhja nuk është azhurnuar</string>
+    <string name="alert_hijri_calendar_adjusted">Kalendari Hixhri është vendosur nga cilësimet!</string>
+    <string name="toast_prayer_widget_click_was">Ka qene</string>
+    <string name="toast_prayer_widget_click_just">Koha e lutjes!</string>
+    <string name="toast_prayer_widget_click_one_minute">nje minute</string>
+    <string name="toast_prayer_widget_click_two_minutes">dy minuta</string>
+    <string name="toast_prayer_widget_click_two_hours">dy orë</string>
+    <string name="toast_prayer_widget_click_one_hour">nje ore</string>
+    <string name="alert_ignore_battery_opt_title">Mos e optimizoni baterinë</string>
+    <string name="alert_ignore_battery_opt_msg">Dëshironi të shtoni pajisjen në listën e optimizimit të baterisë si një luajtje për të ndihmuar në dërgimin e njoftimeve kur pajisja është në modalitetin e gatishmërisë dhe për të kaluar në modalitetin e heshtur në kohën e duhur? \n \nKjo mund ta ndryshoni më vonë në cilësimet e baterisë së pajisjes.</string>
+    <string name="alert_ok">po</string>
+    <string name="alert_cancel">Anullo</string>
+    <string name="alert_restore_button">Rikuperimi</string>
+    <string name="alert_delete_button">Fshi rezervimin</string>
+    <string name="alert_no_backups">Asnjë rezervë nuk u ruajt</string>
+    <string name="toast_backup_restored">Rezervimi është restauruar</string>
+    <string name="toast_backup_saved">Rezervimi u ruajt</string>
+    <string name="toast_settings_reset_completed">Rivendosja e cilësimeve ka përfunduar!</string>
+    <string name="alert_date_conversion_limits_title">Kaloi kufirin!</string>
+    <string name="alert_date_conversion_limits_msg">Kufijtë e konvertimit të datës: \nKombëtare 14 Mars, 1937, \n 16 Nëntor 2077 Pas Krishtit</string>
+    <string name="toast_no_location_data">Asnjë informacion për ruajtjen</string>
+    <string name="alert_add_current_location_msg">Dëshironi të shtoni vendndodhjen aktuale në vendet e ruajtura?</string>
+    <string name="toast_maximum_saved_locations">Numri maksimal i vendeve është pesë!</string>
+    <string name="toast_set_location_name_first">Së pari duhet të vendosni një emër për adresën aktuale!</string>
+    <string name="toast_location_already_exist">Vendndodhja tashmë e disponueshme!</string>
+    <string name="alert_location_information_will_lost_title">Të fshihen të dhënat e reja?</string>
+    <string name="alert_location_information_will_lost_msg">A dëshironi vërtet të dilni pa ruajtur të dhëna të reja?</string>
+    <string name="toast_choose_one_of_the_update_methods_first">Zgjidhni së pari një nga metodat e azhurnimit</string>
+    <string name="toast_only_mp3_files">Do të shfaqen vetëm skedarët mp3</string>
+    <string name="toast_tone_saved">Vota u zgjodh dhe u ruajt</string>
+
+    <string name="toast_prayer_widget_click_hours">Ora</string>
+    <string name="toast_prayer_widget_click_hours_more_than_ten">Ora</string>
+    <string name="toast_prayer_widget_click_minutes">minuta</string>
+    <string name="toast_prayer_widget_click_and">dhe</string>
+    <string name="toast_prayer_widget_click_ago">para</string>
+    <string name="toast_prayer_widget_click_remaining">pjesa tjetër</string>
+    <string name="exceptione">Një gabim i panjohur do të korrigjohet së shpejti</string>
+    <string name="ilovani_ulashish">Ndani aplikacionin</string>
+    <string name="baho_berish">Vlerësimi</string>
+
+    <string name="send__________send"><b>Libra</b>\n Tri kopje origjinale të Kur&amp;#39;anit, recitim, libra lutjesh, lutje të përditshme \n <b>Rezerva </b>\nQibla, xhami afër jush \n <b>Lehtësia e rregullimit </b>\n5 gjuhë të ndryshme, 2 gjuhë të ndryshme dixhitale, 2 tema të ndryshme në aplikacion. aftësia për të zgjedhur dhe ndryshuar tonin e njoftimeve</string>
+
+    <string name="appwidget_text">SHEMBULL</string>
+    <string name="add_widget">Shto miniaplikacion</string>
+    <string name="title_activity_quran">Aktiviteti kryesor</string>
+    <string name="title_home">Shtëpia</string>
+    <string name="title_dashboard">Pult</string>
+    <string name="title_notifications">Njoftimet</string>
+    <string name="action_notification">njoftim</string>
+    <string-array name="time">
+        <item>çerek ore</item>
+        <item>gjysëm ore</item>
+        <item>1 orë</item>
+        <item>Dy orë</item>
+    </string-array>
+    <string name="activity_notification_set_q_text">Kurseni kohën që preferoni, në mënyrë që çdo Kur\'an të dërgohet vazhdimisht pa mesazhe në formën e mesazheve.</string>
+    <string name="actv_not_set_qtxt_">Kohëzgjatja e përsëritur</string>
+    <string name="act_set_bg_q_txt_">Zgjidhni ngjyrën tuaj të preferuar</string>
+    <string name="format_quran_name_q_">Fotiha</string>
+    <string name="main_item_1">përmasa e germave</string>
+    <string name="main_it_2">fon</string>
+    <string name="main_it_3">Vlerësoni aplikacionin</string>
+    <string name="tarjima">Përkthimi</string>
+    <string name="reset">rivendosni</string>
+    <string name="tasbeh_nomi_zikr">Emri i rruzares: Zikr</string>
+    <string name="tasbeh_soni_100ta">Numri i rruzareve: 100</string>
+    <string name="qo_shish">Shto</string>
+    <string name="saqlash">Ruaje</string>
+    <string name="dial_settings_font_">Qm bḥfẓ ạlḥjm ạlmfḍl lk</string>
+    <string name="dialog_settings_font_q_tx">Tm</string>
+    <string name="quron_item_dr">Kur&amp;#39;ani aktiv</string>
+    <string name="tasbeh_item_dr">Tasbeh</string>
+    <string name="qibla_item_dr">Kibla</string>
+    <string name="salovat">\'Alloxumma Solli A\'la Sayyidina Muhammadin dhe A\'la Ali Sayyidina Muhammad\'</string>
+    <string name="salovat_dasturchasi_AlarmSalovat_satrt_Oncreate">Programi \'Salavat\' ka filluar</string>
+    <string name="notificationtext">Alloxumma Solli A\'la Sayyidina Muhammadin dhe A\'la A\'li Sayyidina Muhammad</string>
+    <string name="prewdialog_assalomu_alykum">Assalamu alejkum ue rahmetullahi ue barakotux</string>
+    <string name="prewdialgo_o_qing">Lexoje!</string>
+    <string name="prewdialog_qur_onnni_ko_rishingiz_uchun_iltimos_roziman_tugmasini_bosing_va_internetga_ulaning_bu_ilova_o_zi_kerakli_bo_lgan_documentlarni_tortib_oladi">\ nNuk ka dokumente të mjaftueshme në aplikacion. \ nJu lutemi lidhuni në Internet dhe klikoni \ &amp;quot;Pajtohem \&amp;quot;</string>
+    <string name="prewdialog_qaytarilmasin">Mos u kthe</string>
+    <string name="prewdialog_rozimasman">nuk jam dakort</string>
+    <string name="prewdialog_roziman">Roziman</string>
+    <string name="dowload_menu">Shkarko</string>
+    <string name="syns">Përditësimi</string>
+    <string name="qur_on_o_zbekcha" translatable="false">Kurani uzbek</string>
+    <string name="Ducument">\'Dokument\'</string>
+    <string name="Muvaffaqiyat">Dokumentet u ngarkuan me sukses</string>
+    <string name="ochib_korish">E hapur</string>
+    <string name="xatolik">Ooooy! Gabim, nuk ka hapësirë në kartën SD.</string>
+    <string name="iloji_bomadi">Nuk mund të shihet ende.</string>
+    <string name="yuklanmoqda">Duke ngarkuar…</string>
+    <string name="permission_necessary">leje</string>
+    <string name="storage_permission_is_encessary_to_wrote_event">përjashtim</string>
+    <string name="qur_on_mp3">Kur\'ani në (.MP3)</string>
+    <string name="f">Fatiha</string>
+    <string name="zero">0:00</string>
+    <string name="compass_dial" translatable="false">Thirrja e busullës</string>
+    <string name="compass_hands" translatable="false">Duart e busullës</string>
+    <string name="gps_settings_title">Cilësimet e GPS</string>
+    <string name="gps_settings_text">GPS nuk është aktivizuar. Dëshironi të shkoni në menunë e cilësimeve?</string>
+    <string name="settings_button_ok">Cilësimet</string>
+    <string name="settings_button_cancel">Anullo</string>
+    <string name="msg_permission_not_granted_yet">Informacioni i vendndodhjes nuk është ende i disponueshëm</string>
+    <string name="msg_permission_granted">Duke pasur parasysh informacionin e vendndodhjes, shtypni butonin GPS.</string>
+    <string name="toast_permission_required">Ky program kërkon një adresë aksesi</string>
+    <string name="your_location">Vendndodhja juaj:</string>
+    <string name="location_not_ready">Vendndodhja nuk është gati, shtypni përsëri butonin.</string>
+    <string name="qibla_direction">Drejtimi i Qabesë është nga veriu:</string>
+    <string name="pls_enable_location">Aktivizo Vendndodhjen dhe shtyp butonin përsëri.</string>
+    <string name="degree_from_north">Eksponenti</string>
+    <string name="using_last_location">përdorni adresën e fundit.</string>
+    <string name="namoz_kitob" translatable="false">Libër lutjesh</string>
+    <string name="namoz_kitobi" translatable="false">Libër lutjesh</string>
+    <string name="kun">Tema e ndritshme</string>
+    <string name="tun">Tema e natës</string>
+    <string name="configure" translatable="false">Konfiguro</string>
+    <string name="masjidlar">Xhamitë</string>
+
+    <string name="next">Pasardhëse</string>
+    <string name="skip">Kapërce</string>
+    <string name="start">E KUPTOJ</string>
+
+    <string name="slide_1_title">Libra</string>
+    <string name="slide_1_desc">Tri lloje të Kur\'anit Origjinal, Recitim, Libra Lutjesh, Lutje të Përditshme</string>
+
+    <string name="slide_2_title">Kohët e lutjes</string>
+    <string name="slide_2_desc">Kohët e lutjes, Ezani, Ikama, Saharlik, kohët e Iftarit</string>
+
+    <string name="slide_3_title">Rezerva</string>
+    <string name="slide_3_desc">Qibla, Xhamitë Pranë Jush</string>
+
+    <string name="slide_4_title">Lehtësia e cilësimeve</string>
+    <string name="slide_4_desc">Aplikacioni përfshin 5 gjuhë të ndryshme, 2 gjuhë të ndryshme dixhitale, 2 tema të ndryshme. aftësia për të zgjedhur dhe ndryshuar tonin e njoftimeve</string>
+    <string name="remove">Fshij</string>
+    <string name="remove_tasbix">A mund ta pastroni rruzaren?</string>
+    <string name="removed_tasbix">Rruzarja është pastruar</string>
+    <string name="play_again_desc">Për të parë përsëri rrëshqitësin e mirëseardhjes, shkoni Cilësimet -> aplikacione -> rrëshqitësin e mirëseardhjes -> pastroni të dhënat</string>
+    <string name="play_again">Luaj përsëri</string>
+    <string name="assalomu_alaykum_va_rahmatullohi_va_barakotux">Assalamu alaykum \nva rahmatullahi ue barakotux</string>
+    <string name="ilova_gidi">Udhëzues për Zbatim</string>
+    <string name="keraklidoclaryo">Nuk kërkohet asnjë dokument? A shkarkoni?</string>
+
+
+
+    <string-array name="prayer_time_notifications">
+        <item>@string/prayer_time_notification1</item>
+        <item>@string/prayer_time_notification2</item>
+        <item>@string/prayer_time_notification3</item>
+        <item>@string/prayer_time_notification4</item>
+        <item>@string/prayer_time_notification5</item>
+        <item>@string/prayer_time_notification6</item>
+    </string-array>
+    <string-array name="iqama_time_notifications">
+        <item>@string/iqama_time_notification1</item>
+        <item>@string/iqama_time_notification2</item>
+        <item>@string/iqama_time_notification3</item>
+        <item>@string/iqama_time_notification4</item>
+        <item>@string/iqama_time_notification5</item>
+        <item>@string/iqama_time_notification6</item>
+    </string-array>
+    <string-array name="hijri_month">
+        <item>@string/hijri_month_1</item>
+        <item>@string/hijri_month_2</item>
+        <item>@string/hijri_month_3</item>
+        <item>@string/hijri_month_4</item>
+        <item>@string/hijri_month_5</item>
+        <item>@string/hijri_month_6</item>
+        <item>@string/hijri_month_7</item>
+        <item>@string/hijri_month_8</item>
+        <item>@string/hijri_month_9</item>
+        <item>@string/hijri_month_10</item>
+        <item>@string/hijri_month_11</item>
+        <item>@string/hijri_month_12</item>
+    </string-array>
+    <string-array name="gregorian_month">
+        <item>@string/gregorian_month_1</item>
+        <item>@string/gregorian_month_2</item>
+        <item>@string/gregorian_month_3</item>
+        <item>@string/gregorian_month_4</item>
+        <item>@string/gregorian_month_5</item>
+        <item>@string/gregorian_month_6</item>
+        <item>@string/gregorian_month_7</item>
+        <item>@string/gregorian_month_8</item>
+        <item>@string/gregorian_month_9</item>
+        <item>@string/gregorian_month_10</item>
+        <item>@string/gregorian_month_11</item>
+        <item>@string/gregorian_month_12</item>
+    </string-array>
+
+    <string-array name="day_of_week">
+        <item>@string/day_of_week1</item>
+        <item>@string/day_of_week2</item>
+        <item>@string/day_of_week3</item>
+        <item>@string/day_of_week4</item>
+        <item>@string/day_of_week5</item>
+        <item>@string/day_of_week6</item>
+        <item>@string/day_of_week7</item>
+    </string-array>
+    <string-array name="settings_menu">
+        <item>@string/prayer_times_settings</item>
+        <item>@string/hijri_settings</item>
+        <item>@string/display_options</item>
+        <item>@string/notification_settings</item>
+        <item>@string/silent_settings</item>
+        <item>@string/backup_and_restore</item>
+    </string-array>
+    <string-array name="prayer_time">
+        <item>@string/fajr</item>
+        <item>@string/sunrise</item>
+        <item>@string/zuhr</item>
+        <item>@string/asr</item>
+        <item>@string/magrib</item>
+        <item>@string/isha</item>
+    </string-array>
+    <string-array name="location_widget_options">
+        <item>@string/delete_location</item>
+        <item>@string/set_as_current_location</item>
+    </string-array>
+    <string-array name="settings_submenu">
+        <item>@string/settings_for_calculating_prayer_times</item>
+        <item>@string/choose_hijri_date_settings</item>
+        <item>@string/change_language_and_colors_for_the_app_and_widgets</item>
+        <item>@string/select_your_notifications_and_reminders_settings</item>
+        <item>@string/adjust_the_silent_mode_settings_for_each_prayer</item>
+        <item>@string/settings_backup_and_restore</item>
+    </string-array>
+    <string name="settings_layouts_notifications_title1">@string/prayer_notification</string>
+    <string name="settings_layouts_notifications_title2">@string/iqama_reminders</string>
+    <string name="settings_layouts_notifications_title3">@string/general</string>
+    <string name="settings_layout_titles_backup_and_restore_title1" >@string/settings</string>
+    <string name="settings_layout_titles_backup_and_restore_title2" >@string/locations</string>
+    <string name="settings_layout_titles_display_options_title1" >@string/app_options</string>
+    <string name="settings_layout_titles_display_options_title2" >@string/widgets_options</string>
+    <string name="settings_layout_titles_fajr_and_sahoor_alarms_title1" >@string/alarm_settings</string>
+    <string name="settings_layout_titles_hijri_title1">@string/hijri_calendar</string>
+    <string name="settings_layout_titles_manual_times_adjustments_title1" >@string/adjustments</string>
+    <string name="settings_layout_titles_prayer_notification_time_title1" >@string/fajr</string>
+    <string name="settings_layout_titles_prayer_notification_time_title2" >@string/zuhr</string>
+    <string name="settings_layout_titles_prayer_notification_time_title3" >@string/asr</string>
+    <string name="settings_layout_titles_prayer_notification_time_title4" >@string/magrib</string>
+    <string name="settings_layout_titles_prayer_notification_time_title5" >@string/isha</string>
+    <string name="settings_layout_titles_prayer_notification_time_title6" >@string/jumuah</string>
+    <string name="settings_layout_titles_prayer_notification_tone_title1" >@string/asr</string>
+    <string name="settings_layout_titles_prayer_times_title1" >@string/calculations</string>
+    <string name="settings_layout_titles_silent_title1" >@string/silent_mode</string>
+
+
+    <string name="qiroat">Lexoni</string>
+    <string name="quran">Kuran</string>
+    <string name="duolar">Lutjet</string>
+    <string name="kitoblar_va_qur_on">Librat dhe Kurani</string>
+    <string name="namoz_kitobitr">Libër lutjesh</string>
+    <string name="kitab_alsalatr">Libri Alsala</string>
+    <string name="sozlamalar">Cilësimet</string>
+    <string name="ilova_bo_yicha">Sipas aplikimit</string>
+
+    <string name="url_kitob_uchun">https://raw.githubusercontent.com/MsdSdm/kitoblar/main/Kurani-Fisnik-Nahi.pdf</string>
+    <string name="url_kitob_nomi">Kurani-Fisnik-Nahi.pdf</string>
+
+
+    <string name="url_kitob_namoz" >https://raw.githubusercontent.com/MsdSdm/kitoblar/main/Salat-The-Muslim-Prayer-Book.pdf</string>
+    <string name="url_kitob_namoz_name">Salat-The-Muslim-Prayer-Book.pdf</string>
+    <string name="allohning_99_ismlari">99 emra të Allahut</string>
+    <string name="notification_text">Mos harroni 99 emrat e Allahut!</string>
+    <string name="davomi">Lexo më shumë …</string>
+Sureja
+    <string name="sura1">Al-Fātiha</string>
+    <string name="sura2">Al-Baqara</string>
+    <string name="sura3">Āl-\`Imrān</string>
+    <string name="sura4">An-Nisā\'</string>
+    <string name="sura5">Al-Mā\'ida</string>
+    <string name="sura6">Al-An\`ām</string>
+    <string name="sura7">Al-A\`rāf</string>
+    <string name="sura8">Al-\'Anfāl</string>
+    <string name="sura9">At-Tawba</string>
+    <string name="sura10">Yūnus</string>
+    <string name="sura11">Hūd</string>
+    <string name="sura12">Yūsuf</string>
+    <string name="sura13">Ar-Ra`d</string>
+    <string name="sura14">Ibrāhīm</string>
+    <string name="sura15">Al-Hijr</string>
+    <string name="sura16">An-Nahl</string>
+    <string name="sura17">Al-Isrā\'</string>
+    <string name="sura18">Al-Kahf</string>
+    <string name="sura19">Maryam</string>
+    <string name="sura20">Tā-Hā</string>
+    <string name="sura21">Al-Anbiyā\'</string>
+    <string name="sura22">Al-Hajj</string>
+    <string name="sura23">Al-Mu\'minūn</string>
+    <string name="sura24">An-Nūr</string>
+    <string name="sura25">Al-Furqān</string>
+    <string name="sura26">Ash-Shu\`arā\'</string>
+    <string name="sura27">An-Naml</string>
+    <string name="sura28">Al-Qasas</string>
+    <string name="sura29">Al-`Ankabūt</string>
+    <string name="sura30">Ar-Rūm</string>
+    <string name="sura31">Luqmān</string>
+    <string name="sura32">As-Sajda</string>
+    <string name="sura33">Al-Ahzāb</string>
+    <string name="sura34">Sabā\'</string>
+    <string name="sura35">Fātir</string>
+    <string name="sura36">Yā-Sīn</string>
+    <string name="sura37">As-Sāffāt</string>
+    <string name="sura38">Sād</string>
+    <string name="sura39">Az-Zumar</string>
+    <string name="sura40">Al-Ghāfir</string>
+    <string name="sura41">Fussilat</string>
+    <string name="sura42">Ash-Shūrā</string>
+    <string name="sura43">Az-Zukhruf</string>
+    <string name="sura44">Ad-Dukhān</string>
+    <string name="sura45">Al-Jāthiya</string>
+    <string name="sura46">Al-`Ahqāf</string>
+    <string name="sura47">Muhammad</string>
+    <string name="sura48">Al-Fath</string>
+    <string name="sura49">Al-Hujurat</string>
+    <string name="sura50">Qāf</string>
+    <string name="sura51">Adh-Dhāriyāt</string>
+    <string name="sura52">At-Tūr</string>
+    <string name="sura53">An-Najm</string>
+    <string name="sura54">Al-Qamar</string>
+    <string name="sura55">Ar-Rahmān</string>
+    <string name="sura56">Al-Wāqi`ah</string>
+    <string name="sura57">Al-Hadīd</string>
+    <string name="sura58">Al-Mujādala</string>
+    <string name="sura59">Al-Hashr</string>
+    <string name="sura60">Al-Mumtahana</string>
+    <string name="sura61">As-Saff</string>
+    <string name="sura62">Al-Jumu`a</string>
+    <string name="sura63">Al-Munāfiqūn</string>
+    <string name="sura64">At-Taghābun</string>
+    <string name="sura65">At-Talāq</string>
+    <string name="sura66">At-Tahrīm</string>
+    <string name="sura67">Al-Mulk</string>
+    <string name="sura68">Al-Qalam</string>
+    <string name="sura69">Al-Hāqqah</string>
+    <string name="sura70">Al-Ma`ārij</string>
+    <string name="sura71">Nūh</string>
+    <string name="sura72">Al-Jinn</string>
+    <string name="sura73">Al-Muzzammil</string>
+    <string name="sura74">Al-Muddaththir</string>
+    <string name="sura75">Al-Qiyāma</string>
+    <string name="sura76">Al-Insān</string>
+    <string name="sura77">Al-Mursalāt</string>
+    <string name="sura78">An-Nabā\'</string>
+    <string name="sura79">An-Nāzi`āt</string>
+    <string name="sura80">`Abasa</string>
+    <string name="sura81">At-Takwīr</string>
+    <string name="sura82">Al-Infitār</string>
+    <string name="sura83">Al-Mutaffifīn</string>
+    <string name="sura84">Al-Inshiqāq</string>
+    <string name="sura85">Al-Burūj</string>
+    <string name="sura86">At-Tāriq</string>
+    <string name="sura87">Al-A`lā</string>
+    <string name="sura88">Al-Ghāshiya</string>
+    <string name="sura89">Al-Fajr</string>
+    <string name="sura90">Al-Balad</string>
+    <string name="sura91">Ash-Shams</string>
+    <string name="sura92">Al-Layl</string>
+    <string name="sura93">Ad-Duhā</string>
+    <string name="sura94">Ash-Sharh</string>
+    <string name="sura95">At-Tīn</string>
+    <string name="sura96">Al-`Alaq</string>
+    <string name="sura97">Al-Qadr</string>
+    <string name="sura98">Al-Bayyina</string>
+    <string name="sura99">Az-Zalzalah</string>
+    <string name="sura100">Al-`Ādiyāt</string>
+    <string name="sura101">Al-Qāri`ah</string>
+    <string name="sura102">At-Takāthur</string>
+    <string name="sura103">Al-`Asr</string>
+    <string name="sura104">Al-Humaza</string>
+    <string name="sura105">Al-Fīl</string>
+    <string name="sura106">Quraysh</string>
+    <string name="sura107">Al-Mā`ūn</string>
+    <string name="sura108">Al-Kawthar</string>
+    <string name="sura109">Al-Kāfirūn</string>
+    <string name="sura110">An-Nasr</string>
+    <string name="sura111">Al-Masad</string>
+    <string name="sura112">Al-Ikhlāṣ</string>
+    <string name="sura113">Al-Falaq</string>
+    <string name="sura114">An-Nās</string>
+
+
+    <string name="name1"> ALLAH</string>
+    <string name="name2"> AR-RAHMAAN</string>
+    <string name="name3"> AR-RAHEEM</string>
+    <string name="name4"> AL-MALIK</string>
+    <string name="name5"> AL-QUDDUS</string>
+    <string name="name6"> AS-SALAM</string>
+    <string name="name7"> AL-MU’MIN</string>
+    <string name="name8"> AL-MUHAYMIN</string>
+    <string name="name9"> AL-AZEEZ</string>
+    <string name="name10">AL-JABBAR</string>
+    <string name="name11">AL-MUTAKABBIR</string>
+    <string name="name12">AL-KHAALIQ</string>
+    <string name="name13">AL-BAARI’</string>
+    <string name="name14">AL-MUSAWWIR</string>
+    <string name="name15">AL-GHAFFAR</string>
+    <string name="name16">AL-QAHHAR</string>
+    <string name="name17">AL-WAHHAAB</string>
+    <string name="name18">AR-RAZZAAQ</string>
+    <string name="name19">AL-FATTAAH</string>
+    <string name="name20">AL-‘ALEEM</string>
+    <string name="name21">AL-QAABID</string>
+    <string name="name22">AL-BAASIT</string>
+    <string name="name23">AL-KHAAFIDH</string>
+    <string name="name24">AR-RAAFI’</string>
+    <string name="name25">AL-MU’IZZ</string>
+    <string name="name26">AL-MUZIL</string>
+    <string name="name27">AS-SAMEE’</string>
+    <string name="name28">AL-BASEER</string>
+    <string name="name29">AL-HAKAM</string>
+    <string name="name30">AL-‘ADL</string>
+    <string name="name31">AL-LATEEF</string>
+    <string name="name32">AL-KHABEER</string>
+    <string name="name33">AL-HALEEM</string>
+    <string name="name34">AL-‘ATHEEM</string>
+    <string name="name35">AL-GHAFOOR</string>
+    <string name="name36">ASH-SHAKOOR</string>
+    <string name="name37">AL-‘ALEE</string>
+    <string name="name38">AL-KABEER</string>
+    <string name="name39">AL-HAFEEDH</string>
+    <string name="name40">AL-MUQEET</string>
+    <string name="name41">AL-HASEEB</string>
+    <string name="name42">AL-JALEEL</string>
+    <string name="name43">AL-KAREEM</string>
+    <string name="name44">AR-RAQEEB</string>
+    <string name="name45">AL-MUJEEB</string>
+    <string name="name46">AL-WAASI’</string>
+    <string name="name47">AL-HAKEEM</string>
+    <string name="name48">AL-WADOOD</string>
+    <string name="name49">AL-MAJEED</string>
+    <string name="name50">AL-BA’ITH</string>
+    <string name="name51">ASH-SHAHEED</string>
+    <string name="name52">AL-HAQQ</string>
+    <string name="name53">AL-WAKEEL</string>
+    <string name="name54">AL-QAWIYY</string>
+    <string name="name55">AL-MATEEN</string>
+    <string name="name56">AL-WALIYY</string>
+    <string name="name57">AL-HAMEED</string>
+    <string name="name58">AL-MUHSEE</string>
+    <string name="name59">AL-MUBDI</string>
+    <string name="name60">AL-MU’ID</string>
+    <string name="name61">AL-MUHYEE</string>
+    <string name="name62">AL-MUMEET</string>
+    <string name="name63">AL-HAYY</string>
+    <string name="name64">AL-QAYYOOM</string>
+    <string name="name65">AL-WAAJID</string>
+    <string name="name66">AL-MAAJID</string>
+    <string name="name67">AL-WAAHID</string>
+    <string name="name68">AS-SAMAD</string>
+    <string name="name69">AL-QADEER</string>
+    <string name="name70">AL-MUQTADIR</string>
+    <string name="name71">AL-MUQADDIM</string>
+    <string name="name72">AL-MU’AKHKHIR</string>
+    <string name="name73">AL-AWWAL</string>
+    <string name="name74">AL-AAKHIR</string>
+    <string name="name75">AZ-DHAAHIR</string>
+    <string name="name76">AL-BAATIN</string>
+    <string name="name77">AL-WAALI</string>
+    <string name="name78">AL-MUTA’ALI</string>
+    <string name="name79">AL-BARR</string>
+    <string name="name80">AT-TAWWAB</string>
+    <string name="name81">AL-MUNTAQIM</string>
+    <string name="name82">AL-‘AFUWW</string>
+    <string name="name83">AR-RA’OOF</string>
+    <string name="name84">MAALIK-UL-MULK</string>
+    <string name="name85">DHUL-JALAALI WAL-IKRAAM</string>
+    <string name="name86">AL-MUQSIT</string>
+    <string name="name87">AL-JAAMI’</string>
+    <string name="name88">AL-GHANIYY</string>
+    <string name="name89">AL-MUGHNI</string>
+    <string name="name90">AL-MANI’</string>
+    <string name="name91">AD-DHARR</string>
+    <string name="name92">AN-NAFI’</string>
+    <string name="name93">AN-NUR</string>
+    <string name="name94">AL-HAADI</string>
+    <string name="name95">AL-BADEE’</string>
+    <string name="name96">AL-BAAQI</string>
+    <string name="name97">AL-WAARITH</string>
+    <string name="name98">AR-RASHEED</string>
+    <string name="name99">AS-SABOOR</string>
+
+    <string name="mano1"> GOD</string>
+    <string name="mano2"> The Most or Entirely Merciful</string>
+    <string name="mano3"> The Bestower of Mercy</string>
+    <string name="mano4"> The King and Owner of Dominion</string>
+    <string name="mano5"> The Absolutely Pure</string>
+    <string name="mano6"> The Perfection and Giver of Peace</string>
+    <string name="mano7"> The One Who gives Emaan and Security</string>
+    <string name="mano8"> The Guardian, The Witness, The Overseer</string>
+    <string name="mano9"> The All Mighty</string>
+    <string name="mano10">The Compeller, The Restorer</string>
+    <string name="mano11">The Supreme, The Majestic</string>
+    <string name="mano12">The Creator, The Maker</string>
+    <string name="mano13">The Originator</string>
+    <string name="mano14">The Fashioner</string>
+    <string name="mano15">The All- and Oft-Forgiving</string>
+    <string name="mano16">The Subduer, The Ever-Dominating</string>
+    <string name="mano17">The Giver of Gifts</string>
+    <string name="mano18">The Provider</string>
+    <string name="mano19">The Opener, The Judge</string>
+    <string name="mano20">The All-Knowing, The Omniscient</string>
+    <string name="mano21">The Withholder</string>
+    <string name="mano22">The Extender</string>
+    <string name="mano23">The Reducer, The Abaser</string>
+    <string name="mano24">The Exalter, The Elevator</string>
+    <string name="mano25">The Honourer, The Bestower</string>
+    <string name="mano26">The Dishonourer, The Humiliator</string>
+    <string name="mano27">The All-Hearing</string>
+    <string name="mano28">The All-Seeing</string>
+    <string name="mano29">The Judge, The Giver of Justice</string>
+    <string name="mano30">The Utterly Just</string>
+    <string name="mano31">The Subtle One, The Most Gentle</string>
+    <string name="mano32">The Acquainted, the All-Aware</string>
+    <string name="mano33">The Most Forbearing</string>
+    <string name="mano34">The Magnificent, The Supreme</string>
+    <string name="mano35">The Forgiving, The Exceedingly Forgiving</string>
+    <string name="mano36">The Most Appreciative</string>
+    <string name="mano37">The Most High, The Exalted</string>
+    <string name="mano38">The Greatest, The Most Grand</string>
+    <string name="mano39">The Preserver, The All-Heedful and All-Protecting</string>
+    <string name="mano40">The Sustainer</string>
+    <string name="mano41">The Reckoner, The Sufficient</string>
+    <string name="mano42">The Majestic</string>
+    <string name="mano43">The Most Generous, The Most Esteemed</string>
+    <string name="mano44">The Watchful</string>
+    <string name="mano45">The Responsive One</string>
+    <string name="mano46">The All-Encompassing, the Boundless</string>
+    <string name="mano47">The All-Wise</string>
+    <string name="mano48">The Most Loving</string>
+    <string name="mano49">The Glorious, The Most Honorable</string>
+    <string name="mano50">The Resurrector, The Raiser of the Dead</string>
+    <string name="mano51">The All- and Ever Witnessing</string>
+    <string name="mano52">The Absolute Truth</string>
+    <string name="mano53">The Trustee, The Disposer of Affairs</string>
+    <string name="mano54">The All-Strong</string>
+    <string name="mano55">The Firm, The Steadfast</string>
+    <string name="mano56">The Protecting Associate</string>
+    <string name="mano57">The Praiseworthy</string>
+    <string name="mano58">The All-Enumerating, The Counter</string>
+    <string name="mano59">The Originator, The Initiator</string>
+    <string name="mano60">The Restorer, The Reinstater</string>
+    <string name="mano61">The Giver of Life</string>
+    <string name="mano62">The Bringer of Death, the Destroyer</string>
+    <string name="mano63">The Ever-Living</string>
+    <string name="mano64">The Sustainer, The Self-Subsisting</string>
+    <string name="mano65">The Perceiver</string>
+    <string name="mano66">The Illustrious, the Magnificent</string>
+    <string name="mano67">The One</string>
+    <string name="mano68">The Unique, The Only One</string>
+    <string name="mano69">The Capable, The Powerful</string>
+    <string name="mano70">The Omnipotent</string>
+    <string name="mano71">The Expediter, The Promoter</string>
+    <string name="mano72">The Delayer, the Retarder</string>
+    <string name="mano73">The First</string>
+    <string name="mano74">The Last</string>
+    <string name="mano75">The Manifest</string>
+    <string name="mano76">The Hidden One, Knower of the Hidden</string>
+    <string name="mano77">The Governor, The Patron</string>
+    <string name="mano78">The Self Exalted</string>
+    <string name="mano79">The Source of Goodness, the Kind Benefactor</string>
+    <string name="mano80">The Ever-Pardoning, The Relenting</string>
+    <string name="mano81">The Avenger</string>
+    <string name="mano82">The Pardoner</string>
+    <string name="mano83">The Most Kind</string>
+    <string name="mano84">Master of the Kingdom, Owner of the Dominion</string>
+    <string name="mano85">Possessor of Glory and Honour, Lord of Majesty and Generosity</string>
+    <string name="mano86">The Equitable, the Requiter</string>
+    <string name="mano87">The Gatherer, the Uniter</string>
+    <string name="mano88">The Self-Sufficient, The Wealthy</string>
+    <string name="mano89">The Enricher</string>
+    <string name="mano90">The Withholder</string>
+    <string name="mano91">The Distresser</string>
+    <string name="mano92">The Propitious, the Benefactor</string>
+    <string name="mano93">The Light, The Illuminator</string>
+    <string name="mano94">The Guide</string>
+    <string name="mano95">The Incomparable Originator</string>
+    <string name="mano96">The Ever-Surviving, The Everlasting</string>
+    <string name="mano97">The Inheritor, The Heir</string>
+    <string name="mano98">The Guide, Infallible Teacher</string>
+    <string name="mano99">The Forbearing, The Patient</string>
+
+
+</resources>

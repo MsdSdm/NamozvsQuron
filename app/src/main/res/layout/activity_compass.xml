@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Qibla.CompassActivity">
+
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/backgroundui"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kalibrovka"
+        android:textColor="@color/widgetWhite"
+        android:background="@color/widgetColorSettingsBox"
+        android:padding="2dp"
+        />
+    <ImageView
+        android:id="@+id/main_image_dial"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/compass_dial"
+        android:src="@drawable/dial" />
+
+    <ImageView
+        android:id="@+id/main_image_qiblat"
+        android:layout_width="37dp"
+        android:layout_height="240dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/compass_hands"
+        android:scaleType="fitXY"
+        android:src="@drawable/jarum_qiblat" />
+
+
+
+    <TextView
+        android:id="@+id/teks_atas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/location_not_ready"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        />
+
+    <TextView
+        android:id="@+id/teks_bawah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/adView"
+        android:text="Lat: 0.000 Long: 0.000"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        />
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/ID_ADS_COMPASS"
+        android:alpha="0.6"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>

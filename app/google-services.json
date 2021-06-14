@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "670475622910",
+    "firebase_url": "https://namoz-vs-quron.firebaseio.com",
+    "project_id": "namoz-vs-quron",
+    "storage_bucket": "namoz-vs-quron.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:670475622910:android:173d214f3433553c54c8af",
+        "android_client_info": {
+          "package_name": "bilibqoy.mohirjonnnikibuilova.namozvsquron"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "670475622910-onp54n166kriipgkn31jhbjmnkjb0lfr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "bilibqoy.mohirjonnnikibuilova.namozvsquron",
+            "certificate_hash": "c71e5514af2f9dd9c12d7eac518c6ba90936fa6f"
+          }
+        },
+        {
+          "client_id": "670475622910-s7bjotoof3sv1gmvteul8upv2i7obo1u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1S4bFbk8nonbN2FH1Fi2k9v3PDb4LwX0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "670475622910-s7bjotoof3sv1gmvteul8upv2i7obo1u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="azkar_sanad1" translatable="false">مسلم 2723</string>
+    <string name="azkar_sanad2" translatable="false">أبو داوود 5068</string>
+    <string name="azkar_sanad3" translatable="false">البخاري 6306</string>
+    <string name="azkar_sanad4" translatable="false">أبو داود 5078</string>
+    <string name="azkar_sanad5" translatable="false">أبو داود 5073</string>
+    <string name="azkar_sanad6" translatable="false"> </string>
+    <string name="azkar_sanad7" translatable="false">أبو داود موقوفاً 5081</string>
+    <string name="azkar_sanad8" translatable="false">أحمد 7898، وصحيح الترمذي 3604</string>
+    <string name="azkar_sanad9" translatable="false">صحيح ابن ماجه 3871</string>
+    <string name="azkar_sanad10" translatable="false">صحيح الترمذي 3529</string>
+    <string name="azkar_sanad11" translatable="false">أبو داود 5088</string>
+    <string name="azkar_sanad12" translatable="false">أبو داوود 5072</string>
+    <string name="azkar_sanad13" translatable="false">مسلم 4/2090</string>
+    <string name="azkar_sanad14" translatable="false">مسلم 2691</string>
+    <string name="azkar_sanad15" translatable="false">صحيح الترغيب والترهيب 1/273</string>
+    <string name="azkar_sanad16" translatable="false">البخاري 6403 ومسلم 2691</string>
+    <string name="azkar_sanad17" translatable="false">أبو داود 5084</string>
+    <string name="azkar_sanad18" translatable="false">أبو داود 5090</string>
+    <string name="azkar_sanad19" translatable="false">مسلم 2723</string>
+    <string name="azkar_sanad20" translatable="false">أبو داوود 5068</string>
+    <string name="azkar_sanad21" translatable="false">البخاري 6306</string>
+    <string name="azkar_sanad22" translatable="false">أبو داود 5078</string>
+    <string name="azkar_sanad23" translatable="false">أبو داود 5073</string>
+    <string name="azkar_sanad24" translatable="false">أبو داود 5090</string>
+    <string name="azkar_sanad25" translatable="false">أبو داود موقوفاً 5081</string>
+    <string name="azkar_sanad26" translatable="false">أحمد 7898، وصحيح الترمذي 3604</string>
+    <string name="azkar_sanad27" translatable="false">صحيح ابن ماجه 3871</string>
+    <string name="azkar_sanad28" translatable="false">صحيح الترمذي 3529</string>
+    <string name="azkar_sanad29" translatable="false">أبو داود 5088</string>
+    <string name="azkar_sanad30" translatable="false">أبو داود 8072</string>
+    <string name="azkar_sanad31" translatable="false">مسلم 4/2090</string>
+    <string name="azkar_sanad32" translatable="false">مسلم 2691</string>
+    <string name="azkar_sanad33" translatable="false">صحيح الترغيب والترهيب 1/273</string>
+    <string name="azkar_sanad34" translatable="false">أبو داود 5090</string>
+
+    <string name="azkar_sanad35" translatable="false"> </string>
+    <string name="azkar_sanad36" translatable="false"> مسلم 591</string>
+    <string name="azkar_sanad37" translatable="false">البخاري 844 ومسلم 593</string>
+    <string name="azkar_sanad38" translatable="false"> مسلم 594</string>
+    <string name="azkar_sanad39" translatable="false"> </string>
+    <string name="azkar_sanad40" translatable="false"> مسلم 595</string>
+    <string name="azkar_sanad41" translatable="false">أبو داود2 /86</string>
+    <string name="azkar_sanad42" translatable="false">النسائي في عمل اليوم والليلة برقم 100</string>
+    <string name="azkar_sanad43" translatable="false">رواه الترمذي 3470</string>
+    <string name="azkar_sanad44" translatable="false">ابن ماجة 925</string>
+
+
+    <string name="azkar_sanad45" translatable="false"> </string>
+    <string name="azkar_sanad46" translatable="false">مسلم 2715</string>
+    <string name="azkar_sanad47" translatable="false">أبو داوود 5051</string>
+    <string name="azkar_sanad48" translatable="false">فتح الباري 113/11 ومسلم 2083/4</string>
+    <string name="azkar_sanad49" translatable="false">مسلم 5054</string>
+    <string name="azkar_sanad50" translatable="false">أبو داوود 5067</string>
+    <string name="azkar_sanad51" translatable="false"> </string>
+</resources>

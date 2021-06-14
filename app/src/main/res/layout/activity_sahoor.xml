@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.SahoorActivity"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/backgroundui"
+        android:alpha="0.7"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/sahoor_activity_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:alpha="0.9"
+        android:background="@color/widgetColor"
+        app:layout_constraintBottom_toTopOf="@id/sahoor_activity_middle_ball"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="20dp">
+
+        <TextView
+            android:id="@+id/sahoor_activity_gregorian_month_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12"
+            android:textColor="@android:color/white"
+            android:textSize="40sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/sahoor_activity_gregorian_month_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:text="september"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            app:layout_constraintStart_toEndOf="@id/sahoor_activity_gregorian_month_number"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/sahoor_activity_hijri_month_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/sahoor_activity_hijri_month_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:text="september"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toStartOf="@id/sahoor_activity_hijri_month_number"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/sahoor_activity_fajr_time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="Fajr time: 05:00 AM"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/widget_font_size"
+            app:layout_constraintBottom_toTopOf="@id/sahoor_activity_alert"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/sahoor_activity_gregorian_month_number" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/sahoor_activity_alert"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:maxLines="1"
+            android:layout_marginBottom="10dp"
+            android:text="@string/wake_up_fajr_prayer_is_near"
+            android:textColor="?colorPrimary"
+            android:textSize="@dimen/widget_font_size"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/sahoor_activity_fajr_time" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/sahoor_activity_middle_ball"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/floating_button_circle"
+        android:backgroundTint="?colorPrimaryDarker"
+        android:text="12:00 am"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/widget_font_size_small"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/sahoor_activity_layout"
+        app:layout_constraintWidth_min="100dp"
+        app:layout_constraintWidth_percent="0.33" />
+
+    <Button
+        android:id="@+id/sahoor_activity_snooze_button"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/floating_button_circle"
+        android:backgroundTint="?colorPrimary"
+        android:text="@string/sahoor_alarm_snooze"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1"
+        app:layout_constraintEnd_toStartOf="@id/sahoor_activity_middle_ball"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/sahoor_activity_middle_ball"
+        app:layout_constraintWidth_min="60dp"
+        app:layout_constraintWidth_percent="0.23" />
+
+    <Button
+        android:id="@+id/sahoor_activity_stop_button"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/floating_button_circle"
+        android:backgroundTint="?colorPrimary"
+        android:text="@string/sahoor_alarm_stop"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/sahoor_activity_middle_ball"
+        app:layout_constraintTop_toTopOf="@id/sahoor_activity_middle_ball"
+        app:layout_constraintWidth_min="60dp"
+        app:layout_constraintWidth_percent="0.23" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

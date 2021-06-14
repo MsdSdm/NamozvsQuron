@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="azkar_1">
+        <item>@string/azkar1</item>
+        <item>@string/azkar2</item>
+        <item>@string/azkar3</item>
+        <item>@string/azkar4</item>
+        <item>@string/azkar5</item>
+        <item>@string/azkar6</item>
+        <item>@string/azkar7</item>
+        <item>@string/azkar8</item>
+        <item>@string/azkar9</item>
+        <item>@string/azkar10</item>
+        <item>@string/azkar11</item>
+        <item>@string/azkar12</item>
+        <item>@string/azkar13</item>
+        <item>@string/azkar14</item>
+        <item>@string/azkar15</item>
+        <item>@string/azkar16</item>
+        <item>@string/azkar17</item>
+        <item>@string/azkar18</item>
+    </string-array>
+    <string-array name="azkar_sanad_1">
+        <item>@string/azkar_sanad1</item>
+        <item>@string/azkar_sanad2</item>
+        <item>@string/azkar_sanad3</item>
+        <item>@string/azkar_sanad4</item>
+        <item>@string/azkar_sanad5</item>
+        <item>@string/azkar_sanad6</item>
+        <item>@string/azkar_sanad7</item>
+        <item>@string/azkar_sanad8</item>
+        <item>@string/azkar_sanad9</item>
+        <item>@string/azkar_sanad10</item>
+        <item>@string/azkar_sanad11</item>
+        <item>@string/azkar_sanad12</item>
+        <item>@string/azkar_sanad13</item>
+        <item>@string/azkar_sanad14</item>
+        <item>@string/azkar_sanad15</item>
+        <item>@string/azkar_sanad16</item>
+        <item>@string/azkar_sanad17</item>
+        <item>@string/azkar_sanad18</item>
+    </string-array>
+    <string-array name="azkar_repetition_1">
+        <item>@string/azkar_repetition1</item>
+        <item>@string/azkar_repetition2</item>
+        <item>@string/azkar_repetition3</item>
+        <item>@string/azkar_repetition4</item>
+        <item>@string/azkar_repetition5</item>
+        <item>@string/azkar_repetition6</item>
+        <item>@string/azkar_repetition7</item>
+        <item>@string/azkar_repetition8</item>
+        <item>@string/azkar_repetition9</item>
+        <item>@string/azkar_repetition10</item>
+        <item>@string/azkar_repetition11</item>
+        <item>@string/azkar_repetition12</item>
+        <item>@string/azkar_repetition13</item>
+        <item>@string/azkar_repetition14</item>
+        <item>@string/azkar_repetition15</item>
+        <item>@string/azkar_repetition16</item>
+        <item>@string/azkar_repetition17</item>
+        <item>@string/azkar_repetition18</item>
+    </string-array>
+    <string-array name="azkar_spel_1">
+        <item>@string/strings_azkar_spel1</item>
+        <item>@string/strings_azkar_spel2</item>
+        <item>@string/strings_azkar_spel3</item>
+        <item>@string/strings_azkar_spel4</item>
+        <item>@string/strings_azkar_spel5</item>
+        <item>@string/strings_azkar_spel6</item>
+        <item>@string/strings_azkar_spel7</item>
+        <item>@string/strings_azkar_spel8</item>
+        <item>@string/strings_azkar_spel9</item>
+        <item>@string/strings_azkar_spel10</item>
+        <item>@string/strings_azkar_spel11</item>
+        <item>@string/strings_azkar_spel12</item>
+        <item>@string/strings_azkar_spel13</item>
+        <item>@string/strings_azkar_spel14</item>
+        <item>@string/strings_azkar_spel15</item>
+        <item>@string/strings_azkar_spel16</item>
+        <item>@string/strings_azkar_spel17</item>
+        <item>@string/strings_azkar_spel18</item>
+    </string-array>
+    <string-array name="azkar_translate_1">
+        <item>@string/strings_azkar_translate1</item>
+        <item>@string/strings_azkar_translate2</item>
+        <item>@string/strings_azkar_translate3</item>
+        <item>@string/strings_azkar_translate4</item>
+        <item>@string/strings_azkar_translate5</item>
+        <item>@string/strings_azkar_translate6</item>
+        <item>@string/strings_azkar_translate7</item>
+        <item>@string/strings_azkar_translate8</item>
+        <item>@string/strings_azkar_translate9</item>
+        <item>@string/strings_azkar_translate10</item>
+        <item>@string/strings_azkar_translate11</item>
+        <item>@string/strings_azkar_translate12</item>
+        <item>@string/strings_azkar_translate13</item>
+        <item>@string/strings_azkar_translate14</item>
+        <item>@string/strings_azkar_translate15</item>
+        <item>@string/strings_azkar_translate16</item>
+        <item>@string/strings_azkar_translate17</item>
+        <item>@string/strings_azkar_translate18</item>
+    </string-array>
+
+    <string-array name="azkar_2">
+        <item>@string/azkar19</item>
+        <item>@string/azkar20</item>
+        <item>@string/azkar21</item>
+        <item>@string/azkar22</item>
+        <item>@string/azkar23</item>
+        <item>@string/azkar24</item>
+        <item>@string/azkar25</item>
+        <item>@string/azkar26</item>
+        <item>@string/azkar27</item>
+        <item>@string/azkar28</item>
+        <item>@string/azkar29</item>
+        <item>@string/azkar30</item>
+        <item>@string/azkar31</item>
+        <item>@string/azkar32</item>
+        <item>@string/azkar33</item>
+        <item>@string/azkar34</item>
+    </string-array>
+    <string-array name="azkar_sanad_2">
+        <item>@string/azkar_sanad19</item>
+        <item>@string/azkar_sanad20</item>
+        <item>@string/azkar_sanad21</item>
+        <item>@string/azkar_sanad22</item>
+        <item>@string/azkar_sanad23</item>
+        <item>@string/azkar_sanad24</item>
+        <item>@string/azkar_sanad25</item>
+        <item>@string/azkar_sanad26</item>
+        <item>@string/azkar_sanad27</item>
+        <item>@string/azkar_sanad28</item>
+        <item>@string/azkar_sanad29</item>
+        <item>@string/azkar_sanad30</item>
+        <item>@string/azkar_sanad31</item>
+        <item>@string/azkar_sanad32</item>
+        <item>@string/azkar_sanad33</item>
+        <item>@string/azkar_sanad34</item>
+    </string-array>
+    <string-array name="azkar_repetition_2">
+        <item>@string/azkar_repetition19</item>
+        <item>@string/azkar_repetition20</item>
+        <item>@string/azkar_repetition21</item>
+        <item>@string/azkar_repetition22</item>
+        <item>@string/azkar_repetition23</item>
+        <item>@string/azkar_repetition24</item>
+        <item>@string/azkar_repetition25</item>
+        <item>@string/azkar_repetition26</item>
+        <item>@string/azkar_repetition27</item>
+        <item>@string/azkar_repetition28</item>
+        <item>@string/azkar_repetition29</item>
+        <item>@string/azkar_repetition30</item>
+        <item>@string/azkar_repetition31</item>
+        <item>@string/azkar_repetition32</item>
+        <item>@string/azkar_repetition33</item>
+        <item>@string/azkar_repetition34</item>
+    </string-array>
+    <string-array name="azkar_spel_2">
+        <item>@string/strings_azkar_spel19</item>
+        <item>@string/strings_azkar_spel20</item>
+        <item>@string/strings_azkar_spel21</item>
+        <item>@string/strings_azkar_spel22</item>
+        <item>@string/strings_azkar_spel23</item>
+        <item>@string/strings_azkar_spel24</item>
+        <item>@string/strings_azkar_spel25</item>
+        <item>@string/strings_azkar_spel26</item>
+        <item>@string/strings_azkar_spel27</item>
+        <item>@string/strings_azkar_spel28</item>
+        <item>@string/strings_azkar_spel29</item>
+        <item>@string/strings_azkar_spel30</item>
+        <item>@string/strings_azkar_spel31</item>
+        <item>@string/strings_azkar_spel32</item>
+        <item>@string/strings_azkar_spel33</item>
+        <item>@string/strings_azkar_spel34</item>
+    </string-array>
+    <string-array name="azkar_translate_2">
+        <item>@string/strings_azkar_translate19</item>
+        <item>@string/strings_azkar_translate20</item>
+        <item>@string/strings_azkar_translate21</item>
+        <item>@string/strings_azkar_translate22</item>
+        <item>@string/strings_azkar_translate23</item>
+        <item>@string/strings_azkar_translate24</item>
+        <item>@string/strings_azkar_translate25</item>
+        <item>@string/strings_azkar_translate26</item>
+        <item>@string/strings_azkar_translate27</item>
+        <item>@string/strings_azkar_translate28</item>
+        <item>@string/strings_azkar_translate29</item>
+        <item>@string/strings_azkar_translate30</item>
+        <item>@string/strings_azkar_translate31</item>
+        <item>@string/strings_azkar_translate32</item>
+        <item>@string/strings_azkar_translate33</item>
+        <item>@string/strings_azkar_translate34</item>
+    </string-array>
+
+    <string-array name="azkar_3">
+        <item>@string/azkar35</item>
+        <item>@string/azkar36</item>
+        <item>@string/azkar37</item>
+        <item>@string/azkar38</item>
+        <item>@string/azkar39</item>
+        <item>@string/azkar40</item>
+        <item>@string/azkar41</item>
+        <item>@string/azkar42</item>
+        <item>@string/azkar43</item>
+        <item>@string/azkar44</item>
+    </string-array>
+    <string-array name="azkar_sanad_3">
+        <item>@string/azkar_sanad35</item>
+        <item>@string/azkar_sanad36</item>
+        <item>@string/azkar_sanad37</item>
+        <item>@string/azkar_sanad38</item>
+        <item>@string/azkar_sanad39</item>
+        <item>@string/azkar_sanad40</item>
+        <item>@string/azkar_sanad41</item>
+        <item>@string/azkar_sanad42</item>
+        <item>@string/azkar_sanad43</item>
+        <item>@string/azkar_sanad44</item>
+    </string-array>
+    <string-array name="azkar_repetition_3">
+        <item>@string/azkar_repetition35</item>
+        <item>@string/azkar_repetition36</item>
+        <item>@string/azkar_repetition37</item>
+        <item>@string/azkar_repetition38</item>
+        <item>@string/azkar_repetition39</item>
+        <item>@string/azkar_repetition40</item>
+        <item>@string/azkar_repetition41</item>
+        <item>@string/azkar_repetition42</item>
+        <item>@string/azkar_repetition43</item>
+        <item>@string/azkar_repetition44</item>
+    </string-array>
+    <string-array name="azkar_spel_3">
+        <item>@string/strings_azkar_spel35</item>
+        <item>@string/strings_azkar_spel36</item>
+        <item>@string/strings_azkar_spel37</item>
+        <item>@string/strings_azkar_spel38</item>
+        <item>@string/strings_azkar_spel39</item>
+        <item>@string/strings_azkar_spel40</item>
+        <item>@string/strings_azkar_spel41</item>
+        <item>@string/strings_azkar_spel42</item>
+        <item>@string/strings_azkar_spel43</item>
+        <item>@string/strings_azkar_spel44</item>
+    </string-array>
+    <string-array name="azkar_translate_3">
+        <item>@string/strings_azkar_translate35</item>
+        <item>@string/strings_azkar_translate36</item>
+        <item>@string/strings_azkar_translate37</item>
+        <item>@string/strings_azkar_translate38</item>
+        <item>@string/strings_azkar_translate39</item>
+        <item>@string/strings_azkar_translate40</item>
+        <item>@string/strings_azkar_translate41</item>
+        <item>@string/strings_azkar_translate42</item>
+        <item>@string/strings_azkar_translate43</item>
+        <item>@string/strings_azkar_translate44</item>
+
+    </string-array>
+
+    <string-array name="azkar_4">
+        <item>@string/azkar45</item>
+        <item>@string/azkar46</item>
+        <item>@string/azkar47</item>
+        <item>@string/azkar48</item>
+        <item>@string/azkar49</item>
+        <item>@string/azkar50</item>
+        <item>@string/azkar51</item>
+    </string-array>
+    <string-array name="azkar_sanad_4">
+        <item>@string/azkar_sanad45</item>
+        <item>@string/azkar_sanad46</item>
+        <item>@string/azkar_sanad47</item>
+        <item>@string/azkar_sanad48</item>
+        <item>@string/azkar_sanad49</item>
+        <item>@string/azkar_sanad50</item>
+        <item>@string/azkar_sanad51</item>
+    </string-array>
+    <string-array name="azkar_repetition_4">
+        <item>@string/azkar_repetition45</item>
+        <item>@string/azkar_repetition46</item>
+        <item>@string/azkar_repetition47</item>
+        <item>@string/azkar_repetition48</item>
+        <item>@string/azkar_repetition49</item>
+        <item>@string/azkar_repetition50</item>
+        <item>@string/azkar_repetition51</item>
+    </string-array>
+    <string-array name="azkar_spel_4">
+        <item>@string/strings_azkar_spel45</item>
+        <item>@string/strings_azkar_spel46</item>
+        <item>@string/strings_azkar_spel47</item>
+        <item>@string/strings_azkar_spel48</item>
+        <item>@string/strings_azkar_spel49</item>
+        <item>@string/strings_azkar_spel50</item>
+        <item>@string/strings_azkar_spel51</item>
+    </string-array>
+    <string-array name="azkar_translate_4">
+        <item>@string/strings_azkar_translate45</item>
+        <item>@string/strings_azkar_translate46</item>
+        <item>@string/strings_azkar_translate47</item>
+        <item>@string/strings_azkar_translate48</item>
+        <item>@string/strings_azkar_translate49</item>
+        <item>@string/strings_azkar_translate50</item>
+        <item>@string/strings_azkar_translate51</item>
+
+    </string-array>
+
+    <string-array name="azkar_5">
+        <item>@string/azkar52</item>
+        <item>@string/azkar53</item>
+        <item>@string/azkar54</item>
+        <item>@string/azkar55</item>
+    </string-array>
+    <string-array name="azkar_sanad_5">
+        <item>@string/azkar_sanad52</item>
+        <item>@string/azkar_sanad53</item>
+        <item>@string/azkar_sanad54</item>
+        <item>@string/azkar_sanad55</item>
+
+    </string-array>
+    <string-array name="azkar_repetition_5">
+        <item>@string/azkar_repetition52</item>
+        <item>@string/azkar_repetition53</item>
+        <item>@string/azkar_repetition54</item>
+        <item>@string/azkar_repetition55</item>
+    </string-array>
+    <string-array name="azkar_spel_5">
+        <item>@string/strings_azkar_spel52</item>
+        <item>@string/strings_azkar_spel53</item>
+        <item>@string/strings_azkar_spel54</item>
+        <item>@string/strings_azkar_spel55</item>
+    </string-array>
+    <string-array name="azkar_translate_5">
+        <item>@string/strings_azkar_translate52</item>
+        <item>@string/strings_azkar_translate53</item>
+        <item>@string/strings_azkar_translate54</item>
+        <item>@string/strings_azkar_translate55</item>
+    </string-array>
+
+    <string-array name="azkar_6">
+        <item>@string/azkar56</item>
+    </string-array>
+    <string-array name="azkar_sanad_6">
+        <item>@string/azkar_sanad56</item>
+    </string-array>
+    <string-array name="azkar_repetition_6">
+        <item>@string/azkar_repetition56</item>
+    </string-array>
+    <string-array name="azkar_spel_6">
+        <item>@string/strings_azkar_spel56</item>
+    </string-array>
+    <string-array name="azkar_translate_6">
+        <item>@string/strings_azkar_translate56</item>
+    </string-array>
+
+ <string-array name="azkar_7">
+        <item>@string/azkar57</item>
+    </string-array>
+
+    <string-array name="azkar_sanad_7">
+        <item>@string/azkar_sanad57</item>
+    </string-array>
+    <string-array name="azkar_repetition_7">
+        <item>@string/azkar_repetition57</item>
+    </string-array>
+    <string-array name="azkar_spel_7">
+        <item>@string/strings_azkar_spel57</item>
+    </string-array>
+    <string-array name="azkar_translate_7">
+        <item>@string/strings_azkar_translate57</item>
+    </string-array>
+
+<string-array name="azkar_8">
+        <item>@string/azkar58</item>
+        <item>@string/azkar59</item>
+        <item>@string/azkar60</item>
+        <item>@string/azkar61</item>
+        <item>@string/azkar62</item>
+        <item>@string/azkar63</item>
+        <item>@string/azkar64</item>
+        <item>@string/azkar65</item>
+        <item>@string/azkar66</item>
+    </string-array>
+    <string-array name="azkar_sanad_8">
+        <item>@string/azkar_sanad58</item>
+        <item>@string/azkar_sanad59</item>
+        <item>@string/azkar_sanad60</item>
+        <item>@string/azkar_sanad61</item>
+        <item>@string/azkar_sanad62</item>
+        <item>@string/azkar_sanad63</item>
+        <item>@string/azkar_sanad64</item>
+        <item>@string/azkar_sanad65</item>
+        <item>@string/azkar_sanad66</item>
+    </string-array>
+    <string-array name="azkar_repetition_8">
+        <item>@string/azkar_repetition58</item>
+        <item>@string/azkar_repetition59</item>
+        <item>@string/azkar_repetition60</item>
+        <item>@string/azkar_repetition61</item>
+        <item>@string/azkar_repetition62</item>
+        <item>@string/azkar_repetition63</item>
+        <item>@string/azkar_repetition64</item>
+        <item>@string/azkar_repetition65</item>
+        <item>@string/azkar_repetition66</item>
+    </string-array>
+    <string-array name="azkar_spel_8">
+        <item>@string/strings_azkar_spel58</item>
+        <item>@string/strings_azkar_spel59</item>
+        <item>@string/strings_azkar_spel60</item>
+        <item>@string/strings_azkar_spel61</item>
+        <item>@string/strings_azkar_spel62</item>
+        <item>@string/strings_azkar_spel63</item>
+        <item>@string/strings_azkar_spel64</item>
+        <item>@string/strings_azkar_spel65</item>
+        <item>@string/strings_azkar_spel66</item>
+    </string-array>
+    <string-array name="azkar_translate_8">
+        <item>@string/strings_azkar_translate58</item>
+        <item>@string/strings_azkar_translate59</item>
+        <item>@string/strings_azkar_translate60</item>
+        <item>@string/strings_azkar_translate61</item>
+        <item>@string/strings_azkar_translate62</item>
+        <item>@string/strings_azkar_translate63</item>
+        <item>@string/strings_azkar_translate64</item>
+        <item>@string/strings_azkar_translate65</item>
+        <item>@string/strings_azkar_translate66</item>
+    </string-array>
+
+
+    <string-array name="azkar_9">
+        <item>@string/azkar67</item>
+        <item>@string/azkar68</item>
+    </string-array>
+
+    <string-array name="azkar_sanad_9">
+        <item>@string/azkar_sanad67</item>
+        <item>@string/azkar_sanad68</item>
+    </string-array>
+    <string-array name="azkar_repetition_9">
+        <item>@string/azkar_repetition67</item>
+        <item>@string/azkar_repetition68</item>
+    </string-array>
+    <string-array name="azkar_spel_9">
+        <item>@string/strings_azkar_spel67</item>
+        <item>@string/strings_azkar_spel68</item>
+    </string-array>
+    <string-array name="azkar_translate_9">
+        <item>@string/strings_azkar_translate67</item>
+        <item>@string/strings_azkar_translate68</item>
+    </string-array>
+
+    <string-array name="azkar_10">
+        <item>@string/azkar69</item>
+    </string-array>
+
+    <string-array name="azkar_sanad_10">
+        <item>@string/azkar_sanad69</item>
+    </string-array>
+    <string-array name="azkar_repetition_10">
+        <item>@string/azkar_repetition69</item>
+    </string-array>
+    <string-array name="azkar_spel_10">
+        <item>@string/strings_azkar_spel69</item>
+    </string-array>
+    <string-array name="azkar_translate_10">
+        <item>@string/strings_azkar_translate69</item>
+    </string-array>
+
+    <string-array name="azkar_11">
+        <item>@string/azkar70</item>
+    </string-array>
+
+    <string-array name="azkar_sanad_11">
+        <item>@string/azkar_sanad70</item>
+    </string-array>
+    <string-array name="azkar_repetition_11">
+        <item>@string/azkar_repetition69</item>
+    </string-array>
+    <string-array name="azkar_spel_11">
+        <item>@string/strings_azkar_spel70</item>
+    </string-array>
+    <string-array name="azkar_translate_11">
+        <item>@string/strings_azkar_translate70</item>
+    </string-array>
+
+    <string-array name="azkar_12">
+        <item>@string/azkar71</item>
+    </string-array>
+
+    <string-array name="azkar_sanad_12">
+        <item>@string/azkar_sanad71</item>
+    </string-array>
+    <string-array name="azkar_repetition_12">
+        <item>@string/azkar_repetition71</item>
+    </string-array>
+    <string-array name="azkar_spel_12">
+        <item>@string/strings_azkar_spel71</item>
+    </string-array>
+    <string-array name="azkar_translate_12">
+        <item>@string/strings_azkar_translate71</item>
+    </string-array>
+
+    <string-array name="azkar_13">
+        <item>@string/azkar71</item>
+    </string-array>
+
+    <string-array name="azkar_sanad_13">
+        <item>@string/azkar_sanad72</item>
+    </string-array>
+    <string-array name="azkar_repetition_13">
+        <item>@string/azkar_repetition72</item>
+    </string-array>
+    <string-array name="azkar_spel_13">
+        <item>@string/strings_azkar_spel72</item>
+    </string-array>
+    <string-array name="azkar_translate_13">
+        <item>@string/strings_azkar_translate72</item>
+    </string-array>
+
+
+
+
+    <string-array name="azkar_spinner_list" >
+        <item>@string/azkar_spinner_list1</item>
+        <item>@string/azkar_spinner_list2</item>
+        <item>@string/azkar_spinner_list3</item>
+        <item>@string/azkar_spinner_list4</item>
+        <item>@string/azkar_spinner_list5</item>
+        <item>@string/azkar_spinner_list6</item>
+        <item>@string/azkar_spinner_list7</item>
+        <item>@string/azkar_spinner_list8</item>
+        <item>@string/azkar_spinner_list10</item>
+        <item>@string/azkar_spinner_list9</item>
+    </string-array>
+</resources>

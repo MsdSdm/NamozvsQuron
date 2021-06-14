@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/time_point_settings_layout"
+        android:background="@color/widgetColorSettings"
+        android:layout_height="match_parent"
+        tools:context=".Activities.TimePointSettingsActivity">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_time_point_settings"
+            android:alpha="0.7"
+            android:layout_gravity="top"
+            android:theme="@style/ToolbarTheme"
+            app:titleTextColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/disabled_button"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:background="@color/disabled_button"
+            android:alpha="0.3"
+            android:id="@+id/countdown_layout_time_point_settings"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/time_prayer_widget_height">
+            <TextView
+                android:text="@string/remaining_time"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/countdown_timer_time_point_settings"
+                app:layout_constraintWidth_percent="0.5"
+                android:id="@+id/countdown_text_time_point_settings"
+                android:gravity="center"
+                android:textColor="@color/widgetWhite"
+                android:textSize="@dimen/widget_font_size_small"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                />
+
+            <include
+                android:id="@+id/countdown_timer_time_point_settings"
+                layout="@layout/countdown_timer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/countdown_text_time_point_settings" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/time_point_settings_inner_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <include layout="@layout/switch_box"
+                    android:id="@+id/time_point_settings_azan_switch_box">
+                </include>
+                <include layout="@layout/switch_box"
+                    android:id="@+id/time_point_settings_iqama_switch_box">
+                </include>
+                <include layout="@layout/configuration_box"
+                    android:id="@+id/time_point_settings_adjust_times">
+                </include>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>

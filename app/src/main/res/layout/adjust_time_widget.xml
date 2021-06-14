@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_margin="2dp"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/buttons">
+    <TextView
+        android:id="@+id/adjust_time_widget_text"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:gravity="center|start"
+        android:layout_weight="0.5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/adjust_time_widget_increase"
+        android:src="@drawable/ic_add_circle_black_24dp"
+        android:background="@android:color/transparent"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/adjust_time_widget_minutes_number"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:text="0"
+        android:gravity="center"
+        android:layout_weight="0.8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/adjust_time_widget_decrease"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_decrease_24dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

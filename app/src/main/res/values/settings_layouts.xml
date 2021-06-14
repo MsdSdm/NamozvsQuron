@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="settings_layouts_headers">
+        <item>@array/settings_layout_header_prayer_times</item>
+        <item>@array/settings_layout_header_hijri</item>
+        <item>@array/settings_layout_header_display_options</item>
+        <item>@array/settings_layout_header_notifications</item>
+        <item>@array/settings_layout_header_silent</item>
+        <item>@array/settings_layout_header_backup_and_restore</item>
+    </array>
+    <array name="settings_layouts_details">
+        <item>@array/settings_layout_details_prayer_times</item>
+        <item>@array/settings_layout_details_hijri</item>
+        <item>@array/settings_layout_details_display_options</item>
+        <item>@array/settings_layout_details_notifications</item>
+        <item>@array/settings_layout_details_silent</item>
+        <item>@array/settings_layout_details_backup_and_restore</item>
+    </array>
+    <integer-array name="settings_image">
+        <item>@drawable/ic_settings_box_1</item>
+        <item>@drawable/ic_settings_box_2</item>
+        <item>@drawable/ic_settings_box_3</item>
+        <item>@drawable/ic_settings_box_4</item>
+        <item>@drawable/ic_settings_box_6</item>
+        <item>@drawable/ic_settings_box_7</item>
+    </integer-array>
+</resources>

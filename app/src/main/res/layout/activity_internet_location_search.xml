@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/buttons"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context="bilibqoy.mohirjonnnikibuilova.namozvsquron.Activities.InternetLocationSearchActivity">
+    <EditText
+        android:focusedByDefault="true"
+        android:id="@+id/internet_location_search_activity_internet_search"
+        android:textColorHint="@android:color/darker_gray"
+        android:textSize="20sp"
+        android:hint="@string/internet_search"
+        android:textColor="@android:color/white"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/internet_location_search_activity_current_button"
+        android:background="@color/widgetColorSettingsBox"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:text="@string/add_current_location"
+        android:textSize="20sp"
+        android:gravity="start"
+        android:layout_gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/internet_location_search_activity_manually_button"
+        android:background="@color/widgetColorSettingsBox"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:text="@string/choose_location_manually"
+        android:textSize="20sp"
+        android:gravity="start"
+        android:layout_gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </TextView>
+
+</LinearLayout>

@@ -1,0 +1,941 @@
+<resources>
+    <string name="app_name">Молитва и Коран</string>
+    <string name="navigation_drawer_open">Открыть панель навигации</string>
+    <string name="navigation_drawer_close">Закрыть панель навигации</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Навигационная шапка</string>
+    <string name="action_settings">Настройки</string>
+    <string name="Background">фон</string>
+    <string name="current_location">Текущее местоположение</string>
+    <string name="choose_location_manually">Выбрать место вручную</string>
+    <string name="internet_search">Поиск в сети</string>
+    <string name="update_current_location">Обновить текущее местоположение</string>
+    <string name="adjust_current_location">Изменить текущее местоположение</string>
+    <string name="last_known_device_location">Последнее известное местоположение</string>
+    <string name="gps">GPS</string>
+    <string name="the_network">Сеть</string>
+    <string name="save">Сохранить</string>
+    <string name="the_time_location">Время Место</string>
+    <string name="longitude">Долгота</string>
+    <string name="latitude">Широта</string>
+    <string name="choose_the_country">Выберите страну</string>
+    <string name="search">Поиск</string>
+    <string name="choose_the_city">Выберите город</string>
+    <string name="stop">Стоп</string>
+    <string name="settings">Настройки</string>
+    <string name="convert_date">Конвертировать дату</string>
+    <string name="compass">Компас</string>
+    <string name="about_application">О Программе</string>
+    <string name="problems_and_suggestions">Проблемы и предложения</string>
+    <string name="locations">Места</string>
+    <string name="share_application">Поделиться приложением</string>
+    <string name="hijri_month_1">Мухаррам</string>
+    <string name="hijri_month_2">Сафар </string>
+    <string name="hijri_month_3">Раби́’у ль-авваль </string>
+    <string name="hijri_month_4">Раби́’у с-сани</string>
+    <string name="hijri_month_5">Джумада аль-уля</string>
+    <string name="hijri_month_6">Джума́да аль-ахира </string>
+    <string name="hijri_month_7">Раджаб </string>
+    <string name="hijri_month_8">Ша’ба́н </string>
+    <string name="hijri_month_9">Рамадан</string>
+    <string name="hijri_month_10">Шавваль</string>
+    <string name="hijri_month_11">Зуль-ка’да </string>
+    <string name="hijri_month_12">Зуль-хиджа</string>
+    <string name="gregorian_month_1">Январь</string>
+    <string name="gregorian_month_2">Февраль</string>
+    <string name="gregorian_month_3">Март</string>
+    <string name="gregorian_month_4">Апрель</string>
+    <string name="gregorian_month_5">Май</string>
+    <string name="gregorian_month_6">Июнь</string>
+    <string name="gregorian_month_7">Июль</string>
+    <string name="gregorian_month_8">Август</string>
+    <string name="gregorian_month_9">Сентябрь</string>
+    <string name="gregorian_month_10">Октябрь</string>
+    <string name="gregorian_month_11">Ноябрь</string>
+    <string name="gregorian_month_12">Декабрь</string>
+
+    <string name="day_of_week1">Воскресенье</string>
+    <string name="day_of_week2">Понедельник</string>
+    <string name="day_of_week3">Вторник</string>
+    <string name="day_of_week4">Среда</string>
+    <string name="day_of_week5">Четверг</string>
+    <string name="day_of_week6">Пятница</string>
+    <string name="day_of_week7">Суббота</string>
+
+    <string name="adjust_time_manually">Настройте время вручную</string>
+    <string name="reset_time_settings">Сбросить настройки времени</string>
+    <string name="activate_azan_notifications">Активировать уведомления азан</string>
+    <string name="activate_iqama_notifications">Активировать уведомления икама</string>
+    <string name="choose_alarm_tone">Выберите сигнал будильника</string>
+    <string name="prayer_time_settings">настройки времени молитвы</string>
+    <string name="saved_locations">Сохраненные локации</string>
+    <string name="remaining_time">Оставшееся время</string>
+    <string name="add_location">Добавить местоположение</string>
+    <string name="prayer_time">время молитвы</string>
+    <string name="iqama_time">время икама</string>
+    <string name="convert_from_hijri">Конвертировать из хиджры</string>
+    <string name="convert_from_gregorian">Преобразование из грегорианского</string>
+    <string name="add_current_location">Добавить текущее местоположение</string>
+    <string name="choose_an_option">Выберите опцию</string>
+    <string name="delete_location">Удалить местоположение</string>
+    <string name="set_as_current_location">Установить как текущее местоположение</string>
+
+    <string name="prayer_times_settings">Настройки времени молитвы</string>
+    <string name="hijri_settings">Настройки хиджры</string>
+    <string name="display_options">Показать варианты</string>
+    <string name="notification_settings">Настройки уведомлений</string>
+    <string name="fajr_and_sahoor_alarm">Будильник Фаджр и Сахур</string>
+    <string name="silent_settings">Тихие настройки</string>
+    <string name="backup_and_restore">Резервное копирование и восстановление</string>
+
+    <string name="settings_for_calculating_prayer_times">Настройки для расчета времени молитвы</string>
+    <string name="choose_hijri_date_settings">Выберите настройки даты по хиджре</string>
+    <string name="change_language_and_colors_for_the_app_and_widgets">Измените язык и цвета для приложения и виджетов</string>
+    <string name="select_your_notifications_and_reminders_settings">Выберите настройки уведомлений и напоминаний</string>
+    <string name="fajr_and_sahoor_wake_up_alarm_settings">Настройки будильника Фаджр и Сахур</string>
+    <string name="adjust_the_silent_mode_settings_for_each_prayer">Отрегулируйте настройки беззвучного режима для каждой молитвы</string>
+    <string name="settings_backup_and_restore">Резервное копирование и восстановление настроек</string>
+
+    <string name="choose_display_language">Выберите язык отображения</string>
+    <string name="location_widget_details">детали и другая информация:</string>
+    <string name="prayer_notification">Уведомление о молитве</string>
+    <string name="iqama_reminders">Напоминания Икама</string>
+    <string name="general">Общие вопросы</string>
+    <string name="settings_layouts_notifications_widget1">Время уведомления о молитве</string>
+    <string name="settings_layouts_notifications_widget2">Уведомлять</string>
+    <string name="settings_layouts_notifications_widget3">Тип звука уведомления</string>
+    <string name="settings_layouts_notifications_widget4">Тональный сигнал о молитве</string>
+    <string name="settings_layouts_notifications_widget5">Удалить уведомление автоматически</string>
+    <string name="settings_layouts_notifications_widget6">Очистить время</string>
+    <string name="settings_layouts_notifications_widget7">Икама время</string>
+    <string name="settings_layouts_notifications_widget8">Напоминание об Икаме</string>
+    <string name="settings_layouts_notifications_widget9">Тип аудио напоминания</string>
+    <string name="settings_layouts_notifications_widget10">Напоминание Икаме</string>
+    <string name="settings_layouts_notifications_widget11">Удалить напоминание автоматически</string>
+    <string name="settings_layouts_notifications_widget12">Очистить время</string>
+    <string name="settings_layouts_notifications_widget13">Вибрация</string>
+    <string name="settings_layouts_notifications_widget14">Уведомление светодиодом</string>
+    <string name="settings_layouts_notifications_widget_details1">Настройки уведомлений о молитвах для каждой молитвы</string>
+    <string name="settings_layouts_notifications_widget_details2">Уведомление о времени молитвы</string>
+    <string name="settings_layouts_notifications_widget_details3">Свяжите уведомления с типом звука системы. \nПредпочтительно использовать тип будильника для уведомления о беззвучном режиме.</string>
+    <string name="settings_layouts_notifications_widget_details4">Выберите сигнал уведомления о молитве</string>
+    <string name="settings_layouts_notifications_widget_details5">Удалить уведомление по истечении заданного времени</string>
+    <string name="settings_layouts_notifications_widget_details6">Текущее значение в минутах: </string>
+    <string name="settings_layouts_notifications_widget_details7">Настройки напоминания Икама для каждой молитвы</string>
+    <string name="settings_layouts_notifications_widget_details8">Напомните, что молитва начнется</string>
+    <string name="settings_layouts_notifications_widget_details9">Свяжите напоминания с типом звука системы. \nПредпочтительно использовать тип сигнала тревоги, чтобы напоминать о нем</string>
+    <string name="settings_layouts_notifications_widget_details10">Выберите сигнал напоминания Икама</string>
+    <string name="settings_layouts_notifications_widget_details11">Очистить напоминание через определенное время</string>
+    <string name="settings_layouts_notifications_widget_details12">Текущее значение в минутах: </string>
+    <string name="settings_layouts_notifications_widget_details13">Активировать вибрацию для уведомлений и напоминаний</string>
+    <string name="settings_layouts_notifications_widget_details14">Активировать светодиодное уведомление для уведомлений и напоминаний</string>
+    <string name="calculations">Вычисления</string>
+    <string name="settings_layouts_prayer_times_widget_details1">Различные методы расчета молитв Фаджр и Иша</string>
+    <string name="settings_layouts_prayer_times_widget_details2">Только для высоких широт, чтобы вычислить Фаджр и Иша, разделив ночь на части на основе выбранного метода расчета. \nНе совместим с методом Умм Аль-Кура.</string>
+    <string name="settings_layouts_prayer_times_widget_details3">Добавьте 30 минут ко времени Иши во время Рамадана по методу Умм Аль-Кура.</string>
+    <string name="settings_layouts_prayer_times_widget_details4">Методика расчета молитвы Аср</string>
+    <string name="settings_layouts_prayer_times_widget_details5">Регулировка на 1 час для перехода на летнее время (DST)</string>
+    <string name="settings_layouts_prayer_times_widget_details6">Введите подходящее время для молитвы Джумма</string>
+    <string name="settings_layouts_prayer_times_widget_details7">Изменить время молитв вручную</string>
+    <string name="settings_layouts_prayer_times_widget7">Ручная настройка времени</string>
+    <string name="settings_layouts_prayer_times_widget6">Пятничная молитва</string>
+    <string name="settings_layouts_prayer_times_widget5">Настройте переход на летнее время</string>
+    <string name="settings_layouts_prayer_times_widget4">Метод Acp</string>
+    <string name="settings_layouts_prayer_times_widget3">Отрегулируйте Иша в Рамадан</string>
+    <string name="settings_layouts_prayer_times_widget2">Угловой метод</string>
+    <string name="settings_layouts_prayer_times_widget1">Методы</string>
+    <string name="settings_layouts_hijri_widget1">Использовать календарь Умм аль-Кура</string>
+    <string name="settings_layouts_hijri_widget2">Регулировка вручную</string>
+    <string name="settings_layouts_hijri_widget_details1">Активируйте автоматический календарь Умм аль-Кура, предоставляемый Google. \nТолько для Android 7.0 и более поздних версий.</string>
+    <string name="settings_layouts_hijri_widget_details2">Изменение даты хиджры вручную</string>
+    <string name="hijri_calendar">Календарь хиджры</string>
+    <string name="app_options">Параметры приложения</string>
+    <string name="widgets_options">Параметры виджетов</string>
+    <string name="settings_layouts_display_options_widget_details1">تغيير لغة العرض وأسماء الصلوات</string>
+    <string name="settings_layouts_display_options_widget_details2">Измените язык чисел в приложении. \nМожет не поддерживаться на некоторых устройствах.</string>
+    <string name="settings_layouts_display_options_widget_details3">Изменить основные цвета приложения</string>
+    <string name="settings_layouts_display_options_widget_details4">Измените основной шрифт приложения. \nНекоторые устройства поддерживают не все шрифты.</string>
+    <string name="settings_layouts_display_options_widget_details5" />
+    <string name="settings_layouts_display_options_widget_details6">Цвета виджета, показывающего время молитв</string>
+    <string name="settings_layouts_display_options_widget_details7">Цвета горизонтального виджета, показывающего время до следующей молитвы</string>
+    <string name="settings_layouts_display_options_widget_details8">Цвета горизонтального виджета, показывающего время молитвы</string>
+    <string name="settings_layouts_display_options_widget_details9">Цвета большого виджета, показывающего время до следующей молитвы</string>
+    <string name="settings_layouts_display_options_widget_details10">Цвета виджета, который показывает время молитвы на экране блокировки</string>
+    <string name="settings_layouts_display_options_widget1">Язык</string>
+    <string name="settings_layouts_display_options_widget2">Язык чисел</string>
+    <string name="settings_layouts_display_options_widget3">Тема приложения</string>
+    <string name="settings_layouts_display_options_widget4">Шрифт приложения</string>
+    <string name="settings_layouts_display_options_widget5">Использовать 24 часа</string>
+    <string name="settings_layouts_display_options_widget6">Мой виджет молитв</string>
+    <string name="settings_layouts_display_options_widget7">Виджет моей следующей молитвы</string>
+    <string name="settings_layouts_display_options_widget8">Виджет Мои молитвы (горизонтальный)</string>
+    <string name="settings_layouts_display_options_widget9">Моя следующая молитва (большой) виджет</string>
+    <string name="settings_layouts_display_options_widget10">Виджет блокировки экрана &quot;Моя молитва&quot;</string>
+    <string name="alarm_settings">Настройки сигнализации</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget1">Важное замечание</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget2">Активировать сигнал Фаджра</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget3">Время будильника</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget4">Мелодия Будильника</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget5">Вибрация</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget6">Включите экран</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget7">Отключить бесшумный режим</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget8">Остановить автоматически</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget9">Пора остановиться</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget10">Время повтора</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details1">Когда этот будильник сработает, звуковые уведомления и напоминания о Фаджре будут игнорироваться, пока будильник не отключится.</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details2" />
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details3">Текущее значение в минутах:</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details4">Выберите мелодию будильника</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details5">Активировать вибрацию для будильника Фаджр</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details6">Включите экран, когда сработает будильник</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details7">Временно отключите беззвучный режим до включения будильника, если устройство было в бесшумном режиме или в режиме вибрации, а затем верните его обратно после остановки</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details8">Остановить будильник через заданное время</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details9">Текущее значение в минутах:</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details10">Выберите время повтора в минутах</string>
+    <string name="silent_mode">Бесшумный режим</string>
+    <string name="settings_layouts_silent_widget1">Переключиться на беззвучный режим</string>
+    <string name="settings_layouts_silent_widget2">Настройки тихого времени</string>
+    <string name="settings_layouts_silent_widget3">Вибрация</string>
+    <string name="settings_layouts_silent_widget4">Вибрация при переключении</string>
+    <string name="settings_layouts_silent_widget5">Показать сообщение при переключении</string>
+    <string name="settings_layouts_silent_widget_details1">Переключиться на беззвучный режим во время молитвы</string>
+    <string name="settings_layouts_silent_widget_details2">Установите время начала беззвучного режима и его продолжительность для каждой молитвы</string>
+    <string name="settings_layouts_silent_widget_details3">Активировать вибрацию в беззвучном режиме</string>
+    <string name="settings_layouts_silent_widget_details4">Вибрируйте один раз при переключении из или в беззвучный режим
+</string>
+    <string name="settings_layouts_silent_widget_details5">Показывать сообщение при переключении из или в беззвучный режим</string>
+    <string name="_settings">Настройки</string>
+    <string name="_locations">Места</string>
+    <string name="settings_layouts_backup_and_restore_widget1">Уведомление</string>
+    <string name="settings_layouts_backup_and_restore_widget2">Настройки резервного копирования</string>
+    <string name="settings_layouts_backup_and_restore_widget3">Восстановить настройки</string>
+    <string name="settings_layouts_backup_and_restore_widget4">Сбросить настройки по умолчанию</string>
+    <string name="settings_layouts_backup_and_restore_widget5">Расположение резервных копий</string>
+    <string name="settings_layouts_backup_and_restore_widget6">Восстановить локации</string>
+    <string name="settings_layouts_backup_and_restore_widget_details1">Эти параметры создают резервные копии и восстанавливают настройки и местоположения приложения по отдельности.</string>
+    <string name="settings_layouts_backup_and_restore_widget_details2">Резервное копирование настроек на SD-карту</string>
+    <string name="settings_layouts_backup_and_restore_widget_details3">Восстановить или удалить настройки с SD-карты</string>
+    <string name="settings_layouts_backup_and_restore_widget_details4">Восстановить настройки по умолчанию</string>
+    <string name="settings_layouts_backup_and_restore_widget_details5">Места резервного копирования на SD-карту</string>
+    <string name="settings_layouts_backup_and_restore_widget_details6">Восстановить или удалить местоположения с SD-карты</string>
+    <string name="settings_dialogs_prayer_calculations_methods1">Университет Умм Аль-Кура</string>
+    <string name="settings_dialogs_prayer_calculations_methods2">Всемирная мусульманская лига</string>
+    <string name="settings_dialogs_prayer_calculations_methods3">Университет исламских наук, Карачи</string>
+    <string name="settings_dialogs_prayer_calculations_methods4">Египетское управление обследования</string>
+    <string name="settings_dialogs_prayer_calculations_methods5">Исламский союз Северной Америки</string>
+    <string name="settings_dialogs_prayer_calculations_methods6">Институт геофизики Тегеранского университета</string>
+    <string name="settings_dialogs_prayer_calculations_methods7">Одна седьмая ночи</string>
+    <string name="settings_dialogs_asr_methods1">Шафиитский мазхаб (и другие)</string>
+    <string name="settings_dialogs_asr_methods2">Ханафитский мазхаб</string>
+    <string name="adjustments">Корректировки</string>
+    <string name="settings_layouts_manual_times_adjustments_widget1">Важное замечание</string>
+    <string name="settings_layouts_manual_times_adjustments_widget2">Время Фаджра</string>
+    <string name="settings_layouts_manual_times_adjustments_widget3">Зухр Время</string>
+    <string name="settings_layouts_manual_times_adjustments_widget4">Время Аср</string>
+    <string name="settings_layouts_manual_times_adjustments_widget5">Время Магриб</string>
+    <string name="settings_layouts_manual_times_adjustments_widget6">Время Иша</string>
+    <string name="settings_layouts_manual_times_adjustments_widget7">Сбросить время по умолчанию</string>
+    <string name="settings_layouts_manual_times_adjustments_widget8">Время восхода</string>
+    <string name="settings_layouts_manual_times_adjustments_widget_details1">Перед изменением времени убедитесь, что вы выбрали наилучшие настройки для вашего региона, и выберите правильный часовой пояс в настройках устройства.</string>
+    <string name="settings_layouts_manual_times_adjustments_widget_details2">Текущее значение в минутах:</string>
+    <string name="settings_layouts_manual_times_adjustments_widget_details7">Верните время всех молитв к исходным значениям</string>
+    <string name="app_language">Язык Приложения</string>
+    <string name="settings_dialogs_app_theme1">Белый</string>
+    <string name="settings_dialogs_app_theme2">Черный</string>
+    <string name="settings_dialogs_app_font1">Тонкий шрифт</string>
+    <string name="settings_dialogs_app_font2">Шрифт устройства по умолчанию</string>
+    <string name="settings_dialogs_app_font3">Жирный шрифт устройства</string>
+    <string name="settings_dialogs_widget_theme1">Белый</string>
+    <string name="settings_dialogs_widget_theme2">Черный</string>
+    <string name="settings_dialogs_widget_theme3">Исходный цвет</string>
+    <string name="fajr">Фаджр</string>
+    <string name="zuhr">Зухр</string>
+    <string name="asr">Аср</string>
+    <string name="magrib">Магриб</string>
+    <string name="isha">Иша</string>
+    <string name="jumuah">ДЖума</string>
+    <string name="settings_layouts_prayer_notification_time_widget1">Время уведомления</string>
+    <string name="settings_layouts_prayer_notification_time_widget2">Уведомление о Фаджре</string>
+    <string name="settings_layouts_prayer_notification_time_widget4">Уведомление Зухр</string>
+    <string name="settings_layouts_prayer_notification_time_widget6">Уведомление Аср</string>
+    <string name="settings_layouts_prayer_notification_time_widget8">Уведомление Магриб</string>
+    <string name="settings_layouts_prayer_notification_time_widget10">Уведомление Иша</string>
+    <string name="settings_layouts_prayer_notification_time_widget12">Уведомление ДЖума</string>
+    <string name="settings_layouts_prayer_notification_time_widget_details1">Текущее значение в минутах:</string>
+    <string name="settings_layouts_prayer_notification_time_widget_details2" />
+    <string name="settings_dialogs_notification_audio_type1">Телефонный звонок</string>
+    <string name="settings_dialogs_notification_audio_type2">Уведомления</string>
+    <string name="settings_dialogs_notification_audio_type3">Мультимедиа (работает без звука)</string>
+    <string name="settings_dialogs_notification_audio_type4">Будильник (работает беззвучно)</string>
+    <string name="each_prayer_notification_tone">Каждый сигнал уведомления о молитве</string>
+    <string name="settings_layouts_prayer_notification_tone_widget1">Выбрать из системных сигналов</string>
+    <string name="settings_layouts_prayer_notification_tone_widget2">Использовать SD-карту</string>
+    <string name="settings_layouts_prayer_notification_tone_widget3">Выбрать с SD-карты</string>
+    <string name="settings_layouts_prayer_notification_tone_widget4">Используйте разные тона</string>
+    <string name="settings_layouts_prayer_notification_tone_widget5">Тональный сигнал уведомления о Фаджре</string>
+    <string name="settings_layouts_prayer_notification_tone_widget6">Тональный сигнал уведомления Зухр</string>
+    <string name="settings_layouts_prayer_notification_tone_widget7">Тональный сигнал уведомления Аср</string>
+    <string name="settings_layouts_prayer_notification_tone_widget8">Тональный сигнал уведомления Магриб</string>
+    <string name="settings_layouts_prayer_notification_tone_widget9">Тональный сигнал уведомления Иша</string>
+    <string name="settings_layouts_prayer_notification_tone_widget_details1">Выберите сигнал уведомления о молитве из системных сигналов</string>
+    <string name="settings_layouts_prayer_notification_tone_widget_details2">Активируйте с помощью SD-карты, чтобы выбрать мелодию уведомления в формате MP3</string>
+    <string name="settings_layouts_prayer_notification_tone_widget_details3">Выбранный тон:</string>
+    <string name="settings_layouts_prayer_notification_tone_widget_details4">Используйте разные звуковые сигналы для каждой молитвы</string>
+    <string name="settings_layouts_prayer_notification_tone_widget_details5">Выберите сигнал уведомления о молитве</string>
+    <string name="settings_layouts_iqama_reminder_time_widget1">Время Икама</string>
+    <string name="settings_layouts_iqama_reminder_time_widget2">Напоминание о фаджре</string>
+    <string name="settings_layouts_iqama_reminder_time_widget4">Зухр Напоминание</string>
+    <string name="settings_layouts_iqama_reminder_time_widget6">Напоминание Aср</string>
+    <string name="settings_layouts_iqama_reminder_time_widget8">Напоминание Магриба</string>
+    <string name="settings_layouts_iqama_reminder_time_widget10">Напоминание Иша</string>
+    <string name="settings_layouts_iqama_reminder_time_widget12">Напоминание о Джума</string>
+    <string name="before_prayer_time">Перед молитвой</string>
+    <string name="no_tone_set">Звуковой сигнал с SD-карты не выбран</string>
+    <string name="after_prayer_time">После молитвы</string>
+    <string name="please_set_location_first">Пожалуйста, сначала укажите местоположение!</string>
+    <string name="prayer_time_notification1">Время молитвы Фаджр</string>
+    <string name="prayer_time_notification2">Время молитвы Зухр</string>
+    <string name="prayer_time_notification3">Время молитвы Аср</string>
+    <string name="prayer_time_notification4">Время Молитвы Магриба</string>
+    <string name="prayer_time_notification5">Время Молитвы Иша</string>
+    <string name="prayer_time_notification6">Время молитвы Джумма</string>
+    <string name="iqama_time_notification1">Время Фаджр Икама</string>
+    <string name="iqama_time_notification2">Зухр икама время</string>
+    <string name="iqama_time_notification3">Время аср икама</string>
+    <string name="iqama_time_notification4">Время Магриб икама</string>
+    <string name="iqama_time_notification5">Время Иша Икама</string>
+    <string name="iqama_time_notification6">Время Джума-икама</string>
+    <string name="sahoor_alarm_stop">Стоп</string>
+    <string name="sahoor_alarm_snooze">Отложить</string>
+    <string name="wake_up_fajr_prayer_is_near">Проснуться! Молитва фаджр рядом</string>
+    <string name="alarm_time_from_fajr_time">Время будильника (от времени фаджра)</string>
+    <string name="sahoor_activty_fajr_time_apex">Молитва Фаджр:</string>
+    <string name="sahoor_activity_time_to_stop_dialog_title">После Фаджр Будильник</string>
+    <string name="settings_layouts_silent_time_settings_widget1">Время переключения фаджра</string>
+    <string name="settings_layouts_silent_time_settings_widget2">Время переключения Зухр</string>
+    <string name="settings_layouts_silent_time_settings_widget3">Время переключения Аср</string>
+    <string name="settings_layouts_silent_time_settings_widget4">Время переключения Магриба</string>
+    <string name="settings_layouts_silent_time_settings_widget5">Время переключения Иша</string>
+    <string name="settings_layouts_silent_time_settings_widget6">Джума Время переключения</string>
+    <string name="settings_layouts_silent_time_settings_widget7">Тихий период</string>
+    <string name="settings_layouts_silent_time_settings_widget8">Активировать</string>
+    <string name="settings_layouts_silent_time_settings_widget_details1">Текущее значение в минутах:</string>
+    <string name="settings_layouts_silent_time_settings_widget_details2" />
+    <string name="silent_period_in_minutes">Тихий период в минутах</string>
+    <string name="the_device_is_set_on_silent_mode">Устройство переведено в беззвучный режим</string>
+    <string name="remembrance">Память</string>
+    <string name="azkar_spinner_list1">Утреннее воспоминание</string>
+    <string name="azkar_spinner_list2">Вечернее воспоминание</string>
+    <string name="azkar_spinner_list3">После молитвы</string>
+    <string name="azkar_spinner_list4">Перед сном</string>
+    <string name="please_enable_gps_first">Пожалуйста, проверьте, включен ли GPS!</string>
+    <string name="this_device_has_no_gps_equipment">Это устройство не имеет GPS-оборудования</string>
+    <string name="please_check_for_internet_connection">Пожалуйста, проверьте подключение к Интернету</string>
+    <string name="settings_dialogs_jumuah_time_different_array1">Используйте время Зухр
+</string>
+    <string name="settings_dialogs_jumuah_time_different_array2">Выберите другое время</string>
+    <string name="adjustments_is_reset">Раз восстановлено</string>
+
+    <string name="set_file_name">Имя файла</string>
+    <string name="backup_list">Список резервного копирования</string>
+    <string name="backup_and_restore_dialog3">Настройки будут удалены и восстановлены значения по умолчанию.</string>
+    <string name="sunrise">Восход</string>
+    <string name="current_location_not_found">Ваше текущее местоположение не найдено, поэтому приложение будет использовать последнее известное местоположение на устройстве. \nЕсли это было неверно, попробуйте еще раз, чтобы перезапустить устройство.</string>
+    <string name="current_location_not_found_and_last">Устройство не может определить ваше местоположение. \nПопробуйте другой метод или перезапустите устройство.</string>
+    <string name="update_current_activity_last_known_location_not_found">Последнее известное местоположение не найдено!</string>
+    <string name="alert_dialog_updating_location">Обновление местоположения…</string>
+    <string name="toast_location_updated_successfully">Местоположение успешно обновлено!</string>
+    <string name="toast_failed_to_update_location">Не удалось обновить местоположение</string>
+    <string name="alert_hijri_calendar_adjusted">Календарь хиджры настраивается в настройках!</string>
+    <string name="toast_prayer_widget_click_was">Был</string>
+    <string name="toast_prayer_widget_click_hours">часы</string>
+    <string name="toast_prayer_widget_click_hours_more_than_ten">часы</string>
+    <string name="toast_prayer_widget_click_minutes">минут</string>
+    <string name="toast_prayer_widget_click_and">и</string>
+    <string name="toast_prayer_widget_click_ago">тому назад</string>
+    <string name="toast_prayer_widget_click_remaining">осталось</string>
+    <string name="toast_prayer_widget_click_just">Время молитвы!</string>
+    <string name="toast_prayer_widget_click_one_minute">минута</string>
+    <string name="toast_prayer_widget_click_two_minutes">пару минут</string>
+    <string name="toast_prayer_widget_click_two_hours">два часа</string>
+    <string name="toast_prayer_widget_click_one_hour">час</string>
+    <string name="alert_ignore_battery_opt_title">Игнорировать оптимизацию батареи</string>
+    <string name="alert_ignore_battery_opt_msg">Вы хотите добавить приложение в качестве исключения в список оптимизации заряда аккумулятора, чтобы оно помогало ему доставлять уведомления и вовремя переключаться в беззвучный режим, когда устройство находится в режиме ожидания?\n \nВы можете изменить это позже в настройках батареи устройства.</string>
+    <string name="alert_ok">Ok</string>
+    <string name="alert_cancel">Отмена</string>
+    <string name="alert_restore_button">Восстановить</string>
+    <string name="alert_delete_button">Удалить резервную копию</string>
+    <string name="alert_no_backups">Нет сохраненных резервных копий</string>
+    <string name="toast_backup_restored">Резервная копия восстановлена</string>
+    <string name="toast_backup_saved">Резервная копия сохранена</string>
+    <string name="toast_settings_reset_completed">Сброс настроек завершен!</string>
+    <string name="alert_date_conversion_limits_title" >Предел превышен!</string>
+    <string name="alert_date_conversion_limits_msg" >Пределы преобразования даты: \n С 14 марта 1937 г.\nдо 16 ноября 2077 г.</string>
+    <string name="toast_no_location_data" >Нет информации о местоположении для сохранения</string>
+    <string name="alert_add_current_location_msg" >Вы хотите добавить текущее местоположение к сохраненным местоположениям?</string>
+    <string name="toast_maximum_saved_locations" >Максимальное количество локаций - пять!</string>
+    <string name="toast_set_location_name_first" >Сначала вы должны указать имя для текущего местоположения!</string>
+    <string name="toast_location_already_exist" >Местоположение уже существует!</string>
+    <string name="alert_location_information_will_lost_title" >Отбросить новые данные?</string>
+    <string name="alert_location_information_will_lost_msg" >Вы уверены, что хотите выйти без сохранения новых данных?</string>
+    <string name="toast_choose_one_of_the_update_methods_first">Сначала выберите один из способов обновления</string>
+    <string name="toast_only_mp3_files" >Появятся только mp3 файлы</string>
+    <string name="toast_tone_saved" >Тон выбран и сохранен</string>
+
+
+    <string name="send__________send"><b>Книги</b>\n Три оригинала Корана, чтение, молитвенники, ежедневные молитвы \n <b>Места </b>\nКибла, мечети рядом с вами \n <b>Легкость регулировки </b>\n15 разных языков, 2 разных цифровых языка, 2 разные темы в приложении. возможность выбора и изменения тона уведомлений</string>
+
+    <string name="appwidget_text">ПРИМЕР</string>
+    <string name="add_widget">Добавить виджет</string>
+    <string name="title_activity_quran">Основная деятельность</string>
+    <string name="title_home">Дом (клавиатура)</string>
+    <string name="title_dashboard">Приборная панель</string>
+    <string name="title_notifications">Уведомления</string>
+    <string name="action_notification">уведомление</string>
+    <string-array name="time">
+        <item>четверть часа</item>
+        <item>полчаса</item>
+        <item>Увеличить</item>
+        <item>два часа</item>
+    </string-array>
+    <string name="activity_notification_set_q_text">Экономьте время, которое вы предпочитаете, так что любой Кур\'ан постоянно отправляется без сообщений в виде сообщений.</string>
+    <string name="actv_not_set_qtxt_">Продолжительность повтора</string>
+    <string name="act_set_bg_q_txt_">Выберите желаемый цвет</string>
+    <string name="format_quran_name_q_">Фотиха</string>
+    <string name="main_item_1">размер шрифта</string>
+    <string name="main_it_2">Задний план</string>
+    <string name="main_it_3">Оценить приложение</string>
+    <string name="tarjima">Перевод</string>
+    <string name="reset">сброс</string>
+    <string name="tasbeh_nomi_zikr">Название розария: Зикр</string>
+    <string name="tasbeh_soni_100ta">Количество розариев: 100</string>
+    <string name="qo_shish">Добавить</string>
+    <string name="saqlash">Сохранение</string>
+    <string name="dial_settings_font_">Qm bḥfẓ ạlḥjm ạlmfḍl lk</string>
+    <string name="dialog_settings_font_q_tx">Тм</string>
+    <string name="quron_item_dr">Коран</string>
+    <string name="tasbeh_item_dr">Тасбех</string>
+    <string name="qibla_item_dr">Кибла</string>
+    <string name="salovat">Аллаахумма солли ‘аляя сайидинаа мухаммадин ва ‘аляя ээли сайидинаа мухаммад</string>
+    <string name="salovat_dasturchasi_AlarmSalovat_satrt_Oncreate">Программа\'Салават\' стартовала</string>
+    <string name="notificationtext">Аллаахумма солли ‘аляя сайидинаа мухаммадин ва ‘аляя ээли сайидинаа мухаммад</string>
+    <string name="prewdialog_assalomu_alykum">Ассаламу алейкум ва рахматуллахи ва баракотух</string>
+    <string name="prewdialgo_o_qing">О\'цин!</string>
+    <string name="prewdialog_qur_onnni_ko_rishingiz_uchun_iltimos_roziman_tugmasini_bosing_va_internetga_ulaning_bu_ilova_o_zi_kerakli_bo_lgan_documentlarni_tortib_oladi">\ nВ заявке недостаточно документов. \ nПодключитесь к Интернету и нажмите \ &quot;Я согласен \&quot;</string>
+    <string name="prewdialog_qaytarilmasin">Многие из таких поездок обратно не возвращаются.</string>
+    <string name="prewdialog_rozimasman">Я НЕ СОГЛАСЕН</string>
+    <string name="prewdialog_roziman">Принять</string>
+    <string name="dowload_menu">Скачать</string>
+    <string name="syns">Возобновить</string>
+    <string name="qur_on_o_zbekcha" translatable="false">Узбекский Коран</string>
+    <string name="Ducument">Документ</string>
+    <string name="Muvaffaqiyat">Документы успешно загружены</string>
+    <string name="ochib_korish">Открыть</string>
+    <string name="xatolik">Оооой! Ошибкаб на sd карте нет места.</string>
+    <string name="iloji_bomadi">Не удалось просмотреть.</string>
+    <string name="yuklanmoqda">Загрузка…</string>
+    <string name="permission_necessary">разрешение</string>
+    <string name="storage_permission_is_encessary_to_wrote_event">исключение</string>
+    <string name="qur_on_mp3">КоранMP3</string>
+    <string name="f">Фатиха</string>
+    <string name="zero">0:00</string>
+    <string name="compass_dial" translatable="false">Compass Dial</string>
+    <string name="compass_hands" translatable="false">Compass Hands</string>
+    <string name="gps_settings_title">Настройки GPS</string>
+    <string name="gps_settings_text">GPS не включен. Хотите зайти в меню настроек?</string>
+    <string name="settings_button_ok">Настройки</string>
+    <string name="settings_button_cancel">Отменить подписку</string>
+    <string name="msg_permission_not_granted_yet">Информация о местоположении пока недоступна</string>
+    <string name="msg_permission_granted">Учитывая информацию о местоположении, нажмите кнопку GPS.</string>
+    <string name="toast_permission_required">Эта программа требует адрес доступа</string>
+    <string name="your_location">Ваше место расположения:</string>
+    <string name="location_not_ready">Локация не готова, нажмите кнопку еще раз.</string>
+    <string name="qibla_direction">Направление Каабы с севера:</string>
+    <string name="pls_enable_location">Включите &quot;Местоположение&quot; и снова нажмите кнопку.</string>
+    <string name="degree_from_north">градусы</string>
+    <string name="using_last_location">используйте последний адрес.</string>
+    <string name="namoz_kitob" translatable="false">Молитвенник</string>
+    <string name="namoz_kitobi" translatable="false">Молитвенник</string>
+    <string name="kun">Яркая тема</string>
+    <string name="tun">Ночная тема</string>
+    <string name="configure" translatable="false">Настроить</string>
+    <string name="masjidlar">Мечеть</string>
+
+    <string name="title_activity_welcome" translatable="false">Главный экран</string>
+    <string name="next">Следующий</string>
+    <string name="skip">Пропустить</string>
+    <string name="start">Понятно</string>
+
+    <string name="slide_1_title">Книги</string>
+    <string name="slide_1_desc">Три типа оригинала Корана, чтение, молитвенники, ежедневные молитвы</string>
+
+    <string name="slide_2_title">Время молитвы</string>
+    <string name="slide_2_desc">Время молитв, азан, икама, сахарлик, ифтар</string>
+
+    <string name="slide_3_title">Места</string>
+    <string name="slide_3_desc">Кибла, мечети рядом с вами</string>
+
+    <string name="slide_4_title">Легкость настройки</string>
+    <string name="slide_4_desc">Приложение включает 15 разных языков, 2 разных цифровых языка, 2 разных темы. возможность выбора и изменения тона уведомлений</string>
+    <string name="remove">Чистка</string>
+    <string name="remove_tasbix">Можете ли вы очистить четки?</string>
+    <string name="removed_tasbix">Розарий очищен</string>
+    <string name="play_again_desc">Чтобы снова увидеть слайдер приветствия, перейдите в Настройки -> приложения -> слайдер приветствия -> очистить данные.> > ></string>
+    <string name="play_again">Играть снова</string>
+    <string name="assalomu_alaykum_va_rahmatullohi_va_barakotux">Ассаламу алейкум ва рахматуллахи ва баракотух</string>
+    <string name="ilova_gidi">Руководство </string>
+    <string name="keraklidoclaryo">Нет документов Вы скачиваете?</string>
+
+    <string name="MainActivtyMasjid_Toast">GPS выключен, включите GPS и разрешите приложению использовать сервис. Или программа некорректно работает.</string>
+    <string name="MainActivtyMasjid_builder">Модератор</string>
+    <string name="MainActivityMasjid_setMessage">Для работы устройства обнаружения мечети требуется устройство с поддержкой GPS.</string>
+    <string name="MainActivityMasjid_Toast1">Веб-сайт не найден, откройте веб-сайт и разрешите приложению использовать веб-сайт и Интернет.</string>
+    <string name="MainActivityMasjid_title394">Вы здесь</string>
+    <string name="MainActivityMasjid_395">Ваш последний зарегистрированный сайт</string>
+    <string name="MainActivityMasjid_Toast2">Нет подключения к Интернету, и программа не работает должным образом</string>
+    <string name="MainActivityMasjid_Toast4">Сайт не найден, откройте его и разрешите приложению использовать сайт и Интернет.</string>
+    <string name="MainActivityMasjid_Toast6">Данные не были получены с сервера</string>
+    <string name="MainActivityMasjid_Toast7">Данные не были получены с сервера</string>
+    <string name="MainActivityMasjid_Toast8">Пожалуйста, включите Интернет, иначе программа не будет работать должным образом.</string>
+    <string name="app">uz</string>
+    <string name="kalibrovka">Если он неправильный, отрегулируйте вашу систему (калибровка)</string>
+    <string name="exceptione">Неизвестная ошибка скоро будет исправлена</string>
+    <string name="ilovani_ulashish">Поделитесь приложением</string>
+    <string name="baho_berish">оценка</string>
+    <string name="qiroat">Чтение</string>
+    <string name="quran">Коран</string>
+    <string name="duolar">Молитва</string>
+    <string name="kitoblar_va_qur_on">Книги и Коран</string>
+    <string name="namoz_kitobitr" >Молитвенник</string>
+    <string name="kitab_alsalatr" >Kitab Alsala</string>
+    <string name="sozlamalar" >Настройки</string>
+    <string name="ilova_bo_yicha" >По заявке</string>
+
+    <string name="url_kitob_uchun" >https://raw.githubusercontent.com/MsdSdm/kitoblar/main/%D0%90%D0%BB%D1%8C-%D0%9C%D1%83%D0%BD%D1%82%D0%B0%D1%85%D0%B0%D0%B1_%D0%A2%D0%B0%D1%84%D1%81%D0%B8%D1%80_%D0%9A%D0%BE%D1%80%D0%B0%D0%BD%D0%B0.pdf</string>
+    <string name="url_kitob_nomi" >%D0%90%D0%BB%D1%8C-%D0%9C%D1%83%D0%BD%D1%82%D0%B0%D1%85%D0%B0%D0%B1_%D0%A2%D0%B0%D1%84%D1%81%D0%B8%D1%80_%D0%9A%D0%BE%D1%80%D0%B0%D0%BD%D0%B0.pdf</string>
+
+    <string name="url_kitob_namoz" >https://raw.githubusercontent.com/MsdSdm/kitoblar/main/rsnamaz.pdf</string>
+    <string name="url_kitob_namoz_name">rsnamaz.pdf</string>
+    <string name="allohning_99_ismlari">99 имен Аллаха</string>
+
+    <string-array name="prayer_time_notifications">
+        <item>@string/prayer_time_notification1</item>
+        <item>@string/prayer_time_notification2</item>
+        <item>@string/prayer_time_notification3</item>
+        <item>@string/prayer_time_notification4</item>
+        <item>@string/prayer_time_notification5</item>
+        <item>@string/prayer_time_notification6</item>
+    </string-array>
+    <string-array name="iqama_time_notifications">
+        <item>@string/iqama_time_notification1</item>
+        <item>@string/iqama_time_notification2</item>
+        <item>@string/iqama_time_notification3</item>
+        <item>@string/iqama_time_notification4</item>
+        <item>@string/iqama_time_notification5</item>
+        <item>@string/iqama_time_notification6</item>
+    </string-array>
+    <string-array name="hijri_month">
+        <item>@string/hijri_month_1</item>
+        <item>@string/hijri_month_2</item>
+        <item>@string/hijri_month_3</item>
+        <item>@string/hijri_month_4</item>
+        <item>@string/hijri_month_5</item>
+        <item>@string/hijri_month_6</item>
+        <item>@string/hijri_month_7</item>
+        <item>@string/hijri_month_8</item>
+        <item>@string/hijri_month_9</item>
+        <item>@string/hijri_month_10</item>
+        <item>@string/hijri_month_11</item>
+        <item>@string/hijri_month_12</item>
+    </string-array>
+    <string-array name="gregorian_month">
+        <item>@string/gregorian_month_1</item>
+        <item>@string/gregorian_month_2</item>
+        <item>@string/gregorian_month_3</item>
+        <item>@string/gregorian_month_4</item>
+        <item>@string/gregorian_month_5</item>
+        <item>@string/gregorian_month_6</item>
+        <item>@string/gregorian_month_7</item>
+        <item>@string/gregorian_month_8</item>
+        <item>@string/gregorian_month_9</item>
+        <item>@string/gregorian_month_10</item>
+        <item>@string/gregorian_month_11</item>
+        <item>@string/gregorian_month_12</item>
+    </string-array>
+
+    <string-array name="day_of_week">
+        <item>@string/day_of_week1</item>
+        <item>@string/day_of_week2</item>
+        <item>@string/day_of_week3</item>
+        <item>@string/day_of_week4</item>
+        <item>@string/day_of_week5</item>
+        <item>@string/day_of_week6</item>
+        <item>@string/day_of_week7</item>
+    </string-array>
+    <string-array name="settings_menu">
+        <item>@string/prayer_times_settings</item>
+        <item>@string/hijri_settings</item>
+        <item>@string/display_options</item>
+        <item>@string/notification_settings</item>
+        <item>@string/silent_settings</item>
+        <item>@string/backup_and_restore</item>
+    </string-array>
+    <string-array name="prayer_time">
+        <item>@string/fajr</item>
+        <item>@string/sunrise</item>
+        <item>@string/zuhr</item>
+        <item>@string/asr</item>
+        <item>@string/magrib</item>
+        <item>@string/isha</item>
+    </string-array>
+    <string-array name="location_widget_options">
+        <item>@string/delete_location</item>
+        <item>@string/set_as_current_location</item>
+    </string-array>
+    <string-array name="settings_submenu">
+        <item>@string/settings_for_calculating_prayer_times</item>
+        <item>@string/choose_hijri_date_settings</item>
+        <item>@string/change_language_and_colors_for_the_app_and_widgets</item>
+        <item>@string/select_your_notifications_and_reminders_settings</item>
+        <item>@string/adjust_the_silent_mode_settings_for_each_prayer</item>
+        <item>@string/settings_backup_and_restore</item>
+    </string-array>
+    <string name="settings_layouts_notifications_title1">@string/prayer_notification</string>
+    <string name="settings_layouts_notifications_title2">@string/iqama_reminders</string>
+    <string name="settings_layouts_notifications_title3">@string/general</string>
+    <string name="settings_layout_titles_backup_and_restore_title1" >@string/settings</string>
+    <string name="settings_layout_titles_backup_and_restore_title2" >@string/locations</string>
+    <string name="settings_layout_titles_display_options_title1" >@string/app_options</string>
+    <string name="settings_layout_titles_display_options_title2" >@string/widgets_options</string>
+    <string name="settings_layout_titles_fajr_and_sahoor_alarms_title1" >@string/alarm_settings</string>
+    <string name="settings_layout_titles_hijri_title1">@string/hijri_calendar</string>
+    <string name="settings_layout_titles_manual_times_adjustments_title1" >@string/adjustments</string>
+    <string name="settings_layout_titles_prayer_notification_time_title1" >@string/fajr</string>
+    <string name="settings_layout_titles_prayer_notification_time_title2" >@string/zuhr</string>
+    <string name="settings_layout_titles_prayer_notification_time_title3" >@string/asr</string>
+    <string name="settings_layout_titles_prayer_notification_time_title4" >@string/magrib</string>
+    <string name="settings_layout_titles_prayer_notification_time_title5" >@string/isha</string>
+    <string name="settings_layout_titles_prayer_notification_time_title6" >@string/jumuah</string>
+    <string name="settings_layout_titles_prayer_notification_tone_title1" >@string/asr</string>
+    <string name="settings_layout_titles_prayer_times_title1" >@string/calculations</string>
+    <string name="settings_layout_titles_silent_title1" >@string/silent_mode</string>
+
+    <string name="notification_text">Помните 99 имен Аллаха!</string>
+    <string name="davomi">Подробнее ...</string>
+
+    <string name="sura1">аль-Фатиха</string>
+    <string name="sura2">аль-Бакара</string>
+    <string name="sura3">аль Имран</string>
+    <string name="sura4">ан-Ниса</string>
+    <string name="sura5">аль-Маида</string>
+    <string name="sura6">аль-Анам</string>
+    <string name="sura7">аль-Араф</string>
+    <string name="sura8">аль-Анфаль</string>
+    <string name="sura9">ат-Тавба</string>
+    <string name="sura10">Юнус</string>
+    <string name="sura11">Худ</string>
+    <string name="sura12">Юсуф</string>
+    <string name="sura13">ар-Рад</string>
+    <string name="sura14">Ибрахим</string>
+    <string name="sura15">аль-Хиджр</string>
+    <string name="sura16">ан-Нахль</string>
+    <string name="sura17">аль-Исра</string>
+    <string name="sura18">аль-Кахф</string>
+    <string name="sura19">Марьям</string>
+    <string name="sura20">Та Ха</string>
+    <string name="sura21">аль-Анбия</string>
+    <string name="sura22">аль-Хаджж</string>
+    <string name="sura23">аль-Муминун</string>
+    <string name="sura24">ан-Нур</string>
+    <string name="sura25">аль-Фуркан</string>
+    <string name="sura26">аш-Шуара</string>
+    <string name="sura27">ан-Намль</string>
+    <string name="sura28">аль-Касас</string>
+    <string name="sura29">аль-Анкабут</string>
+    <string name="sura30">ар-Рум</string>
+    <string name="sura31">Лукман</string>
+    <string name="sura32">ас-Саджда</string>
+    <string name="sura33">аль-Ахзаб</string>
+    <string name="sura34">Саба</string>
+    <string name="sura35">Фатир</string>
+    <string name="sura36">Йа Син</string>
+    <string name="sura37">ас-Саффат</string>
+    <string name="sura38">Сад</string>
+    <string name="sura39">аз-Зумар</string>
+    <string name="sura40">Гафир</string>
+    <string name="sura41">Фуссилят</string>
+    <string name="sura42">аш-Шура</string>
+    <string name="sura43">аз-Зухруф</string>
+    <string name="sura44">ад-Духан</string>
+    <string name="sura45">аль-Джасия</string>
+    <string name="sura46">аль-Ахкаф</string>
+    <string name="sura47">Мухаммад</string>
+    <string name="sura48">аль-Фатх</string>
+    <string name="sura49">аль-Худжурат</string>
+    <string name="sura50">Каф</string>
+    <string name="sura51">аз-Зарият</string>
+    <string name="sura52">ат-Тур</string>
+    <string name="sura53">ан-Наджм</string>
+    <string name="sura54">аль-Камар</string>
+    <string name="sura55">ар-Рахман</string>
+    <string name="sura56">аль-Вакиа</string>
+    <string name="sura57">аль-Хадид</string>
+    <string name="sura58">аль-Муджадиля</string>
+    <string name="sura59">аль-Хашр</string>
+    <string name="sura60">аль-Мумтахана</string>
+    <string name="sura61">ас-Сафф</string>
+    <string name="sura62">аль-Джумуа</string>
+    <string name="sura63">аль-Мунафикун</string>
+    <string name="sura64">ат-Тагабун</string>
+    <string name="sura65">ат-Таляк</string>
+    <string name="sura66">ат-Тахрим</string>
+    <string name="sura67">аль-Мульк</string>
+    <string name="sura68">аль-Калям</string>
+    <string name="sura69">аль-Хакка</string>
+    <string name="sura70">аль-Мааридж</string>
+    <string name="sura71">Нух</string>
+    <string name="sura72">аль-Джинн</string>
+    <string name="sura73">аль-Муззаммиль</string>
+    <string name="sura74">аль-Муддассир</string>
+    <string name="sura75">аль-Кияма</string>
+    <string name="sura76">аль-Инсан</string>
+    <string name="sura77">аль-Мурсалят</string>
+    <string name="sura78">ан-Наба</string>
+    <string name="sura79">ан-Назиат</string>
+    <string name="sura80">Абаса</string>
+    <string name="sura81">ат-Таквир</string>
+    <string name="sura82">аль-Инфитар</string>
+    <string name="sura83">аль-Мутаффифин</string>
+    <string name="sura84">аль-Иншикак</string>
+    <string name="sura85">аль-Бурудж</string>
+    <string name="sura86">ат-Тарик</string>
+    <string name="sura87">аль-Аля</string>
+    <string name="sura88">аль-Гашия</string>
+    <string name="sura89">аль-Фаджр</string>
+    <string name="sura90">аль-Баляд</string>
+    <string name="sura91">аш-Шамс</string>
+    <string name="sura92">аль-Ляйль</string>
+    <string name="sura93">ад-Духа</string>
+    <string name="sura94">аш-Шарх</string>
+    <string name="sura95">ат-Тин</string>
+    <string name="sura96">аль-Аляк</string>
+    <string name="sura97">аль-Кадр</string>
+    <string name="sura98">аль-Баййина</string>
+    <string name="sura99">аз-Зальзаля</string>
+    <string name="sura100">аль-Адият</string>
+    <string name="sura101">аль-Кариа</string>
+    <string name="sura102">ат-Такасур</string>
+    <string name="sura103">аль-Аср</string>
+    <string name="sura104">аль-Хумаза</string>
+    <string name="sura105">аль-Филь</string>
+    <string name="sura106">Курайш</string>
+    <string name="sura107">аль-Маун</string>
+    <string name="sura108">аль-Кавсар</string>
+    <string name="sura109">аль-Кафирун</string>
+    <string name="sura110">ан-Наср</string>
+    <string name="sura111">аль-Масад</string>
+    <string name="sura112">аль-Ихляс</string>
+    <string name="sura113">аль-Фаляк</string>
+    <string name="sura114">ан-Нас</string>
+
+    <string name="name1"> Allāh  ( инф. )  Аллах</string>
+    <string name="mano1"> В переводах оно часто употребляется как синоним слова «Бог», однако для мусульман «Al Lah» в то же время означает «единственность Бога». Этимология арабского слова «Аллах» не выяснена до конца. [12] Может входить в имя человека лишь в форме, наподобие Абд-Аллах (слуга Бога). [13]</string>
+    <string name="name2"> Ar-Raḥmān  ( инф. )  ар-Рахма́н</string>
+    <string name="mano2"> Оно может применяться исключительно для обращения к Аллаху. [14] Оно имеет много значений, относящихся к понятию милосердия. Некоторые исламские богословы, основываясь на словах Мухаммеда, выводят происхождение имён Ар-Рахман и Ар-Рахим от арабского слова ar-Raḥman, означающего милосердие. [15] Согласно арамеисту  Йоне Гринфельду ( англ.  Jonas C. Greenfield ), Ар-Рахман, в отличие от слова ар-рахим, является заимствованным, что обуславливает его сложную структуру значений. [16] В исламском богословии считается, что имя Ар-Рахман включает все типы сострадания Бога (обладающий милосердием), в то время как Ар-Рахим означает действие по отношению верующим (проявляющий милосердие). [17] [18]</string>
+    <string name="name3"> Ar-Raḥīm  ( инф. )  ар-Рахи́м</string>
+    <string name="mano3"> Считается, что оно происходит от слова ar-Raḥman, означающего милосердие. [15] В исламском богословии считается, что имя Ар-Рахман включает все типы сострадания Бога, в то время как Ар-Рахим означает действие по отношению верующим [17] и оно может использоваться в качестве характеристики человека. [19] Человек, познавший это имя Аллаха, исполняется состраданием ко всем, чьё положение хуже его.</string>
+    <string name="name4"> Al-Malik  ( инф. )   аль-Ма́лик</string>
+    <string name="mano4"> Здесь означает царя царей, абсолютного властелина, заботливо руководящего своими последователями. Может служить основой для образования имени, например Абдулмалик (раб царя). [16]  Сахихи Аль-Бухари и Муслима приводят слова пророка Мухаммеда , о том, что имя Аль-Малик является наиболее точно описывающим Аллаха как наивысшего царя. [20] Это имя встречается в Коране в трёх лингвистических формах: al-Malik (встречается пять раз), al-Mālik (встречается два раза, см. Малик Аль-Мульк) и al-Malīk (встречается один раз). Соответствующие слова арабского языка имеют различные семантические оттенки, означая лицо, чьи приказы выполняются, того, кто владеет, и того, кто может запретить что-то другим. В случае 99 имён семантическое различие стирается, а каждая из форм в конкретном аяте даёт акцент на своём содержании. Фактически, они соотносятся между собой также как имена Ар-Рахман и Ар-Рахим [21] . Человек, познавший это имя Аллаха, лишается страха перед всеми опасностями, сохранив лишь самый чистый и истинный страх — перед своим Господом.</string>
+    <string name="name5"> Al-Quddūs  ( инф. )   аль-Кудду́с</string>
+    <string name="mano5"> В основе имени лежит слово Quadusa, означающее быть чистым, святым. Также это имя переводят как «наиболее чистый», в ознаменование того, что Аллах свободен от пороков, недостатков и человеческих грехов. [16] Человек, познавший это имя Аллаха, становится упорным в избегании грехов.</string>
+    <string name="name6"> As-Salām  ( инф. )  ас-Саля́м</string>
+    <string name="mano6"> Аллах защищает верующих от всех опасностей. Являясь источником мира и гармонии, он дарует мир и защиту рая верующим. [22]</string>
+    <string name="name7"> Al-Mu’min  ( инф. )  аль-Му́мин</string>
+    <string name="mano7"> В имени Аль-Мумин рассматриваются два аспекта: Бог как источник стабильности и защищённости с одной стороны, и как источник веры в сердце человека с другой. Объясняется, что вера является наивысшим даром Аллаха и она защищает от любых бед. [22] Это имя происходит от глагола «верить», как и арабское название верующего — мумин . [23]  Человек, познавший это имя Аллаха, укрепляет свой иман. И уверовали мы в Него также по Его милости, ибо только Он хранит безопасность всех творений, и все они надеются на Его помощь и защиту.</string>
+    <string name="name8"> Al-Muhaymin  ( инф. )   аль-Мухе́ймин</string>
+    <string name="mano8"> В явном виде упоминается в Коране один раз, но соответствующие по смыслу описания Аллаха встречаются не единожды. Слово «мухеймин» имеет несколько значений и в данном случае оно интерпретируется как имя обеспечивающего мир и защиту. Его теологический смысл заключается в описании Аллаха как того, кто защищает интересы верующих. Другое его значение описывает Аллаха, как свидетеля всех слов и действий человека, оберегающего их результат. [22] Также смысл имени толкуют как напоминание о том, что все хорошие и плохие поступки человека известны Аллаху и все они записаны в Хранимой скрижали . [24] Человек, познавший это имя Аллаха, готов встать на защиту своих близких.</string>
+    <string name="name9"> Al-Azīz  ( инф. )  аль-Ази́з</string>
+    <string name="mano9"> Указывается, что нет никого, более могущественного, чем Аллах. [22] В качестве проявлений могущества Аллаха в исламском богословии перечисляются сотворение Богом людей, их поступков, [Комм 4] , помощь праведникам, [Комм 5] и создание природных явлений как и всего сущего во вселенной. [25] Человек, познавший это имя Аллаха, проявляет усердие в изучении Вселенной, как величайшего творения Всевышнего.</string>
+    <string name="name10">Al-Jabbār  ( инф. )  аль-Джабба́р</string>
+    <string name="mano10">Традиционно перевод этого имени с арабского связан с аспектом силы, наличием возможности подчинять. В английских переводах принято использовать термин .mw-parser-output .ts-comment-commentedText{border-bottom:1px dotted;cursor:help}@media(hover:none){.mw-parser-output .ts-comment-commentedText:not(.rt-commentedText){border-bottom:0;cursor:auto}} The Despot , чтобы подчеркнуть мысль о том, что никто не может контролировать Бога, и напротив, Аллах имеет силу принуждения, в частности, принуждения следовать тем или иным путём. Так как следовать Аллаху является наилучшим выбором, подчеркивается благо для человека, связанное с этим качеством Бога. Второе толкование связано со словом jabbarah , которое обычно переводится как «слишком высоко, чтобы быть достигнутым». Отсюда выводится, что Аллах выше чем кто бы то ни был. [26] Человек, познавший это имя Аллаха, укрощает своё честолюбие и страсть к подчинению других.</string>
+    <string name="name11">аль-Мутакаббир</string>
+    <string name="mano11">Превосходящий все творения; тот, качества которого выше качеств творений, чист от качеств творений; единственный обладатель истинного величия; тот, кто находит все свои создания ничтожными по сравнению со своей сущностью, ибо гордости не достоин никто, кроме него. Его гордость проявляется в том, что он не позволяет никому претендовать на сотворение и оспаривать его повеления, власть и волеизъявление. Он сокрушает всех, высокомерно относящихся к нему и его созданиям. Человек, познавший это имя Аллаха, не проявляет жестокости и высокомерия к созданиям Аллаха, ибо жестокость — это насилие и несправедливость, а высокомерие — это самовозвеличивание, презрение к другим и посягательство на их права. Жестокость не относится к качествам праведных рабов Аллаха. Они обязаны подчиняться и покоряться своему властителю. Человек, познавший это имя Аллаха, никогда не потеряет стремления к саморазвитию.</string>
+    <string name="name12">аль-Халик</string>
+    <string name="mano12">Тот, кто творит по-настоящему, без примера и прообраза и определяет судьбу для созданий; тот, кто создаёт, что хочет, из ничего; тот, кто создал мастеров и их мастерство, квалификацию; тот, кто предопределил меру всех созданий ещё до их существования и наделил их качествами, необходимыми для существования. Человек, познавший это имя Аллаха, проявляет свои скрытые таланты.</string>
+    <string name="name13">аль-Бари</string>
+    <string name="mano13">тот, кто по своему могуществу сотворил всё сущее; он — творец, который создал всё из небытия по своему предопределению. Для этого ему не надо прилагать каких-либо усилий; Он говорит чему-либо: «Будь!» и оно сбывается. Познавший это имя Всевышнего не поклоняется никому, кроме своего создателя, обращается только к нему, ищет помощи только у него и просит то, в чём нуждается, только у него.</string>
+    <string name="name14">аль-Мусаввир</string>
+    <string name="mano14">Логос, Ум, София — источник смыслов и форм; тот, кто придаёт формы и образы творениям; тот, кто дал каждому творению неповторимую, отличную от других таких же творений форму, рисунок. Познавший это имя Всевышнего расширяет границы своего разума.</string>
+    <string name="name15">аль-Гаффар</string>
+    <string name="mano15">Тот, кто является единственным прощающим и утаивающим прегрешения творений, прощающим и на этом и на том свете; Тот, кто делает явными прекрасные черты своих рабов и покрывает их недостатки. Он скрывает их в мирской жизни и воздерживается от воздаяния за грехи в жизни будущей. Он скрыл у человека, за его прекрасной внешностью то, что порицаемое взором, Он обещал тем, кто обращается к нему, искренне каясь о совершённом, заменить их грехи на благие деяния. Человек, познавший это имя Аллаха, скрывает у себя всё порочное и скверное и покрывает пороки других творений, обращаясь к ним с прощением и снисхождением. Познавший это имя Всевышнего получает возможность довольствоваться малым и быть благодарным за это своему Создателю.</string>
+    <string name="name16">аль-Каххар</string>
+    <string name="mano16">Тот, кто своим высочеством и могуществом укрощает творения; тот, кто заставляет делать то, что хочет, независимо от того, желают этого или не желают творения; тот, чьему величию покорны творения. Познавший это имя Всевышнего относится к своей судьбе спокойно, зная, что она в руках Аллаха.</string>
+    <string name="name17">аль-Ваххаб</string>
+    <string name="mano17">Тот, кто дарует бескорыстно, кто дарует блага рабам своим; тот, кто, не дожидаясь просьбы, дарует необходимое; тот, у кого блага в изобилии; тот, кто дарует постоянно; тот, кто одаряет все свои создания, не желая возмещения и не преследуя корыстных целей. Подобным качеством не обладает никто, кроме Всевышнего Аллаха. Человек, познавший это имя Аллаха, целиком посвящает себя служению своему Господу, не стремясь при этом ни к чему, кроме его довольства. Он совершает все свои деяния только ради него и бескорыстно одаряет нуждающихся, не ожидая от них ни награды, ни благодарности. Познавший это имя Всевышнего становится щедрым.</string>
+    <string name="name18">ар-Раззаку</string>
+    <string name="mano18">Бог — наделяющий средствами к существованию; тот, кто сотворил средства к существованию и наделил ими свои создания. Он наделил их дарами как осязаемыми, так и такими как разум, знание и вера в сердце. Тот, кто сохраняет жизнь живых творений и налаживает её. Польза же, которую получает человек, познавший это имя Аллаха, состоит в знании того, что никто, кроме Аллаха, не в состоянии даровать удел, и он уповает только на него и стремится стать причиной ниспослания пропитания другим созданиям. Он не стремится получить удел Аллаха в том, что он запретил, а терпит, взывает к Господу и трудится для получения удела в дозволенном.</string>
+    <string name="name19">аль-Фаттах</string>
+    <string name="mano19">Тот, кто раскрывает скрытое, облегчает трудности, отводит их; тот, у кого ключи от сокровенных знаний и небесных благ. Он раскрывает сердца верующих для познания его и любви к нему, открывает нуждающимся врата для удовлетворения их потребностей. Человек, познавший это имя Аллаха, помогает созданиям Аллаха отвести вред и удалить зло и стремится стать поводом для раскрытия перед ними врат небесных благ и веры.</string>
+    <string name="name20">аль-Алим</string>
+    <string name="mano20">Тот, кто знает все обо всём. Постигшие это имя, стремятся к знаниям.</string>
+    <string name="name21">аль-Кабид</string>
+    <string name="mano21">Тот, кто по своему справедливому порядку сужает (уменьшает) блага, кому хочет; тот, кто удерживает души в своей власти, подчинив их смерти, владеет благодеяниями своих искренних рабов и принимает служения их, удерживает сердца грешников и лишает их возможности познать его из-за их непокорности и высокомерия. Человек, познавший это имя Аллаха, удерживает своё сердце, своё тело и окружающих от прегрешений, зла, плохих деяний и насилия, увещевая, предостерегая и устрашая их.</string>
+    <string name="name22">аль-Басит</string>
+    <string name="mano22">Тот, кто доставляет созданиям жизнь, одарив их тела душами, и доставляет щедрый удел как слабым, так и богатым. Польза же от познания этого имени Аллаха состоит в том, что человек обращает своё сердце и тело к добру и призывает к этому других людей путём проповедования и прельщения.</string>
+    <string name="name23">аль-Хафид</string>
+    <string name="mano23">Унижающий всех тех, кто нечестив, кто восстал против истины. Познавший это имя Всевышнего никогда не пойдёт по пути лжи и лицемерия.</string>
+    <string name="name24">ар-Рафи‘</string>
+    <string name="mano24">Возвышающий уверовавших, которые заняты богослужением; удерживающий на высоте небо и облака. Познавший это имя Всевышнего никогда не утомит свой язык поминанием Его.</string>
+    <string name="name25">аль-Муʼизз</string>
+    <string name="mano25">Дающий силу, мощь, победу тому, кто хочет, возвышая его. Познавший это имя Всевышнего надеется исключительно на Него.</string>
+    <string name="name26">аль-Музилль</string>
+    <string name="mano26">Принижающий того, кого хочет, лишив его силы, мощи и победы. Познавший это имя Всевышнего знает меру.</string>
+    <string name="name27">ас-Самиу</string>
+    <string name="mano27">Тот, кто слышит и самое утаённое, самое тихое; тот, для кого не существует невидимое среди видимого; тот, кто объемлет своим видением даже самое мельчайшее. Познавший это имя Всевышнего находит распев Корана прекраснее всякой музыки.</string>
+    <string name="name28">аль-Басир</string>
+    <string name="mano28">Тот, кто видит открытое и скрытое, явное и тайное; тот, для кого не существует невидимое среди видимого; тот, кто объемлет своим видением даже самое мельчайшее. Познавший это имя Всевышнего видит прекрасную истину в Его Писании.</string>
+    <string name="name29">аль-Хакам</string>
+    <string name="mano29">Говорит Посланник Аллаха: «Поистине Аллах аль-Хакам (судья), и ему принадлежит суд (или за ним решение)» (Абу Дауд, Насаи, Байхаки, имам Альбани сказал хадис достоверный в «ирва аль-Галиль» 8/237). Познавший это имя Всевышнего никогда не будет судить других не по законам Корана.</string>
+    <string name="name30">аль-ʼАдль</string>
+    <string name="mano30">Тот, у кого порядок, решения, дела справедливы; тот, кто сам не проявляет несправедливости и запретил это остальным; тот, кто чист от несправедливости в своих делах и решениях; дающий каждому по заслугам; тот, кто является источником наивысшей справедливости. Со своими врагами он обходится справедливо, а к своим праведным рабам он милостив и милосерден. Человек, познавший это имя Аллаха, поступает справедливо во всех своих деяниях, даже если встречается с врагами. Он никого не угнетает и не притесняет и не сеет порчи на земле, ибо он не противится пред установлению Аллаха.</string>
+    <string name="name31">ал-Латиф</string>
+    <string name="mano31">Добрый по отношению к своим рабам, милостивый по отношению к ним, облегчающий им жизнь, содержащий их, милующий их. Познавший это имя Всевышнего лучше понимает других людей.</string>
+    <string name="name32">аль-Хабир</string>
+    <string name="mano32">Знающий тайное так же, как и явное, знающий как внешнее проявление, так и внутреннее содержание; тот, для которого не существует тайного; тот, от чьих знаний ничто не уходит, не отдаляется; тот, кто знает то, что было, и то, что будет. Человек, познавший это имя Аллаха, покорен своему творцу, так как он лучше всех знает о всех наших деяниях, как явных, так и скрытых.</string>
+    <string name="name33">аль-Халим</string>
+    <string name="mano33">Тот, кто освобождает от мучений, проявивших ослушание; тот, кто даёт блага как проявившим покорность, так и ослушавшимся; тот, кто видит ослушание своих повелений, однако им не овладевает гнев, и он не спешит с возмездием, несмотря на всё своё могущество. Человек, познавший это имя Аллаха, мягок и кроток в общении, не гневается и не поступает легкомысленно.</string>
+    <string name="name34">аль-ʼАзим</string>
+    <string name="mano34">Величию которого нет начала и нет конца; высоте которого нет границ; тот, которому нет подобного; тот, чью подлинную сущность и величие, которые превыше всякой вещи, не в силах постичь никто, ибо это превыше возможностей разума творений. Человек, познавший это имя Аллаха, возвеличивает его, унижается перед ним и не возвеличивает себя ни в собственных глазах, ни перед кем-либо из созданий Всевышнего.</string>
+    <string name="name35">аль-Гафур</string>
+    <string name="mano35">Тот, кто прощает грехи своим рабам. если они покаются. Познавший это имя Всевышнего готов простить людям несправедливость по отношению к себе.</string>
+    <string name="name36">аш-Шакур</string>
+    <string name="mano36">Воздающий большую награду рабам своим за их малое богослужение, доводящий до совершенства слабые деяния, Прощающий их. Человек, познавший Аллаха посредством этого имени, благодарит своего создателя за его блага в мирской жизни и использует их для достижения его довольства, но ни в коем случае не в неповиновении ему, а также благодарит те создания Господа, которые были добродетельны к нему.</string>
+    <string name="name37">аль-ʼАлий</string>
+    <string name="mano37">Тот, высочество которого неоценимо высокое; тот, у кого нет равных, нет соперников, нет сотоварищей; тот, кто выше всего этого, тот, чьи сущность, мощь и сила наивысочайшие. Познавший это имя Аллаха, никогда не уйдёт в ширк.</string>
+    <string name="name38">аль-Кабир</string>
+    <string name="mano38">Тот, у которого в качествах и делах наличествует истинное величие; не нуждающийся ни в чём; тот, которого никто и ничто не может ослабить; тот, с которым нет сходных. Ср. Акбар — Величайший. Познавший это имя Аллаха возвеличивает своего Господа и только Его.</string>
+    <string name="name39">аль-Хафиз</string>
+    <string name="mano39">Охраняющий всё сущее, каждое сущее, включая наимельчайшие субстанции; тот, чьё покровительство нескончаемо, бесконечно; тот, кто охраняет и содержит всякое сущее. Познавший это имя Аллаха по-настоящемуу уверует в Судный День.</string>
+    <string name="name40">аль-Мукит</string>
+    <string name="mano40">Распоряжающийся всем необходимым для жизнеобеспечения; доводящий это до своих созданий, определяющий его количество; дающий помощь; могущественный. Познавший это имя Аллаха обретает чувство глубокой ответственности.</string>
+    <string name="name41">аль-Хасиб</string>
+    <string name="mano41">Достаточный для рабов своих; достаточный всякому, кто на него уповает. Он насыщает рабов своих по своей милости, отводит их от беды. Он достаточен, чтобы в достижении благ и пропитания уповать только на него, и нет необходимости в ком-либо ином. В нём нуждаются все его создания, ибо его достаточность вечна и совершенна. Подобное осознание достаточности Всевышнего достигается посредством причин, создателем которых является сам Всевышний Аллах. Он установил их и указал на них, разъяснив, как их использовать для достижения желаемого.\nТот, кто познал это имя Господа, просит у него его достаточности и обходится только ею, после чего его не постигают волнение, страх или беспокойство.</string>
+    <string name="name42">аль-Джалиль</string>
+    <string name="mano42">Тот, у кого истинное величие и все совершенные качества; чистый от всяких недостатков. Познавший это имя Аллаха наслаждается познаванием Его имён и размышлением над ними.</string>
+    <string name="name43">аль-Карим</string>
+    <string name="mano43">Тот, у кого не уменьшаются блага, сколько бы ни дал; ценнейший, охватывающий всё ценное; тот, у кого каждое деяние достойно высочайшей похвалы; тот, кто исполняет свои обещания и одаряет не только сполна, но и добавляет из своей милости даже тогда, когда исчерпываются все желания созданий. Его не беспокоит то, кого и чем он одарил, и он не губит тех, кто укрылся у него, ибо щедрость Аллаха абсолютна и совершенна. Тот, кто познал Всевышнего посредством этого имени, надеется и уповает только на Аллаха, который одаряет всех, кто его просит, однако его казна никогда не иссякает от этого, она у него вечна, бесконечна.\nНаибольшим же благодеянием Аллаха по отношению к людям является то, что Он даровал им возможность познать Его посредством Его имён и прекрасных качеств. Он отправил к людям своих посланников, обещал им райские сады, в которых нет шума и нет усталости и в которых его праведные рабы будут пребывать вечно.</string>
+    <string name="name44">ар-Ракиб</string>
+    <string name="mano44">Следящий за состоянием своих созданий, знающий все их деяния, фиксирующий все их деяния; тот, от контроля которого никто и ничто не уходит.</string>
+    <string name="name45">аль-Муджиб</string>
+    <string name="mano45">Отзывающийся на молитвы и просьбы. Он облагодетельствует своего раба ещё до того, как он к нему обратится, отвечает на его мольбу ещё до того, как его постигнет нужда. Тот, кто познал Всевышнего посредством этого имени, отвечает своим любимым, когда они его зовут, помогает просящим о помощи по мере своих возможностей. Он взывает о помощи к своему создателю и знает, откуда бы ни пришла помощь, это от него, и даже если он предположит, что помощь от его Господа запаздывает, его мольба не будет забыта Аллахом. Поэтому он должен призывать людей к тому, кто отвечает на мольбу — к Аллаху.</string>
+    <string name="name46">аль-Васиʼ</string>
+    <string name="mano46">Тот, блага которого широки для созданий; тот, милость которого велика для всякого сущего.</string>
+    <string name="name47">аль-Хаким</string>
+    <string name="mano47">Тот, кто всё делает мудро; тот, у кого дела правильные; тот, кто знает суть, внутреннее содержание всех дел; тот, кто хорошо знает мудрое решение, предопределённое им самим; тот, у кого все дела, все решения, справедливые, мудрые.</string>
+    <string name="name48">аль-Вадуд</string>
+    <string name="mano48">Любящий своих рабов и любимый для сердец праведных и преданных слуг.</string>
+    <string name="name49">аль-Маджииду</string>
+    <string name="mano49">Наивысочайший по величию; тот, у кого добра много и бесконечно, кто даёт щедро, от кого польза великая.</string>
+    <string name="name50">аль-Баʼис</string>
+    <string name="mano50">Воскрешающий создания в День Суда; тот, кто посылает к людям пророков, отправляет помощь рабам своим.</string>
+    <string name="name51">аш-Шахид</string>
+    <string name="mano51">Зорко и бдительно следящий за миром. Слово «шахид» родственно понятию «шахада» — свидетельство. Он — свидетель происходящего, от которого не может утаиться ни одно событие, сколь малым и ничтожным бы оно ни было. Свидетельствовать — означает не является тем, о чём свидетельствуешь  [ прояснить ] .</string>
+    <string name="name52">аль-Хакк</string>
+    <string name="mano52">Устанавливающий истинность истинного через свои слова (калима).</string>
+    <string name="name53">аль-Вакиль</string>
+    <string name="mano53">Тот, на кого следует полагаться; достаточный для полагающихся только на него; кто радует надеющихся и полагающихся только на него.</string>
+    <string name="name54">аль-Кавий</string>
+    <string name="mano54">Обладатель полной, совершенной мощи, побеждающий, тот, который не проигрывает; тот, у кого сила выше всякой другой силы.</string>
+    <string name="name55">аль-Матин</string>
+    <string name="mano55">Не нуждающийся в средствах для осуществления своих решений; не нуждающийся в помощи; тот, кому не нужен помощник, сотоварищ.</string>
+    <string name="name56">аль-Валий</string>
+    <string name="mano56">Тот, кто благоприятствует подчинившимся, помогающий тем, кто любит их; укрощающий врагов; поручающийся за деяния созданий; охраняющий созданных.</string>
+    <string name="name57">аль-Хамид</string>
+    <string name="mano57">Достойный всех похвал по причине своего совершенства; обладатель вечной славы.</string>
+    <string name="name58">аль-Мухси</string>
+    <string name="mano58">Тот, кто своими знаниями определяет границы для всего сущего; тот, от кого ничего не ускользает.</string>
+    <string name="name59">аль-Мубди</string>
+    <string name="mano59">Тот, кто с самого начала, без примера и прообраза сотворил всё сущее.</string>
+    <string name="name60">аль-Муʼид</string>
+    <string name="mano60">Повторяющий, придающий вселенной устойчивость, возвращающий; тот, кто возвращает всё живое в мёртвое состояние, а затем на том свете оживляет их, возвращая к жизни.</string>
+    <string name="name61">аль-Мухйи</string>
+    <string name="mano61">Тот, кто творит жизнь; тот, кто даёт жизнь любой вещи, которой хочет; тот, кто создал творения из ничего; тот, кто оживит и после смерти.</string>
+    <string name="name62">аль-Мумит</string>
+    <string name="mano62">Тот, кто предписал смерть всем смертным; тот, кроме которого нет умерщвляющего; тот, кто укрощает рабов своих смертью когда хочет и как хочет.</string>
+    <string name="name63">аль-Хайи</string>
+    <string name="mano63">Вечно живой; тот, жизни которого нет начала и нет конца; тот, кто всегда был живым и останется навечно живым; живой, не умирающий, вечный.</string>
+    <string name="name64">аль-Кайум</string>
+    <string name="mano64">Независимый ни от кого и ни от чего, не нуждающийся ни в ком и ни в чём; тот, кто заботится обо всём; благодаря которому существует всё сущее; тот, кто сотворил творения и содержит их; тот, кто владеет знанием обо всём.</string>
+    <string name="name65">аль-Ваджид</string>
+    <string name="mano65">тот, у которого всё сущее, для которого отсутствует понятие «недостающее», «недостаточность»; тот, у которого сохраняются все дела, не пропадает ничего; тот, кто разумеет всё.</string>
+    <string name="name66">аль-Маджид</string>
+    <string name="mano66">Тот, у кого полное совершенство; тот, у кого прекрасное величие; тот, у кого качества и дела велики и совершенны; проявляющий щедрость и милость по отношению к своим рабам.</string>
+    <string name="name67">аль-Вахид</string>
+    <string name="mano67">Нет никого кроме него и никого равного ему.</string>
+    <string name="name68">ас-Самад</string>
+    <string name="mano68">Символизирует вечность и независимость Аллаха. Он тот, которому все подчиняются; тот, без чьего ведома не происходит ничего; тот, в ком нуждаются все во всём, а сам он не нуждается ни в ком и ни в чём.</string>
+    <string name="name69">аль-Кадир</string>
+    <string name="mano69">Тот, кто может сотворить из ничего и может уничтожить сущее; тот, кто может создать бытие из небытия и может превратить в небытие; делающий всё мудро.</string>
+    <string name="name70">аль-Муктадир</string>
+    <string name="mano70">Тот, кто устраивает дела для созданий наилучшим образом, так как никто этого не может.</string>
+    <string name="name71">аль-Мукаддим</string>
+    <string name="mano71">Выдвигающий вперёд всё то, что должно быть впереди; выдвигающий вперёд достойных рабов своих.</string>
+    <string name="name72">аль-Муаххир</string>
+    <string name="mano72">Отодвигающий назад всё то, что должно быть позади; тот, кто отодвигает назад по своему разумению и по своей воле неверных, нечестивцев и всех тех, кто должен быть отодвинут назад.</string>
+    <string name="name73">аль-Ауваль</string>
+    <string name="mano73">Альфа — безначальный и предвечный. Тот, кто предшествовал вселенной.</string>
+    <string name="name74">аль-Ахир</string>
+    <string name="mano74">Омега — последний; тот, кто останется после уничтожения всего сотворённого; тот, кому нет конца, вечно остающийся; тот, кто уничтожает всё; тот, после которого не будет ничего, кроме него, вечного, бессмертного, всемогущего Бога, творца всех времён, народов и миров.</string>
+    <string name="name75">аз-Захир</string>
+    <string name="mano75">Имманентный. Проявляющийся во множестве фактов, свидетельствующих о его существовании.</string>
+    <string name="name76">аль-Батын</string>
+    <string name="mano76">Тот, кто знает как явное, так и скрытое обо всём; тот, чьи признаки явственны, а сам на этом свете невидим.</string>
+    <string name="name77">аль-Вали</string>
+    <string name="mano77">Властвующий над всем сущим; тот, кто осуществляет всё по своему желанию и мудрости; тот, чьи решения осуществляются везде и всегда.</string>
+    <string name="name78">аль-Мутаʼали</string>
+    <string name="mano78">Тот, кто выше клеветнических измышлений, выше сомнений, возникающих у созданных.</string>
+    <string name="name79">аль-Барру</string>
+    <string name="mano79">Тот, кто делает добро для рабов своих, милостив для них; дающий тем, кто просит, проявляя милость к ним; верный договору, обещанию для созданных.</string>
+    <string name="name80">ат-Тавваб</string>
+    <string name="mano80">От арабского «тауба» — покаяние. Принимающий покаяние слуг, благоприятствующий им в покаянии, приводящий их к покаянию, способный усовестить, побудить к покаянию. Отвечающий на мольбы; прощающий грехи покаявшихся.</string>
+    <string name="name81">аль-Мунтаким</string>
+    <string name="mano81">Ломающий хребет ослушавшимся; мучающий нечестивцев, но только после оповещения и предупреждения, если не опомнились.</string>
+    <string name="name82">аль-ʼАфув</string>
+    <string name="mano82">Тот, кто извиняет за прегрешения; удаляет от греха; очищает плохие деяния; тот, чья широка милость; делающий добро и непослушным, не спеша с наказанием.</string>
+    <string name="name83">ар-Рауф</string>
+    <string name="mano83">Тот, у которого нет грубости; принимающий покаяния грешников и наделяющий их своей милостью и благами после их покаяния, скрывающий их вину, прощающий.</string>
+    <string name="name84">Малик уль-Мульк</string>
+    <string name="mano84">Царь царств; всевластный царь сущего царства; тот, кто делает то, что хочет; нет никого, кто бы мог игнорировать, отвести его решения; нет никого, кто мог бы не одобрять, критиковать, ставить под сомнение его решение.</string>
+    <string name="name85">Зуль-Джаляли валь-Икрам</string>
+    <string name="mano85">Обладатель особого величия и щедрости; обладатель совершенства; всё величие принадлежит ему, и все щедроты исходят от него.</string>
+    <string name="name86">аль-Муксит</string>
+    <string name="mano86">Тот, у кого все решения мудры и справедливы; мстящий притеснителям за притеснённых; устанавливающий совершенный порядок, радующий притеснителя после того, как обрадовал притеснённого и Тот простил.</string>
+    <string name="name87">аль-Джамиʼ</string>
+    <string name="mano87">Тот, кто собрал все совершенства сущности, качеств и дел; тот, кто собирает все творения; тот, кто собирает на том свете в местности Арасат.</string>
+    <string name="name88">аль-Ганий</string>
+    <string name="mano88">Богатый и не нуждающийся ни в чём; тот, в ком нуждаются все.</string>
+    <string name="name89">аль-Мугни</string>
+    <string name="mano89">Дающий блага слугам; тот, кто обогащает, кого хочет; достаточный для созданных.</string>
+    <string name="name90">аль-Маниʼ</string>
+    <string name="mano90">Тот, кто не даёт тому, кому не хочет дать, чтобы испытать его или чтобы удержать, защитить его от плохого.</string>
+    <string name="name91">ад-Дарр</string>
+    <string name="mano91">Стирающий царства и народы с лица земли, насылающий эпидемии и стихийные бедствия на грешников, испытывающий творения.</string>
+    <string name="name92">ан-Нафиʼ</string>
+    <string name="mano92">Приносящий пользу тому, кому хочет, исходя из собственных решений; тот, без чьего ведома никто не в состоянии принести пользу.</string>
+    <string name="name93">ан-Нур</string>
+    <string name="mano93">Тот, кто является светом небес и земли; тот, кто освещает творениям истинный путь; показывает свет истинного пути.</string>
+    <string name="name94">аль-Хади</string>
+    <string name="mano94">Ведущий верным путём; тот, кто истинными высказываниями наставляет созданных на истинный путь; тот, кто оповещает созданных об истинном пути; тот, кто подводит сердца к познанию себя; тот, кто подводит тела созданных к богослужению. Ср. Махди — ведомый.</string>
+    <string name="name95">аль-Бадиʼ</string>
+    <string name="mano95">Тот, для которого нет равных, которому нет подобных ни в сущности, ни в качествах, ни в повелениях, ни в решениях; тот, кто творит всё без примера и прообраза.</string>
+    <string name="name96">аль-Баки</string>
+    <string name="mano96">Остающийся навечно; тот единственный, кто остаётся навечно; тот, существование которого вечно; тот, кто не исчезает; тот, кто остаётся бесконечно, навсегда.</string>
+    <string name="name97">аль-Варис</string>
+    <string name="mano97">Наследник всего сущего; тот, кто остаётся навечно, которому остаётся наследство всех его творений; тот, у кого остаётся вся власть после исчезновения его творений; тот, кто наследует мир и всё сущее в нём.</string>
+    <string name="name98">ар-Рашид</string>
+    <string name="mano98">Направляющий на правильный путь; тот, кто даёт счастье тому, кому хочет, направляя его на истинный путь; тот, кто отдаляет того, кого хочет, по установленному им порядку. Ср. Муршид — наставник.</string>
+    <string name="name99">ас-Сабур</string>
+    <string name="mano99">Тот, у кого велики кротость и терпение; тот, кто не спешит мстить ослушавшимся; тот, кто отсрочивает наказание; тот, кто не делает ничего раньше срока; тот, кто делает всё в своё время.</string>
+
+</resources>

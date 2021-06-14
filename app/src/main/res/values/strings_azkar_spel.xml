@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="strings_azkar_spel1" translatable="false">Asbahna wa-asbahal-mulku lillah walhamdu lillah la ilaha illal-lah, wahdahu la shareeka lah, lahul-mulku walahul-hamd, wahuwa AAala kulli shayin qadeer, rabbi as-aluka khayra ma fee hatha-alyawmi, wakhayra ma baAAdaho, wa-aAAoothu bika min sharri hatha-alyawmi, washarri ma baAAdaho, rabbi aAAoothu bika minal-kasal, wasoo-il kibar, rabbi aAAoothu bika min AAathabin fin-nar, waAAathabin fil-qabr</string>
+    <string name="strings_azkar_spel2" translatable="false">Allahumma bika asbahna wabika amsayna, wabika nahya ,wabika namootu wa-ilaykan-nushoor.</string>
+    <string name="strings_azkar_spel3" translatable="false">Allahumma anta rabbee Ia ilaha illa ant, khalaqtanee wa-ana AAabduk, wa-ana AAaIa AAandika wawaAAdika mas-tataAAt, aAAoothu bika min sharri ma sanaAAt, aboo-o laka biniAAmatika AAalay, wa-aboo-o bithanbee, faghfir lee fa-innahu Ia yaghfiruth-thunooba illa ant.</string>
+    <string name="strings_azkar_spel4" translatable="false">Allahumma innee asbahtu oshhiduk, wa-oshhidu hamalata AAarshik, wamala-ikatak, wajameeAAa khalqik, annaka antal-lahu la ilaha ilia ant, wandaka la shareeka lak, wa-anna Muhammadan AAabduka warasooluk (four times).</string>
+    <string name="strings_azkar_spel5" translatable="false">Allahumma ma asbaha bee min niAAmatin, aw bi-ahadin min khalqik, faminka wandaka la shareeka lak, falakal-hamdu walakash-shukr.</string>
+    <string name="strings_azkar_spel6" translatable="false">Allahumma AAafinee fee badanee, allahumma AAafinee fee samAAee, allahumma AAafinee fee basaree, la ilaha illa ant (three times).</string>
+    <string name="strings_azkar_spel7" translatable="false">Hasbiyal-lahu la ilaha illa huwa, AAalayhi tawakkalt, wahuwa rabbul-AAarshil-AAatheem </string>
+    <string name="strings_azkar_spel8" translatable="false">aAAoothu bikalimatil-lahit-tammati min sharri ma khalaq.</string>
+    <string name="strings_azkar_spel9" translatable="false">Allahumma innee as-alukal-AAafwa walAAafiyah, fid-dunya wal-akhirah, allahumma innee as-alukal-AAafwa walAAafiyah fee deenee, wadunyaya wa-ahlee, wamalee, allahummas-tur AAawratee, wa-amin rawAAatee, allahummah-fathnee min bayni yaday, wamin khalfee, waAAan yameenee, waAAan shimalee, wamin fawqee, wa-aAAoothu biAAathamatika an oghtala min tahtee.</string>
+    <string name="strings_azkar_spel10" translatable="false">Allahumma AAalimal-ghaybi washshahadah, fatiras-samawati wal-ard, rabba kulli shayin wamaleekah, ashhadu an la ilaha illa ant, aAAoothu bika min sharri nafsee wamin sharrish-shaytani washirkih, waan aqtarifa AAaIa nafsee soo-an aw ajurrahu ila muslim.</string>
+    <string name="strings_azkar_spel11" translatable="false">Bismil-lahil-lathee la yadurru maAAas-mihi shay-on fil-ardi wala fis-sama-i wahuwas-sameeAAul-AAaleem.</string>
+    <string name="strings_azkar_spel12" translatable="false">Radeetu billahi rabban wabil-islami deenan wabiMuhammadin peace be upon to him rasula.</string>
+    <string name="strings_azkar_spel13" translatable="false">Subhanal-lahi wabihamdih, AAadada khalqihi warida nafsih, wazinata AAarshih, wamidada kalimatih.</string>
+    <string name="strings_azkar_spel14" translatable="false">Subhanal-Iahi wabihamdih.</string>
+    <string name="strings_azkar_spel15" translatable="false">Ya hayyu ya qayyoom, birahmatika astagheeth, aslih lee sha/nee kullah, wala takilnee ila nafsee tarfata AAayn.</string>
+    <string name="strings_azkar_spel16" translatable="false">La ilaha illal-lah, wandahu la shareeka lah, lahul-mulku walahul-hamd, wahuwa AAala kulli shay-in qadeer.</string>
+    <string name="strings_azkar_spel17" translatable="false">Asbahna wa-asbahal-mulku lillahi rabbil-AAalameen, allahumma innee as-aluka khayra hathal-yawm, fat-hahu, wanasrahu, wanoorahu, wabarakatahu, wahudahu, wa-aAAoothu bika min sharri ma feehi, washarri ma baAAdah.</string>
+    <string name="strings_azkar_spel18" translatable="false">Allahumma innee aAAoothu bika minal-kufr, walfaqr, wa-aAAoothu bika min AAathabil-qabr, la ilaha illa ant (three times).</string>
+    <string name="strings_azkar_spel19" translatable="false">Amsayna wa-amsal-mulku lillah walhamdu lillah la ilaha illal-lah, wahdahu la shareeka lah, lahul- mulku walahul-hamd, wahuwa AAala kulli shayin qadeer, rabbi as-aluka khayra ma fee hathihil- laylah, wakhayra ma baAAdaha, wa- aAAoothu bika min sharri hathihil- laylah, washarri ma baAAdaha, rabbi aAAoothu bika minal-kasal, wasoo-il kibar, rabbi aAAoothu bika min AAathabin fin-nar, waAAathabin fil-qabr.</string>
+    <string name="strings_azkar_spel20" translatable="false">Allahumma bika amsayna, wabika asbahna, wabika nahya wabika namootu wa-ilaykal-maseer.</string>
+    <string name="strings_azkar_spel21" translatable="false">Allahumma anta rabbee la ilaha illa ant, khalaqtanee wa-ana AAabduk, wa-ana AAala AAahdika wawaAAdika mas-tataAAt, aAAoothu bika min sharri ma sanaAAt, aboo-o laka biniAAmatika AAalay, wa-aboo-o bithanbee, faghfir lee fa-innahu la yaghfiruth- thunooba illa ant.</string>
+    <string name="strings_azkar_spel22" translatable="false">Allahumma innee amsaytu oshhiduk, wa-oshhidu hamalata AAarshik, wamala-ikatak, wajameeAAa khalqik, annaka anta Allah la ilaha illa ant, wahdaka la shareeka lak, wa- anna Muhammadan AAabduka warasooluk (four times).</string>
+    <string name="strings_azkar_spel23" translatable="false">Allahumma ma amsa bee min niAAmatin, aw bi-ahadin min khalqik, faminka wahdaka la shareeka lak, falakal-hamdu walakash-shukr.</string>
+    <string name="strings_azkar_spel24" translatable="false">Allahumma AAafinee fee badanee, allahumma AAafinee fee samAAee, allahumma AAafinee fee basaree, la ilaha illa ant.</string>
+    <string name="strings_azkar_spel25" translatable="false">Hasbiyal-lahu la ilaha illa huwa, AAalayhi tawakkalt, wahuwa rabbul-AAarshil-AAatheem.</string>
+    <string name="strings_azkar_spel26" translatable="false">aAAoothu bikalimatil-lahit-tammati min sharri ma khalaq.</string>
+    <string name="strings_azkar_spel27" translatable="false">Allahumma innee as-alukal-AAafwa walAAafiyah, fid-dunya wal-akhirah, allahumma innee as-alukal-AAafwa walAAafiyah fee deenee, wadunyaya wa-ahlee, wamalee, allahummas-tur AAawratee, wa-amin rawAAatee, allahummah-fathnee min bayni yaday, wamin khalfee, waAAan yameenee, waAAan shimalee, wamin fawqee, wa-aAAoothu biAAathamatika an oghtala min tahtee.</string>
+    <string name="strings_azkar_spel28" translatable="false">Allahumma AAalimal-ghaybi washshahadah, fatiras-samawati wal-ard, rabba kulli shayin wamaleekah, ashhadu an la ilaha ilia ant, aAAoothu bika min sharri nafsee wamin sharrish-shaytani washirkih, waan aqtarifa AAala nafsee soo-an aw ajurrahu ila muslim.</string>
+    <string name="strings_azkar_spel29" translatable="false">Bismil-lahil-lathee la yadurru maAAas-mihi shay-on fil-ardi wala fis-sama-i wahuwas-sameeAAul-AAaleem.</string>
+    <string name="strings_azkar_spel30" translatable="false">Radeetu billahi rabban wabil-islami deenan wabiMuhammadin peace be upon to him rasula.</string>
+    <string name="strings_azkar_spel31" translatable="false">Subhanal-lahi wabihamdih, AAadada khalqihi warida nafsih, wazinata AAarshih, wamidada kalimatih.</string>
+    <string name="strings_azkar_spel32" translatable="false">Subhanal-lahi wabihamdih.</string>
+    <string name="strings_azkar_spel33" translatable="false">Ya hayyu ya qayyoom, birahmatika astagheeth, aslih lee sha/nee kullah, wala takilnee ila nafsee tarfata AAayn.</string>
+    <string name="strings_azkar_spel34" translatable="false">Allahumma innee aAAoothu bika minal-kufr, walfaqr, wa-aAAoothu bika min AAathabil-qabr, la ilaha illa ant (three times).</string>
+
+    <string name="strings_azkar_spel35" translatable="false">Astaghfirul-Iah (three times)</string>
+    <string name="strings_azkar_spel36" translatable="false">Allahumma antas-salam waminkas-salam, tabarakta ya thal-jalali wal-ikram. </string>
+    <string name="strings_azkar_spel37" translatable="false">La ilaha illal-lahu wandahu Ia shareeka Iah, lahul-mulku walahul-hamd, wahuwa AAaIa kulli shayin qadeer, allahumma Ia maniAAa lima aAAtayt, wala muAAtiya lima manaAAt, wala yanfaAAu thal-jaddi minkal-jad.</string>
+    <string name="strings_azkar_spel38" translatable="false">La ilaha iIIaI-Iah, wandahu Ia shareeka Iah, lahul-mulku walahul-hamd, wahuwa AAaIa kulli shayin qadeer. Ia hawla wala quwwata illa billah, Ia ilaha iIIaI-Iah, wala naAAbudu illa iyyah, lahun-niAAmatu walahul-fadl walahuth-thana-ol- hasan, Ia ilaha iIIaI-Iah mukhliseena lahud-deen walaw karihal-kafiroon. </string>
+    <string name="strings_azkar_spel39" translatable="false">Subhanal-Iah walhamdu lillah, wallahu akbar (thirty-three times).</string>
+    <string name="strings_azkar_spel40" translatable="false">La ilaha illal-lahu wandahu la shareeka Iah, lahul-mulku walahul-hamd, wahuwa AAaIa kulli shayin qadeer.</string>
+    <string name="strings_azkar_spel41" translatable="false">{QuI huwa Allahu ahad...} [AI-lkhlas] {QuI aAAoothu birabbi alfalaq..... [AI-Falaq],{QuI aAAoothu birabbi ainnas.... } [An-Nas] </string>
+    <string name="strings_azkar_spel42" translatable="false">{Allahu la ilaha illa huwa alhayyu alqayyoomu la ta/khuthuhu sinatun wala nawm...} [AI-Baqarah:255]</string>
+    <string name="strings_azkar_spel43" translatable="false">La ilaha illal-lahu wandahu la shareeka Iah, lahul-mulku walahul-hamd, yuhyee wayumeet, wahuwa AAaIa kulli shayin qadeer.(ten times after the maghrib and fajr prayers)</string>
+    <string name="strings_azkar_spel44" translatable="false">Allahumma innee as-aluka AAilman nafiAAan, warizqan tayyiban, waAAamalan mutaqabbalan.(after salam from fajr prayer).</string>
+
+    <string name="strings_azkar_spel45" translatable="false">Bismika rabbee wadaAAtu janbee wabika arfaAAuh, fa-in amsakta nafsee farhamha, wa-in arsaltaha fahfathha bima tahfathu bihi AAibadakas-saliheen. </string>
+    <string name="strings_azkar_spel46" translatable="false">Allahumma innaka khalaqta nafsee wa-anta tawaffaha, laka mamatuha wamahyaha in ahyaytaha fahfathha, wa-in amattaha faghfir laha. Allahumma innee as-alukal-AAafiyah.</string>
+    <string name="strings_azkar_spel47" translatable="false">Allahumma qinee AAathabaka yawma tabAAathu AAibadak.</string>
+    <string name="strings_azkar_spel48" translatable="false">Bismikal-lahumma amootu wa-ahya.</string>
+    <string name="strings_azkar_spel49" translatable="false">Alhamdu lillahil-lathee atAAamana wasaciana, wakafana, wa-awana, fakam mimman la kafiya lahu wala mu/wee.</string>
+    <string name="strings_azkar_spel50" translatable="false">Allahumma AAalimal-ghaybi washshahadah, fatiras-samawati wal-ard, rabba kulli shayin wamaleekah, ashhadu an la ilaha illa ant, aAAoothu bika min sharri nafsee wamin sharrish-shaytani washirkih, wa-an aqtarifa AAala nafsee soo-an aw ajurrahu ila muslim.</string>
+    <string name="strings_azkar_spel51" translatable="false">Allahumma aslamtu nafsee ilayk, wafawwadtu amree ilayk, wawajjahtu wajhee ilayk, wa-alja/tu thahree ilayk, raghbatan warahbatan ilayk, la maljaa wala manja minka illa ilayk, amantu bikitabikal-lathee anzalt, wabinabiyyikal-Iathee arsalt.</string>
+
+    <string name="strings_azkar_spel52" translatable="false">Allaahumma innee as aluka ilman naafian, wa rizqan tayyiban, wa amalan mutaqabbalan</string>
+    <string name="strings_azkar_spel53" translatable="false">Allaahumma innee as alukal-jannata wa  a oothu bika minan-naar</string>
+    <string name="strings_azkar_spel54" translatable="false">Subhaanallaahi, Walhamdu lillaahi, Wallaahu Akbar</string>
+    <string name="strings_azkar_spel55" translatable="false">Laa ilaaha illaa Anta subhaanaka innee kuntu minadh-dhaalimeen</string>
+
+    <string name="strings_azkar_spel56" translatable="false">Rabbana Hablana min azwaajina wadhurriy-yatina, qurrata ayioni wa-jalna lil-muttaqeena Imaama</string>
+
+
+    <string name="strings_azkar_spel57" translatable="false">Alhamdulilahil ladhi at’amana, wasaqana, waj’alna min-al Muslimeen</string>
+
+    <string name="strings_azkar_spel58" translatable="false">Allaahumma munzilal-kitaabi, sareeal-hisaabi, ihzimil-ahzaaba, Allaahumma ihzimhum wa zalzilhum</string>
+    <string name="strings_azkar_spel59" translatable="false">Bismillaahir-Rahmaanir-Raheem. Qul Huwallaahu Ahad. Allaahus-Samad. Lam yalid wa lam yoolad. Wa lam yakun lahu kufuwan ahad</string>
+    <string name="strings_azkar_spel60" translatable="false">Allaahu laa ilaaha illaa Huwal-Hayyul-Qayyoom, laa takhuthuhu sinatun wa laa nawm, lahu maa fis-samaawaati wa maafil-ardh, man thal-lathee yashfau indahu illaa biithnih, yalamu maa bayna aydeehim wa maa khalfahum, wa laa yuheetoona bishayim-min ilmihi illaa bimaa shaaa, wasia kursiyyuhus-samaawaati walardh, wa laa yaooduhu hifdhuhumaa, wa Huwal-Aliyyul- Adheem</string>
+    <string name="strings_azkar_spel61" translatable="false">Bismillaahir-Rahmaanir-Raheem. Qul Huwallaahu Ahad. Allaahus-Samad. Lam yalid wa lam yoolad. Wa lam yakun lahu kufuwan ahad</string>
+    <string name="strings_azkar_spel62" translatable="false">Bismillaahir-Rahmaanir-Raheem. Qul aoothu birabbil-falaq. Min sharri maa khalaq. Wa min sharri ghaasiqin ithaa waqab. Wa min sharrin-naffaathaati fil-uqad. Wa min sharri haasidin ithaa hasad</string>
+    <string name="strings_azkar_spel63" translatable="false">Bismillaahir-Rahmaanir-Raheem . Qul aoothu birabbin-naas . Malikin-naas . Ilaahin-naas . Min sharril-waswaasil-khannaas. Allathee yuwaswisu fee sudoorin-naas. Minal-jinnati wannaas</string>
+    <string name="strings_azkar_spel64" translatable="false">Allaahumma innee aoothu bika min athaabil-qabri, wa aoothu bika min fitnatil-maseehid-dajjaali, wa aoothu bika min fitnatil-mahyaa walmamaati. Allaahumma innee aoothu bika minal-mathami walmaghrami</string>
+    <string name="strings_azkar_spel65" translatable="false">Bismillaahir-Rahmaanir-Raheem. Qul Huwallaahu Ahad. Allaahus-Samad. Lam yalid wa lam yoolad. Wa lam yakun lahu kufuwan ahad</string>
+    <string name="strings_azkar_spel66" translatable="false">Bismillaahir-Rahmaanir-Raheem. Qul aoothu birabbil-falaq. Min sharri maa khalaq. Wa min sharri ghaasiqin ithaa waqab. Wa min sharrin-naffaathaati fil-uqad. Wa min sharri haasidin ithaa hasad</string>
+
+    <string name="strings_azkar_spel67" translatable="false">Rabbi Hab Lee Mil Ladunka D’urriyyatan T’ayyibah Innaka Samee-u’d Du’aa</string>
+    <string name="strings_azkar_spel68" translatable="false">Rabbi Laa Tad’arnee Fardaw wa Anta Khayrul Waaritheen</string>
+
+    <string name="strings_azkar_spel69" translatable="false">Rabbanaf-tah baynana wa bayna qawmina bil haqqi wa anta Khayrul Fatiheen</string>
+
+    <string name="strings_azkar_spel70" translatable="false">Wama tawfeeqee illa billahiAAalayhi tawakkaltu wa-ilayhi oneeb</string>
+
+    <string name="strings_azkar_spel71" translatable="false">Rabbana taqabbal minna innaka antas Sameeaul Aleem</string>
+
+    <string name="strings_azkar_spel72" translatable="false">Allaahummak-finee bihalaalika an haraamika wa aghninee bifadhlika amman siwaaka</string>
+
+</resources>

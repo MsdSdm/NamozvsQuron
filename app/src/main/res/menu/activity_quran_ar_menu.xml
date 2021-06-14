@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_baseline_sync_24"
+        android:title="@string/syns"
+        android:id="@+id/syns"
+        android:iconTint="@color/widgetBlack"
+        tools:ignore="UnusedAttribute"
+        />
+    <item
+        android:title="@string/dowload_menu"
+        android:id="@+id/dowload"
+        android:icon="@drawable/ic_baseline_arrow_downward_24"
+        app:showAsAction="always"
+        android:iconTint="@color/widgetBlack"
+        />
+
+
+
+</menu>

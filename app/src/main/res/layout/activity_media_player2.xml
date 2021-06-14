@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SuraListen.MediaPlayer2Activity">
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/backgroundui"
+        android:scaleType="centerCrop"
+        android:alpha="0.7"
+        />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1_1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nameSurah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="@string/app_name"
+            android:padding="5dp"
+            />
+
+
+        <ImageView
+            android:id="@+id/imageQuran"
+            android:layout_width="150dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/qurran"
+            android:layout_weight="1"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout1_1"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="@color/widgetColorSettingsBox"
+        android:padding="5dp"
+        >
+
+        <ImageView
+            android:id="@+id/volume"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/ic_baseline_volume_mute_24"
+            android:backgroundTint="@color/colorPrimary"
+            />
+
+        <SeekBar
+            android:id="@+id/volumeBar"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="50"
+           android:progressTint="@android:color/holo_orange_dark"
+            android:secondaryProgressTint="@color/widgetColorSettingsBox"
+            />
+
+        <ImageView
+            android:id="@+id/sound2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/ic_round_volume_up_24"
+            android:backgroundTint="@color/colorPrimary"
+            />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/startTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout1"
+        android:layout_marginLeft="10dp"
+        android:text="00 : 00"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/black"
+        />
+
+    <TextView
+        android:id="@+id/endTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout1"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="6dp"
+        android:text="00 : 00 "
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/black"
+        />
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/endTime"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:background="@color/widgetColorSettingsBox"
+        android:padding="5dp"
+        >
+        <Button
+            android:id="@+id/button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_play_arrow_black_24dp"
+            android:backgroundTint="@color/colorPrimary"/>
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_baseline_pause_24"
+            android:visibility="gone"
+            android:backgroundTint="@color/colorPrimary"/>
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:progressTint="@android:color/holo_orange_dark"
+            />
+        <Button
+            android:id="@+id/dowload"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_baseline_arrow_downward_24"
+            android:backgroundTint="@color/colorPrimary"
+            />
+
+    </LinearLayout>
+
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/UNIT_ID_SMART_BA_AMP3"
+        android:alpha="0.6"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>

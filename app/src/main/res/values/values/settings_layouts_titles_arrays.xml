@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_layout_titles_notifications">
+        <item>@string/settings_layouts_notifications_title1</item>
+        <item>@string/settings_layouts_notifications_title2</item>
+        <item>@string/settings_layouts_notifications_title3</item>
+    </string-array>
+    <string-array name="settings_layout_titles_backup_and_restore" >
+        <item>@string/settings_layout_titles_backup_and_restore_title1</item>
+        <item>@string/settings_layout_titles_backup_and_restore_title2</item>
+    </string-array>
+    <string-array name="settings_layout_titles_display_options" >
+        <item>@string/settings_layout_titles_display_options_title1</item>
+        <item>@string/settings_layout_titles_display_options_title2</item>
+    </string-array>
+    <string-array name="settings_layout_titles_fajr_and_sahoor_alarms" >
+        <item>@string/settings_layout_titles_fajr_and_sahoor_alarms_title1</item>
+    </string-array>
+    <string-array name="settings_layout_titles_hijri">
+        <item>@string/settings_layout_titles_hijri_title1</item>
+    </string-array>
+    <string-array name="settings_layout_titles_iqama_reminder_tone" />
+    <string-array name="settings_layout_titles_manual_times_adjustments" >
+        <item>@string/settings_layout_titles_manual_times_adjustments_title1</item>
+    </string-array>
+    <string-array name="settings_layout_titles_prayer_notification_time" >
+        <item>@string/settings_layout_titles_prayer_notification_time_title1</item>
+        <item>@string/settings_layout_titles_prayer_notification_time_title2</item>
+        <item>@string/settings_layout_titles_prayer_notification_time_title3</item>
+        <item>@string/settings_layout_titles_prayer_notification_time_title4</item>
+        <item>@string/settings_layout_titles_prayer_notification_time_title5</item>
+        <item>@string/settings_layout_titles_prayer_notification_time_title6</item>
+    </string-array>
+    <string-array name="settings_layout_titles_prayer_notification_tone" >
+        <item>@string/settings_layout_titles_prayer_notification_tone_title1</item>
+    </string-array>
+    <string-array name="settings_layout_titles_prayer_times" >
+        <item>@string/settings_layout_titles_prayer_times_title1</item>
+    </string-array>
+    <string-array name="settings_layout_titles_silent" >
+        <item>@string/settings_layout_titles_silent_title1</item>
+    </string-array>
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="none">
+        <item android:title="@string/duolar">
+        <menu>
+       <item
+            android:id="@+id/nab_remembrance"
+            android:icon="@drawable/ic_notifications_black_24dp"
+            android:title="@string/remembrance" />
+            <item
+                android:id="@+id/ismlar"
+                android:title="@string/allohning_99_ismlari"
+                android:icon="@drawable/ismlar"
+                />
+        </menu>
+        </item>
+
+        <item android:title="@string/kitoblar_va_qur_on">
+            <menu>
+            <item
+            android:id="@+id/quran"
+            android:icon="@drawable/qurran"
+            android:title="@string/quran"
+            />
+        <item android:id="@+id/quranuzb"
+            android:icon="@drawable/qurran"
+            android:title="@string/tarjima"
+            />
+        <item android:id="@+id/quranmp3"
+            android:icon="@drawable/qurran"
+            android:title="@string/qiroat"
+            />
+                <item
+                    android:id="@+id/namoz"
+                    android:icon="@drawable/ic_baseline_menu_book_24"
+                    android:title="@string/namoz_kitobitr"
+                    />
+                <item
+                    android:id="@+id/namozar"
+                    android:icon="@drawable/ic_baseline_menu_book_24"
+                    android:title="@string/kitab_alsalatr"
+                    />
+
+            </menu>
+        </item>
+        <item android:id="@+id/tasbix"
+            android:icon="@drawable/tasbih"
+            android:title="@string/tasbeh_item_dr"
+            />
+
+        <item android:id="@+id/qibla"
+            android:icon="@drawable/kaaba_icon"
+            android:title="@string/qibla_item_dr"
+            />
+        <item android:id="@+id/masjid"
+            android:icon="@drawable/kaaba_icon"
+            android:title="@string/masjidlar"
+            />
+    </group>
+    <group android:checkableBehavior="none">
+        <item android:title="Virtuallik">
+            <menu>
+                <item android:id="@+id/kaabayoutube"
+                    android:title="Kaaba live"
+                    android:icon="@drawable/kaaba"/>
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="none">
+        <item android:title="@string/sozlamalar">
+            <menu>
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="@string/settings" />
+        <item
+            android:id="@+id/nav_convert_date"
+            android:icon="@drawable/ic_baseline_local_convenience_store_24"
+            android:title="@string/convert_date" />
+        <item
+            android:id="@+id/nav_location"
+            android:icon="@drawable/ic_location_on_black_24dp"
+            android:title="@string/locations"/>
+            </menu>
+        </item>
+    </group>
+
+
+
+</menu>

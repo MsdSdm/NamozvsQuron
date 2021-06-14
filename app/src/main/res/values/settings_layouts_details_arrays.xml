@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_layout_details_notifications" >
+        <item>@string/settings_layouts_notifications_widget_details1</item>
+        <item>@string/settings_layouts_notifications_widget_details2</item>
+        <item>@string/settings_layouts_notifications_widget_details3</item>
+        <item>@string/settings_layouts_notifications_widget_details4</item>
+        <item>@string/settings_layouts_notifications_widget_details5</item>
+        <item>@string/settings_layouts_notifications_widget_details6</item>
+        <item>@string/settings_layouts_notifications_widget_details7</item>
+        <item>@string/settings_layouts_notifications_widget_details8</item>
+        <item>@string/settings_layouts_notifications_widget_details9</item>
+        <item>@string/settings_layouts_notifications_widget_details10</item>
+        <item>@string/settings_layouts_notifications_widget_details11</item>
+        <item>@string/settings_layouts_notifications_widget_details12</item>
+        <item>@string/settings_layouts_notifications_widget_details13</item>
+        <item>@string/settings_layouts_notifications_widget_details14</item>
+    </string-array>
+    <string-array name="settings_layout_details_prayer_times" >
+        <item>@string/settings_layouts_prayer_times_widget_details1</item>
+        <item>@string/settings_layouts_prayer_times_widget_details2</item>
+        <item>@string/settings_layouts_prayer_times_widget_details3</item>
+        <item>@string/settings_layouts_prayer_times_widget_details4</item>
+        <item>@string/settings_layouts_prayer_times_widget_details5</item>
+        <item>@string/settings_layouts_prayer_times_widget_details6</item>
+        <item>@string/settings_layouts_prayer_times_widget_details7</item>
+    </string-array>
+    <string-array name="settings_layout_details_hijri">
+        <item>@string/settings_layouts_hijri_widget_details1</item>
+        <item>@string/settings_layouts_hijri_widget_details2</item>
+    </string-array>
+    <string-array name="settings_layout_details_display_options" >
+        <item>@string/settings_layouts_display_options_widget_details1</item>
+        <item>@string/settings_layouts_display_options_widget_details2</item>
+        <item>@string/settings_layouts_display_options_widget_details3</item>
+        <item>@string/settings_layouts_display_options_widget_details4</item>
+        <item>@string/settings_layouts_display_options_widget_details5</item>
+        <item>@string/settings_layouts_display_options_widget_details6</item>
+        <item>@string/settings_layouts_display_options_widget_details7</item>
+    </string-array>
+    <string-array name="settings_layout_details_fajr_and_sahoor_alarms">
+        <item>@string/settings_layouts_fajr_and_sahoor_alarms_widget_details1</item>
+        <item>@string/settings_layouts_fajr_and_sahoor_alarms_widget_details2</item>
+        <item>@string/settings_layouts_fajr_and_sahoor_alarms_widget_details3</item>
+        <item>@string/settings_layouts_fajr_and_sahoor_alarms_widget_details4</item>
+        <item>@string/settings_layouts_fajr_and_sahoor_alarms_widget_details5</item>
+        <item>@string/settings_layouts_fajr_and_sahoor_alarms_widget_details6</item>
+        <item>@string/settings_layouts_fajr_and_sahoor_alarms_widget_details7</item>
+        <item>@string/settings_layouts_fajr_and_sahoor_alarms_widget_details8</item>
+        <item>@string/settings_layouts_fajr_and_sahoor_alarms_widget_details9</item>
+        <item>@string/settings_layouts_fajr_and_sahoor_alarms_widget_details10</item>
+    </string-array>
+    <string-array name="settings_layout_details_silent" >
+        <item>@string/settings_layouts_silent_widget_details1</item>
+        <item>@string/settings_layouts_silent_widget_details2</item>
+        <item>@string/settings_layouts_silent_widget_details3</item>
+        <item>@string/settings_layouts_silent_widget_details4</item>
+        <item>@string/settings_layouts_silent_widget_details5</item>
+    </string-array>
+    <string-array name="settings_layout_details_backup_and_restore" >
+        <item>@string/settings_layouts_backup_and_restore_widget_details1</item>
+        <item>@string/settings_layouts_backup_and_restore_widget_details2</item>
+        <item>@string/settings_layouts_backup_and_restore_widget_details3</item>
+        <item>@string/settings_layouts_backup_and_restore_widget_details4</item>
+        <item>@string/settings_layouts_backup_and_restore_widget_details5</item>
+        <item>@string/settings_layouts_backup_and_restore_widget_details6</item>
+    </string-array>
+    <string-array name="settings_layout_details_manual_times_adjustments" >
+        <item>@string/settings_layouts_manual_times_adjustments_widget_details1</item>
+        <item>@string/settings_layouts_manual_times_adjustments_widget_details2</item>
+        <item>@string/settings_layouts_manual_times_adjustments_widget_details2</item>
+        <item>@string/settings_layouts_manual_times_adjustments_widget_details2</item>
+        <item>@string/settings_layouts_manual_times_adjustments_widget_details2</item>
+        <item>@string/settings_layouts_manual_times_adjustments_widget_details2</item>
+        <item>@string/settings_layouts_manual_times_adjustments_widget_details2</item>
+        <item>@string/settings_layouts_manual_times_adjustments_widget_details7</item>
+    </string-array>
+    <string-array name="settings_layout_details_prayer_notification_time" >
+        <item>@string/settings_layouts_prayer_notification_time_widget_details1</item>
+        <item>@string/settings_layouts_prayer_notification_time_widget_details2</item>
+        <item>@string/settings_layouts_prayer_notification_time_widget_details1</item>
+        <item>@string/settings_layouts_prayer_notification_time_widget_details2</item>
+        <item>@string/settings_layouts_prayer_notification_time_widget_details1</item>
+        <item>@string/settings_layouts_prayer_notification_time_widget_details2</item>
+        <item>@string/settings_layouts_prayer_notification_time_widget_details1</item>
+        <item>@string/settings_layouts_prayer_notification_time_widget_details2</item>
+        <item>@string/settings_layouts_prayer_notification_time_widget_details1</item>
+        <item>@string/settings_layouts_prayer_notification_time_widget_details2</item>
+        <item>@string/settings_layouts_prayer_notification_time_widget_details1</item>
+        <item>@string/settings_layouts_prayer_notification_time_widget_details2</item>
+    </string-array>
+    <string-array name="settings_layout_details_prayer_notification_tone" >
+        <item>@string/settings_layouts_prayer_notification_tone_widget_details1</item>
+        <item>@string/settings_layouts_prayer_notification_tone_widget_details2</item>
+        <item>@string/settings_layouts_prayer_notification_tone_widget_details3</item>
+        <item>@string/settings_layouts_prayer_notification_tone_widget_details4</item>
+        <item>@string/settings_layouts_prayer_notification_tone_widget_details5</item>
+        <item>@string/settings_layouts_prayer_notification_tone_widget_details5</item>
+        <item>@string/settings_layouts_prayer_notification_tone_widget_details5</item>
+        <item>@string/settings_layouts_prayer_notification_tone_widget_details5</item>
+        <item>@string/settings_layouts_prayer_notification_tone_widget_details5</item>
+    </string-array>
+    <string-array name="settings_layout_details_iqama_reminder_tone" >
+        <item>@string/settings_layouts_prayer_notification_tone_widget_details1</item>
+        <item>@string/settings_layouts_prayer_notification_tone_widget_details2</item>
+        <item>@string/settings_layouts_prayer_notification_tone_widget_details3</item>
+    </string-array>
+    <string-array name="settings_layout_details_iqama_reminder_time" >
+        <item>@string/settings_layouts_prayer_notification_time_widget_details1</item>
+        <item>@string/settings_layouts_prayer_notification_time_widget_details2</item>
+        <item>@string/settings_layouts_prayer_notification_time_widget_details1</item>
+        <item>@string/settings_layouts_prayer_notification_time_widget_details2</item>
+        <item>@string/settings_layouts_prayer_notification_time_widget_details1</item>
+        <item>@string/settings_layouts_prayer_notification_time_widget_details2</item>
+        <item>@string/settings_layouts_prayer_notification_time_widget_details1</item>
+        <item>@string/settings_layouts_prayer_notification_time_widget_details2</item>
+        <item>@string/settings_layouts_prayer_notification_time_widget_details1</item>
+        <item>@string/settings_layouts_prayer_notification_time_widget_details2</item>
+        <item>@string/settings_layouts_prayer_notification_time_widget_details1</item>
+        <item>@string/settings_layouts_prayer_notification_time_widget_details2</item>
+    </string-array>
+    <string-array name="settings_layout_details_silent_time_settings" >
+        <item>@string/settings_layouts_silent_time_settings_widget_details1</item>
+        <item>@string/settings_layouts_silent_time_settings_widget_details1</item>
+        <item>@string/settings_layouts_silent_time_settings_widget_details2</item>
+        <item>@string/settings_layouts_silent_time_settings_widget_details1</item>
+        <item>@string/settings_layouts_silent_time_settings_widget_details1</item>
+        <item>@string/settings_layouts_silent_time_settings_widget_details2</item>
+        <item>@string/settings_layouts_silent_time_settings_widget_details1</item>
+        <item>@string/settings_layouts_silent_time_settings_widget_details1</item>
+        <item>@string/settings_layouts_silent_time_settings_widget_details2</item>
+        <item>@string/settings_layouts_silent_time_settings_widget_details1</item>
+        <item>@string/settings_layouts_silent_time_settings_widget_details1</item>
+        <item>@string/settings_layouts_silent_time_settings_widget_details2</item>
+        <item>@string/settings_layouts_silent_time_settings_widget_details1</item>
+        <item>@string/settings_layouts_silent_time_settings_widget_details1</item>
+        <item>@string/settings_layouts_silent_time_settings_widget_details2</item>
+        <item>@string/settings_layouts_silent_time_settings_widget_details1</item>
+        <item>@string/settings_layouts_silent_time_settings_widget_details1</item>
+        <item>@string/settings_layouts_silent_time_settings_widget_details2</item>
+    </string-array>
+
+
+</resources>

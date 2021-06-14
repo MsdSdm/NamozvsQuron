@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryWhite">#0CCEC5</color>
+    <color name="colorPrimaryDarkWhite">#0BB9B1</color>
+    <color name="colorPrimaryDarkerWhite">#098B85</color>
+    <color name="colorAccentWhite">@color/colorPrimaryWhite</color>
+    <color name="widgetColor">#3B3C44</color>
+    <color name="widgetColorTimer">#5F606D</color>
+    <color name="widgetColorComming">@color/colorPrimaryWhite</color>
+    <color name="widgetColorSettings">#1B1D2B</color>
+    <color name="widgetColorSettingsBox">#E42A4047</color>
+    <color name="iconColor">#ffffff</color>
+    <color name="disabled_button">#3A3A3A</color>
+    <color name="enabled_button">@color/colorPrimaryWhite</color>
+    <color name="settings_widget_clicked">@color/widgetColorSettingsBox</color>
+    <color name="colorPrimaryBlack">#E8000000</color>
+    <color name="colorPrimaryDarkBlack">#000000</color>
+    <color name="colorPrimaryDarkerBlack">#E4000000</color>
+    <color name="colorAccentBlack">#E6000000</color>
+    <color name="buttons">#6D8A87</color>
+    <color name="widgetWhite">#FAF3E6</color>
+    <color name="widgetBlack">#2C2C2C</color>
+    <color name="widgetColorSettingsBoxm">#E497E3FA</color>
+    <color name="item_color">#21558C</color>
+
+    <color name="snackbar">@color/browser_actions_bg_grey</color>
+    <!--darktheme-/-->
+    <color name="dblack100">#000000</color>
+    <color name="dblack80">#CB070707</color>
+    <color name="dblack150">#81000000</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="blake">#3d3d3d</color>
+    <color name="buttonBackground">#B3008577</color>
+
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#3d3d3d</color>
+
+
+    <!-- Screens background color-->
+    <color name="bg_screen1">#FAFFFFFF</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#d1395c</color>
+    <color name="dot_dark_screen2">#14a895</color>
+    <color name="dot_dark_screen3">#2278d4</color>
+    <color name="dot_dark_screen4">#a854d4</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#f98da5</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+    <color name="dot_light_screen3">#93c6fd</color>
+    <color name="dot_light_screen4">#e4b5fc</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+
+    <color name="item_bg_white">@android:color/white</color>
+    <color name="item_bg_black">@color/widgetBlack</color>
+
+<color name="yellow">#FFC73B</color>
+
+
+</resources>

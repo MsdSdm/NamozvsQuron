@@ -1,0 +1,970 @@
+<resources>
+    <string name="app_name">Namoz va Qur\'on</string>
+    <string name="navigation_drawer_open">Maak die navigasielaai oop</string>
+    <string name="navigation_drawer_close">Maak die navigasielaai toe</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigasietitel</string>
+    <string name="action_settings">Instellings</string>
+    <string name="Background">fon</string>
+    <string name="current_location">Huidige ligging</string>
+    <string name="choose_location_manually">Plekkeuse</string>
+    <string name="internet_search">Soek op die internet</string>
+    <string name="update_current_location">Dateer die huidige ligging op</string>
+    <string name="adjust_current_location">Stel die huidige ligging in</string>
+    <string name="last_known_device_location">Laaste bekende ligging</string>
+    <string name="gps">GPS</string>
+    <string name="the_network">Netwerk</string>
+    <string name="save">Stoor</string>
+    <string name="the_time_location">Tydlokasie</string>
+    <string name="longitude">Lengte</string>
+    <string name="latitude">wydte</string>
+    <string name="choose_the_country">Kies die land</string>
+    <string name="search">Maart</string>
+    <string name="choose_the_city">Kies\'n  stad</string>
+    <string name="stop">Na \ &amp;#39;xta</string>
+    <string name="settings">Instellings</string>
+    <string name="convert_date">Draai die kalender</string>
+    <string name="compass">Kompas</string>
+    <string name="about_application">Oor die aansoek</string>
+    <string name="problems_and_suggestions">Probleme en voorstelle</string>
+    <string name="locations">Plekke</string>
+    <string name="share_application">Deel die aansoek</string>
+
+    <string name="hijri_month_1">Muharram</string>
+    <string name="hijri_month_2">Safar</string>
+    <string name="hijri_month_3">Rabiul Avval</string>
+    <string name="hijri_month_4">Rabiul Oxir</string>
+    <string name="hijri_month_5">Jumodul Avval</string>
+    <string name="hijri_month_6">Jumo-dul Einde</string>
+    <string name="hijri_month_7">Rajab</string>
+    <string name="hijri_month_8">Sha\'bon</string>
+    <string name="hijri_month_9">Ramadan</string>
+    <string name="hijri_month_10">Shavval</string>
+    <string name="hijri_month_11">Zulqaada</string>
+    <string name="hijri_month_12">Zul Hijja</string>
+
+    <string name="gregorian_month_1">Januarie</string>
+    <string name="gregorian_month_2">Februarie</string>
+    <string name="gregorian_month_3">Maart</string>
+    <string name="gregorian_month_4">April</string>
+    <string name="gregorian_month_5">Dalk mag</string>
+    <string name="gregorian_month_6">Junie</string>
+    <string name="gregorian_month_7">Julie</string>
+    <string name="gregorian_month_8">Augustus</string>
+    <string name="gregorian_month_9">September</string>
+    <string name="gregorian_month_10">Oktober</string>
+    <string name="gregorian_month_11">November</string>
+    <string name="gregorian_month_12">Desember</string>
+
+    <string name="day_of_week1">Sondag</string>
+    <string name="day_of_week2">Maandag</string>
+    <string name="day_of_week3">Dinsdag</string>
+    <string name="day_of_week4">Woensdag</string>
+    <string name="day_of_week5">Donderdag</string>
+    <string name="day_of_week6">Vrydag</string>
+    <string name="day_of_week7">Saterdag</string>
+
+    <string name="adjust_time_manually">Stel die tyd in</string>
+    <string name="reset_time_settings">Herstel tydinstellings</string>
+    <string name="activate_azan_notifications">Aktivering van Azan-kennisgewings</string>
+    <string name="activate_iqama_notifications">Aktivering van iqama-kennisgewings</string>
+    <string name="choose_alarm_tone">Alarmkeuse</string>
+    <string name="prayer_time_settings">die gebedstyd instel</string>
+    <string name="saved_locations">Opgebergde plekke</string>
+    <string name="remaining_time">Oor Tyd</string>
+    <string name="add_location">Voeg plek by</string>
+    <string name="prayer_time">Biduur</string>
+    <string name="iqama_time">Iqama tyd</string>
+    <string name="convert_from_hijri">Bekering van Hijri</string>
+    <string name="convert_from_gregorian">Omskakeling van Gregoriaans</string>
+    <string name="add_current_location">Voeg huidige ligging by</string>
+    <string name="choose_an_option">Keuse van opsies</string>
+    <string name="delete_location">Vee ligging uit</string>
+    <string name="set_as_current_location">Stel as huidige ligging</string>
+
+    <string name="MainActivtyMasjid_Toast">GPS is af, skakel GPS aan en laat die app toe om die diens te gebruik. Of die program werk nie na behore nie.</string>
+    <string name="MainActivtyMasjid_builder">terreinbestuurder</string>
+    <string name="MainActivityMasjid_setMessage">GPS-geaktiveerde toestel is nodig om die moskee-opsporingstoestel te laat werk.</string>
+    <string name="MainActivityMasjid_Toast1">Webwerf nie gevind nie; maak asseblief die webwerf oop en laat die app toe om die webwerf en die internet te gebruik.</string>
+    <string name="MainActivityMasjid_title394">jy is hier</string>
+    <string name="MainActivityMasjid_395">U laaste geregistreerde werf</string>
+    <string name="MainActivityMasjid_Toast2">Daar is geen internetverbinding nie en die program werk nie na behore nie</string>
+    <string name="MainActivityMasjid_Toast4">Webwerf nie gevind nie; maak asseblief die webwerf oop en laat die aansoek toe om die webwerf en die internet te gebruik.</string>
+    <string name="MainActivityMasjid_Toast6">Die data is nie van die bediener opgespoor nie</string>
+    <string name="MainActivityMasjid_Toast7">Die data is nie van die bediener opgespoor nie</string>
+    <string name="MainActivityMasjid_Toast8">Skakel die internet aan, anders werk die program nie na behore nie.</string>
+    <string name="app">Oz</string>
+    <string name="kalibrovka">Stel dit op as dit verkeerd is</string>
+
+    <string name="prayer_times_settings">Bytye aanpas</string>
+    <string name="hijri_settings">HJ-instellings</string>
+    <string name="display_options">Vertoon opsies</string>
+    <string name="notification_settings">Kennisgewinginstellings</string>
+    <string name="fajr_and_sahoor_alarm">Oggend- en oggendalarms</string>
+    <string name="silent_settings">Stil instellings</string>
+    <string name="backup_and_restore">Friends en herstel</string>
+
+    <string name="settings_for_calculating_prayer_times">Instellings vir die berekening van gebedstye</string>
+    <string name="choose_hijri_date_settings">Kies die HI-datuminstelling</string>
+    <string name="change_language_and_colors_for_the_app_and_widgets">Verander tale en kleure vir programme en widgets</string>
+    <string name="select_your_notifications_and_reminders_settings">Kies kennisgewings en herinneringinstellings</string>
+    <string name="fajr_and_sahoor_wake_up_alarm_settings">Skakel oggend- en oggendalarminstellings in</string>
+    <string name="adjust_the_silent_mode_settings_for_each_prayer">Stel die modus stil modus in vir elke gebedstyd</string>
+    <string name="settings_backup_and_restore">Rugsteun en herstel instellings</string>
+
+    <string name="choose_display_language">Kies die vertaaltaal</string>
+    <string name="location_widget_details">Besonderhede en ander inligting:</string>
+    <string name="prayer_notification">Boodskap oor gebed</string>
+    <string name="iqama_reminders">Iqoma notas</string>
+    <string name="general">Algemeen</string>
+    <string name="settings_layouts_notifications_widget1">Gebedsaankondigingstye</string>
+    <string name="settings_layouts_notifications_widget2">Kennisgewing</string>
+    <string name="settings_layouts_notifications_widget3">Kennisgewingsoort</string>
+    <string name="settings_layouts_notifications_widget4">\'n Toon wat gebed aankondig</string>
+    <string name="settings_layouts_notifications_widget5">Vee kennisgewing outomaties uit</string>
+    <string name="settings_layouts_notifications_widget6">Opruim tyd</string>
+    <string name="settings_layouts_notifications_widget7">Koshuis tye</string>
+    <string name="settings_layouts_notifications_widget8">Iqama nota</string>
+    <string name="settings_layouts_notifications_widget9">Onthounota, klanksoort</string>
+    <string name="settings_layouts_notifications_widget10">Toon wat aan iqama herinner</string>
+    <string name="settings_layouts_notifications_widget11">Vee die nota outomaties uit</string>
+    <string name="settings_layouts_notifications_widget12">Opruim tyd</string>
+    <string name="settings_layouts_notifications_widget13">Trilling</string>
+    <string name="settings_layouts_notifications_widget14">LED-kennisgewing</string>
+    <string name="settings_layouts_notifications_widget_details1">Stel\'n gebedsboodskap op vir elke gebed</string>
+    <string name="settings_layouts_notifications_widget_details2">Kennisgewing van biduur</string>
+    <string name="settings_layouts_notifications_widget_details3">Kies n nootklank in die stelsel \n Gebruik die alarmtipe om in stille modus aan te meld</string>
+    <string name="settings_layouts_notifications_widget_details4">Kies die toon om die gebed aan te kondig</string>
+    <string name="settings_layouts_notifications_widget_details5">Skrap die kennisgewing na die gespesifiseerde tyd</string>
+    <string name="settings_layouts_notifications_widget_details6">Huidige waarde in minute:</string>
+    <string name="settings_layouts_notifications_widget_details7">Iqama-herinnering vir elke gebed</string>
+    <string name="settings_layouts_notifications_widget_details8">Onthou dat die gebed op die punt staan om te begin</string>
+    <string name="settings_layouts_notifications_widget_details9">Kies\'n nootklank in die stelsel \n Gebruik die alarmtipe om in stille modus aan te meld</string>
+    <string name="settings_layouts_notifications_widget_details10">Kies die iqama-herinneringstoon</string>
+    <string name="settings_layouts_notifications_widget_details11">Skrap die nota na die gespesifiseerde tyd</string>
+    <string name="settings_layouts_notifications_widget_details12">Huidige waarde in minute:</string>
+    <string name="settings_layouts_notifications_widget_details13">Aktiveer vibrasie vir kennisgewings en aanmanings</string>
+    <string name="settings_layouts_notifications_widget_details14">Aktiveer die LED-kennisgewing vir kennisgewings en aanmanings</string>
+    <string name="calculations">Berekeninge</string>
+    <string name="settings_layouts_prayer_times_widget_details1">Verskillende metodes om Fajr en Huftan gebede te bereken</string>
+    <string name="settings_layouts_prayer_times_widget_details2">Bereken Oggend en Geloof deur die nag in dele te verdeel op grond van die berekeningsmetode wat slegs vir hoë breedtegrade gekies is. \nUmm is nie versoenbaar met die Al-Qura-metode nie</string>
+    <string name="settings_layouts_prayer_times_widget_details3">Voeg 30 minute by die tyd van Huftan in die maand Ramadan volgens die metode van Umm Al-Qura</string>
+    <string name="settings_layouts_prayer_times_widget_details4">Die metode om die Asr-gebed te bereken</string>
+    <string name="settings_layouts_prayer_times_widget_details5">1 uur instelling om somertyd (DST) in te stel</string>
+    <string name="settings_layouts_prayer_times_widget_details6">Voer die regte tyd in vir Vrydaggebede</string>
+    <string name="settings_layouts_prayer_times_widget_details7">Veranderende bidure</string>
+    <string name="settings_layouts_prayer_times_widget7">Stel die timer handmatig in</string>
+    <string name="settings_layouts_prayer_times_widget6">Vrydag biduur</string>
+    <string name="settings_layouts_prayer_times_widget5">Stel die tyd \'Somertydbesparing\' in</string>
+    <string name="settings_layouts_prayer_times_widget4">Eeu-metode</string>
+    <string name="settings_layouts_prayer_times_widget3">Die opstel van Huftan (Bidure) In Ramadan</string>
+    <string name="settings_layouts_prayer_times_widget2">Hoekgebaseerde metode</string>
+    <string name="settings_layouts_prayer_times_widget1">Metodes</string>
+    <string name="settings_layouts_hijri_widget1">Gebruik die Umm al-Qura kalender</string>
+    <string name="settings_layouts_hijri_widget2">Die opstel van die handleiding</string>
+    <string name="settings_layouts_hijri_widget_details1">Aktivering van die Umm al-Qura outomatiese kalender wat deur Google aangebied word. \n Net op Android 7.0 en hoër</string>
+    <string name="settings_layouts_hijri_widget_details2">Die verandering van die Hijri-datum</string>
+    <string name="hijri_calendar">Hijri kalender</string>
+    <string name="app_options">Toepassingsinstellings</string>
+    <string name="widgets_options">Widget-instellings</string>
+    <string name="settings_layouts_display_options_widget_details1">Verander die uitstallingstaal en die name van die gebede</string>
+    <string name="settings_layouts_display_options_widget_details2">Verander die taal van die getalle in die toepassing. \n Sommige toestelle ondersteun dit moontlik nie</string>
+    <string name="settings_layouts_display_options_widget_details3">Verander die kleure van die hoofprogram</string>
+    <string name="settings_layouts_display_options_widget_details4">Verander die hoofprogramfont. \n Nie alle toestelle ondersteun alle lettertipes nie</string>
+    <string name="settings_layouts_display_options_widget_details5" />
+    <string name="settings_layouts_display_options_widget_details6">Widgetkleure wat alle gebedstye wys</string>
+    <string name="settings_layouts_display_options_widget_details7">Horisontale widgetkleure wat die tyd van die volgende gebed aandui</string>
+    <string name="settings_layouts_display_options_widget_details8">Horisontale widgetkleure wat alle gebedstye wys</string>
+    <string name="settings_layouts_display_options_widget_details9">Groot widgetkleure om die volgende gebedstyd aan te dui</string>
+    <string name="settings_layouts_display_options_widget_details10">Widgetkleure wat alle bidure op die sluitskerm wys</string>
+    <string name="settings_layouts_display_options_widget1">Taal</string>
+    <string name="settings_layouts_display_options_widget2">Die taal van getalle</string>
+    <string name="settings_layouts_display_options_widget3">Toepassingstema</string>
+    <string name="settings_layouts_display_options_widget4">Font toepassing</string>
+    <string name="settings_layouts_display_options_widget5">Gebruik 24 uur</string>
+    <string name="settings_layouts_display_options_widget6">Widget vir my gebed</string>
+    <string name="settings_layouts_display_options_widget7">Widget vir my volgende gebed</string>
+    <string name="settings_layouts_display_options_widget8">My gebede (horisontale) widget</string>
+    <string name="settings_layouts_display_options_widget9">My volgende gebed is die (groot) widget</string>
+    <string name="settings_layouts_display_options_widget10">\'N Widget om my gebed te keer</string>
+    <string name="alarm_settings">Alarminstelling</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget1">Belangrike kennisgewing</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget2">Skakel die oggendalarm aan</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget3">Wekker</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget4">Wekker</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget5">Trilling</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget6">Skakel die skerm aan</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget7">Deaktiveer die stil modus</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget8">Stop outomaties</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget9">Dit is tyd om op te hou</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget10">Vertraag tyd</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details1">As hierdie alarm geaktiveer word, word die oggend- en herinneringsklanke geïgnoreer totdat die alarm stop.</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details2" />
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details3">Huidige waarde in minute:</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details4">Kies\'n wekker</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details5">Skakel vibrasie aan vir fajr-alarm</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details6">Skakel die skerm aan as die alarm begin</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details7">As die toestel in stil- of vibreermodus is, skakel die stille modus tydelik uit voordat die alarm klink, en keer dit dan terug nadat dit gestaak is.</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details8">Stop die alarm na die vasgestelde tyd</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details9">Huidige waarde in minute:</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details10">Kies die vertragingstyd in minute</string>
+    <string name="silent_mode">stille modus</string>
+    <string name="settings_layouts_silent_widget1">Skakel oor na die \'Stille modus\' -modus</string>
+    <string name="settings_layouts_silent_widget2">Rustige tydsinstelling</string>
+    <string name="settings_layouts_silent_widget3">Trilling</string>
+    <string name="settings_layouts_silent_widget4">Trilling tydens ontsteking</string>
+    <string name="settings_layouts_silent_widget5">Vertoon\'n boodskap oor skakel</string>
+    <string name="settings_layouts_silent_widget_details1">Skakel oor na stilte tydens gebed</string>
+    <string name="settings_layouts_silent_widget_details2">Stel die begintyd en duur van die stil modus vir elke gebed</string>
+    <string name="settings_layouts_silent_widget_details3">Aktivering van vibrasie in stille modus</string>
+    <string name="settings_layouts_silent_widget_details4">Vibreer een keer as u na stil modus of modus oorskakel</string>
+    <string name="settings_layouts_silent_widget_details5">Vertoon \'n boodskap wanneer u na stil modus of modus oorskakel</string>
+    <string name="_settings">Instellings</string>
+    <string name="_locations">Plekke</string>
+    <string name="settings_layouts_backup_and_restore_widget1">Gee aandag</string>
+    <string name="settings_layouts_backup_and_restore_widget2">Rugsteuninstellings</string>
+    <string name="settings_layouts_backup_and_restore_widget3">Stel die instellings terug</string>
+    <string name="settings_layouts_backup_and_restore_widget4">Herstel die verstekinstellings</string>
+    <string name="settings_layouts_backup_and_restore_widget5">Rugsteunareas</string>
+    <string name="settings_layouts_backup_and_restore_widget6">Restourasie van plekke</string>
+    <string name="settings_layouts_backup_and_restore_widget_details1">Hierdie instellings maak \'n rugsteun en herstel die programinstellings en ligging effens</string>
+    <string name="settings_layouts_backup_and_restore_widget_details2">Rugsteuninstellings na die SD-kaart</string>
+    <string name="settings_layouts_backup_and_restore_widget_details3">Stel of herstel die instellings van die SD-kaart</string>
+    <string name="settings_layouts_backup_and_restore_widget_details4">Stel die instellings terug</string>
+    <string name="settings_layouts_backup_and_restore_widget_details5">Rugsteun liggings op die SD-kaart</string>
+    <string name="settings_layouts_backup_and_restore_widget_details6">Herstel of verwyder die ligging van die SD-kaart</string>
+    <string name="settings_dialogs_prayer_calculations_methods1">Umm Al-Qura Universiteit</string>
+    <string name="settings_dialogs_prayer_calculations_methods2">Liga van die Moslem-wêreld</string>
+    <string name="settings_dialogs_prayer_calculations_methods3">Universiteit van Islamitiese Wetenskappe in Karachi</string>
+    <string name="settings_dialogs_prayer_calculations_methods4">Egipte is die algemene gesag van die navraag</string>
+    <string name="settings_dialogs_prayer_calculations_methods5">Islamitiese Unie van Noord-Amerika</string>
+    <string name="settings_dialogs_prayer_calculations_methods6">Instituut vir Geofisika, Teheran Universiteit</string>
+    <string name="settings_dialogs_prayer_calculations_methods7">Een uit sewe in die nag</string>
+    <string name="settings_dialogs_asr_methods1">Shafi (ens.)</string>
+    <string name="settings_dialogs_asr_methods2">Hanafi-skool</string>
+    <string name="adjustments">Regstellings</string>
+    <string name="settings_layouts_manual_times_adjustments_widget1">Belangrike kennisgewing</string>
+    <string name="settings_layouts_manual_times_adjustments_widget2">Oggend tyd</string>
+    <string name="settings_layouts_manual_times_adjustments_widget3">Middagete</string>
+    <string name="settings_layouts_manual_times_adjustments_widget4">Eeu tyd</string>
+    <string name="settings_layouts_manual_times_adjustments_widget5">Aand tyd</string>
+    <string name="settings_layouts_manual_times_adjustments_widget6">Aand</string>
+    <string name="settings_layouts_manual_times_adjustments_widget7">Stel die verstek tyd terug</string>
+    <string name="settings_layouts_manual_times_adjustments_widget8">Sonsopkoms tyd</string>
+    <string name="settings_layouts_manual_times_adjustments_widget_details1">Voordat u die tyd verander, moet u die beste instelling vir u streek kies en die regte tydsone uit die toestelinstellings kies.</string>
+    <string name="settings_layouts_manual_times_adjustments_widget_details2">Huidige waarde in minute:</string>
+    <string name="settings_layouts_manual_times_adjustments_widget_details7">Herstel die tye van alle gebede na die oorspronklike</string>
+    <string name="app_language">Toepassingstaal</string>
+    <string name="settings_dialogs_app_theme1">Wit</string>
+    <string name="settings_dialogs_app_theme2">Swart</string>
+    <string name="settings_dialogs_app_font1">Fyn lettertipe</string>
+    <string name="settings_dialogs_app_font2">Die standaard font van die toestel</string>
+    <string name="settings_dialogs_app_font3">Vet lettertipe van die toestel</string>
+    <string name="settings_dialogs_widget_theme1">Wit</string>
+    <string name="settings_dialogs_widget_theme2">Swart</string>
+    <string name="settings_dialogs_widget_theme3">Die oorspronklike kleur</string>
+    <string name="fajr">dagbreek</string>
+    <string name="zuhr">Middagete</string>
+    <string name="asr">Asr</string>
+    <string name="magrib">Sham</string>
+    <string name="isha">isha</string>
+    <string name="jumuah">Vrydag</string>
+    <string name="settings_layouts_prayer_notification_time_widget1">Kennisgewingstyd</string>
+    <string name="settings_layouts_prayer_notification_time_widget2">Oggend kennisgewing</string>
+    <string name="settings_layouts_prayer_notification_time_widget4">Middagete kennisgewing</string>
+    <string name="settings_layouts_prayer_notification_time_widget6">Kennisgewing van die eeu</string>
+    <string name="settings_layouts_prayer_notification_time_widget8">Kennisgewing van die aand</string>
+    <string name="settings_layouts_prayer_notification_time_widget10">Kennisgewing van Hufton</string>
+    <string name="settings_layouts_prayer_notification_time_widget12">Vrydag kennisgewing</string>
+    <string name="settings_layouts_prayer_notification_time_widget_details1">Huidige waarde in minute:</string>
+    <string name="settings_layouts_prayer_notification_time_widget_details2" />
+    <string name="settings_dialogs_notification_audio_type1">Oproep</string>
+    <string name="settings_dialogs_notification_audio_type2">Kennisgewings</string>
+    <string name="settings_dialogs_notification_audio_type3">Multimedia (werk stil)</string>
+    <string name="settings_dialogs_notification_audio_type4">Alarm (loop stil)</string>
+    <string name="each_prayer_notification_tone">Toon van kennisgewing van elke gebed</string>
+    <string name="settings_layouts_prayer_notification_tone_widget1">Seleksie van stelseltone</string>
+    <string name="settings_layouts_prayer_notification_tone_widget2">Gebruik \'n SD-kaart</string>
+    <string name="settings_layouts_prayer_notification_tone_widget3">Kies uit \'n SD-kaart</string>
+    <string name="settings_layouts_prayer_notification_tone_widget4">Gebruik verskillende kleure</string>
+    <string name="settings_layouts_prayer_notification_tone_widget5">\'N Toon wat die dagbreek aankondig</string>
+    <string name="settings_layouts_prayer_notification_tone_widget6">\'N Toon wat middagete aankondig</string>
+    <string name="settings_layouts_prayer_notification_tone_widget7">\'N Toon wat oor die eeu inlig</string>
+    <string name="settings_layouts_prayer_notification_tone_widget8">\'N Toon wat die aand aankondig</string>
+    <string name="settings_layouts_prayer_notification_tone_widget9">\'N Toon wat inlig oor die nag</string>
+    <string name="settings_layouts_prayer_notification_tone_widget_details1">Kies \'n gebedsboodskaptoon uit die stelseltone</string>
+    <string name="settings_layouts_prayer_notification_tone_widget_details2">Aktiveer met behulp van u SD-kaart om die toon van u MP3-kennisgewing te kies</string>
+    <string name="settings_layouts_prayer_notification_tone_widget_details3">Geselekteerde luitoon:</string>
+    <string name="settings_layouts_prayer_notification_tone_widget_details4">Gebruik \'n ander uitdrukkingstoon vir elke gebed</string>
+    <string name="settings_layouts_prayer_notification_tone_widget_details5">Kies die toon om die gebed aan te kondig</string>
+    <string name="settings_layouts_iqama_reminder_time_widget1">Iqama tyd</string>
+    <string name="settings_layouts_iqama_reminder_time_widget2">\'N Nota oor dagbreek</string>
+    <string name="settings_layouts_iqama_reminder_time_widget4">Middagete aantekening</string>
+    <string name="settings_layouts_iqama_reminder_time_widget6">Eeu-aantekening</string>
+    <string name="settings_layouts_iqama_reminder_time_widget8">Aandnoot</string>
+    <string name="settings_layouts_iqama_reminder_time_widget10">Herinner my aan die nag</string>
+    <string name="settings_layouts_iqama_reminder_time_widget12">\'Vrydag\' aantekening</string>
+    <string name="before_prayer_time">Voor die tyd van gebed</string>
+    <string name="no_tone_set">Die luitoon is nie op die SD-kaart gekies nie</string>
+    <string name="after_prayer_time">Na die tyd van gebed</string>
+    <string name="please_set_location_first">Merk eers die ligging!</string>
+    <string name="prayer_time_notification1">Fajr biduur</string>
+    <string name="prayer_time_notification2">Middagete</string>
+    <string name="prayer_time_notification3">Dit is tyd vir Asr-gebed</string>
+    <string name="prayer_time_notification4">Aand biduur</string>
+    <string name="prayer_time_notification5">Dit is tyd vir die naggebed</string>
+    <string name="prayer_time_notification6">Vrydag biduur</string>
+    <string name="iqama_time_notification1">Oggend tyd</string>
+    <string name="iqama_time_notification2">Middagete</string>
+    <string name="iqama_time_notification3">Eeu verblyf tyd</string>
+    <string name="iqama_time_notification4">Aand tyd</string>
+    <string name="iqama_time_notification5">Hufton iqama tyd</string>
+    <string name="iqama_time_notification6">Vrydag koshuis tyd</string>
+    <string name="sahoor_alarm_stop">Stop</string>
+    <string name="sahoor_alarm_snooze">Herhaal:</string>
+    <string name="wake_up_fajr_prayer_is_near">Word wakker! Fajr-gebed is naby</string>
+    <string name="alarm_time_from_fajr_time">Wekker (vanaf oggend tyd)</string>
+    <string name="sahoor_activty_fajr_time_apex">Oggendgebed:</string>
+    <string name="sahoor_activity_time_to_stop_dialog_title">Na die oggend alarm</string>
+    <string name="settings_layouts_silent_time_settings_widget1">Verander die oggend</string>
+    <string name="settings_layouts_silent_time_settings_widget2">Verander etenstyd</string>
+    <string name="settings_layouts_silent_time_settings_widget3">Verander die tyd van die eeu</string>
+    <string name="settings_layouts_silent_time_settings_widget4">Verander die aandtyd</string>
+    <string name="settings_layouts_silent_time_settings_widget5">Verander die tydsberekening van die alarm</string>
+    <string name="settings_layouts_silent_time_settings_widget6">Verander Vrydag tyd</string>
+    <string name="settings_layouts_silent_time_settings_widget7">Jim-modus</string>
+    <string name="settings_layouts_silent_time_settings_widget8">Aktivering</string>
+    <string name="settings_layouts_silent_time_settings_widget_details1">Huidige waarde in minute:</string>
+    <string name="settings_layouts_silent_time_settings_widget_details2" />
+    <string name="silent_period_in_minutes">Stil modus per minuut</string>
+    <string name="the_device_is_set_on_silent_mode">Die toestel is op stille modus gestel</string>
+    <string name="remembrance">Daaglikse gebede en aantekeninge</string>
+    <string name="azkar_spinner_list1">Herinnering in die oggend</string>
+    <string name="azkar_spinner_list2">\'N Herinnering aan die aand</string>
+    <string name="azkar_spinner_list3">Na die gebed</string>
+    <string name="azkar_spinner_list4">Voor slapenstyd</string>
+    <string name="please_enable_gps_first">Maak seker dat GPS aangeskakel is!</string>
+    <string name="this_device_has_no_gps_equipment">Hierdie toestel het nie GPS-toerusting nie</string>
+    <string name="please_check_for_internet_connection">Kontroleer asseblief om aan te sluit op die internet</string>
+    <string name="settings_dialogs_jumuah_time_different_array1">Gebruik etenstyd</string>
+    <string name="settings_dialogs_jumuah_time_different_array2">Kies \'n ander tyd</string>
+    <string name="adjustments_is_reset">Die tyd is herstel</string>
+    <string name="set_file_name">Lêernaam</string>
+    <string name="backup_list">Rugsteunlys</string>
+    <string name="backup_and_restore_dialog3">Die instellings word uitgevee en teruggestel.</string>
+    <string name="sunrise">Sonopkoms</string>
+    <string name="current_location_not_found">U huidige ligging kon nie gevind word nie, en daarom gebruik die aansoek die laaste plek op die toestel. \n As dit verkeerd is, herbegin die toestel.</string>
+    <string name="current_location_not_found_and_last">Die toestel kon nie jou ligging bepaal nie. \nProbeer\'n ander metode of herbegin die toestel.</string>
+    <string name="update_current_activity_last_known_location_not_found">Laaste bekende ligging nie gevind nie!</string>
+    <string name="alert_dialog_updating_location">Ligging word tans opgedateer …</string>
+    <string name="toast_location_updated_successfully">Plek suksesvol opgedateer!</string>
+    <string name="toast_failed_to_update_location">Ligging nie opgedateer nie</string>
+    <string name="alert_hijri_calendar_adjusted">Die Hijri-kalender word vanaf die instellings ingestel!</string>
+    <string name="toast_prayer_widget_click_was">Dit was</string>
+    <string name="toast_prayer_widget_click_just">Biduur!</string>
+    <string name="toast_prayer_widget_click_one_minute">een minuut</string>
+    <string name="toast_prayer_widget_click_two_minutes">twee minute</string>
+    <string name="toast_prayer_widget_click_two_hours">twee ure</string>
+    <string name="toast_prayer_widget_click_one_hour">n uur</string>
+    <string name="alert_ignore_battery_opt_title">Moenie die battery optimaliseer nie</string>
+    <string name="alert_ignore_battery_opt_msg">Wil u die toestel by die batteryoptimalisasielys voeg as \'n weergawe om kennisgewings te lewer wanneer die toestel in die bystandmodus is en om tydig na die stille modus oor te skakel? \n \nJy kan dit later verander in die battery-instellings van die toestel.</string>
+    <string name="alert_ok">Herbenaming</string>
+    <string name="alert_cancel">Kanselleer</string>
+    <string name="alert_restore_button">Herstel</string>
+    <string name="alert_delete_button">Vee die rugsteun uit</string>
+    <string name="alert_no_backups">Geen rugsteun is gestoor nie</string>
+    <string name="toast_backup_restored">Die rugsteun is herstel</string>
+    <string name="toast_backup_saved">Rugsteun gestoor</string>
+    <string name="toast_settings_reset_completed">Die herstel van die instellings is voltooi!</string>
+    <string name="alert_date_conversion_limits_title">Oor die grens!</string>
+    <string name="alert_date_conversion_limits_msg">Limiete vir datumomskakeling: \nNasionaal 14 Maart 1937, \n 16 November 2077 nC</string>
+    <string name="toast_no_location_data">Geen stoorinligting nie</string>
+    <string name="alert_add_current_location_msg">Wil u die huidige ligging by die gestoorde liggings voeg?</string>
+    <string name="toast_maximum_saved_locations">Die maksimum aantal sitplekke is vyf!</string>
+    <string name="toast_set_location_name_first">U moet eers \'n naam vir die huidige adres invoer!</string>
+    <string name="toast_location_already_exist">Plek reeds beskikbaar!</string>
+    <string name="alert_location_information_will_lost_title">Vee nuwe data uit?</string>
+    <string name="alert_location_information_will_lost_msg">Wil u regtig verlaat sonder om nuwe data te stoor?</string>
+    <string name="toast_choose_one_of_the_update_methods_first">Kies eers een van die opdateringsmetodes</string>
+    <string name="toast_only_mp3_files">Slegs mp3-lêers sal verskyn</string>
+    <string name="toast_tone_saved">Die stemming is gekies en gestoor</string>
+
+    <string name="toast_prayer_widget_click_hours">uur</string>
+    <string name="toast_prayer_widget_click_hours_more_than_ten">uur</string>
+    <string name="toast_prayer_widget_click_minutes">minuut</string>
+    <string name="toast_prayer_widget_click_and">en</string>
+    <string name="toast_prayer_widget_click_ago">Voor</string>
+    <string name="toast_prayer_widget_click_remaining">die res</string>
+    <string name="exceptione">\'N Onbekende fout sal binnekort reggestel word</string>
+    <string name="ilovani_ulashish">Deel die aansoek</string>
+    <string name="baho_berish">Evaluering</string>
+
+    <string name="send__________send"><b>Boeke</b>\nDrie oorspronklike eksemplare van die Koran, voordragte, gebedsboeke, daaglikse gebede \n<b>Plekke </b>\nQibla, moskees naby jou \n <b>Gemak van aanpassing </b>\n 5 verskillende tale, 2 verskillende digitale tale, 2 verskillende temas in die app. die vermoë om die toon van kennisgewings te kies en te verander</string>
+
+    <string name="appwidget_text">VOORBEELD</string>
+    <string name="add_widget">Voeg widget by</string>
+    <string name="title_activity_quran">Hoofaktiwiteit</string>
+    <string name="title_home">Tuis</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Kennisgewings</string>
+    <string name="action_notification">kennisgewing</string>
+    <string-array name="time">
+        <item>kwartier</item>
+        <item>half uur</item>
+        <item>1 uur</item>
+        <item>Twee ure</item>
+    </string-array>
+    <string name="activity_notification_set_q_text">Bespaar die tyd wat u verkies, sodat enige Koran voortdurend sonder boodskappe in die vorm van boodskappe gestuur word.</string>
+    <string name="actv_not_set_qtxt_">Herhaal duur</string>
+    <string name="act_set_bg_q_txt_">Kies u kleur</string>
+    <string name="format_quran_name_q_">Fotiha</string>
+    <string name="main_item_1">skrifgrootte</string>
+    <string name="main_it_2">fon</string>
+    <string name="main_it_3">Evalueer die aansoek</string>
+    <string name="tarjima">Vertaling</string>
+    <string name="reset">herstel</string>
+    <string name="tasbeh_nomi_zikr">Die naam van die rosekrans: Zikr</string>
+    <string name="tasbeh_soni_100ta">Aantal rosekranse: 100</string>
+    <string name="qo_shish">Voeg by</string>
+    <string name="saqlash">Stoor</string>
+    <string name="dial_settings_font_">Qm bḥfẓ ạlḥjm ạlmfḍl lk</string>
+    <string name="dialog_settings_font_q_tx">Tm</string>
+    <string name="quron_item_dr">Qur\'an</string>
+    <string name="tasbeh_item_dr">Tasbeh</string>
+    <string name="qibla_item_dr">Qibla</string>
+    <string name="salovat">Alloxumma Solli A\'la Sayyidina Muhammadin en A\'la Ali Sayyidina Muhammad\'</string>
+    <string name="salovat_dasturchasi_AlarmSalovat_satrt_Oncreate">Die \'Salavat\' -program het begin</string>
+    <string name="notificationtext">Alloxumma Solli A\'la Sayyidina Muhammadin en A\'39; la A\'li Sayyidina Muhammad</string>
+    <string name="prewdialog_assalomu_alykum">Assalamu alaykum wa rahmatullahi wa barakotux</string>
+    <string name="prewdialgo_o_qing">Lees dit!</string>
+    <string name="prewdialog_qur_onnni_ko_rishingiz_uchun_iltimos_roziman_tugmasini_bosing_va_internetga_ulaning_bu_ilova_o_zi_kerakli_bo_lgan_documentlarni_tortib_oladi">\ nDaar is nie genoeg dokumente in die toepassing nie. \ nKoppel asseblief aan die internet en klik op \ &amp;quot;Ek stem saam \&amp;quot; \ n \ nWanneer afgelaai (Koran) verskyn</string>
+    <string name="prewdialog_qaytarilmasin">Moenie terugkom nie</string>
+    <string name="prewdialog_rozimasman">Ek stem nie saam nie</string>
+    <string name="prewdialog_roziman">Roziman</string>
+    <string name="dowload_menu">Las…</string>
+    <string name="syns">Gradeer op</string>
+    <string name="qur_on_o_zbekcha" translatable="false">Oesbekiese Koran</string>
+    <string name="Ducument">\'Dokument\'</string>
+    <string name="Muvaffaqiyat">Die dokumente is suksesvol opgelaai</string>
+    <string name="ochib_korish">Maak oop</string>
+    <string name="xatolik">Ooooy! Fout, die SD-kaart het geen spasie nie.</string>
+    <string name="iloji_bomadi">Kon nog nie besigtig nie.</string>
+    <string name="yuklanmoqda">Laai Vordering</string>
+    <string name="permission_necessary">toestemming</string>
+    <string name="storage_permission_is_encessary_to_wrote_event">uitsondering</string>
+    <string name="qur_on_mp3">Qur op (.MP3)</string>
+    <string name="f">Fatiha</string>
+    <string name="zero">0:00</string>
+    <string name="compass_dial" translatable="false">Kompaswiel</string>
+    <string name="compass_hands" translatable="false">Kompashande</string>
+    <string name="gps_settings_title">GPS-instellings</string>
+    <string name="gps_settings_text">GPS is nie geaktiveer nie. Wil u na die instellingsmenu gaan?</string>
+    <string name="settings_button_ok">Instellings</string>
+    <string name="settings_button_cancel">Kanselleer</string>
+    <string name="msg_permission_not_granted_yet">Ligginginligting is nog nie beskikbaar nie</string>
+    <string name="msg_permission_granted">Gegee die liggingsinligting, druk die GPS-knoppie.</string>
+    <string name="toast_permission_required">Hierdie program benodig\'n toegangsadres</string>
+    <string name="your_location">Jou posisie:</string>
+    <string name="location_not_ready">Die ligging is nog nie gereed nie. Druk weer op die knoppie.</string>
+    <string name="qibla_direction">Die rigting van die Kaaba is vanaf die noorde:</string>
+    <string name="pls_enable_location">Skakel Ligging aan en druk weer die knoppie.</string>
+    <string name="degree_from_north">Eksponent</string>
+    <string name="using_last_location">gebruik die laaste adres.</string>
+    <string name="namoz_kitob" translatable="false">Gebedsboek</string>
+    <string name="namoz_kitobi" translatable="false">Gebedsboek</string>
+    <string name="kun">Helder tema</string>
+    <string name="tun">Nag tema</string>
+    <string name="configure" translatable="false">Stel op</string>
+    <string name="masjidlar">Moskees</string>
+
+
+    <string name="next">Volgende</string>
+    <string name="skip">Huppel</string>
+    <string name="start">EK VERSTAAN</string>
+
+    <string name="slide_1_title">Boeke</string>
+    <string name="slide_1_desc">Drie soorte Koran-oorspronklike, resitasie, gebedsboeke, daaglikse gebede</string>
+
+    <string name="slide_2_title">Bidure</string>
+    <string name="slide_2_desc">Bidure, Adhan, Iqama, Saharlik, Iftar-tye</string>
+
+    <string name="slide_3_title">Plekke</string>
+    <string name="slide_3_desc">Qibla, Moskees naby jou</string>
+
+    <string name="slide_4_title">Gemak van instellings</string>
+    <string name="slide_4_desc">Die aansoek bevat 5 verskillende tale, 2 verskillende digitale tale, 2 verskillende onderwerpe. die vermoë om die toon van kennisgewings te kies en te verander</string>
+    <string name="remove">Vee uit</string>
+    <string name="remove_tasbix">Kan u die rosekrans skoonmaak?</string>
+    <string name="removed_tasbix">Die rosekrans is skoongemaak</string>
+    <string name="play_again_desc">Gaan na Instellings -> programme -> welkomskyfie -> vee data uit om die welkomskuifbalk weer te sien</string>
+    <string name="play_again">Speel weer</string>
+    <string name="assalomu_alaykum_va_rahmatullohi_va_barakotux">Assalamu alaykum \nva rahmatullahi wa barakotux</string>
+    <string name="ilova_gidi">Aansoekgids</string>
+    <string name="keraklidoclaryo">Geen dokumente nodig nie? Laai u af?</string>
+
+
+
+
+    <string-array name="prayer_time_notifications">
+        <item>@string/prayer_time_notification1</item>
+        <item>@string/prayer_time_notification2</item>
+        <item>@string/prayer_time_notification3</item>
+        <item>@string/prayer_time_notification4</item>
+        <item>@string/prayer_time_notification5</item>
+        <item>@string/prayer_time_notification6</item>
+    </string-array>
+    <string-array name="iqama_time_notifications">
+        <item>@string/iqama_time_notification1</item>
+        <item>@string/iqama_time_notification2</item>
+        <item>@string/iqama_time_notification3</item>
+        <item>@string/iqama_time_notification4</item>
+        <item>@string/iqama_time_notification5</item>
+        <item>@string/iqama_time_notification6</item>
+    </string-array>
+    <string-array name="hijri_month">
+        <item>@string/hijri_month_1</item>
+        <item>@string/hijri_month_2</item>
+        <item>@string/hijri_month_3</item>
+        <item>@string/hijri_month_4</item>
+        <item>@string/hijri_month_5</item>
+        <item>@string/hijri_month_6</item>
+        <item>@string/hijri_month_7</item>
+        <item>@string/hijri_month_8</item>
+        <item>@string/hijri_month_9</item>
+        <item>@string/hijri_month_10</item>
+        <item>@string/hijri_month_11</item>
+        <item>@string/hijri_month_12</item>
+    </string-array>
+    <string-array name="gregorian_month">
+        <item>@string/gregorian_month_1</item>
+        <item>@string/gregorian_month_2</item>
+        <item>@string/gregorian_month_3</item>
+        <item>@string/gregorian_month_4</item>
+        <item>@string/gregorian_month_5</item>
+        <item>@string/gregorian_month_6</item>
+        <item>@string/gregorian_month_7</item>
+        <item>@string/gregorian_month_8</item>
+        <item>@string/gregorian_month_9</item>
+        <item>@string/gregorian_month_10</item>
+        <item>@string/gregorian_month_11</item>
+        <item>@string/gregorian_month_12</item>
+    </string-array>
+
+    <string-array name="day_of_week">
+        <item>@string/day_of_week1</item>
+        <item>@string/day_of_week2</item>
+        <item>@string/day_of_week3</item>
+        <item>@string/day_of_week4</item>
+        <item>@string/day_of_week5</item>
+        <item>@string/day_of_week6</item>
+        <item>@string/day_of_week7</item>
+    </string-array>
+    <string-array name="settings_menu">
+        <item>@string/prayer_times_settings</item>
+        <item>@string/hijri_settings</item>
+        <item>@string/display_options</item>
+        <item>@string/notification_settings</item>
+        <item>@string/silent_settings</item>
+        <item>@string/backup_and_restore</item>
+    </string-array>
+    <string-array name="prayer_time">
+        <item>@string/fajr</item>
+        <item>@string/sunrise</item>
+        <item>@string/zuhr</item>
+        <item>@string/asr</item>
+        <item>@string/magrib</item>
+        <item>@string/isha</item>
+    </string-array>
+    <string-array name="location_widget_options">
+        <item>@string/delete_location</item>
+        <item>@string/set_as_current_location</item>
+    </string-array>
+    <string-array name="settings_submenu">
+        <item>@string/settings_for_calculating_prayer_times</item>
+        <item>@string/choose_hijri_date_settings</item>
+        <item>@string/change_language_and_colors_for_the_app_and_widgets</item>
+        <item>@string/select_your_notifications_and_reminders_settings</item>
+        <item>@string/adjust_the_silent_mode_settings_for_each_prayer</item>
+        <item>@string/settings_backup_and_restore</item>
+    </string-array>
+    <string name="settings_layouts_notifications_title1">@string/prayer_notification</string>
+    <string name="settings_layouts_notifications_title2">@string/iqama_reminders</string>
+    <string name="settings_layouts_notifications_title3">@string/general</string>
+    <string name="settings_layout_titles_backup_and_restore_title1" >@string/settings</string>
+    <string name="settings_layout_titles_backup_and_restore_title2" >@string/locations</string>
+    <string name="settings_layout_titles_display_options_title1" >@string/app_options</string>
+    <string name="settings_layout_titles_display_options_title2" >@string/widgets_options</string>
+    <string name="settings_layout_titles_fajr_and_sahoor_alarms_title1" >@string/alarm_settings</string>
+    <string name="settings_layout_titles_hijri_title1">@string/hijri_calendar</string>
+    <string name="settings_layout_titles_manual_times_adjustments_title1" >@string/adjustments</string>
+    <string name="settings_layout_titles_prayer_notification_time_title1" >@string/fajr</string>
+    <string name="settings_layout_titles_prayer_notification_time_title2" >@string/zuhr</string>
+    <string name="settings_layout_titles_prayer_notification_time_title3" >@string/asr</string>
+    <string name="settings_layout_titles_prayer_notification_time_title4" >@string/magrib</string>
+    <string name="settings_layout_titles_prayer_notification_time_title5" >@string/isha</string>
+    <string name="settings_layout_titles_prayer_notification_time_title6" >@string/jumuah</string>
+    <string name="settings_layout_titles_prayer_notification_tone_title1" >@string/asr</string>
+    <string name="settings_layout_titles_prayer_times_title1" >@string/calculations</string>
+    <string name="settings_layout_titles_silent_title1" >@string/silent_mode</string>
+
+    <string name="qiroat">Lees</string>
+    <string name="quran">Koran</string>
+    <string name="duolar">Gebede</string>
+    <string name="kitoblar_va_qur_on">Boeke en die Koran</string>
+    <string name="namoz_kitobitr" >Gebedsboek</string>
+    <string name="kitab_alsalatr" >Kitab Alsala</string>
+    <string name="sozlamalar" >Instellings</string>
+    <string name="ilova_bo_yicha" >Volgens die aansoek</string>
+
+    <string name="url_kitob_uchun" >https://raw.githubusercontent.com/MsdSdm/kitoblar/main/Koran.pdf</string>
+    <string name="url_kitob_nomi" >Koran.pdf</string>
+
+    <string name="url_kitob_namoz" >https://raw.githubusercontent.com/MsdSdm/kitoblar/main/gebedsboek.pdf</string>
+    <string name="url_kitob_namoz_name">gebedsboek.pdf</string>
+    <string name="allohning_99_ismlari">99 name van Allah</string>
+    <string name="notification_text">Onthou die 99 name van Allah!</string>
+    <string name="davomi">Lees meer …</string>
+
+    <string name="sura1">Al-Fatiha</string>
+    <string name="sura2">Al-Baqarah</string>
+    <string name="sura3">Al Imran</string>
+    <string name="sura4">An-Nisa</string>
+    <string name="sura5">Al-Ma\'idah</string>
+    <string name="sura6">Al-An\'am</string>
+    <string name="sura7">Al-A\'raf</string>
+    <string name="sura8">Al-Anfal</string>
+    <string name="sura9">At-Tawbah</string>
+    <string name="sura10">Yunus</string>
+    <string name="sura11">Hud</string>
+    <string name="sura12">Yusuf</string>
+    <string name="sura13">Ar-Ra\'d</string>
+    <string name="sura14">Ibrahim</string>
+    <string name="sura15">Al-Hijr</string>
+    <string name="sura16">An-Nahl</string>
+    <string name="sura17">Al-Isra</string>
+    <string name="sura18">Al-Kahf</string>
+    <string name="sura19">Maryam</string>
+    <string name="sura20">Ta-Ha</string>
+    <string name="sura21">Al-Anbiya</string>
+    <string name="sura22">Al-Hajj</string>
+    <string name="sura23">Al-Mu\'minun</string>
+    <string name="sura24">An-Nur</string>
+    <string name="sura25">Al-Furqan</string>
+    <string name="sura26">Ash-Shu\'ara</string>
+    <string name="sura27">An-Naml</string>
+    <string name="sura28">Al-Qasas</string>
+    <string name="sura29">Al-Ankabut</string>
+    <string name="sura30">Ar-Rum</string>
+    <string name="sura31">Luqmaan</string>
+    <string name="sura32">As-Sajda</string>
+    <string name="sura33">Al-Ahzaab</string>
+    <string name="sura34">Saba (surah)</string>
+    <string name="sura35">Faatir</string>
+    <string name="sura36">Yaseen</string>
+    <string name="sura37">As-Saaffaat</string>
+    <string name="sura38">Saad</string>
+    <string name="sura39">Az-Zumar</string>
+    <string name="sura40">Ghafir</string>
+    <string name="sura41">Fussilat</string>
+    <string name="sura42">Ash_Shooraa</string>
+    <string name="sura43">Az-Zukhruf</string>
+    <string name="sura44">Ad-Dukhaan</string>
+    <string name="sura45">Al-Jaathiyah</string>
+    <string name="sura46">Al-Ahqaaf</string>
+    <string name="sura47">Muhammad</string>
+    <string name="sura48">Al-Fath</string>
+    <string name="sura49">Al-Hujuraat</string>
+    <string name="sura50">Qaaf</string>
+    <string name="sura51">Adh-Dhaariyaat</string>
+    <string name="sura52">At-Toor</string>
+    <string name="sura53">An-Najm</string>
+    <string name="sura54">Al-Qamar</string>
+    <string name="sura55">Ar-Rahman</string>
+    <string name="sura56">Al-Waqi\'a</string>
+    <string name="sura57">Al-Hadeed</string>
+    <string name="sura58">Al-Mujadila</string>
+    <string name="sura59">Al-Hashr</string>
+    <string name="sura60">Al-Mumtahanah</string>
+    <string name="sura61">As-Saff</string>
+    <string name="sura62">Al-Jumu\'ah</string>
+    <string name="sura63">Al-Munafiqoon</string>
+    <string name="sura64">At-Taghabun</string>
+    <string name="sura65">At-Talaq</string>
+    <string name="sura66">At-Tahreem</string>
+    <string name="sura67">Al-Mulk</string>
+    <string name="sura68">Al-Qalam</string>
+    <string name="sura69">Al-Haaqqa</string>
+    <string name="sura70">Al-Ma\'aarij</string>
+    <string name="sura71">Nooh</string>
+    <string name="sura72">Al-Jinn</string>
+    <string name="sura73">Al-Muzzammil</string>
+    <string name="sura74">Al-Muddaththir</string>
+    <string name="sura75">Al-Qiyamah</string>
+    <string name="sura76">Al-Insaan</string>
+    <string name="sura77">Al-Mursalaat</string>
+    <string name="sura78">An-Naba\'</string>
+    <string name="sura79">An-Naazi\'aat</string>
+    <string name="sura80">Abasa</string>
+    <string name="sura81">At-Takweer</string>
+    <string name="sura82">Al-Infitar</string>
+    <string name="sura83">Al-Mutaffifeen</string>
+    <string name="sura84">Al-Inshiqaaq</string>
+    <string name="sura85">Al-Burooj</string>
+    <string name="sura86">At-Taariq</string>
+    <string name="sura87">Al-A\'laa</string>
+    <string name="sura88">Al-Ghaashiyah</string>
+    <string name="sura89">Al-Fajr</string>
+    <string name="sura90">Al-Balad</string>
+    <string name="sura91">Ash-Shams</string>
+    <string name="sura92">Al-Layl</string>
+    <string name="sura93">Ad-Dhuha</string>
+    <string name="sura94">Ash-Sharh (Al-Inshirah)</string>
+    <string name="sura95">At-Teen</string>
+    <string name="sura96">Al-\'Alaq</string>
+    <string name="sura97">Al-Qadr</string>
+    <string name="sura98">Al-Bayyinahh</string>
+    <string name="sura99">Az-Zalzalah</string>
+    <string name="sura100">Al-\'Aadiyaat</string>
+    <string name="sura101">Al-Qaari\'ah</string>
+    <string name="sura102">At-Takaathur</string>
+    <string name="sura103">Al-\'Asr</string>
+    <string name="sura104">Al-Humazah</string>
+    <string name="sura105">Al-Feel</string>
+    <string name="sura106">Quraysh</string>
+    <string name="sura107">Al-Maa\'oon</string>
+    <string name="sura108">Al-Kawthar</string>
+    <string name="sura109">Al-Kaafiroon</string>
+    <string name="sura110">An-Nasr</string>
+    <string name="sura111">Al-Masad</string>
+    <string name="sura112">Al-Ikhlaas</string>
+    <string name="sura113">Al-Falaq</string>
+    <string name="sura114">Al-Naas</string>
+
+    <string name="name1"> Allah</string>
+    <string name="name2"> Ar-Rahman</string>
+    <string name="name3"> Ar-Rahim</string>
+    <string name="name4"> Al-Malik</string>
+    <string name="name5"> Al-Quddus</string>
+    <string name="name6"> As-Salaam</string>
+    <string name="name7"> Al-Mu`min</string>
+    <string name="name8"> Al-Muhaymin</string>
+    <string name="name9"> Al-`Aziz</string>
+    <string name="name10">Al-Jabbar</string>
+    <string name="name11">Al-Mutakabbir</string>
+    <string name="name12">Al-Khaliq</string>
+    <string name="name13">Al-Baari`</string>
+    <string name="name14">Al-Mushawwir</string>
+    <string name="name15">Al-Ghaffaar</string>
+    <string name="name16">Al-Qahhaar</string>
+    <string name="name17">Al-Wahhaab</string>
+    <string name="name18">Ar-Razzaaq</string>
+    <string name="name19">Al-Fattaah</string>
+    <string name="name20">Al-`Alim</string>
+    <string name="name21">Al-Qaabid</string>
+    <string name="name22">Al-Baasit</string>
+    <string name="name23">Al-Khaafid</string>
+    <string name="name24">Ar-Raafi`</string>
+    <string name="name25">Al-Mu`izz</string>
+    <string name="name26">Al-Mudzil</string>
+    <string name="name27">As-Sami`</string>
+    <string name="name28">Al-Basir</string>
+    <string name="name29">Al-Hakam</string>
+    <string name="name30">Al-`Adl</string>
+    <string name="name31">Al-Latif</string>
+    <string name="name32">Al-Chabir</string>
+    <string name="name33">Al-Halim</string>
+    <string name="name34">Al-`Azim</string>
+    <string name="name35">Al-Ghafur</string>
+    <string name="name36">As-Shakur</string>
+    <string name="name37">Al-`Ali</string>
+    <string name="name38">Al-Kabir</string>
+    <string name="name39">Al-Hafiz</string>
+    <string name="name40">Al-Muqit</string>
+    <string name="name41">Al-Hasib</string>
+    <string name="name42">Al-Jalil</string>
+    <string name="name43">Al-Karim</string>
+    <string name="name44">Ar-Raqib</string>
+    <string name="name45">Al-Mujib</string>
+    <string name="name46">Al-Wasi`</string>
+    <string name="name47">Al-Hakim</string>
+    <string name="name48">Al-Wadud</string>
+    <string name="name49">Al-Majid</string>
+    <string name="name50">Al-Baa`is</string>
+    <string name="name51">As-Shahid</string>
+    <string name="name52">Al-Haqq</string>
+    <string name="name53">Al-Wakil</string>
+    <string name="name54">Al-Qawiy</string>
+    <string name="name55">Al-Matin</string>
+    <string name="name56">Al-Waliy</string>
+    <string name="name57">Al-Hamid</string>
+    <string name="name58">Al-Muhsi</string>
+    <string name="name59">Al-Mubdi`</string>
+    <string name="name60">Al-Mu`id</string>
+    <string name="name61">Al-Muhyi</string>
+    <string name="name62">Al-Mumit</string>
+    <string name="name63">Al-Hayy</string>
+    <string name="name64">Al-Qayyum</string>
+    <string name="name65">Al-Wajid</string>
+    <string name="name66">Al-Majid</string>
+    <string name="name67">Al-Wahid</string>
+    <string name="name68">As-Samad</string>
+    <string name="name69">Al-Qadir</string>
+    <string name="name70">Al-Muqtadir</string>
+    <string name="name71">Al-Muqaddim</string>
+    <string name="name72">Al-Mu`akhir</string>
+    <string name="name73">Al-Awwal</string>
+    <string name="name74">Al-Akhir</string>
+    <string name="name75">Az-Zahir</string>
+    <string name="name76">Al-Batin</string>
+    <string name="name77">Al-Wali</string>
+    <string name="name78">Al-Muta`ali</string>
+    <string name="name79">Al-Barr</string>
+    <string name="name80">At Tawwaab</string>
+    <string name="name81">Al-Muntaqim</string>
+    <string name="name82">Al-Afuw</string>
+    <string name="name83">Ar Ra`uf</string>
+    <string name="name84">Maliku-l-Mulk</string>
+    <string name="name85">Dzul-Jalaali-Wa`l-Ikraam</string>
+    <string name="name86">Al-Muqsit</string>
+    <string name="name87">Al-Djami`</string>
+    <string name="name88">Al-Ghaniy</string>
+    <string name="name89">Al-Mughni</string>
+    <string name="name90">Al-Mani</string>
+    <string name="name91">Ad-Dhaar</string>
+    <string name="name92">An-Nafi</string>
+    <string name="name93">An-Nur</string>
+    <string name="name94">Al-Hadi</string>
+    <string name="name95">Al-Badi</string>
+    <string name="name96">Al-Baqi</string>
+    <string name="name97">Al-Warith</string>
+    <string name="name98">Ar-Rashid</string>
+    <string name="name99">As-Shabur</string>
+
+    <string name="mano1"> God</string>
+    <string name="mano2"> die Mees Barmhartige</string>
+    <string name="mano3"> die Mees Genadige</string>
+    <string name="mano4"> die Koning</string>
+    <string name="mano5"> die Heilige</string>
+    <string name="mano6"> die Vrede</string>
+    <string name="mano7"> die Gelowige</string>
+    <string name="mano8"> die Bewaarder</string>
+    <string name="mano9"> die Magtige</string>
+    <string name="mano10">die Kragtige</string>
+    <string name="mano11">die Besitter van Alle Grootheid</string>
+    <string name="mano12">die Skepper</string>
+    <string name="mano13">die Ontwikkelaar</string>
+    <string name="mano14">die Vormgewer</string>
+    <string name="mano15">die Oneindige Vergewer van die Sonde</string>
+    <string name="mano16">die Onderwerper</string>
+    <string name="mano17">die Gewer</string>
+    <string name="mano18">die Skenker van Onderhoud</string>
+    <string name="mano19">die Gewer van Oorwinning</string>
+    <string name="mano20">die Alwetende</string>
+    <string name="mano21">die Sametrekker</string>
+    <string name="mano22">die Verruimer</string>
+    <string name="mano23">die Vernederaar</string>
+    <string name="mano24">die Verheffer</string>
+    <string name="mano25">die Skenker van Eer</string>
+    <string name="mano26">die Onteerder</string>
+    <string name="mano27">die Alhorende</string>
+    <string name="mano28">die Alsiende</string>
+    <string name="mano29">die Regter</string>
+    <string name="mano30">die Regverdige</string>
+    <string name="mano31">die Subtiele</string>
+    <string name="mano32">die Bewuste</string>
+    <string name="mano33">die Verdraagsame</string>
+    <string name="mano34">die Grote</string>
+    <string name="mano35">die Vergewensgesinde</string>
+    <string name="mano36">die Waarderende</string>
+    <string name="mano37">die Allerhoogste</string>
+    <string name="mano38">die Grote</string>
+    <string name="mano39">die Bewaarder</string>
+    <string name="mano40">die Onderhouer</string>
+    <string name="mano41">die Opsteller van Rekenskap</string>
+    <string name="mano42">die Verhewene</string>
+    <string name="mano43">die Edelmoedige</string>
+    <string name="mano44">die Waaksame</string>
+    <string name="mano45">die Verhoorder</string>
+    <string name="mano46">die Alomvattende</string>
+    <string name="mano47">die Wyse</string>
+    <string name="mano48">die Liefhebber</string>
+    <string name="mano49">die Luisterryke</string>
+    <string name="mano50">die Opwekker van die Dooies</string>
+    <string name="mano51">die Getuie</string>
+    <string name="mano52">die Waarheid</string>
+    <string name="mano53">die Gevolmagtigde</string>
+    <string name="mano54">die Sterke</string>
+    <string name="mano55">die Standvastige</string>
+    <string name="mano56">die Beskermende Vriend</string>
+    <string name="mano57">die Prysenswaardige</string>
+    <string name="mano58">die Optekenaar</string>
+    <string name="mano59">die Voortbrenger</string>
+    <string name="mano60">die Hersteller</string>
+    <string name="mano61">die Lewensgewer</string>
+    <string name="mano62">die Lewensontnemer</string>
+    <string name="mano63">die Ewiglewende</string>
+    <string name="mano64">die Selfbestaande</string>
+    <string name="mano65">die Vinder</string>
+    <string name="mano66">die Roemryke</string>
+    <string name="mano67">die Unieke</string>
+    <string name="mano68">die Onafhanklike</string>
+    <string name="mano69">die Magtige</string>
+    <string name="mano70">die Oorheerser</string>
+    <string name="mano71">die Bevorderaar</string>
+    <string name="mano72">die Vertrager</string>
+    <string name="mano73">die Eerste</string>
+    <string name="mano74">die Laaste</string>
+    <string name="mano75">die Openlike</string>
+    <string name="mano76">die Verborgene</string>
+    <string name="mano77">die Regeerder</string>
+    <string name="mano78">die Mees Verhewene</string>
+    <string name="mano79">die Regverdige</string>
+    <string name="mano80">die Aanvaarder van Berou</string>
+    <string name="mano81">die Vergelder</string>
+    <string name="mano82">die Skenker van Vergifnis</string>
+    <string name="mano83">die Sagmoedige</string>
+    <string name="mano84">die Koning der Konings</string>
+    <string name="mano85">die Heer van Glorie en Eer</string>
+    <string name="mano86">die Billike</string>
+    <string name="mano87">die Versamelaar</string>
+    <string name="mano88">die Selftoerykende</string>
+    <string name="mano89">die Verryker</string>
+    <string name="mano90">die Verhinderaar</string>
+    <string name="mano91">die Bringer van Nood</string>
+    <string name="mano92">die Begunstiger</string>
+    <string name="mano93">die Lig</string>
+    <string name="mano94">die Gids</string>
+    <string name="mano95">die Blywende</string>
+    <string name="mano96">die Ewige</string>
+    <string name="mano97">die Erfgenaam</string>
+    <string name="mano98">die Gids na die Regte Pad</string>
+    <string name="mano99">die Geduldige</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

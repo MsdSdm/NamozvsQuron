@@ -1,0 +1,481 @@
+<resources>
+    <string name="app_name">ALAZAN</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">الإعدادات</string>
+    <string name="Background">background</string>
+    <string name="current_location">الموقع الحالي</string>
+    <string name="choose_location_manually">اختيار الموقع يدويا</string>
+    <string name="internet_search">البحث عن طريق الإنترنت</string>
+    <string name="update_current_location">تحديث الموقع الحالي</string>
+    <string name="adjust_current_location">تعديل الموقع الحالي</string>
+    <string name="last_known_device_location">آخر موقع معروف</string>
+    <string name="gps">GPS</string>
+    <string name="the_network">الشبكة</string>
+    <string name="save">حفظ</string>
+    <string name="the_time_location">المنطقة الزمنية</string>
+    <string name="longitude">خط الطول</string>
+    <string name="latitude">خط العرض</string>
+    <string name="choose_the_country">اختر البلد</string>
+    <string name="search">بحث</string>
+    <string name="choose_the_city">اختر المدينة</string>
+    <string name="stop">إيقاف</string>
+    <string name="settings">الإعدادات</string>
+    <string name="convert_date">تحويل التاريخ</string>
+    <string name="compass">البوصلة</string>
+    <string name="about_application">حول التطبيق</string>
+    <string name="problems_and_suggestions">المشاكل والاقتراحات</string>
+    <string name="locations">المواقع</string>
+    <string name="share_application">مشاركة التطبيق</string>
+    <string name="hijri_month_1">محرم</string>
+    <string name="hijri_month_2">صفر</string>
+    <string name="hijri_month_3">ربيع الأول</string>
+    <string name="hijri_month_4">ربيع الثاني</string>
+    <string name="hijri_month_5">جمادى الأولى</string>
+    <string name="hijri_month_6">جمادى الثاني</string>
+    <string name="hijri_month_7">رجب</string>
+    <string name="hijri_month_8">شعبان</string>
+    <string name="hijri_month_9">رمضان</string>
+    <string name="hijri_month_10">شوال</string>
+    <string name="hijri_month_11">ذو القعدة</string>
+    <string name="hijri_month_12">ذو الحجة</string>
+    <string-array name="hijri_month">
+        <item>@string/hijri_month_1</item>
+        <item>@string/hijri_month_2</item>
+        <item>@string/hijri_month_3</item>
+        <item>@string/hijri_month_4</item>
+        <item>@string/hijri_month_5</item>
+        <item>@string/hijri_month_6</item>
+        <item>@string/hijri_month_7</item>
+        <item>@string/hijri_month_8</item>
+        <item>@string/hijri_month_9</item>
+        <item>@string/hijri_month_10</item>
+        <item>@string/hijri_month_11</item>
+        <item>@string/hijri_month_12</item>
+    </string-array>
+    <string name="gregorian_month_1">كانون الثاني</string>
+    <string name="gregorian_month_2">شباط</string>
+    <string name="gregorian_month_3">آذار</string>
+    <string name="gregorian_month_4">نيسان</string>
+    <string name="gregorian_month_5">أيار</string>
+    <string name="gregorian_month_6">حزيران</string>
+    <string name="gregorian_month_7">تموز</string>
+    <string name="gregorian_month_8">آب</string>
+    <string name="gregorian_month_9">أيلول</string>
+    <string name="gregorian_month_10">تشرين الأول</string>
+    <string name="gregorian_month_11">تشرين الثاني</string>
+    <string name="gregorian_month_12">كانون الأول</string>
+    <string-array name="gregorian_month">
+        <item>@string/gregorian_month_1</item>
+        <item>@string/gregorian_month_2</item>
+        <item>@string/gregorian_month_3</item>
+        <item>@string/gregorian_month_4</item>
+        <item>@string/gregorian_month_5</item>
+        <item>@string/gregorian_month_6</item>
+        <item>@string/gregorian_month_7</item>
+        <item>@string/gregorian_month_8</item>
+        <item>@string/gregorian_month_9</item>
+        <item>@string/gregorian_month_10</item>
+        <item>@string/gregorian_month_11</item>
+        <item>@string/gregorian_month_12</item>
+    </string-array>
+    <string name="day_of_week1">الأحد</string>
+    <string name="day_of_week2">الإثنين</string>
+    <string name="day_of_week3">الثلاثاء</string>
+    <string name="day_of_week4">الأربعاء</string>
+    <string name="day_of_week5">الخميس</string>
+    <string name="day_of_week6">الجمعة</string>
+    <string name="day_of_week7">السبت</string>
+    <string-array name="day_of_week">
+        <item>@string/day_of_week1</item>
+        <item>@string/day_of_week2</item>
+        <item>@string/day_of_week3</item>
+        <item>@string/day_of_week4</item>
+        <item>@string/day_of_week5</item>
+        <item>@string/day_of_week6</item>
+        <item>@string/day_of_week7</item>
+    </string-array>
+    <string-array name="prayer_time">
+        <item>@string/fajr</item>
+        <item>@string/sunrise</item>
+        <item>@string/zuhr</item>
+        <item>@string/asr</item>
+        <item>@string/magrib</item>
+        <item>@string/isha</item>
+    </string-array>
+    <string name="adjust_time_manually">تعديل الوقت يدويا</string>
+    <string name="reset_time_settings">استعادة الإعدادات الإفتراضية</string>
+    <string name="activate_azan_notifications">تفعيل التنبيه للأذان</string>
+    <string name="activate_iqama_notifications">تفعيل التنبيه للإقامة</string>
+    <string name="choose_alarm_tone">اختيار نغمة التنبيه</string>
+    <string name="prayer_time_settings">إعدادات الوقت لصلاة</string>
+    <string name="saved_locations">الأماكن المحفوظة</string>
+    <string name="remaining_time">الوقت المتبقي</string>
+    <string name="add_location">إضافة موقع</string>
+    <string name="prayer_time">وقت صلاة</string>
+    <string name="iqama_time">وقت إقامة</string>
+    <string name="convert_from_hijri">التحويل من هجري</string>
+    <string name="convert_from_gregorian">التحويل من ميلادي</string>
+    <string name="add_current_location">إضافة الموقع الحالي</string>
+    <string name="choose_an_option">انتق أحد الخيارات</string>
+    <string name="delete_location">حذف الموقع</string>
+    <string name="set_as_current_location">ضبط كموقع حالي</string>
+    <string-array name="location_widget_options">
+        <item>@string/delete_location</item>
+        <item>@string/set_as_current_location</item>
+    </string-array>
+    <string name="prayer_times_settings">إعدادات أوقات الصلاة</string>
+    <string name="hijri_settings">إعدادات التقويم الهجري</string>
+    <string name="display_options">خيارات العرض</string>
+    <string name="notification_settings">إعدادات الإشعارات</string>
+    <string name="fajr_and_sahoor_alarm">إنذار الفجر والسحور</string>
+    <string name="silent_settings">إعدادات الوضع الصامت</string>
+    <string name="backup_and_restore">النسخ الاحتياطي والاستعادة</string>
+    <string-array name="settings_menu">
+        <item>@string/prayer_times_settings</item>
+        <item>@string/hijri_settings</item>
+        <item>@string/display_options</item>
+        <item>@string/notification_settings</item>
+        <item>@string/silent_settings</item>
+        <item>@string/backup_and_restore</item>
+    </string-array>
+    <string name="settings_for_calculating_prayer_times">ضبط الإعدادات الخاصة بحساب أوقات الصلاة</string>
+    <string name="choose_hijri_date_settings">ضبط إعدادات التاريخ الهجري</string>
+    <string name="change_language_and_colors_for_the_app_and_widgets">تغيير الإعدادات الخاصة باللغة والألوان للتطبيق والأطر</string>
+    <string name="select_your_notifications_and_reminders_settings">ضبط إعدادات التنبيه بأوقات الصلاة</string>
+    <string name="fajr_and_sahoor_wake_up_alarm_settings">ضبط إعدادات إنذار الاستيقاظ للفجر والسحور</string>
+    <string name="adjust_the_silent_mode_settings_for_each_prayer">ضبط الوضع الصامت لكل وقت صلاة</string>
+    <string name="settings_backup_and_restore">الإعدادات الخاصة بالنسخ الاحتياطي والاستعادة</string>
+    <string-array name="settings_submenu">
+        <item>@string/settings_for_calculating_prayer_times</item>
+        <item>@string/choose_hijri_date_settings</item>
+        <item>@string/change_language_and_colors_for_the_app_and_widgets</item>
+        <item>@string/select_your_notifications_and_reminders_settings</item>
+        <item>@string/adjust_the_silent_mode_settings_for_each_prayer</item>
+        <item>@string/settings_backup_and_restore</item>
+    </string-array>
+    <string name="choose_display_language">اختر لغة العرض</string>
+    <string name="location_widget_details">معلومات وتفاصيل:</string>
+    <string name="prayer_notification">تنبيه الصلاة</string>
+    <string name="iqama_reminders">تذكير الإقامة</string>
+    <string name="general">إعدادت عامة</string>
+    <string name="settings_layouts_notifications_widget1">أوقات تنبيه الصلاة</string>
+    <string name="settings_layouts_notifications_widget2">تنبيه الصلاة</string>
+    <string name="settings_layouts_notifications_widget3">نوع صوت التنبيه</string>
+    <string name="settings_layouts_notifications_widget4">نغمة تنبيه الصلاة</string>
+    <string name="settings_layouts_notifications_widget5">إخفاء تلقائي للتنبيه</string>
+    <string name="settings_layouts_notifications_widget6">وقت الإخفاء</string>
+    <string name="settings_layouts_notifications_widget7">أوقات الإقامة</string>
+    <string name="settings_layouts_notifications_widget8">التذكير بالإقامة</string>
+    <string name="settings_layouts_notifications_widget9">نوع صوت التذكير</string>
+    <string name="settings_layouts_notifications_widget10">نغمة تذكير الإقامة</string>
+    <string name="settings_layouts_notifications_widget11">إخفاء تلقائي للتذكير</string>
+    <string name="settings_layouts_notifications_widget12">وقت الإخفاء</string>
+    <string name="settings_layouts_notifications_widget13">اهتزاز</string>
+    <string name="settings_layouts_notifications_widget14">إضاءة التنبيهات</string>
+    <string name="settings_layouts_notifications_widget_details1">ضبط إعدادات التنبيه بأوقات الصلاة</string>
+    <string name="settings_layouts_notifications_widget_details2">التنبيه عند دخول وقت الصلاة</string>
+    <string name="settings_layouts_notifications_widget_details3">ربط التنبيه بأحد أنواع الأصوات في النظام.\nيفضل اختيار صوت الإنذار للتنبيه أثناء الصامت</string>
+    <string name="settings_layouts_notifications_widget_details4">اختر نغمة التنبيه بدخول وقت الصلاة</string>
+    <string name="settings_layouts_notifications_widget_details5">إخفاء تنبيه الصلاة بعد مدة محددة</string>
+    <string name="settings_layouts_notifications_widget_details6">القيمة الحالية بالدقائق: </string>
+    <string name="settings_layouts_notifications_widget_details7">ضبط إعدادات التذكير بإقامة الصلوات</string>
+    <string name="settings_layouts_notifications_widget_details8">التذكير بقرب وقت الإقامة</string>
+    <string name="settings_layouts_notifications_widget_details9">ربط التذكير بأحد أنواع الأصوات في النظام.\nيفضل اختيار صوت الإنذار للتذكير أثناء الصامت</string>
+    <string name="settings_layouts_notifications_widget_details10">اختر نغمة التذكير بقرب إقامة الصلاة</string>
+    <string name="settings_layouts_notifications_widget_details11">إخفاء تذكير الإقامة بعد مدة محددة</string>
+    <string name="settings_layouts_notifications_widget_details12">القيمة الحالية بالدقائق: </string>
+    <string name="settings_layouts_notifications_widget_details13">تفعيل الاهتزاز عند التنبيه والتذكير</string>
+    <string name="settings_layouts_notifications_widget_details14">تفعيل إضاءة التنبيهات عند التنبيه والتذكير</string>
+    <string name="calculations">الحساب</string>
+    <string name="settings_layouts_prayer_times_widget_details1">طريقة حساب وقت صلاة الفجر والعشاء</string>
+    <string name="settings_layouts_prayer_times_widget_details2">لسكان شمال الكرة الأرضية فقط، لحساب الفجر والعشاء بتقسيم الليل إلى أجزاء بناء على طريقة الحساب المختارة.\nغير متوافق مع طريقة أم القرى</string>
+    <string name="settings_layouts_prayer_times_widget_details3">إضافة نصف ساعة لتوقيت العشاء في رمضان عند استخدام طريقة أم القرى</string>
+    <string name="settings_layouts_prayer_times_widget_details4">اختر مذهب حساب وقت صلاة العصر</string>
+    <string name="settings_layouts_prayer_times_widget_details5">تقديم أو تأخير ساعة لضبط التوقيت الصيفي</string>
+    <string name="settings_layouts_prayer_times_widget_details6">أدخل الوقت المناسب لصلاة الجمعة</string>
+    <string name="settings_layouts_prayer_times_widget_details7">تقديم أو تأخير وقت الصلاة بشكل يدوي</string>
+    <string name="settings_layouts_prayer_times_widget7">تعديل الأوقات يدويا</string>
+    <string name="settings_layouts_prayer_times_widget6">وقت صلاة الجمعة</string>
+    <string name="settings_layouts_prayer_times_widget5">تعديل التوقيت الصيفي</string>
+    <string name="settings_layouts_prayer_times_widget4">حساب وقت العصر</string>
+    <string name="settings_layouts_prayer_times_widget3">تعديل العشاء في رمضان</string>
+    <string name="settings_layouts_prayer_times_widget2">طريقة تقسيم الليل</string>
+    <string name="settings_layouts_prayer_times_widget1">طرق الحساب</string>
+    <string name="settings_layouts_hijri_widget1">استخدام تقويم أم القرى</string>
+    <string name="settings_layouts_hijri_widget2">تعديل التاريخ يدويا</string>
+    <string name="settings_layouts_hijri_widget_details1">تفعيل تقويم أم القرى التلقائي المقدم من قوقل.\nخاص بنسخ أندرويد 7.0 فما فوق</string>
+    <string name="settings_layouts_hijri_widget_details2">لتقديم أو تأخير التاريخ الهجري بشكل يدوي</string>
+    <string name="hijri_calendar">التقويم الهجري</string>
+    <string name="app_options">خصائص البرنامج</string>
+    <string name="widgets_options">خصائص الودجت</string>
+    <string name="settings_layouts_display_options_widget_details1">Change display language</string>
+    <string name="settings_layouts_display_options_widget_details2">تغيير لغة عرض الأرقام في البرنامج.\nقد لا تكون مدعومة في بعض الأجهزة</string>
+    <string name="settings_layouts_display_options_widget_details3">تغيير لون واجهة البرنامج الرئيسية</string>
+    <string name="settings_layouts_display_options_widget_details4">تغيير خط واجهة البرنامج الرئيسية.\بعض الأجهزة لا تدعم جميع الخطوط</string>
+    <string name="settings_layouts_display_options_widget_details5" />
+    <string name="settings_layouts_display_options_widget_details6">ألوان الودجت الذي يعرض أوقات جميع الصلوات</string>
+    <string name="settings_layouts_display_options_widget_details7">ألوان الودجت العرضي الذي يعرض الوقت المتبقي للصلاة القادمة</string>
+    <string name="settings_layouts_display_options_widget_details8">ألوان الودجت العرضي الذي يعرض أوقات جميع الصلوات</string>
+    <string name="settings_layouts_display_options_widget_details9">ألوان الودجت الكبير الذي يعرض الوقت المتبقي للصلاة القادمة</string>
+    <string name="settings_layouts_display_options_widget_details10">ألوان الودجت الذي يعرض أوقات جميع الصلوات على شاشة القفل</string>
+    <string name="settings_layouts_display_options_widget1">لغة العرض</string>
+    <string name="settings_layouts_display_options_widget2">لغة عرض الأرقام</string>
+    <string name="settings_layouts_display_options_widget3">لون البرنامج</string>
+    <string name="settings_layouts_display_options_widget4">خط البرنامج</string>
+    <string name="settings_layouts_display_options_widget5">استخدام نظام 24 ساعة</string>
+    <string name="settings_layouts_display_options_widget6">My Prayer Widget</string>
+    <string name="settings_layouts_display_options_widget7">My Next Prayer Widget</string>
+    <string name="settings_layouts_display_options_widget8">My Prayers (Horizontal) Widget</string>
+    <string name="settings_layouts_display_options_widget9">My Next Prayer (Big) Widget</string>
+    <string name="settings_layouts_display_options_widget10">My Prayer Lock Screen Widget</string>
+    <string name="alarm_settings">Alarm Settings</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget1">Important Notice</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget2">Activate Fajr Alarm</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget3">Alarm Time</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget4">Alarm Ringtone</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget5">Vibrate</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget6">Turn Screen On</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget7">Turn Silent Off</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget8">Stop Automatically</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget9">Time to Stop</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget10">Snooze Time</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details1">When this alarm goes off, Fajr notification and reminder sounds will be ignored until the alarm stops</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details2" />
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details3">Current vale in minutes:</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details4">Choose the alarm ringtone</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details5">Activate vibration for Fajr alarm</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details6">Turn Screen on when the alarm starts</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details7">Turn silent mode off temporarily before the alarm starts if the device was on Silent or Vibrate, then return it back after it stops</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details8">Stop the alarm after a given time</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details9">Current value in minutes:</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details10">Choose snooze time in minutes</string>
+    <string name="silent_mode">إعدادات الصامت</string>
+    <string name="settings_layouts_silent_widget1">التحويل إلى صامت</string>
+    <string name="settings_layouts_silent_widget2">تحديد أوقات الصمت</string>
+    <string name="settings_layouts_silent_widget3">اهتزاز</string>
+    <string name="settings_layouts_silent_widget4">اهتزاز عند التحويل</string>
+    <string name="settings_layouts_silent_widget5">إظهار رسالة عند التحويل</string>
+    <string name="settings_layouts_silent_widget_details1">تحويل الجهاز إلى صامت خلال فترة الصلاة</string>
+    <string name="settings_layouts_silent_widget_details2">تحديد وقت بداية الوضع الصامت ومدته لكل صلاة</string>
+    <string name="settings_layouts_silent_widget_details3">تفعيل الاهتزاز أثناء الوضع الصامت</string>
+    <string name="settings_layouts_silent_widget_details4">الاهتزاز لمرة واحدة عند التحويل من وإلى الوضع الصامت</string>
+    <string name="settings_layouts_silent_widget_details5">إضهاؤ ؤسالة للمستخدم عند التحويل من وإلى الوضع الصامت</string>
+    <string name="_settings">الإعدادات</string>
+    <string name="_locations">المواقع</string>
+    <string name="settings_layouts_backup_and_restore_widget1">تنبيه</string>
+    <string name="settings_layouts_backup_and_restore_widget2">نسخ الإعدادات</string>
+    <string name="settings_layouts_backup_and_restore_widget3">استعادة الإعدادات</string>
+    <string name="settings_layouts_backup_and_restore_widget4">استعادة الإعدادات الافتراضية</string>
+    <string name="settings_layouts_backup_and_restore_widget5">نسخ المواقع</string>
+    <string name="settings_layouts_backup_and_restore_widget6">استعادة الموقع</string>
+    <string name="settings_layouts_backup_and_restore_widget_details1">هذه الخيارات تنسخ وتستعيد إعدادات البرنامج والمواقع المحفوظة بشكل منفصل</string>
+    <string name="settings_layouts_backup_and_restore_widget_details2">نسخ الإعدادات احتياطيا إلى كرت الذاكرة</string>
+    <string name="settings_layouts_backup_and_restore_widget_details3">استعادة أو حذف نسخ الإعدادات المحفوظة في كرت الذاكرة</string>
+    <string name="settings_layouts_backup_and_restore_widget_details4">إعادة إعدادات البرنامج إلى القيم الافتراضية</string>
+    <string name="settings_layouts_backup_and_restore_widget_details5">نسخ المواقع احتياطيا إلى كرت الذاكرة</string>
+    <string name="settings_layouts_backup_and_restore_widget_details6">استعادة أو حذف نسخ المواقع المحفوظة في كرت الذاكرة</string>
+    <string name="settings_dialogs_prayer_calculations_methods1">جامعة أم القرى</string>
+    <string name="settings_dialogs_prayer_calculations_methods2">رابطة العالم الإسلامي</string>
+    <string name="settings_dialogs_prayer_calculations_methods3">جامعة العلوم الإسلامية بكراتشي</string>
+    <string name="settings_dialogs_prayer_calculations_methods4">الهيئة المصرية العامة للمساحة</string>
+    <string name="settings_dialogs_prayer_calculations_methods5">الاتحاد الإسلامي بأمريكا الشمالية</string>
+    <string name="settings_dialogs_prayer_calculations_methods6">معهد العلوم الجيوفيزيائية بجامعة طهران</string>
+    <string name="settings_dialogs_prayer_calculations_methods7">طريقة الجزء السابع من الليل</string>
+    <string name="settings_dialogs_asr_methods1">شافعي (وأغلب المذاهب)</string>
+    <string name="settings_dialogs_asr_methods2">حنفي</string>
+    <string name="adjustments">التعديلات</string>
+    <string name="settings_layouts_manual_times_adjustments_widget1">ملحوظة مهمة</string>
+    <string name="settings_layouts_manual_times_adjustments_widget2">وقت الفجر</string>
+    <string name="settings_layouts_manual_times_adjustments_widget3">وقت الظهر</string>
+    <string name="settings_layouts_manual_times_adjustments_widget4">وقت العصر</string>
+    <string name="settings_layouts_manual_times_adjustments_widget5">وقت المغرب</string>
+    <string name="settings_layouts_manual_times_adjustments_widget6">وقت العشاء</string>
+    <string name="settings_layouts_manual_times_adjustments_widget7">استعادة الأوقات الافتراضية</string>
+    <string name="settings_layouts_manual_times_adjustments_widget8">وقت الشروق</string>
+    <string name="settings_layouts_manual_times_adjustments_widget_details1">قبل تعديل الأولقات يدويا تأكد من ضبط الإعدادات الأنسب لمنطقتك من البرنامج، وتأكد من اختيار المنطقة الزمنية الصحيحة من إعدادات الجهاز</string>
+    <string name="settings_layouts_manual_times_adjustments_widget_details2">القيمة الحالية بالدقائق:</string>
+    <string name="settings_layouts_manual_times_adjustments_widget_details7">لإعادة جميع الصلوات إلى أوقاتها قبل التعديل</string>
+    <string name="app_language">لغة البرنامج</string>
+    <string name="settings_dialogs_app_theme1">أبيض</string>
+    <string name="settings_dialogs_app_theme2">أسود</string>
+    <string name="settings_dialogs_app_font1">خط رفيع</string>
+    <string name="settings_dialogs_app_font2">خط الجهاز الأساسي</string>
+    <string name="settings_dialogs_app_font3">خط الجهاز العريض</string>
+    <string name="settings_dialogs_widget_theme1">أبيض</string>
+    <string name="settings_dialogs_widget_theme2">أسود</string>
+    <string name="settings_dialogs_widget_theme3">اللون الأساسي</string>
+    <string name="fajr">الفجر</string>
+    <string name="zuhr">الظهر</string>
+    <string name="asr">العصر</string>
+    <string name="magrib">المغرب</string>
+    <string name="isha">العشاء</string>
+    <string name="jumuah">الجمعة</string>
+    <string name="settings_layouts_prayer_notification_time_widget1">وقت التنبيه</string>
+    <string name="settings_layouts_prayer_notification_time_widget2">تنبيه الفجر</string>
+    <string name="settings_layouts_prayer_notification_time_widget4">تنبيه الظهر</string>
+    <string name="settings_layouts_prayer_notification_time_widget6">تنبيه العصر</string>
+    <string name="settings_layouts_prayer_notification_time_widget8">تنبيه المغرب</string>
+    <string name="settings_layouts_prayer_notification_time_widget10">تبيه العشاء</string>
+    <string name="settings_layouts_prayer_notification_time_widget12">تنبيه الجمعة</string>
+    <string name="settings_layouts_prayer_notification_time_widget_details1">القيمة الحالية بالدقائق:</string>
+    <string name="settings_layouts_prayer_notification_time_widget_details2" />
+    <string name="settings_dialogs_notification_audio_type1">صوت رنين الهاتف</string>
+    <string name="settings_dialogs_notification_audio_type2">صوت الإشعارات</string>
+    <string name="settings_dialogs_notification_audio_type3">صوت الوسائط (يعمل أثناء الصامت)</string>
+    <string name="settings_dialogs_notification_audio_type4">صوت الإنذار (يعمل أثناء الصامت)</string>
+    <string name="each_prayer_notification_tone">نغمات مخصصة لكل صلاة</string>
+    <string name="settings_layouts_prayer_notification_tone_widget1">نغمة تنبيه من النظام</string>
+    <string name="settings_layouts_prayer_notification_tone_widget2">استخدام كرت الذاكرة</string>
+    <string name="settings_layouts_prayer_notification_tone_widget3">نغمة تنبيه من الذاكرة</string>
+    <string name="settings_layouts_prayer_notification_tone_widget4">استخدام نغمات مختلفة</string>
+    <string name="settings_layouts_prayer_notification_tone_widget5">نغمة تنبيه الفجر</string>
+    <string name="settings_layouts_prayer_notification_tone_widget6">نغمة تنبيه الظهر</string>
+    <string name="settings_layouts_prayer_notification_tone_widget7">نغمة تنبيه العصر</string>
+    <string name="settings_layouts_prayer_notification_tone_widget8">نغمة تنبيه المغرب</string>
+    <string name="settings_layouts_prayer_notification_tone_widget9">نغمة تنبيه العشاء</string>
+    <string name="settings_layouts_prayer_notification_tone_widget_details1">اختر نغمة التنبيه من نغمات النظام</string>
+    <string name="settings_layouts_prayer_notification_tone_widget_details2">تفعيل اختيار نغمات MP3 من كرت الذاكرة</string>
+    <string name="settings_layouts_prayer_notification_tone_widget_details3">النغمة المختارة: </string>
+    <string name="settings_layouts_prayer_notification_tone_widget_details4">تحديد نغمة مخصصة لكل صلاة على حدة</string>
+    <string name="settings_layouts_prayer_notification_tone_widget_details5">اختر نغمة التنبيه لدخول وقت الصلاة</string>
+    <string name="settings_layouts_iqama_reminder_time_widget1">وقت الإقامة</string>
+    <string name="settings_layouts_iqama_reminder_time_widget2">تذكير الفجر</string>
+    <string name="settings_layouts_iqama_reminder_time_widget4">تذكير الظهر</string>
+    <string name="settings_layouts_iqama_reminder_time_widget6">تذكير العصر</string>
+    <string name="settings_layouts_iqama_reminder_time_widget8">تذكير المغرب</string>
+    <string name="settings_layouts_iqama_reminder_time_widget10">تذكير العشاء</string>
+    <string name="settings_layouts_iqama_reminder_time_widget12">تذكسر الجمعة</string>
+    <string name="before_prayer_time">قبل وقت الصلاة بكم دقيقة</string>
+    <string name="no_tone_set">ليس هناك نغمة مختارة من الذاكرة</string>
+    <string name="after_prayer_time">بعد وقت الصلاة بكم دقيقة</string>
+    <string name="please_set_location_first">رجاء قم بضبط الموقع أولا!</string>
+    <string name="prayer_time_notification1">وقت صلاة الفجر</string>
+    <string name="prayer_time_notification2">وقت صلاة الظهر</string>
+    <string name="prayer_time_notification3">وقت صلاة العصر</string>
+    <string name="prayer_time_notification4">وقت صلاة المغرب</string>
+    <string name="prayer_time_notification5">وقت صلاة العشاء</string>
+    <string name="prayer_time_notification6">وقت صلاة الجمعة</string>
+    <string name="iqama_time_notification1">وقت الإقامة لصلاة الفجر</string>
+    <string name="iqama_time_notification2">وقت الإقامة لصلاة الظهر</string>
+    <string name="iqama_time_notification3">وقت الإقامة لصلاة العصر</string>
+    <string name="iqama_time_notification4">وقت الإقامة لصلاة المغرب</string>
+    <string name="iqama_time_notification5">وقت الإقامة لصلاة العشاء</string>
+    <string name="iqama_time_notification6">وقت الإقامة لصلاة الجمعة</string>
+    <string name="sahoor_alarm_stop">إيقاف</string>
+    <string name="sahoor_alarm_snooze">غفوة</string>
+    <string name="wake_up_fajr_prayer_is_near">Wake Up! Fajr prayer is near</string>
+    <string name="alarm_time_from_fajr_time">Alarm time (from fajr time)</string>
+    <string name="sahoor_activty_fajr_time_apex">Fajr Prayer:</string>
+    <string name="sahoor_activity_time_to_stop_dialog_title">After Fajr Alarm</string>
+    <string name="settings_layouts_silent_time_settings_widget1">وقت التحويل للفجر</string>
+    <string name="settings_layouts_silent_time_settings_widget2">وقت التحويل للظهر</string>
+    <string name="settings_layouts_silent_time_settings_widget3">وقت التحويل للعصر</string>
+    <string name="settings_layouts_silent_time_settings_widget4">وقت التحويل للمغرب</string>
+    <string name="settings_layouts_silent_time_settings_widget5">وقت التحويل للعشاء</string>
+    <string name="settings_layouts_silent_time_settings_widget6">وقت التحويل للجمعة</string>
+    <string name="settings_layouts_silent_time_settings_widget7">مدة الصمت</string>
+    <string name="settings_layouts_silent_time_settings_widget8">تفعيل</string>
+    <string name="settings_layouts_silent_time_settings_widget_details1">القيمة الحالية بالدقائق:</string>
+    <string name="settings_layouts_silent_time_settings_widget_details2" />
+    <string name="silent_period_in_minutes">مدة الصمت بالدقائق</string>
+    <string name="the_device_is_set_on_silent_mode">تم ضبط الجهاز على الوضع الصامت</string>
+    <string name="remembrance">الأذكار</string>
+    <string name="azkar_spinner_list1">أذكار الصباح</string>
+    <string name="azkar_spinner_list2">أذكار المساء</string>
+    <string name="azkar_spinner_list3">أذكار بعد الصلاة</string>
+    <string name="azkar_spinner_list4">أذكار ما قبل النوم</string>
+    <string name="please_enable_gps_first">رجاء قم بالتأكد من تشغيل GPS!</string>
+    <string name="this_device_has_no_gps_equipment">الجهاز لا يحوي على خدمة GPS</string>
+    <string name="please_check_for_internet_connection">رجاء قم بالتأكد من الاتصال بالانترنت</string>
+    <string name="settings_dialogs_jumuah_time_different_array1">اعتمد وقت الظهر</string>
+    <string name="settings_dialogs_jumuah_time_different_array2">اختر وقت آخر</string>
+    <string name="adjustments_is_reset">تم إعادة ضبط أوقات الصلاة</string>
+
+    <string name="settings_layouts_notifications_title1">@string/prayer_notification</string>
+    <string name="settings_layouts_notifications_title2">@string/iqama_reminders</string>
+    <string name="settings_layouts_notifications_title3">@string/general</string>
+    <string name="settings_layout_titles_backup_and_restore_title1" >@string/settings</string>
+    <string name="settings_layout_titles_backup_and_restore_title2" >@string/locations</string>
+    <string name="settings_layout_titles_display_options_title1" >@string/app_options</string>
+    <string name="settings_layout_titles_display_options_title2" >@string/widgets_options</string>
+    <string name="settings_layout_titles_fajr_and_sahoor_alarms_title1" >@string/alarm_settings</string>
+    <string name="settings_layout_titles_hijri_title1">@string/hijri_calendar</string>
+    <string name="settings_layout_titles_manual_times_adjustments_title1" >@string/adjustments</string>
+    <string name="settings_layout_titles_prayer_notification_time_title1" >@string/fajr</string>
+    <string name="settings_layout_titles_prayer_notification_time_title2" >@string/zuhr</string>
+    <string name="settings_layout_titles_prayer_notification_time_title3" >@string/asr</string>
+    <string name="settings_layout_titles_prayer_notification_time_title4" >@string/magrib</string>
+    <string name="settings_layout_titles_prayer_notification_time_title5" >@string/isha</string>
+    <string name="settings_layout_titles_prayer_notification_time_title6" >@string/jumuah</string>
+    <string name="settings_layout_titles_prayer_notification_tone_title1" >@string/each_prayer_notification_tone</string>
+    <string name="settings_layout_titles_prayer_times_title1" >@string/calculations</string>
+    <string name="settings_layout_titles_silent_title1" >@string/silent_mode</string>
+    <string name="set_file_name">اسم الملف</string>
+    <string name="backup_list">قائمة النسخ الاحتياطية</string>
+    <string name="backup_and_restore_dialog3">سيتم حذف الإعدادات واستعادة القيم الإفتراضية.</string>
+    <string name="sunrise">الشروق</string>
+    <string name="current_location_not_found">تعذر العثور على الموقع الحالي، سيقوم التطبيق باستخدام آخر موقع معروف للجهاز.\nإذا كان خاطئا قم بإعادة تشغيل جهازك.</string>
+    <string name="current_location_not_found_and_last">تعذر العثور على الموقع الحالي.\nقم بالمحاولة بطريقة أخرى أو أعد تشغيل الجهاز</string>
+    <string name="update_current_activity_last_known_location_not_found">تعذر العثور على آخر موقع معروف للجهاز</string>
+    <string name="alert_dialog_updating_location">جاري تحديث الموقع…</string>
+    <string name="toast_failed_to_update_location">تعذر تحديث الموقع!</string>
+    <string name="toast_location_updated_successfully">تم تحديث الموقع بنجاح!</string>
+    <string name="alert_hijri_calendar_adjusted">التاريخ الهجري معدّل من الإعدادات!</string>
+    <string name="toast_prayer_widget_click_was">مرت</string>
+    <string name="toast_prayer_widget_click_hours">ساعات</string>
+    <string name="toast_prayer_widget_click_hours_more_than_ten">ساعة</string>
+    <string name="toast_prayer_widget_click_minutes">دقيقة</string>
+    <string name="toast_prayer_widget_click_and">و</string>
+    <string name="toast_prayer_widget_click_ago"/>
+    <string name="toast_prayer_widget_click_remaining">متبقية</string>
+    <string name="toast_prayer_widget_click_just">دخل وقت الصلاة!</string>
+    <string name="toast_prayer_widget_click_one_minute">دقيقة واحدة</string>
+    <string name="toast_prayer_widget_click_two_minutes">دقيقتان</string>
+    <string name="toast_prayer_widget_click_two_hours">ساعتان</string>
+    <string name="toast_prayer_widget_click_one_hour">ساعة واحدة</string>
+    <string name="alert_ignore_battery_opt_title">تجاوز إجراءات توفير الطاقة</string>
+    <string name="alert_ignore_battery_opt_msg">قم باستبعاد هذا البرنامج من إجراءات توفير الطاقة كي تعمل بعض المزايا بالشكل المانسب</string>
+    <string name="alert_ok">موافق</string>
+    <string name="alert_cancel">إلغاء</string>
+    <string name="alert_restore_button">استعادة</string>
+    <string name="alert_delete_button">حذف النسخة</string>
+    <string name="alert_no_backups">لا توجد نسخ احتياطية</string>
+    <string name="toast_backup_restored">تم استعادة النسخة الاحتياطية</string>
+    <string name="toast_backup_saved">تم حفظ نسخة احتياطية</string>
+    <string name="toast_settings_reset_completed">تم استعادة الإعدادات الافتراضية</string>
+    <string name="alert_date_conversion_limits_title" >حدود تحويل التاريخ:</string>
+    <string name="alert_date_conversion_limits_msg" >حدود تحويل التاريخ هي:\nمن 14 مارس 1937م\nإلى 16 نوفمبر 2077م</string>
+    <string name="toast_no_location_data" >لم يتم العثور على بيانات جديدة</string>
+    <string name="alert_add_current_location_msg" >هل تريد إضافة الموقع الحالي إلى المواقع المحفوظة</string>
+    <string name="toast_maximum_saved_locations" >الحد الأقصى المسموح به هو 5 مواقع</string>
+    <string name="toast_set_location_name_first" >قم بتسمية الموقع الحالي للقيام أولا</string>
+    <string name="toast_location_already_exist" >الموقع محفوظ مسبقا</string>
+    <string name="alert_location_information_will_lost_title" >تجاهل معلومات الموقع الجديدة؟</string>
+    <string name="alert_location_information_will_lost_msg" >هل تريد الخروج بدون حفظ معلومات الموقع الجديدة؟</string>
+    <string name="toast_choose_one_of_the_update_methods_first">قم باختيار أحد طرق التحديث أولا</string>
+    <string name="toast_only_mp3_files" >سيتم إظهار الملفات بصيغة mp3 فقط</string>
+    <string name="toast_tone_saved" >تم اختيار وحفظ نغمتك</string>
+
+
+    <string-array name="prayer_time_notifications" >
+        <item>@string/prayer_time_notification1</item>
+        <item>@string/prayer_time_notification2</item>
+        <item>@string/prayer_time_notification3</item>
+        <item>@string/prayer_time_notification4</item>
+        <item>@string/prayer_time_notification5</item>
+        <item>@string/prayer_time_notification6</item>
+    </string-array>
+    <string-array name="iqama_time_notifications" >
+        <item>@string/iqama_time_notification1</item>
+        <item>@string/iqama_time_notification2</item>
+        <item>@string/iqama_time_notification3</item>
+        <item>@string/iqama_time_notification4</item>
+        <item>@string/iqama_time_notification5</item>
+        <item>@string/iqama_time_notification6</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,948 @@
+<resources>
+    <string name="app_name">Namoz va Qur\'on</string>
+    <string name="navigation_drawer_open">Ouvrez le panneau de navigation</string>
+    <string name="navigation_drawer_close">Fermez le panneau de navigation</string>
+    <string name="nav_header_title">Studio Android</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Titre de navigation</string>
+    <string name="action_settings">Réglages</string>
+    <string name="Background">fon</string>
+    <string name="current_location">Localisation actuelle</string>
+    <string name="choose_location_manually">Sélection de l\'emplacement</string>
+    <string name="internet_search">Chercher sur Internet</string>
+    <string name="update_current_location">Mettre à jour l\'emplacement actuel</string>
+    <string name="adjust_current_location">Définir l\'emplacement actuel</string>
+    <string name="last_known_device_location">Dernier emplacement connu</string>
+    <string name="gps">GPS</string>
+    <string name="the_network">Historique du réseau</string>
+    <string name="save">\'Mémoriser</string>
+    <string name="the_time_location">Emplacement temporel</string>
+    <string name="longitude">Longueur</string>
+    <string name="latitude">Latitude</string>
+    <string name="choose_the_country">Sélectionnez le pays</string>
+    <string name="search">Rechercher</string>
+    <string name="choose_the_city">Sélectionnez une ville</string>
+    <string name="stop">À\'xta</string>
+    <string name="settings">Réglages</string>
+    <string name="convert_date">Faire pivoter le calendrier</string>
+    <string name="compass">Boussole</string>
+    <string name="about_application">À propos de l\'application</string>
+    <string name="problems_and_suggestions">Problèmes et suggestions</string>
+    <string name="locations">Emplacements</string>
+    <string name="share_application">Partagez l\'application</string>
+
+    <string name="hijri_month_1">Muharram</string>
+    <string name="hijri_month_2">Safar</string>
+    <string name="hijri_month_3">Rabiul Avval</string>
+    <string name="hijri_month_4">Rabiul Oxir</string>
+    <string name="hijri_month_5">Jumodul Avval</string>
+    <string name="hijri_month_6">Fin Jumo-dul</string>
+    <string name="hijri_month_7">Radjab</string>
+    <string name="hijri_month_8">Sha\'bon</string>
+    <string name="hijri_month_9">Ramadan</string>
+    <string name="hijri_month_10">Shavval</string>
+    <string name="hijri_month_11">À Zulqa</string>
+    <string name="hijri_month_12">Zul Hijja</string>
+
+    <string name="gregorian_month_1">Janvier</string>
+    <string name="gregorian_month_2">de février</string>
+    <string name="gregorian_month_3">Mars</string>
+    <string name="gregorian_month_4">Appliquer</string>
+    <string name="gregorian_month_5">Mai</string>
+    <string name="gregorian_month_6">Juin</string>
+    <string name="gregorian_month_7">de Elul</string>
+    <string name="gregorian_month_8">Août</string>
+    <string name="gregorian_month_9">Remplacement</string>
+    <string name="gregorian_month_10">Octobre</string>
+    <string name="gregorian_month_11">Novembre</string>
+    <string name="gregorian_month_12">décembre</string>
+
+    <string name="day_of_week1">dimanche</string>
+    <string name="day_of_week2">Lundi</string>
+    <string name="day_of_week3">Mardi</string>
+    <string name="day_of_week4">Mercredi</string>
+    <string name="day_of_week5">Jeudi</string>
+    <string name="day_of_week6">Vendredi</string>
+    <string name="day_of_week7">Samedi</string>
+
+    <string name="adjust_time_manually">Régler l&amp;#39;heure</string>
+    <string name="reset_time_settings">Restaurer les paramètres d\'heure</string>
+    <string name="activate_azan_notifications">Activation des notifications Azan</string>
+    <string name="activate_iqama_notifications">Activation des notifications iqama</string>
+    <string name="choose_alarm_tone">Sélection d\'alarme</string>
+    <string name="prayer_time_settings">fixer l\'heure de la prière</string>
+    <string name="saved_locations">Lieux stockés</string>
+    <string name="remaining_time">Restant</string>
+    <string name="add_location">Ajouter un emplacement</string>
+    <string name="prayer_time">Temps de prière</string>
+    <string name="iqama_time">Heure d\'Iqama</string>
+    <string name="convert_from_hijri">Conversion depuis Hijri</string>
+    <string name="convert_from_gregorian">Conversion de grégorien</string>
+    <string name="add_current_location">Ajouter l\'emplacement actuel</string>
+    <string name="choose_an_option">Sélection d\'options</string>
+    <string name="delete_location">Supprimer l\'emplacement</string>
+    <string name="set_as_current_location">Définir comme emplacement actuel</string>
+
+    <string name="MainActivtyMasjid_Toast">Le GPS est désactivé, activez le GPS et autorisez l&amp;#39;application à utiliser le service. Ou le programme ne fonctionne pas correctement.</string>
+    <string name="MainActivtyMasjid_builder">gestionnaire de site</string>
+    <string name="MainActivityMasjid_setMessage">Un appareil compatible GPS est requis pour que le dispositif de détection de mosquée fonctionne.</string>
+    <string name="MainActivityMasjid_Toast1">Site Web introuvable, veuillez ouvrir le site Web et autoriser l\'application à utiliser le site Web et Internet.</string>
+    <string name="MainActivityMasjid_title394">Tu es là</string>
+    <string name="MainActivityMasjid_395">Votre dernier site enregistré</string>
+    <string name="MainActivityMasjid_Toast2">Il n\'y a pas de connexion Internet et le programme ne fonctionne pas correctement</string>
+    <string name="MainActivityMasjid_Toast4">Site introuvable, veuillez ouvrir le site et autoriser l\'application à utiliser le site et Internet.</string>
+    <string name="MainActivityMasjid_Toast6">Les données n\'ont pas été récupérées du serveur</string>
+    <string name="MainActivityMasjid_Toast7">Les données n\'ont pas été récupérées du serveur</string>
+    <string name="MainActivityMasjid_Toast8">Veuillez activer Internet, sinon le programme ne fonctionnera pas correctement.</string>
+    <string name="app">Oz</string>
+    <string name="kalibrovka">S\'il est incorrect, configurez votre système</string>
+
+    <string name="prayer_times_settings">Ajuster les heures de prière</string>
+    <string name="hijri_settings">Paramètres HJ</string>
+    <string name="display_options">Paramètres d\'affichage</string>
+    <string name="notification_settings">Paramètres de notification</string>
+    <string name="fajr_and_sahoor_alarm">Alarmes du matin et du matin</string>
+    <string name="silent_settings">Paramètres silencieux</string>
+    <string name="backup_and_restore">Sauvegarde et restauration</string>
+
+    <string name="settings_for_calculating_prayer_times">Paramètres de calcul des heures de prière</string>
+    <string name="choose_hijri_date_settings">Sélection du réglage de la date Hijri</string>
+    <string name="change_language_and_colors_for_the_app_and_widgets">Changer les langues et les couleurs des applications et des widgets</string>
+    <string name="select_your_notifications_and_reminders_settings">Sélectionnez les paramètres de notification et de rappel</string>
+    <string name="fajr_and_sahoor_wake_up_alarm_settings">Activer les paramètres d\'alarme du matin et du matin</string>
+    <string name="adjust_the_silent_mode_settings_for_each_prayer">Réglez le mode \'mode silencieux\' pour chaque heure de prière</string>
+    <string name="settings_backup_and_restore">Paramètres de sauvegarde et de restauration</string>
+
+    <string name="choose_display_language">Sélectionnez la langue d\'affichage</string>
+    <string name="location_widget_details">Détails et autres informations:</string>
+    <string name="prayer_notification">Message sur la prière</string>
+    <string name="iqama_reminders">Notes d\'Iqoma</string>
+    <string name="general">Général</string>
+    <string name="settings_layouts_notifications_widget1">Heures d\'annonce de la prière</string>
+    <string name="settings_layouts_notifications_widget2">Notification</string>
+    <string name="settings_layouts_notifications_widget3">Type de notification audio</string>
+    <string name="settings_layouts_notifications_widget4">Un ton qui annonce la prière</string>
+    <string name="settings_layouts_notifications_widget5">Effacer automatiquement la notification</string>
+    <string name="settings_layouts_notifications_widget6">Temps de compensation</string>
+    <string name="settings_layouts_notifications_widget7">Temps de résidence</string>
+    <string name="settings_layouts_notifications_widget8">Note d\'Iqama</string>
+    <string name="settings_layouts_notifications_widget9">Rappel, type audio</string>
+    <string name="settings_layouts_notifications_widget10">Un ton qui rappelle iqama</string>
+    <string name="settings_layouts_notifications_widget11">Effacer automatiquement la note</string>
+    <string name="settings_layouts_notifications_widget12">Temps de compensation</string>
+    <string name="settings_layouts_notifications_widget13">Vibration</string>
+    <string name="settings_layouts_notifications_widget14">Notification LED</string>
+    <string name="settings_layouts_notifications_widget_details1">Mettre en place un message de prière pour chaque prière</string>
+    <string name="settings_layouts_notifications_widget_details2">Notification de l&amp;#39;heure de prière</string>
+    <string name="settings_layouts_notifications_widget_details3">Sélectionnez un son de note dans le système \nUtilisez le type d\'alarme pour signaler en mode silencieux</string>
+    <string name="settings_layouts_notifications_widget_details4">Sélectionnez le ton pour annoncer la prière</string>
+    <string name="settings_layouts_notifications_widget_details5">Supprimer la notification après l&amp;#39;heure spécifiée</string>
+    <string name="settings_layouts_notifications_widget_details6">Valeur actuelle en minutes:</string>
+    <string name="settings_layouts_notifications_widget_details7">Réglage du rappel Iqama pour chaque prière</string>
+    <string name="settings_layouts_notifications_widget_details8">Rappelez-vous que la prière est sur le point de commencer</string>
+    <string name="settings_layouts_notifications_widget_details9">Sélectionnez un son de note dans le système \nUtilisez le type d\'alarme pour signaler en mode silencieux</string>
+    <string name="settings_layouts_notifications_widget_details10">Sélectionnez la tonalité de rappel iqama</string>
+    <string name="settings_layouts_notifications_widget_details11">Supprimer la note après l&amp;#39;heure spécifiée</string>
+    <string name="settings_layouts_notifications_widget_details12">Valeur actuelle en minutes:</string>
+    <string name="settings_layouts_notifications_widget_details13">Activez la vibration pour les notifications et les rappels</string>
+    <string name="settings_layouts_notifications_widget_details14">Activez la notification LED pour les notifications et les rappels</string>
+    <string name="calculations">Calculs</string>
+    <string name="settings_layouts_prayer_times_widget_details1">Différentes méthodes de calcul des prières Fajr et Huftan</string>
+    <string name="settings_layouts_prayer_times_widget_details2">Calculez le matin et la foi en divisant la nuit en parties en fonction de la méthode de calcul sélectionnée uniquement pour les hautes latitudes. \ nUmm n\'est pas compatible avec la méthode Al-Qura</string>
+    <string name="settings_layouts_prayer_times_widget_details3">Ajouter 30 minutes au temps de Huftan au mois de Ramadan par la méthode d\'Umm Al-Qura</string>
+    <string name="settings_layouts_prayer_times_widget_details4">La méthode de calcul de la prière Asr</string>
+    <string name="settings_layouts_prayer_times_widget_details5">Réglage 1 heure pour régler l\'heure d\'été (DST)</string>
+    <string name="settings_layouts_prayer_times_widget_details6">Entrez l\'heure appropriée pour les prières du vendredi</string>
+    <string name="settings_layouts_prayer_times_widget_details7">Changer les heures de prière</string>
+    <string name="settings_layouts_prayer_times_widget7">Réglage manuel de la minuterie</string>
+    <string name="settings_layouts_prayer_times_widget6">Heure de prière du vendredi</string>
+    <string name="settings_layouts_prayer_times_widget5">Réglez l\'heure \'Heure d\'été\'quot;</string>
+    <string name="settings_layouts_prayer_times_widget4">Méthode du siècle</string>
+    <string name="settings_layouts_prayer_times_widget3">Préparer la nuit du Ramadan (Nam.Vaq.)</string>
+    <string name="settings_layouts_prayer_times_widget2">Méthode basée sur l\'angle</string>
+    <string name="settings_layouts_prayer_times_widget1">Méthodes</string>
+    <string name="settings_layouts_hijri_widget1">Utilisation du calendrier Umm al-Qura</string>
+    <string name="settings_layouts_hijri_widget2">Mise en place du manuel</string>
+    <string name="settings_layouts_hijri_widget_details1">Activation du calendrier automatique Umm al-Qura fourni par Google. \nSur Android 7.0 et supérieur uniquement</string>
+    <string name="settings_layouts_hijri_widget_details2">Changer la date Hijri</string>
+    <string name="hijri_calendar">Calendrier Hijri</string>
+    <string name="app_options">Paramètres de l\'application</string>
+    <string name="widgets_options">Paramètres du widget</string>
+    <string name="settings_layouts_display_options_widget_details1">Changer la langue d\'affichage et les noms des prières</string>
+    <string name="settings_layouts_display_options_widget_details2">Changez la langue des nombres dans l\'application. \nCertains appareils peuvent ne pas le prendre en charge</string>
+    <string name="settings_layouts_display_options_widget_details3">Changer les couleurs du programme principal</string>
+    <string name="settings_layouts_display_options_widget_details4">Changez la police principale du programme. \n Tous les appareils ne prennent pas en charge toutes les polices</string>
+    <string name="settings_layouts_display_options_widget_details5" />
+    <string name="settings_layouts_display_options_widget_details6">Couleurs de widget qui montrent toutes les heures de prière</string>
+    <string name="settings_layouts_display_options_widget_details7">Couleurs du widget horizontal qui indiquent l\'heure de la prochaine prière</string>
+    <string name="settings_layouts_display_options_widget_details8">Couleurs de widget horizontales qui montrent toutes les heures de prière</string>
+    <string name="settings_layouts_display_options_widget_details9">Grandes couleurs de widget pour indiquer la prochaine heure de prière</string>
+    <string name="settings_layouts_display_options_widget_details10">Couleurs de widget qui affichent toutes les heures de prière sur l\'écran de verrouillage</string>
+    <string name="settings_layouts_display_options_widget1">Langage</string>
+    <string name="settings_layouts_display_options_widget2">Le langage des nombres</string>
+    <string name="settings_layouts_display_options_widget3">Thème de l\'application</string>
+    <string name="settings_layouts_display_options_widget4">Application de police</string>
+    <string name="settings_layouts_display_options_widget5">Utiliser 24 heures (pm)</string>
+    <string name="settings_layouts_display_options_widget6">Widget pour ma prière</string>
+    <string name="settings_layouts_display_options_widget7">Widget pour ma prochaine prière</string>
+    <string name="settings_layouts_display_options_widget8">Widget Mes prières (horizontal)</string>
+    <string name="settings_layouts_display_options_widget9">Ma prochaine prière est le (grand) widget</string>
+    <string name="settings_layouts_display_options_widget10">Un widget pour bloquer ma prière</string>
+    <string name="alarm_settings">Réglage de l\'alarme</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget1">Avis important</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget2">Activez l\'alarme du matin</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget3">Réveil</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget4">Le réveil sonne</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget5">Vibration</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget6">Allumez l\'écran</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget7">Désactiver le mode silencieux</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget8">Arrêtez automatiquement</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget9">Il est temps d\'arrêter</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget10">Temporisation</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details1">Lorsque cette alarme est activée, la notification du matin et les sons de rappel seront ignorés jusqu&amp;#39;à ce que l&amp;#39;alarme s&amp;#39;arrête.</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details2" />
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details3">Valeur actuelle en minutes:</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details4">Sélectionnez un réveil</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details5">Activer la vibration pour l\'alarme fajr</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details6">Allumez l\'écran lorsque l\'alarme démarre</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details7">Si l\'appareil est en mode silencieux ou vibrant, désactivez temporairement le mode silencieux avant que l\'alarme ne retentisse, puis rétablissez-le après \'arrêt.</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details8">Arrêtez l\'alarme après l\'heure définie</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details9">Valeur actuelle en minutes:</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details10">Sélectionnez le temps de retard en minutes</string>
+    <string name="silent_mode">Mode silent</string>
+    <string name="settings_layouts_silent_widget1">Passer en mode \'Mode silencieux\'</string>
+    <string name="settings_layouts_silent_widget2">Réglage de l\';heure calme</string>
+    <string name="settings_layouts_silent_widget3">Vibration</string>
+    <string name="settings_layouts_silent_widget4">Vibration pendant l\'allumage</string>
+    <string name="settings_layouts_silent_widget5">Afficher un message sur la commutation</string>
+    <string name="settings_layouts_silent_widget_details1">Passer au silence pendant la prière</string>
+    <string name="settings_layouts_silent_widget_details2">Réglez l\'heure de début et la durée du mode silencieux pour chaque prière</string>
+    <string name="settings_layouts_silent_widget_details3">Activation de la vibration en mode silencieux</string>
+    <string name="settings_layouts_silent_widget_details4">Vibre une fois lors du passage en mode silencieux ou en mode silencieux</string>
+    <string name="settings_layouts_silent_widget_details5">Afficher un message lors du passage en mode silencieux ou en mode silencieux</string>
+    <string name="_settings">Réglages</string>
+    <string name="_locations">Emplacements</string>
+    <string name="settings_layouts_backup_and_restore_widget1">Faites attention</string>
+    <string name="settings_layouts_backup_and_restore_widget2">Paramètres de sauvegarde</string>
+    <string name="settings_layouts_backup_and_restore_widget3">Restaurer les paramètres</string>
+    <string name="settings_layouts_backup_and_restore_widget4">Restaurer les réglages par défaut</string>
+    <string name="settings_layouts_backup_and_restore_widget5">Zones de sauvegarde</string>
+    <string name="settings_layouts_backup_and_restore_widget6">Restauration de lieux</string>
+    <string name="settings_layouts_backup_and_restore_widget_details1">Ces paramètres sauvegardent et restaurent légèrement les paramètres et l\'emplacement du programme</string>
+    <string name="settings_layouts_backup_and_restore_widget_details2">Sauvegarder les paramètres sur la carte SD</string>
+    <string name="settings_layouts_backup_and_restore_widget_details3">Restaurer ou supprimer les paramètres de la carte SD</string>
+    <string name="settings_layouts_backup_and_restore_widget_details4">Réinitialiser les paramètres</string>
+    <string name="settings_layouts_backup_and_restore_widget_details5">Sauvegarder les emplacements sur la carte SD</string>
+    <string name="settings_layouts_backup_and_restore_widget_details6">Restaurer ou supprimer des emplacements sur la carte SD</string>
+    <string name="settings_dialogs_prayer_calculations_methods1">Université Umm Al-Qura</string>
+    <string name="settings_dialogs_prayer_calculations_methods2">Ligue mondiale musulmane</string>
+    <string name="settings_dialogs_prayer_calculations_methods3">Université des sciences islamiques de Karachi</string>
+    <string name="settings_dialogs_prayer_calculations_methods4">Egyption est l\'autorité générale de la requête</string>
+    <string name="settings_dialogs_prayer_calculations_methods5">Union islamique d\'Amérique du Nord</string>
+    <string name="settings_dialogs_prayer_calculations_methods6">Institut de géophysique, Université de Téhéran</string>
+    <string name="settings_dialogs_prayer_calculations_methods7">Un sur sept la nuit</string>
+    <string name="settings_dialogs_asr_methods1">Shafi (etc.)</string>
+    <string name="settings_dialogs_asr_methods2">École Hanafi</string>
+    <string name="adjustments">Corrections</string>
+    <string name="settings_layouts_manual_times_adjustments_widget1">Avis important</string>
+    <string name="settings_layouts_manual_times_adjustments_widget2">Heure du matin</string>
+    <string name="settings_layouts_manual_times_adjustments_widget3">L\'heure du déjeuner</string>
+    <string name="settings_layouts_manual_times_adjustments_widget4">Temps du siècle</string>
+    <string name="settings_layouts_manual_times_adjustments_widget5">Soirée</string>
+    <string name="settings_layouts_manual_times_adjustments_widget6">La nuit</string>
+    <string name="settings_layouts_manual_times_adjustments_widget7">Restaurer l\'heure par défaut</string>
+    <string name="settings_layouts_manual_times_adjustments_widget8">Heure du lever du soleil</string>
+    <string name="settings_layouts_manual_times_adjustments_widget_details1">Avant de modifier l\'heure, assurez-vous de sélectionner le meilleur réglage pour votre région et sélectionnez le fuseau horaire correct dans les paramètres de l\'appareil.</string>
+    <string name="settings_layouts_manual_times_adjustments_widget_details2">Valeur actuelle en minutes:</string>
+    <string name="settings_layouts_manual_times_adjustments_widget_details7">Rétablir les temps de toutes les prières à l\'original</string>
+    <string name="app_language">Langue de l\'application</string>
+    <string name="settings_dialogs_app_theme1">blanc</string>
+    <string name="settings_dialogs_app_theme2">BasiqueA progressive jpeg file can be displayed while loading.</string>
+    <string name="settings_dialogs_app_font1">Belle police</string>
+    <string name="settings_dialogs_app_font2">La police standard de l\'appareil</string>
+    <string name="settings_dialogs_app_font3">Police en gras de l\';appareil</string>
+    <string name="settings_dialogs_widget_theme1">blanc</string>
+    <string name="settings_dialogs_widget_theme2">BasiqueA progressive jpeg file can be displayed while loading.</string>
+    <string name="settings_dialogs_widget_theme3">La couleur d\'origine</string>
+    <string name="fajr">fajr</string>
+    <string name="zuhr">Le déjeuner</string>
+    <string name="asr">Asr</string>
+    <string name="magrib">Faux</string>
+    <string name="isha">isha</string>
+    <string name="jumuah">Vendredi</string>
+    <string name="settings_layouts_prayer_notification_time_widget1">Heure de notification</string>
+    <string name="settings_layouts_prayer_notification_time_widget2">Avis du matin</string>
+    <string name="settings_layouts_prayer_notification_time_widget4">Avis de déjeuner</string>
+    <string name="settings_layouts_prayer_notification_time_widget6">Avis du siècle</string>
+    <string name="settings_layouts_prayer_notification_time_widget8">Avis de la soirée</string>
+    <string name="settings_layouts_prayer_notification_time_widget10">Avis de Hufton</string>
+    <string name="settings_layouts_prayer_notification_time_widget12">Avis de vendredi</string>
+    <string name="settings_layouts_prayer_notification_time_widget_details1">Valeur actuelle en minutes:</string>
+    <string name="settings_layouts_prayer_notification_time_widget_details2" />
+    <string name="settings_dialogs_notification_audio_type1">Appel téléphonique</string>
+    <string name="settings_dialogs_notification_audio_type2">Notifications</string>
+    <string name="settings_dialogs_notification_audio_type3">Multimédia (fonctionne en silence)</string>
+    <string name="settings_dialogs_notification_audio_type4">Alarme (fonctionne silencieusement)</string>
+    <string name="each_prayer_notification_tone">Tonalités de notification de chaque prière</string>
+    <string name="settings_layouts_prayer_notification_tone_widget1">Sélection des tonalités système</string>
+    <string name="settings_layouts_prayer_notification_tone_widget2">Utilisation d\'une carte SD</string>
+    <string name="settings_layouts_prayer_notification_tone_widget3">Sélectionnez à partir de la carte SD</string>
+    <string name="settings_layouts_prayer_notification_tone_widget4">Utiliser des tons différents</string>
+    <string name="settings_layouts_prayer_notification_tone_widget5">Un ton qui annonce l\'aube</string>
+    <string name="settings_layouts_prayer_notification_tone_widget6">Un ton qui annonce le déjeuner</string>
+    <string name="settings_layouts_prayer_notification_tone_widget7">Un ton qui informe sur le siècle</string>
+    <string name="settings_layouts_prayer_notification_tone_widget8">Un ton annonçant la soirée</string>
+    <string name="settings_layouts_prayer_notification_tone_widget9">Un ton qui informe sur la nuit</string>
+    <string name="settings_layouts_prayer_notification_tone_widget_details1">Sélectionnez une tonalité de message de prière parmi les tonalités du système</string>
+    <string name="settings_layouts_prayer_notification_tone_widget_details2">Activez à l\'aide de votre carte SD pour sélectionner la tonalité de votre notification MP3</string>
+    <string name="settings_layouts_prayer_notification_tone_widget_details3">Sonnerie sélectionnée:</string>
+    <string name="settings_layouts_prayer_notification_tone_widget_details4">Utilisez un ton d\'expression différent pour chaque prière</string>
+    <string name="settings_layouts_prayer_notification_tone_widget_details5">Sélectionnez le ton pour annoncer la prière</string>
+    <string name="settings_layouts_iqama_reminder_time_widget1">Heure d\'Iqama</string>
+    <string name="settings_layouts_iqama_reminder_time_widget2">Une note sur l\'aube</string>
+    <string name="settings_layouts_iqama_reminder_time_widget4">Note du déjeuner</string>
+    <string name="settings_layouts_iqama_reminder_time_widget6">Note du siècle</string>
+    <string name="settings_layouts_iqama_reminder_time_widget8">Note du soir</string>
+    <string name="settings_layouts_iqama_reminder_time_widget10">Rappelle-moi la nuit</string>
+    <string name="settings_layouts_iqama_reminder_time_widget12">\'Vendredi \' note</string>
+    <string name="before_prayer_time">Avant l\'heure de la prière</string>
+    <string name="no_tone_set">La sonnerie n\'a pas été sélectionnée sur la carte SD</string>
+    <string name="after_prayer_time">Après l\'heure de la prière</string>
+    <string name="please_set_location_first">Veuillez d\'abord marquer l\'emplacement!</string>
+    <string name="prayer_time_notification1">Heure de prière Fajr</string>
+    <string name="prayer_time_notification2">L\'heure du déjeuner</string>
+    <string name="prayer_time_notification3">Il est temps pour la prière Asr</string>
+    <string name="prayer_time_notification4">Heure de prière du soir</string>
+    <string name="prayer_time_notification5">Il est temps pour la prière nocturne</string>
+    <string name="prayer_time_notification6">Heure de prière du vendredi</string>
+    <string name="iqama_time_notification1">Temps de séjour du matin</string>
+    <string name="iqama_time_notification2">L\'heure du déjeuner</string>
+    <string name="iqama_time_notification3">Temps de séjour au siècle</string>
+    <string name="iqama_time_notification4">Soirée</string>
+    <string name="iqama_time_notification5">Heure Hufton Iqama</string>
+    <string name="iqama_time_notification6">Vendredi temps de séjour</string>
+    <string name="sahoor_alarm_stop">Arrêtez</string>
+    <string name="sahoor_alarm_snooze">Répétition \' the gradient will be drawn with the color order reversed</string>
+    <string name="wake_up_fajr_prayer_is_near">Réveillez-vous! La prière du Fajr est proche</string>
+    <string name="alarm_time_from_fajr_time">Réveil (à partir de l\'heure du matin)</string>
+    <string name="sahoor_activty_fajr_time_apex">Prière du matin:</string>
+    <string name="sahoor_activity_time_to_stop_dialog_title">Après l\'alarme du matin</string>
+    <string name="settings_layouts_silent_time_settings_widget1">Changer l\'heure du matin</string>
+    <string name="settings_layouts_silent_time_settings_widget2">Changer l\'heure du déjeuner</string>
+    <string name="settings_layouts_silent_time_settings_widget3">Changer le temps du siècle</string>
+    <string name="settings_layouts_silent_time_settings_widget4">Changer l\'heure du soir</string>
+    <string name="settings_layouts_silent_time_settings_widget5">Changer le moment de l\'alarme</string>
+    <string name="settings_layouts_silent_time_settings_widget6">Changer l\'heure du vendredi</string>
+    <string name="settings_layouts_silent_time_settings_widget7">Mode Jim</string>
+    <string name="settings_layouts_silent_time_settings_widget8">Activation</string>
+    <string name="settings_layouts_silent_time_settings_widget_details1">Valeur actuelle en minutes:</string>
+    <string name="settings_layouts_silent_time_settings_widget_details2" />
+    <string name="silent_period_in_minutes">Mode silencieux par minute</string>
+    <string name="the_device_is_set_on_silent_mode">L\'appareil est réglé en mode silencieux</string>
+    <string name="remembrance">Prières et notes quotidiennes</string>
+    <string name="azkar_spinner_list1">Rappel le matin</string>
+    <string name="azkar_spinner_list2">Un rappel de la soirée</string>
+    <string name="azkar_spinner_list3">Après la prière</string>
+    <string name="azkar_spinner_list4">Avant d\'aller au lit</string>
+    <string name="please_enable_gps_first">Veuillez vous assurer que le GPS est activé!</string>
+    <string name="this_device_has_no_gps_equipment">Cet appareil ne dispose pas d\'équipement GPS</string>
+    <string name="please_check_for_internet_connection">Veuillez cocher pour vous connecter à Internet</string>
+    <string name="settings_dialogs_jumuah_time_different_array1">Utilisation de l\'heure du déjeuner</string>
+    <string name="settings_dialogs_jumuah_time_different_array2">Choisissez une autre heure</string>
+    <string name="adjustments_is_reset">Le temps a été rétabli</string>
+    <string name="set_file_name">nom de fichier</string>
+    <string name="backup_list">Liste de sauvegarde</string>
+    <string name="backup_and_restore_dialog3">Les paramètres sont supprimés et réinitialisés.</string>
+    <string name="sunrise">Lever du Soleil</string>
+    <string name="current_location_not_found">Votre position actuelle n\'a pas été trouvée, donc l\'application utilise le dernier emplacement connu sur l\'appareil. \nSi ce n\'est pas le cas, redémarrez le périphérique.</string>
+    <string name="current_location_not_found_and_last">L&amp;#39;appareil n\'a pas pu déterminer votre position. \nEssayez une autre méthode ou redémarrez l\'appareil.</string>
+    <string name="update_current_activity_last_known_location_not_found">Dernier emplacement connu introuvable!</string>
+    <string name="alert_dialog_updating_location">L\'emplacement est en cours de mise à jour…</string>
+    <string name="toast_location_updated_successfully">Emplacement mis à jour avec succès!</string>
+    <string name="toast_failed_to_update_location">Emplacement non mis à jour</string>
+    <string name="alert_hijri_calendar_adjusted">Le calendrier Hijri est défini à partir des paramètres!</string>
+    <string name="toast_prayer_widget_click_was">Ça a été</string>
+    <string name="toast_prayer_widget_click_just">Temps de prière!</string>
+    <string name="toast_prayer_widget_click_one_minute">une minute</string>
+    <string name="toast_prayer_widget_click_two_minutes">deux minutes</string>
+    <string name="toast_prayer_widget_click_two_hours">deux heures</string>
+    <string name="toast_prayer_widget_click_one_hour">une heure</string>
+    <string name="alert_ignore_battery_opt_title">N\'optimisez pas la batterie</string>
+    <string name="alert_ignore_battery_opt_msg">Voulez-vous ajouter l\'appareil à la liste d\'optimisation de la batterie en tant que lecture pour aider à envoyer des notifications lorsque l\'appareil est en mode veille et pour passer en mode silencieux en temps opportun? \n \nVous pouvez modifier cela ultérieurement dans les paramètres de la batterie de l\'appareil.</string>
+    <string name="alert_ok">Oui</string>
+    <string name="alert_cancel">Annuler</string>
+    <string name="alert_restore_button">\' Restaurer</string>
+    <string name="alert_delete_button">Supprimer la sauvegarde</string>
+    <string name="alert_no_backups">Aucune sauvegarde enregistrée</string>
+    <string name="toast_backup_restored">La sauvegarde a été restaurée</string>
+    <string name="toast_backup_saved">Sauvegarde enregistrée</string>
+    <string name="toast_settings_reset_completed">La réinitialisation des paramètres est terminée!</string>
+    <string name="alert_date_conversion_limits_title">Traversé la frontière!</string>
+    <string name="alert_date_conversion_limits_msg">Limites de conversion de date: \nNational 14 mars 1937, \n 16 novembre 2077 AD</string>
+    <string name="toast_no_location_data">Aucune information de stockage</string>
+    <string name="alert_add_current_location_msg">Voulez-vous ajouter l\'emplacement actuel aux emplacements enregistrés?</string>
+    <string name="toast_maximum_saved_locations">Le nombre maximum de places est de cinq!</string>
+    <string name="toast_set_location_name_first">Vous devez d\'abord saisir un nom pour l\'adresse actuelle!</string>
+    <string name="toast_location_already_exist">Emplacement déjà disponible!</string>
+    <string name="alert_location_information_will_lost_title">Supprimer les nouvelles données?</string>
+    <string name="alert_location_information_will_lost_msg">Voulez-vous vraiment quitter sans enregistrer de nouvelles données?</string>
+    <string name="toast_choose_one_of_the_update_methods_first">Sélectionnez d\'abord l\'une des méthodes de mise à jour</string>
+    <string name="toast_only_mp3_files">Seuls les fichiers mp3 apparaîtront</string>
+    <string name="toast_tone_saved">Le vote a été sélectionné et enregistré</string>
+
+    <string name="toast_prayer_widget_click_hours">h</string>
+    <string name="toast_prayer_widget_click_hours_more_than_ten">h</string>
+    <string name="toast_prayer_widget_click_minutes">minutes</string>
+    <string name="toast_prayer_widget_click_and">et</string>
+    <string name="toast_prayer_widget_click_ago">Avant</string>
+    <string name="toast_prayer_widget_click_remaining">le reste</string>
+    <string name="exceptione">Une erreur inconnue sera bientôt corrigée</string>
+    <string name="ilovani_ulashish">Partagez l\'application</string>
+    <string name="baho_berish">Évaluation</string>
+
+    <string name="send__________send"><b>Livres</b>\n Trois exemplaires originaux du Coran, récitation, livres de prières, prières quotidiennes \n <b>Emplacements </b>\nQibla, mosquées près de chez vous \n <b>Facilité d\'ajustement </b>\n5 langues différentes, 2 langues numériques différentes, 2 thèmes différents dans l&amp;#39;application. la possibilité de sélectionner et de modifier le ton des notifications</string>
+
+    <string name="appwidget_text">EXEMPLE</string>
+    <string name="add_widget">Ajouter un widget</string>
+    <string name="title_activity_quran">Activité principale</string>
+    <string name="title_home">Accueil</string>
+    <string name="title_dashboard">Tableau de bord</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="action_notification">notification</string>
+    <string-array name="time">
+        <item>un quart d\'heure</item>
+        <item>une demi-heure</item>
+        <item>1 heure</item>
+        <item>Deux heures</item>
+    </string-array>
+    <string name="activity_notification_set_q_text">Gagnez le temps que vous préférez, afin que tout Coran soit constamment envoyé sans messages sous forme de messages.</string>
+    <string name="actv_not_set_qtxt_">Durée de répétition</string>
+    <string name="act_set_bg_q_txt_">Choisissez votre couleur préférée</string>
+    <string name="format_quran_name_q_">Fotiha</string>
+    <string name="main_item_1">taille de police</string>
+    <string name="main_it_2">fon</string>
+    <string name="main_it_3">Évaluer l\'application</string>
+    <string name="tarjima">Traduire</string>
+    <string name="reset">réinitialiser</string>
+    <string name="tasbeh_nomi_zikr">Le nom du chapelet: Zikr</string>
+    <string name="tasbeh_soni_100ta">Nombre de chapelets: 100</string>
+    <string name="qo_shish">Ajouter</string>
+    <string name="saqlash">\'Mémoriser</string>
+    <string name="dial_settings_font_">Qm bḥfẓ ạlḥjm ạlmfḍl lk</string>
+    <string name="dialog_settings_font_q_tx">Tm</string>
+    <string name="quron_item_dr">Qur\'sur</string>
+    <string name="tasbeh_item_dr">Tasbeh</string>
+    <string name="qibla_item_dr">Qibla</string>
+    <string name="salovat">«Alloxumma Solli A\'la Sayyidina Muhammadin et A\'la Ali Sayyidina Muhammad»</string>
+    <string name="salovat_dasturchasi_AlarmSalovat_satrt_Oncreate">Le programme \'Salavat\' a démarré</string>
+    <string name="notificationtext">Alloxumma Solli A\'9;la Sayyidina Muhammadin et A\'la A\'li Sayyidina Muhammad</string>
+    <string name="prewdialog_assalomu_alykum">Assalamu alaykum wa rahmatullahi wa barakotux</string>
+    <string name="prewdialgo_o_qing">Lis le!</string>
+    <string name="prewdialog_qur_onnni_ko_rishingiz_uchun_iltimos_roziman_tugmasini_bosing_va_internetga_ulaning_bu_ilova_o_zi_kerakli_bo_lgan_documentlarni_tortib_oladi">\ nIl n&amp;#39;y a pas assez de documents dans l&amp;#39;application. \ nVeuillez vous connecter à Internet et cliquez sur \ &amp;quot;J&amp;#39;accepte \&amp;quot;</string>
+    <string name="prewdialog_qaytarilmasin">Ne retourne pas</string>
+    <string name="prewdialog_rozimasman">Je ne suis pas d\'accord</string>
+    <string name="prewdialog_roziman">Roziman</string>
+    <string name="dowload_menu">Télécharger</string>
+    <string name="syns">Actualiser</string>
+    <string name="qur_on_o_zbekcha" translatable="false">Coran ouzbek</string>
+    <string name="Ducument">\'Document\'</string>
+    <string name="Muvaffaqiyat">Les documents ont été téléchargés avec succès</string>
+    <string name="ochib_korish">Ouvert</string>
+    <string name="xatolik">Ooooy! Erreur, la carte SD n\'a pas d\'espace.</string>
+    <string name="iloji_bomadi">Je n\'ai pas encore pu le voir.</string>
+    <string name="yuklanmoqda">Encodage \'</string>
+    <string name="permission_necessary">autorisation</string>
+    <string name="storage_permission_is_encessary_to_wrote_event">exception</string>
+    <string name="qur_on_mp3">Cor \'sur (.MP3)</string>
+    <string name="f">Fatiha</string>
+    <string name="zero">0:00</string>
+    <string name="compass_dial" translatable="false">Cadran de boussole</string>
+    <string name="compass_hands" translatable="false">Boussole mains</string>
+    <string name="gps_settings_title">Paramètres GPS</string>
+    <string name="gps_settings_text">Le GPS n\'est pas activé. Voulez-vous accéder au menu des paramètres?</string>
+    <string name="settings_button_ok">Réglages</string>
+    <string name="settings_button_cancel">Annuler</string>
+    <string name="msg_permission_not_granted_yet">Les informations de localisation ne sont pas encore disponibles</string>
+    <string name="msg_permission_granted">Compte tenu des informations de localisation, appuyez sur le bouton GPS.</string>
+    <string name="toast_permission_required">Ce programme nécessite une adresse d\'accès</string>
+    <string name="your_location">Votre emplacement:</string>
+    <string name="location_not_ready">L\'emplacement n&amp;#39;est pas prêt, appuyez à nouveau sur le bouton.</string>
+    <string name="qibla_direction">La direction de la Kaaba est du nord:</string>
+    <string name="pls_enable_location">Veuillez activer la localisation et appuyez à nouveau sur le bouton.</string>
+    <string name="degree_from_north">degrés</string>
+    <string name="using_last_location">utilisez la dernière adresse.</string>
+    <string name="namoz_kitob" translatable="false">Livre de prière</string>
+    <string name="namoz_kitobi" translatable="false">Livre de prière</string>
+   <string name="kun">Thème lumineux</string>
+    <string name="tun">Thème de la nuit</string>
+    <string name="configure" translatable="false">Configurer</string>
+    <string name="masjidlar">Mosquées</string>
+
+    <string name="title_activity_welcome" translatable="false">Écran d\'accueil</string>
+    <string name="next">Suivant</string>
+    <string name="skip">Sauter</string>
+    <string name="start">JE COMPRENDS</string>
+
+    <string name="slide_1_title">Livres</string>
+    <string name="slide_1_desc">Trois types d\'original du Coran, récitation, livres de prières, prières quotidiennes</string>
+
+    <string name="slide_2_title">Heures de prière</string>
+    <string name="slide_2_desc">Horaires des prières, Adhan, Iqama, Saharlik, Iftar times</string>
+
+    <string name="slide_3_title">Emplacements</string>
+    <string name="slide_3_desc">Qibla, mosquées près de chez vous</string>
+
+    <string name="slide_4_title">Facilité de paramétrage</string>
+    <string name="slide_4_desc">L\'application comprend 5 langues différentes, 2 langues numériques différentes, 2 sujets différents. la possibilité de sélectionner et de modifier le ton des notifications</string>
+    <string name="remove">Effacer</string>
+    <string name="remove_tasbix">Pouvez-vous nettoyer le chapelet?</string>
+    <string name="removed_tasbix">Le chapelet a été effacé</string>
+    <string name="play_again_desc">Pour voir à nouveau le curseur de bienvenue, allez dans Paramètres -> applications -> curseur de bienvenue -> effacer les données</string>
+    <string name="play_again">Rejouer</string>
+    <string name="assalomu_alaykum_va_rahmatullohi_va_barakotux">Assalamu alaykum \nva rahmatullahi wa barakotux</string>
+    <string name="ilova_gidi">Guide d&amp;#39;application</string>
+    <string name="keraklidoclaryo">Aucun document requis, téléchargez-vous?</string>
+
+
+
+
+    <string-array name="prayer_time_notifications">
+        <item>@string/prayer_time_notification1</item>
+        <item>@string/prayer_time_notification2</item>
+        <item>@string/prayer_time_notification3</item>
+        <item>@string/prayer_time_notification4</item>
+        <item>@string/prayer_time_notification5</item>
+        <item>@string/prayer_time_notification6</item>
+    </string-array>
+    <string-array name="iqama_time_notifications">
+        <item>@string/iqama_time_notification1</item>
+        <item>@string/iqama_time_notification2</item>
+        <item>@string/iqama_time_notification3</item>
+        <item>@string/iqama_time_notification4</item>
+        <item>@string/iqama_time_notification5</item>
+        <item>@string/iqama_time_notification6</item>
+    </string-array>
+    <string-array name="hijri_month">
+        <item>@string/hijri_month_1</item>
+        <item>@string/hijri_month_2</item>
+        <item>@string/hijri_month_3</item>
+        <item>@string/hijri_month_4</item>
+        <item>@string/hijri_month_5</item>
+        <item>@string/hijri_month_6</item>
+        <item>@string/hijri_month_7</item>
+        <item>@string/hijri_month_8</item>
+        <item>@string/hijri_month_9</item>
+        <item>@string/hijri_month_10</item>
+        <item>@string/hijri_month_11</item>
+        <item>@string/hijri_month_12</item>
+    </string-array>
+    <string-array name="gregorian_month">
+        <item>@string/gregorian_month_1</item>
+        <item>@string/gregorian_month_2</item>
+        <item>@string/gregorian_month_3</item>
+        <item>@string/gregorian_month_4</item>
+        <item>@string/gregorian_month_5</item>
+        <item>@string/gregorian_month_6</item>
+        <item>@string/gregorian_month_7</item>
+        <item>@string/gregorian_month_8</item>
+        <item>@string/gregorian_month_9</item>
+        <item>@string/gregorian_month_10</item>
+        <item>@string/gregorian_month_11</item>
+        <item>@string/gregorian_month_12</item>
+    </string-array>
+
+    <string-array name="day_of_week">
+        <item>@string/day_of_week1</item>
+        <item>@string/day_of_week2</item>
+        <item>@string/day_of_week3</item>
+        <item>@string/day_of_week4</item>
+        <item>@string/day_of_week5</item>
+        <item>@string/day_of_week6</item>
+        <item>@string/day_of_week7</item>
+    </string-array>
+    <string-array name="settings_menu">
+        <item>@string/prayer_times_settings</item>
+        <item>@string/hijri_settings</item>
+        <item>@string/display_options</item>
+        <item>@string/notification_settings</item>
+        <item>@string/silent_settings</item>
+        <item>@string/backup_and_restore</item>
+    </string-array>
+    <string-array name="prayer_time">
+        <item>@string/fajr</item>
+        <item>@string/sunrise</item>
+        <item>@string/zuhr</item>
+        <item>@string/asr</item>
+        <item>@string/magrib</item>
+        <item>@string/isha</item>
+    </string-array>
+    <string-array name="location_widget_options">
+        <item>@string/delete_location</item>
+        <item>@string/set_as_current_location</item>
+    </string-array>
+    <string-array name="settings_submenu">
+        <item>@string/settings_for_calculating_prayer_times</item>
+        <item>@string/choose_hijri_date_settings</item>
+        <item>@string/change_language_and_colors_for_the_app_and_widgets</item>
+        <item>@string/select_your_notifications_and_reminders_settings</item>
+        <item>@string/adjust_the_silent_mode_settings_for_each_prayer</item>
+        <item>@string/settings_backup_and_restore</item>
+    </string-array>
+    <string name="settings_layouts_notifications_title1">@string/prayer_notification</string>
+    <string name="settings_layouts_notifications_title2">@string/iqama_reminders</string>
+    <string name="settings_layouts_notifications_title3">@string/general</string>
+    <string name="settings_layout_titles_backup_and_restore_title1" >@string/settings</string>
+    <string name="settings_layout_titles_backup_and_restore_title2" >@string/locations</string>
+    <string name="settings_layout_titles_display_options_title1" >@string/app_options</string>
+    <string name="settings_layout_titles_display_options_title2" >@string/widgets_options</string>
+    <string name="settings_layout_titles_fajr_and_sahoor_alarms_title1" >@string/alarm_settings</string>
+    <string name="settings_layout_titles_hijri_title1">@string/hijri_calendar</string>
+    <string name="settings_layout_titles_manual_times_adjustments_title1" >@string/adjustments</string>
+    <string name="settings_layout_titles_prayer_notification_time_title1" >@string/fajr</string>
+    <string name="settings_layout_titles_prayer_notification_time_title2" >@string/zuhr</string>
+    <string name="settings_layout_titles_prayer_notification_time_title3" >@string/asr</string>
+    <string name="settings_layout_titles_prayer_notification_time_title4" >@string/magrib</string>
+    <string name="settings_layout_titles_prayer_notification_time_title5" >@string/isha</string>
+    <string name="settings_layout_titles_prayer_notification_time_title6" >@string/jumuah</string>
+    <string name="settings_layout_titles_prayer_notification_tone_title1" >@string/asr</string>
+    <string name="settings_layout_titles_prayer_times_title1" >@string/calculations</string>
+    <string name="settings_layout_titles_silent_title1" >@string/silent_mode</string>
+
+
+    <string name="qiroat">Lis</string>
+    <string name="quran">Coran</string>
+    <string name="duolar">Prières</string>
+    <string name="kitoblar_va_qur_on">Les livres et le Coran</string>
+    <string name="namoz_kitobitr">Livre de prière</string>
+    <string name="kitab_alsalatr">Kitab Alsala</string>
+    <string name="sozlamalar">Réglages</string>
+    <string name="ilova_bo_yicha">Selon l\'application</string>
+
+    <string name="url_kitob_uchun">https://raw.githubusercontent.com/MsdSdm/kitoblar/main/french_lenseignement_de_la_priere_nouvelle_version.pdf</string>
+    <string name="url_kitob_nomi">french_lenseignement_de_la_priere_nouvelle_version.pdf</string>
+
+    <string name="url_kitob_namoz">https://raw.githubusercontent.com/MsdSdm/kitoblar/main/french_lenseignement_de_la_priere_nouvelle_version.pdff</string>
+    <string name="url_kitob_namoz_name">french_lenseignement_de_la_priere_nouvelle_version.pdf</string>
+
+    <string name="allohning_99_ismlari">99 noms d\'Allah</string>
+    <string name="notification_text">Souvenez-vous des 99 noms d\'Allah!</string>
+    <string name="davomi">Lire la suite …</string>
+
+
+    <string name="sura1">Fatiha , Liminaire</string>
+    <string name="sura2">La vache, La génisse</string>
+    <string name="sura3">La famille de ʿImrân</string>
+    <string name="sura4">Les femmes</string>
+    <string name="sura5">La table est servie, La table</string>
+    <string name="sura6">Les troupeaux, Le bétail</string>
+    <string name="sura7">Al-aʿrâf, Les redans</string>
+    <string name="sura8">Le butin</string>
+    <string name="sura9">L’immunité, Le repentir, La dénonciation</string>
+    <string name="sura10">Jonas</string>
+    <string name="sura11">Hûd</string>
+    <string name="sura12">Joseph</string>
+    <string name="sura13">Le tonnerre</string>
+    <string name="sura14">Abraham</string>
+    <string name="sura15">Al-hijr</string>
+    <string name="sura16">Les abeilles</string>
+    <string name="sura17">Le voyage nocturne</string>
+    <string name="sura18">La caverne, La grotte</string>
+    <string name="sura19">Marie</string>
+    <string name="sura20">Ta-Ha</string>
+    <string name="sura21">Les prophètes</string>
+    <string name="sura22">Le pèlerinage</string>
+    <string name="sura23">Les croyants</string>
+    <string name="sura24">La lumière</string>
+    <string name="sura25">La loi, Le critère, La séparation</string>
+    <string name="sura26">Les poètes</string>
+    <string name="sura27">Les fourmis</string>
+    <string name="sura28">Le récit, L’histoire</string>
+    <string name="sura29">L’araignée</string>
+    <string name="sura30">Les romains, Les grecs</string>
+    <string name="sura31">Luqman</string>
+    <string name="sura32">La prosternation</string>
+    <string name="sura33">Les factions, Les coalisés</string>
+    <string name="sura34">Saba</string>
+    <string name="sura35">Le créateur, Les anges</string>
+    <string name="sura36">Yā Sîn</string>
+    <string name="sura37">Ceux qui sont placés en rangs, En rangs</string>
+    <string name="sura38">Ṣād</string>
+    <string name="sura39">Les groupes, Par vagues</string>
+    <string name="sura40">Celui qui pardonne, Le croyant</string>
+    <string name="sura41">Versets clairement exposés, Ils s’articulent</string>
+    <string name="sura42">La délibération, La concertation</string>
+    <string name="sura43">L’ornement, Les enjolivures</string>
+    <string name="sura44">La fumée</string>
+    <string name="sura45">Celle qui est agenouillée, Assise sur les talons</string>
+    <string name="sura46">Al-Ahqâf</string>
+    <string name="sura47">Mohammed</string>
+    <string name="sura48">La victoire, Tout s’ouvre</string>
+    <string name="sura49">Les appartements privés</string>
+    <string name="sura50">Qāf</string>
+    <string name="sura51">Ceux qui se déplacent rapidement, Vanner</string>
+    <string name="sura52">Le Mont</string>
+    <string name="sura53">L’étoile</string>
+    <string name="sura54">La Lune</string>
+    <string name="sura55">Le Tout Miséricordieux</string>
+    <string name="sura56">L\'événement, Celle qui est inéluctable, L\’échéante</string>
+    <string name="sura57">Le fer</string>
+    <string name="sura58">La discussion, La protestataire</string>
+    <string name="sura59">Le rassemblement, Le regroupement</string>
+    <string name="sura60">L’épreuve, L’examinante</string>
+    <string name="sura61">Le rang, En ligne</string>
+    <string name="sura62">Le vendredi</string>
+    <string name="sura63">Les hypocrites</string>
+    <string name="sura64">La duperie réciproque, Alternance dans la lésion</string>
+    <string name="sura65">La répudiation</string>
+    <string name="sura66">L’interdiction</string>
+    <string name="sura67">La Royauté</string>
+    <string name="sura68">Le calame</string>
+    <string name="sura69">Celle qui doit venir, L’inéluctable</string>
+    <string name="sura70">Les degrés, Les paliers</string>
+    <string name="sura71">Noé</string>
+    <string name="sura72">Les djinns</string>
+    <string name="sura73">Celui qui s’est enveloppé, L’emmitouflé</string>
+    <string name="sura74">Celui qui est revêtu d’un manteau, Il s’est couvert d’une cape</string>
+    <string name="sura75">La résurrection</string>
+    <string name="sura76">L’Homme</string>
+    <string name="sura77">Les envoyés, L’Envoi</string>
+    <string name="sura78">L’Annonce</string>
+    <string name="sura79">Ceux qui arrachent, Tirer</string>
+    <string name="sura80">Il s’est renfrogné, L’Air sévère</string>
+    <string name="sura81">Le décrochement, Le redéploiement</string>
+    <string name="sura82">La rupture du ciel, Se fendre</string>
+    <string name="sura83">Les fraudeurs, Les escamoteurs</string>
+    <string name="sura84">La déchirure, La fissuration</string>
+    <string name="sura85">Les constellations, Les châteaux</string>
+    <string name="sura86">L’astre nocturne, L’arrivant du soir</string>
+    <string name="sura87">Le Très-Haut</string>
+    <string name="sura88">Celle qui enveloppe, L’occultante</string>
+    <string name="sura89">L’aube</string>
+    <string name="sura90">La cité, La ville</string>
+    <string name="sura91">Le soleil</string>
+    <string name="sura92">La nuit</string>
+    <string name="sura93">La clarté du jour</string>
+    <string name="sura94">L’ouverture, L’épanouissement</string>
+    <string name="sura95">Le figuier</string>
+    <string name="sura96">Le caillot de sang, L’accrochement</string>
+    <string name="sura97">Le décret, Grandeur</string>
+    <string name="sura98">La preuve décisive, Le signe évident</string>
+    <string name="sura99">Le tremblement de terre</string>
+    <string name="sura100">Les Coursiers rapides, Galoper</string>
+    <string name="sura101">Celle qui fracasse</string>
+    <string name="sura102">La rivalité, Rivaliser par le nombre</string>
+    <string name="sura103">L’instant, Le temps</string>
+    <string name="sura104">Le calomniateur, Le Détracteur</string>
+    <string name="sura105">L’éléphant</string>
+    <string name="sura106">Quraysh</string>
+    <string name="sura107">Le nécessaire, L’aide</string>
+    <string name="sura108">L’abondance, L’affluence</string>
+    <string name="sura109">Les incrédules, les dénégateurs</string>
+    <string name="sura110">Le secours victorieux</string>
+    <string name="sura111">La corde, La fibre, Abû Lahab</string>
+    <string name="sura112">Le culte pur, le monothéisme pur</string>
+    <string name="sura113">L’aurore, Le point du jour</string>
+    <string name="sura114">Les hommes</string>
+
+    <string name="name1"> Allah</string>
+    <string name="name2"> Ar-Rahmān</string>
+    <string name="name3"> Ar-Rahīm</string>
+    <string name="name4"> Al-Malik</string>
+    <string name="name5"> Al-Qoddūs</string>
+    <string name="name6"> As-Salām</string>
+    <string name="name7"> Al-Mu\'min</string>
+    <string name="name8"> Al-Mouhaymin</string>
+    <string name="name9"> Al-\‘Aziz</string>
+    <string name="name10">Al-Jabbār</string>
+    <string name="name11">Al-Mutakabbir</string>
+    <string name="name12">Al-Khāliq</string>
+    <string name="name13">Al-Bāri\’</string>
+    <string name="name14">Al-Musawwir</string>
+    <string name="name15">Al-Ghaffār</string>
+    <string name="name16">Al-Qahhār</string>
+    <string name="name17">Al-Wahhāb</string>
+    <string name="name18">Ar-Razzāq</string>
+    <string name="name19">Al-Fattāh</string>
+    <string name="name20">Al-\‘Alīm</string>
+    <string name="name21">Al-Qabid</string>
+    <string name="name22">Al-Bāsit</string>
+    <string name="name23">Al-Khāfid</string>
+    <string name="name24">Ar-Rāfi\‘</string>
+    <string name="name25">Al-Mu‘izz</string>
+    <string name="name26">Al-Moudhill</string>
+    <string name="name27">As-Samī‘</string>
+    <string name="name28">Al-Basīr</string>
+    <string name="name29">Al-Hakam</string>
+    <string name="name30">Al-‘Adl</string>
+    <string name="name31">Al-Latīf</string>
+    <string name="name32">Al-Khabīr</string>
+    <string name="name33">Al-Halīm</string>
+    <string name="name34">Al-Adhīm</string>
+    <string name="name35">Al-Ḡafhūr</string>
+    <string name="name36">Ash-Shakūr</string>
+    <string name="name37">Al-Ali</string>
+    <string name="name38">Al-Kabīr</string>
+    <string name="name39">Al-Hafīdh</string>
+    <string name="name40">Al-Muqīt</string>
+    <string name="name41">Al-Hasīb</string>
+    <string name="name42">Al-Jalīl</string>
+    <string name="name43">Al-Karīm</string>
+    <string name="name44">Ar-Raqīb</string>
+    <string name="name45">Al-Mujīb</string>
+    <string name="name46">Al-Wāsi\‘</string>
+    <string name="name47">Al-Hakīm</string>
+    <string name="name48">Al-Wadūd</string>
+    <string name="name49">Al-Majīd</string>
+    <string name="name50">Al-Bā‘ith</string>
+    <string name="name51">Ash-Šahīd</string>
+    <string name="name52">Al-Haqq</string>
+    <string name="name53">Al-Wakīl</string>
+    <string name="name54">Al-Qawi</string>
+    <string name="name55">Al-Matīn</string>
+    <string name="name56">Al-Wa\'li</string>
+    <string name="name57">Al-Hamīd</string>
+    <string name="name58">Al-Muhsi</string>
+    <string name="name59">Al-Mubdi‘</string>
+    <string name="name60">Al-Mu‘īd</string>
+    <string name="name61">Al-Muhyī</string>
+    <string name="name62">Al-Mumīt</string>
+    <string name="name63">Al-Hayy</string>
+    <string name="name64">Al-Qayyūm</string>
+    <string name="name65">Al-Wājid</string>
+    <string name="name66">Al-Mājid</string>
+    <string name="name67">Al-Wāhid</string>
+    <string name="name68">Al-Ahad</string>
+    <string name="name69">As-Samad</string>
+    <string name="name70">Al-Qādir</string>
+    <string name="name71">Al-Muqtadir</string>
+    <string name="name72">Al-Muqaddim</string>
+    <string name="name73">Al-Mu’akhir</string>
+    <string name="name74">Al-Awwal</string>
+    <string name="name75">Al-Ākhir</string>
+    <string name="name76">Adh-Dhāhir</string>
+    <string name="name77">Al-Bātin</string>
+    <string name="name78">Al-Wāly</string>
+    <string name="name79">Al-Muta\'āli</string>
+    <string name="name80">Al-Barr</string>
+    <string name="name81">At-Tawwab</string>
+    <string name="name82">Al-Muntaqim</string>
+    <string name="name83">Al-Afuww</string>
+    <string name="name84">Al-Ra’ūf</string>
+    <string name="name85">Mālik-ul-Mulk</string>
+    <string name="name86">Dhul-Jalāli-wal-Ikrām</string>
+    <string name="name87">Al-Muqsit</string>
+    <string name="name88">Al-Jāmi‘</string>
+    <string name="name89">Al-Ḡhani</string>
+    <string name="name90">Al-Mughni</string>
+    <string name="name91">Al-Māni\‘</string>
+    <string name="name92">Ad-Dār</string>
+    <string name="name93">An-Nāfi\‘</string>
+    <string name="name94">An-Nūr</string>
+    <string name="name95">Al-Hādi</string>
+    <string name="name96">Al-Badī‘</string>
+    <string name="name97">Al-Baqi</string>
+    <string name="name98">Al-Wārith</string>
+    <string name="name99">Ar-Rashīd</string>
+
+    <string name="mano1"> Est Celui qui est la divinité, c’est-à-dire Celui qui mérite l’adoration, et à qui on doit l’extrême soumission et l’extrême humilité. .</string>
+    <string name="mano2"> Clément envers ses créatures. La clémence d\'une mère envers son enfant est une partie infime de Son immense clémence envers Ses créatures. Son châtiment est le plus dur et sévère de tous les châtiments mais Sa clémence a précédé Sa colère ; et ce nom fait partie des noms que l’on n\’attribue à nul autre qu\'Allah.</string>
+    <string name="mano3"> Miséricordieux pour ce qu\'Il a créé. Il fait pleuvoir le ciel au-dessus des peuples même les plus pécheurs par miséricorde envers les bébés, les vieux et les animaux, alors qu\'Il (a pu) peut (et pourra) les châtier par soif. Le terme Ar-Rahmān englobe la signification du terme Ar-Rahīm sans retirer sa signification initiale [ 5 ] [réf. non conforme]</string>
+    <string name="mano4"> Est Celui à qui ce monde appartient en réalité et en totalité et Celui dont la domination est absolue et exempte de toute imperfection alors que la domination chez les créatures est créée par Al-Malik</string>
+    <string name="mano5"> Le Sanctifié</string>
+    <string name="mano6"> Celui qui procure la paix, le calme et la sérénité. En citant ce nom, on déclare la paix pour soi-même et pour ceux qui nous entourent.</string>
+    <string name="mano7"> "{Ce nom est mystérieux même pour les Musulmans car \" Al-Mu'min \" vient du nom \" Al-imane \" qui veut dire croire, d'où vient le nom \" Al-Mu'minoune \" qui veut dire les croyants, c'est l'appellation du Coran pour les gens qui croient en 6 choses : l'unicité de Dieu, l'existence des anges, des livres saints (Torah, Évangile et Psaumes (Zabor) non modifiés et le Coran), les prophètes, le jour dernier (le jour du jugement) et le destin son mal et son bien. La signification exacte de ce nom est très difficile à cerner dans son sens premier mais peut se comprendre d\'un point de vue plus profond et mystique}."</string>
+    <string name="mano8"> Celui qui domine Sa création et par Son omnigérance sous tous les aspects, aucun état ni aucun aspect dans ce monde ou dans l\'autre n\'échappe à Sa volonté</string>
+    <string name="mano9"> Le Glorieux par Sa suprématie et par Sa grandeur, El-Aziz veut dire dans un sens celui qui est cher et précieux aux yeux de Ses créatures. Il n\'est le serviteur d\'aucune créature, et aucune créature ne lui dicte ce qu\'Il doit faire.</string>
+    <string name="mano10">Le grandiose, l\'ultime puissant par Sa grandeur et Sa force illimitée. Lorsqu\'Il détruit les oppresseurs (injustes et pécheurs) Il applique Sa sentence avec Justice.</string>
+    <string name="mano11">Celui qui est supérieur à Ses créatures, nulle créature n\'a le droit de prétendre à la grandeur.</string>
+    <string name="mano12">Le Créateur de toutes existences, vivantes ou bien mortes, mobiles ou figées.</string>
+    <string name="mano13">Celui qui lève Sa création au-dessus de tous défauts ou imperfections.</string>
+    <string name="mano14">Celui qui donne l\'aspect et l\'apparence à chaque création de l\'intérieur ainsi que de l\'extérieur. Dans l\'arabe perdu, de façon littérale, ce mot veut dire le sculpteur et, dans l\'arabe moderne, veut dire littéralement le dessinateur.</string>
+    <string name="mano15">Est Celui qui pardonne ce qu\'Il veut à qui Il veut.</string>
+    <string name="mano16">Est Celui qui est tout puissant à soumettre toute création à Sa volonté.</string>
+    <string name="mano17">Est Celui qui donne immensément sans rien recevoir en retour</string>
+    <string name="mano18">Est Celui qui fait distribuer à toute créature ce dont elle a besoin.</string>
+    <string name="mano19">"Est Celui Qui seul connait les clés du futur et l'inconnu, de par Sa connaissance et de par Sa sagesse. Ce nom est souvent associé au nom suivant \"Al-‘Alīm\"."</string>
+    <string name="mano20">Celui à qui rien ne peut se cacher, car Il connait tout et est conscient de tout.</string>
+    <string name="mano21">Est Celui qui restreint Son bien conformément à une sagesse.</string>
+    <string name="mano22">Est Celui qui libère, augmente et multiplie son bien conformément à une sagesse.</string>
+    <string name="mano23">Est Celui qui destine les oppresseurs et les orgueilleux au rabaissement et au châtiment.</string>
+    <string name="mano24">L\'Éleveur dans le sens d\'élever, celui qui élève l\'honneur, le statut et le prestige d\'un être dans ce bas monde et dans l\'au-delà.</string>
+    <string name="mano25">Celui qui offre l\'honneur et la valeur précieuse.</string>
+    <string name="mano26">Est Celui qui peut humilier et dévaloriser n\'importe quel valeureux.</string>
+    <string name="mano27">Celui qui entend tout bruit ou son dans Son royaume émanant de n\'importe quelle créature et aussi Celui qui écoute les invocations de Ses créatures pour répondre à leurs invocations.</string>
+    <string name="mano28">Est Celui à qui rien de ce qui existe ou entre en existence ne peut échapper, sans le moindre usage d’œil, d’instrument ou d’organe.</string>
+    <string name="mano29">Est Celui qui juge et départage les créatures ici-bas et dans l’au-delà et Celui qui assure l’équité entre les créatures et nul autre ne va et ne pourra les départager et les juger ; et le Jugement dans l’au-delà sera parfaitement juste et approprié.</string>
+    <string name="mano30">Est Celui qui est exempt de toute forme d’injustice et/ou d’oppression.</string>
+    <string name="mano31">Est Celui qui accorde à ses créatures Sa douceur et Sa bienveillance.</string>
+    <string name="mano32">Est Celui à qui ne peut être cachée la réalité de chaque chose qui existe, c\'est-à-dire la vérité des choses ; aucun détail ne Lui échappe ni la chose dans son ensemble, ni chacune de ses parties ; et prétendre pouvoir cacher des choses à Celui qui crée toute chose est un égarement et une mécréance.</string>
+    <string name="mano33">Est Celui dont la patience envers les mécréances des pécheurs dépasse toute imagination (il est possible que le pardon leur soit accordé).</string>
+    <string name="mano34">"{Ce nom est difficile à traduire car il inclut plusieurs mots français ne partageant pas le même sens spirituel, mais on peut l'approcher comme suit : \" Al-Adhīm \" Celui qui est Gigantesquement Majestueux et Fantastiquement Grandiose loin de toute imperfection corporelle ou matérielle}."</string>
+    <string name="mano35">Est Celui qui pardonne immensément maintes et maintes fois.</string>
+    <string name="mano36">Est Celui qui montre Sa gratitude envers les adorations aussi incroyablement faciles soient-elles à réaliser.</string>
+    <string name="mano37">Est Celui qui est au-dessus de tous ce qu\'Il a créé parfaitement et inimaginablement.</string>
+    <string name="mano38">Le Grand : Celui qui est plus grand que Sa création, une grandeur que Lui seul connaît.</string>
+    <string name="mano39">Est Celui qui protège et préserve Son bien.</string>
+    <string name="mano40">{ce mot est parmi les mots perdus de la langue arabe ancienne; très difficile à traduire même en arabe moderne}. Il signifierait : Est Celui qui ne laisse aucun détail lorsqu\'Il juge, même les plus futiles.</string>
+    <string name="mano41">Est Celui qui va compter tous les faits de Ses créatures sans oubli ni erreur.</string>
+    <string name="mano42">Est Celui qui est parfaitement exempt d\'être comparé à Ses créatures ou d\'être comme Lui.</string>
+    <string name="mano43">Est Celui qui de Sa générosité a inondé Sa création.</string>
+    <string name="mano44">Est Celui qui observe et regarde tout ce qu\'Il a créé (et les actions des créatures sont aussi des créations).</string>
+    <string name="mano45">Est Celui qui exauce les invocations de Ses créatures s\'Il le veut et à qui Il veut.</string>
+    <string name="mano46">{Ce nom en arabe veut dire : immensément large, mais pour qualifier Dieu on comprend inclusivement qu\'Il a rempli tout vide et a contenu toutes choses d\'une façon que Lui seul connaît}</string>
+    <string name="mano47">Celui de qui la Sagesse a ébloui, éblouit et éblouira n\'importe quel esprit conscient et intelligent.</string>
+    <string name="mano48">"{Ce mot en arabe veut dire : Celui qui se rapproche de son aimé par la clémence, la pitié et le bienfait, mais lorsqu'on lit ce nom dans le \" Coran \", on sent chaque fois différents sens difficilement traduisibles en mots}. On peut tenter de le traduire : Celui qui se rapproche de Ses serviteurs par pitié bien qu'ils s'éloignent de Lui et ne Le glorifient pas."</string>
+    <string name="mano49">Est Celui qui est glorifié dans l\'infiniment passé, le présent et dans l\'éternel.</string>
+    <string name="mano50">Est Celui qui ressuscite les morts et déploie la vie dans ce qu\'Il veut, soient-ils des hommes des animaux ou bien une terre tout simplement.</string>
+    <string name="mano51">Le Témoin : Allah est l\'ultime et parfait témoin de tout ce qui s\'est passé dans Son royaume, avec des preuves claires et flagrantes, parfaitement irréprochables.</string>
+    <string name="mano52">Est Celui qui détient la Vérité absolue.</string>
+    <string name="mano53">Est Celui qui garantit la subsistance des créatures et Celui à qui rien de chacun de leurs états ne peut être dissimulé</string>
+    <string name="mano54">Le Puissant : Allah est le plus puissant, le plus fort, sa force n\'a pas de limite et ne se décrit pas avec des définitions de la force physique.</string>
+    <string name="mano55">L\'Endurant : Une endurance digne de Lui, illimitée, infatigable, et qui n\'est entachée d\'aucune faiblesse, sans pause, sans interruption et qu\'aucun facteur ne peut atténuer.</string>
+    <string name="mano56">Est Celui qui préserve les serviteurs croyants, ainsi les prophètes et ceux qui les suivent sont ceux qui sont les « gens préservés » dans le sens où ils ont été guidés vers le remerciement obligatoire à l’égard de Celui qui les fait exister, c’est-à-dire à l’égard d\'Allah</string>
+    <string name="mano57">Est Celui qui mérite plus que tout autre le remerciement, la glorification et le chant d’éloge</string>
+    <string name="mano58">Traduit littéralement comme le compteur mais signifie Celui qui dénombre chaque créature, chaque acte, chaque grain de poussière dans son royaume et dont rien n\'échappe à Son savoir</string>
+    <string name="mano59">Est Celui qui donne un début à ce qui n’existe pas sans début, sans modèle, c\'est-à-dire Celui qui crée les créatures</string>
+    <string name="mano60">Est Celui qui ramène les vivants vers la mort après la vie et Celui qui ramène les morts à la vie après leur mort</string>
+    <string name="mano61">Est Celui qui fait vivre un mélange de maniyy, c\'est-à-dire de liquide séminal, dépourvu d’âme et en fait un être vivant et Celui qui redonne vie aux corps des humains, des djinns et des anges en les réunissant avec leurs âmes au cours de la résurrection</string>
+    <string name="mano62">Est Celui qui fait mourir les êtres vivants et Celui qui annule par la mort le pouvoir des puissants de ce monde</string>
+    <string name="mano63">Le Vivant : Est Celui qui n’entre pas en existence et pourtant existe, et Celui qui possède une hayah et cet attribut n’est pas une vie comme l’est la hayah des créatures constituée d’une combinaison d’âme, de chair et de sang l’Imam At-Tahawiyy a dit dans son traité de croyance que « celui qui attribue à Allah un attribut dans un sens qui compte parmi ceux que l’on peut attribuer aux êtres humains est mécréant »</string>
+    <string name="mano64">Est Celui qui existe, est éternel et ne change pas et Celui qui n’est pas atteint par l’inexistence ou l’anéantissement et n’est nullement affecté par le fait de contrôler et de créer les actes des êtres humains</string>
+    <string name="mano65">Est Celui qui n’a besoin de rien et n’est pas atteint ni concerné par le besoin, le manque ou la nécessité</string>
+    <string name="mano66">Est Celui qui est meilleur que tout autre et Celui qui accorde d’innombrables bienfaits très largement et sans contrepartie</string>
+    <string name="mano67">l\'Unique : Est Celui qui n’a pas d’alter ego, que ce soit dans Son Être, dans Son Acte, ou dans Ses Attributs. Rien n\'est tel que Lui</string>
+    <string name="mano68">L\'Un:  Est Celui Qui a pour attribut l\'unicité</string>
+    <string name="mano69">Est Celui à qui l’on peut se remettre pour toute affaire et à qui l’on peut faire appel pour tous nos besoins ; Celui qui n’a ni enfant ni parents, ni semblable ni équivalent, d’après l’explication de Al-Hakim ; Celui qui n’a besoin de rien et Celui dont toute chose a besoin, pour exister, etc.</string>
+    <string name="mano70">Est Celui qui n’est pas atteint par la faiblesse, Celui dont la puissance est absolue et domine la totalité des créatures et Celui qu\'absolument rien ne peut affaiblir</string>
+    <string name="mano71">Est Celui qui est puissant sur toute chose et Celui dont les capacités sont absolument sans limites</string>
+    <string name="mano72">Est Celui qui est exempt des caractéristiques des créatures et meilleur que toute créature ; Celui qui fixe la vitesse des événements, accélère certaines choses aux yeux des gens selon une destinée et accorde à chaque chose une valeur, un rang, une époque et des caractéristiques qui Lui conviennent selon la sagesse</string>
+    <string name="mano73">Est Celui qui est exempt des caractéristiques des créatures et meilleur que toute créature ; Celui qui destine la lenteur des événements et ralentit certaines choses aux yeux des gens selon une destinée et accorde à chaque chose une valeur, un rang, une époque et des caractéristiques qui lui conviennent selon une sagesse (cf n o 71)</string>
+    <string name="mano74">Le Premier : Est Celui qui existe sans les créatures, sans début et sans le temps ; Celui qui est exempt du fait d’être créé, de l’apparition d’un nouvel attribut et du changement, Celui qui existe sans entrer en existence</string>
+    <string name="mano75">Le Dernier : Est Celui qui existe sans interruption alors que les créatures sont anéanties à chaque instant ; Celui qui est éternel, Celui qui anéantit et est exempt du fait d’être anéanti et de la disparition d’un ou plusieurs attributs ; Celui qui existe sans être concerné par la notion de fin et d’anéantissement</string>
+    <string name="mano76">Est Celui dont l’existence se manifeste en toute chose par des preuves, du point de vue de la puissance et de la domination et non pas ce qui serait présent en tout corps du point de vue de l’endroit, de l’image et du comment</string>
+    <string name="mano77">Est Celui qui est préservé des idées délirantes des créatures tentant d’attribuer à Celui qui crée les créatures des caractéristiques humaines ou des caractéristiques propres aux créatures et Celui qui crée les caractéristiques des créatures et leurs images</string>
+    <string name="mano78">Est Celui qui possède, gère et contrôle toute chose et Celui qui crée toute chose selon une sagesse</string>
+    <string name="mano79">Est Celui qui est exempt des attributs des créatures et Celui dont le pouvoir sur les créatures est sans borne</string>
+    <string name="mano80">Est Celui qui a la capacité de destiner la foi et les bienfaits à toutes les créatures, et parmi elles certaines sont reconnaissantes et certaines ne le sont pas : on appelle les premiers des musulmans ou des croyants et les autres les non-musulmans ou les non-croyants</string>
+    <string name="mano81">Est Celui qui accorde le pardon à ceux qui se repentent à chaque fois qu’ils se repentent</string>
+    <string name="mano82">Est le vengeur</string>
+    <string name="mano83">Est Celui qui écarte du péché et le pardonne et Celui qui préserve dans chaque situation en apparence sans issue une porte vers l’honneur, le maintien et les bienfaits ou vers le repentir immédiat</string>
+    <string name="mano84">Est Celui qui peut offrir une immensité de bienfaits sans contrepartie et sans nécessité</string>
+    <string name="mano85">Est Celui qui crée et attribue selon une destinée toute souveraineté, domination, propriété et tout large pouvoir qui sont accordés à certaines créatures dans ce bas monde</string>
+    <string name="mano86">C’est-à-dire qu\'Allah est Celui qui est meilleur que tout autre en réalité et toutes les preuves confirment cela et infirment le contraire donc il n’est pas valable de contester ce point, de le renier ou d’être hostile à l’encontre de ce sujet ; est Celui qui comble de bienfaits ceux qui auront compris cela qui connaîtront la sainteté générale, auront la réussite et seront bien guidés au Jour du Jugement</string>
+    <string name="mano87">Est Celui qui juge conformément à la plus grande justice, Celui qui est exempt de toute forme d’injustice et de tyrannie et Celui qui n’a absolument aucun compte à rendre</string>
+    <string name="mano88">Est Celui qui rassemble les créatures en un jour au sujet duquel il n’y a pas de doute, le Jour du Jugement</string>
+    <string name="mano89">Est Celui qui n’a aucun besoin des créatures et dont les créatures ne peuvent se passer de al-Ghaniyy [qui est Celui qui les fait exister et les maintient en existence et les fait changer en permanence]</string>
+    <string name="mano90">Est Celui qui satisfait les besoins des créatures et Celui qui leur fait parvenir leur subsistance</string>
+    <string name="mano91">Est Celui qui destine à chaque créature ses victoires, ses protections et Celui dont ils devront être préservés toujours selon une destinée</string>
+    <string name="mano92">Est Celui qui est tout puissant à faire parvenir immanquablement la nuisance qui doit atteindre une créature selon une destinée</string>
+    <string name="mano93">Est Celui qui est tout puissant à faire parvenir immanquablement le profit que doit recevoir une créature selon une destinée</string>
+    <string name="mano94">La Lumière : Est Celui qui guide vers leur but ceux qui sont en proie à la tentation et les met dans la bonne direction selon une destinée ; Allah est Celui qui guide les croyants vers la lumière de la foi, crée la lumière et n’est pas une lumière qui n’est qu’une créature</string>
+    <string name="mano95">Est Celui qui destine à certaines créatures le bénéfice d\'être bien guidé et de connaître la droiture</string>
+    <string name="mano96">Est Celui qui fait exister les créatures et ce monde, non pas à partir d’une matière préexistante ou à l’image d’un modèle antérieur, mais au contraire sans précurseur, sans modèle et sans précédent</string>
+    <string name="mano97">Est Celui dont l’existence exempte d’anéantissement et de changement s’impose à la raison saine qui ne peut prétendre le contraire</string>
+    <string name="mano98">Est Celui qui existe et ne change pas alors que les créatures sont anéanties</string>
+    <string name="mano99">Est Celui qui guide les créatures vers ce qui est dans leur intérêt</string>
+
+
+</resources>

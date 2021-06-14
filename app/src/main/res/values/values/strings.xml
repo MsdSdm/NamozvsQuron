@@ -1,0 +1,480 @@
+<resources>
+    <string name="app_name">ALAZAN</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="Background">background</string>
+    <string name="current_location">Current location</string>
+    <string name="choose_location_manually">Choose location manually</string>
+    <string name="internet_search">Internet search</string>
+    <string name="update_current_location">Update current location</string>
+    <string name="adjust_current_location">Adjust current location</string>
+    <string name="last_known_device_location">Last known location</string>
+    <string name="gps">GPS</string>
+    <string name="the_network">Network</string>
+    <string name="save">Save</string>
+    <string name="the_time_location">Time Location</string>
+    <string name="longitude">Longitude</string>
+    <string name="latitude">Latitude</string>
+    <string name="choose_the_country">Choose Country</string>
+    <string name="search">Search</string>
+    <string name="choose_the_city">Choose City</string>
+    <string name="stop">Stop</string>
+    <string name="settings">Settings</string>
+    <string name="convert_date">Convert Date</string>
+    <string name="compass">Compass</string>
+    <string name="about_application">About Application</string>
+    <string name="problems_and_suggestions">Problems and Suggestions</string>
+    <string name="locations">Locations</string>
+    <string name="share_application">Share Application</string>
+    <string name="hijri_month_1">Muharram</string>
+    <string name="hijri_month_2">Safar</string>
+    <string name="hijri_month_3">Rabi\' Al Awwal</string>
+    <string name="hijri_month_4">Rabi\' Al Thani</string>
+    <string name="hijri_month_5">Jumada Al Awwal</string>
+    <string name="hijri_month_6">Jumada Al Thani</string>
+    <string name="hijri_month_7">Rajab</string>
+    <string name="hijri_month_8">Sha\'ban</string>
+    <string name="hijri_month_9">Ramadan</string>
+    <string name="hijri_month_10">Shawwal</string>
+    <string name="hijri_month_11">Dhu Al Qi\'dah</string>
+    <string name="hijri_month_12">Dhu Al Hijjah</string>
+    <string-array name="hijri_month">
+        <item>@string/hijri_month_1</item>
+        <item>@string/hijri_month_2</item>
+        <item>@string/hijri_month_3</item>
+        <item>@string/hijri_month_4</item>
+        <item>@string/hijri_month_5</item>
+        <item>@string/hijri_month_6</item>
+        <item>@string/hijri_month_7</item>
+        <item>@string/hijri_month_8</item>
+        <item>@string/hijri_month_9</item>
+        <item>@string/hijri_month_10</item>
+        <item>@string/hijri_month_11</item>
+        <item>@string/hijri_month_12</item>
+    </string-array>
+    <string name="gregorian_month_1">January</string>
+    <string name="gregorian_month_2">February</string>
+    <string name="gregorian_month_3">March</string>
+    <string name="gregorian_month_4">April</string>
+    <string name="gregorian_month_5">May</string>
+    <string name="gregorian_month_6">June</string>
+    <string name="gregorian_month_7">July</string>
+    <string name="gregorian_month_8">August</string>
+    <string name="gregorian_month_9">September</string>
+    <string name="gregorian_month_10">October</string>
+    <string name="gregorian_month_11">November</string>
+    <string name="gregorian_month_12">December</string>
+    <string-array name="gregorian_month">
+        <item>@string/gregorian_month_1</item>
+        <item>@string/gregorian_month_2</item>
+        <item>@string/gregorian_month_3</item>
+        <item>@string/gregorian_month_4</item>
+        <item>@string/gregorian_month_5</item>
+        <item>@string/gregorian_month_6</item>
+        <item>@string/gregorian_month_7</item>
+        <item>@string/gregorian_month_8</item>
+        <item>@string/gregorian_month_9</item>
+        <item>@string/gregorian_month_10</item>
+        <item>@string/gregorian_month_11</item>
+        <item>@string/gregorian_month_12</item>
+    </string-array>
+    <string name="day_of_week1">Sunday</string>
+    <string name="day_of_week2">Monday</string>
+    <string name="day_of_week3">Tuesday</string>
+    <string name="day_of_week4">Wednesday</string>
+    <string name="day_of_week5">Thursday</string>
+    <string name="day_of_week6">Friday</string>
+    <string name="day_of_week7">Saturday</string>
+    <string-array name="day_of_week">
+        <item>@string/day_of_week1</item>
+        <item>@string/day_of_week2</item>
+        <item>@string/day_of_week3</item>
+        <item>@string/day_of_week4</item>
+        <item>@string/day_of_week5</item>
+        <item>@string/day_of_week6</item>
+        <item>@string/day_of_week7</item>
+    </string-array>
+    <string-array name="prayer_time">
+        <item>@string/fajr</item>
+        <item>@string/sunrise</item>
+        <item>@string/zuhr</item>
+        <item>@string/asr</item>
+        <item>@string/magrib</item>
+        <item>@string/isha</item>
+    </string-array>
+    <string name="adjust_time_manually">Adjust time manually</string>
+    <string name="reset_time_settings">Reset time settings</string>
+    <string name="activate_azan_notifications">Activate azan notifications</string>
+    <string name="activate_iqama_notifications">Activate iqama notifications</string>
+    <string name="choose_alarm_tone">Choose alarm tone</string>
+    <string name="prayer_time_settings">prayer time settings</string>
+    <string name="saved_locations">Saved locations</string>
+    <string name="remaining_time">Remaining time</string>
+    <string name="add_location">Add location</string>
+    <string name="prayer_time">prayer time</string>
+    <string name="iqama_time">iqama time</string>
+    <string name="convert_from_hijri">Convert from hijri</string>
+    <string name="convert_from_gregorian">Convert from gregorian</string>
+    <string name="add_current_location">Add current location</string>
+    <string name="choose_an_option">Choose an option</string>
+    <string name="delete_location">Delete the location</string>
+    <string name="set_as_current_location">Set as current location</string>
+    <string-array name="location_widget_options">
+        <item>@string/delete_location</item>
+        <item>@string/set_as_current_location</item>
+    </string-array>
+    <string name="prayer_times_settings">Prayer Times Settings</string>
+    <string name="hijri_settings">Hijri Settings</string>
+    <string name="display_options">Display Options</string>
+    <string name="notification_settings">Notification Settings</string>
+    <string name="fajr_and_sahoor_alarm">Fajr and Sahoor Alarm</string>
+    <string name="silent_settings">Silent Settings</string>
+    <string name="backup_and_restore">Backup and Restore</string>
+    <string-array name="settings_menu">
+        <item>@string/prayer_times_settings</item>
+        <item>@string/hijri_settings</item>
+        <item>@string/display_options</item>
+        <item>@string/notification_settings</item>
+        <item>@string/silent_settings</item>
+        <item>@string/backup_and_restore</item>
+    </string-array>
+    <string name="settings_for_calculating_prayer_times">Settings for calculating prayer times</string>
+    <string name="choose_hijri_date_settings">Choose Hijri date settings</string>
+    <string name="change_language_and_colors_for_the_app_and_widgets">Change language and colors for the app and widgets</string>
+    <string name="select_your_notifications_and_reminders_settings">Select your notifications and reminders settings</string>
+    <string name="fajr_and_sahoor_wake_up_alarm_settings">Fajr and Sahoor wake up alarm settings</string>
+    <string name="adjust_the_silent_mode_settings_for_each_prayer">Adjust the silent mode settings for each prayer</string>
+    <string name="settings_backup_and_restore">Settings backup and restore</string>
+    <string-array name="settings_submenu">
+        <item>@string/settings_for_calculating_prayer_times</item>
+        <item>@string/choose_hijri_date_settings</item>
+        <item>@string/change_language_and_colors_for_the_app_and_widgets</item>
+        <item>@string/select_your_notifications_and_reminders_settings</item>
+        <item>@string/adjust_the_silent_mode_settings_for_each_prayer</item>
+        <item>@string/settings_backup_and_restore</item>
+    </string-array>
+
+    <string name="choose_display_language">Choose display language</string>
+    <string name="location_widget_details">details and other informations:</string>
+    <string name="prayer_notification">Prayer Notification</string>
+    <string name="iqama_reminders">Iqama Reminders</string>
+    <string name="general">General</string>
+    <string name="settings_layouts_notifications_widget1">Prayer Notification Times</string>
+    <string name="settings_layouts_notifications_widget2">Notify</string>
+    <string name="settings_layouts_notifications_widget3">Notification Audio Type</string>
+    <string name="settings_layouts_notifications_widget4">Prayer Notification Tone</string>
+    <string name="settings_layouts_notifications_widget5">Clear Notification Automatically</string>
+    <string name="settings_layouts_notifications_widget6">Clear Time</string>
+    <string name="settings_layouts_notifications_widget7">Iqama Times</string>
+    <string name="settings_layouts_notifications_widget8">Iqama Reminder</string>
+    <string name="settings_layouts_notifications_widget9">Reminder Audio Type</string>
+    <string name="settings_layouts_notifications_widget10">Iqama Reminder Tone</string>
+    <string name="settings_layouts_notifications_widget11">Clear Reminder Automatically</string>
+    <string name="settings_layouts_notifications_widget12">Clear Time</string>
+    <string name="settings_layouts_notifications_widget13">Vibrate</string>
+    <string name="settings_layouts_notifications_widget14">LED Notification</string>
+    <string name="settings_layouts_notifications_widget_details1">Prayer notification settings for each prayer</string>
+    <string name="settings_layouts_notifications_widget_details2">Notification on prayer time</string>
+    <string name="settings_layouts_notifications_widget_details3">Link notifications to a system sound type.\nPreferably use alarm type to notify on silent</string>
+    <string name="settings_layouts_notifications_widget_details4">Select the prayer notification tone</string>
+    <string name="settings_layouts_notifications_widget_details5">Clear the notification after a given time</string>
+    <string name="settings_layouts_notifications_widget_details6">Current value in minutes: </string>
+    <string name="settings_layouts_notifications_widget_details7">Iqama reminder settings for each prayer</string>
+    <string name="settings_layouts_notifications_widget_details8">Reminder that prayer is about to start</string>
+    <string name="settings_layouts_notifications_widget_details9">Link reminders to a system sound type.\nPreferably use alarm type to remind on silent</string>
+    <string name="settings_layouts_notifications_widget_details10">Select the Iqama reminder tone</string>
+    <string name="settings_layouts_notifications_widget_details11">Clear the reminder after a given time</string>
+    <string name="settings_layouts_notifications_widget_details12">Current value in minutes: </string>
+    <string name="settings_layouts_notifications_widget_details13">Activate vibration for notifications and reminders</string>
+    <string name="settings_layouts_notifications_widget_details14">Activate LED notification for notifications and reminders</string>
+    <string name="calculations">Calculations</string>
+    <string name="settings_layouts_prayer_times_widget_details1">Different methods to calculate Fajr and Isha prayers</string>
+    <string name="settings_layouts_prayer_times_widget_details2">Only for high Latitudes, to calculate Fajr and Isha by dividing the night into parts based on the selected calculation method.\nNot compatible with Umm Al-Qura method</string>
+    <string name="settings_layouts_prayer_times_widget_details3">Add 30 minutes to Isha time during Ramadan in Umm Al-Qura method</string>
+    <string name="settings_layouts_prayer_times_widget_details4">The method to calculate Asr prayer</string>
+    <string name="settings_layouts_prayer_times_widget_details5">1 hour adjustment to set summer time (DST)</string>
+    <string name="settings_layouts_prayer_times_widget_details6">Input the appropriate time for Jumuah prayer</string>
+    <string name="settings_layouts_prayer_times_widget_details7">Change Prayers times manually</string>
+    <string name="settings_layouts_prayer_times_widget7">Manual Times Adjustments</string>
+    <string name="settings_layouts_prayer_times_widget6">Jumuah Prayer Time</string>
+    <string name="settings_layouts_prayer_times_widget5">Adjust Daylight Saving Time</string>
+    <string name="settings_layouts_prayer_times_widget4">Asr Method</string>
+    <string name="settings_layouts_prayer_times_widget3">Adjust Isha in Ramadan</string>
+    <string name="settings_layouts_prayer_times_widget2">Angle-Based Method</string>
+    <string name="settings_layouts_prayer_times_widget1">Methods</string>
+    <string name="settings_layouts_hijri_widget1">Use Umm al-Qura Calender</string>
+    <string name="settings_layouts_hijri_widget2">Manuall Adjustment</string>
+    <string name="settings_layouts_hijri_widget_details1">Activate the automatic Umm al-Qura Calendar provided by Google.\nOnlyfor Android 7.0 and above</string>
+    <string name="settings_layouts_hijri_widget_details2">Changing the Hijri date manually</string>
+    <string name="hijri_calendar">Hijri Calendar</string>
+    <string name="app_options">App Options</string>
+    <string name="widgets_options">Widgets Options</string>
+    <string name="settings_layouts_display_options_widget_details1">تغيير لغة العرض وأسماء الصلوات</string>
+    <string name="settings_layouts_display_options_widget_details2">Change numbers language in the app.\nMight not be supported on some devices</string>
+    <string name="settings_layouts_display_options_widget_details3">Change main app colors</string>
+    <string name="settings_layouts_display_options_widget_details4">Change main app font.\nSome devices don\'t support all fonts</string>
+    <string name="settings_layouts_display_options_widget_details5" />
+    <string name="settings_layouts_display_options_widget_details6">Colors of the widget that shows all prayer times</string>
+    <string name="settings_layouts_display_options_widget_details7">Colors of te horizontal widget that shows the time to next prayer</string>
+    <string name="settings_layouts_display_options_widget_details8">Colors of te horizontal widget that shows all prayer times</string>
+    <string name="settings_layouts_display_options_widget_details9">Colors of the big widget that shows the time to next prayer</string>
+    <string name="settings_layouts_display_options_widget_details10">Colors of the widget that shows all prayer times on lock screen</string>
+    <string name="settings_layouts_display_options_widget1">Language</string>
+    <string name="settings_layouts_display_options_widget2">Numbers Language</string>
+    <string name="settings_layouts_display_options_widget3">App Theme</string>
+    <string name="settings_layouts_display_options_widget4">App Font</string>
+    <string name="settings_layouts_display_options_widget5">Use 24 Hours</string>
+    <string name="settings_layouts_display_options_widget6">My Prayer Widget</string>
+    <string name="settings_layouts_display_options_widget7">My Next Prayer Widget</string>
+    <string name="settings_layouts_display_options_widget8">My Prayers (Horizontal) Widget</string>
+    <string name="settings_layouts_display_options_widget9">My Next Prayer (Big) Widget</string>
+    <string name="settings_layouts_display_options_widget10">My Prayer Lock Screen Widget</string>
+    <string name="alarm_settings">Alarm Settings</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget1">Important Notice</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget2">Activate Fajr Alarm</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget3">Alarm Time</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget4">Alarm Ringtone</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget5">Vibrate</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget6">Turn Screen On</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget7">Turn Silent Off</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget8">Stop Automatically</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget9">Time to Stop</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget10">Snooze Time</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details1">When this alarm goes off, Fajr notification and reminder sounds will be ignored until the alarm stops</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details2" />
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details3">Current vale in minutes:</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details4">Choose the alarm ringtone</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details5">Activate vibration for Fajr alarm</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details6">Turn Screen on when the alarm starts</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details7">Turn silent mode off temporarily before the alarm starts if the device was on Silent or Vibrate, then return it back after it stops</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details8">Stop the alarm after a given time</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details9">Current value in minutes:</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details10">Choose snooze time in minutes</string>
+    <string name="silent_mode">Silent Mode</string>
+    <string name="settings_layouts_silent_widget1">Switch to Silent</string>
+    <string name="settings_layouts_silent_widget2">Silent Time Settings</string>
+    <string name="settings_layouts_silent_widget3">Vibrate</string>
+    <string name="settings_layouts_silent_widget4">Vibrate on Switching</string>
+    <string name="settings_layouts_silent_widget5">Show Message on Switching</string>
+    <string name="settings_layouts_silent_widget_details1">Switch to silent during prayer</string>
+    <string name="settings_layouts_silent_widget_details2">Set the start time of silent mode and its duration for each prayer</string>
+    <string name="settings_layouts_silent_widget_details3">Activate vibrattion during silent mode</string>
+    <string name="settings_layouts_silent_widget_details4">Vibrate once when switching from or to silent mode</string>
+    <string name="settings_layouts_silent_widget_details5">Show a message when switching from or to silent mode</string>
+    <string name="_settings">Settings</string>
+    <string name="_locations">Locations</string>
+    <string name="settings_layouts_backup_and_restore_widget1">Notice</string>
+    <string name="settings_layouts_backup_and_restore_widget2">Backup Settings</string>
+    <string name="settings_layouts_backup_and_restore_widget3">Restore Settings</string>
+    <string name="settings_layouts_backup_and_restore_widget4">Reset Default Settings</string>
+    <string name="settings_layouts_backup_and_restore_widget5">Backup Locations</string>
+    <string name="settings_layouts_backup_and_restore_widget6">Restore Locations</string>
+    <string name="settings_layouts_backup_and_restore_widget_details1">These options backups and restores the app settings and locations sparately</string>
+    <string name="settings_layouts_backup_and_restore_widget_details2">Backup settings to SD card</string>
+    <string name="settings_layouts_backup_and_restore_widget_details3">Restore or delete settings from SD card</string>
+    <string name="settings_layouts_backup_and_restore_widget_details4">Reset settings back to defaults</string>
+    <string name="settings_layouts_backup_and_restore_widget_details5">Backup locations to SD card</string>
+    <string name="settings_layouts_backup_and_restore_widget_details6">Restore or delete locations from SD card</string>
+    <string name="settings_dialogs_prayer_calculations_methods1">Umm Al-Qura University</string>
+    <string name="settings_dialogs_prayer_calculations_methods2">Muslim World League</string>
+    <string name="settings_dialogs_prayer_calculations_methods3">University of Islamic Sciences,Karachi</string>
+    <string name="settings_dialogs_prayer_calculations_methods4">Egyption General Authority of Survey</string>
+    <string name="settings_dialogs_prayer_calculations_methods5">Islamic Union of North America</string>
+    <string name="settings_dialogs_prayer_calculations_methods6">Institute of Geophysics, University of Tehran</string>
+    <string name="settings_dialogs_prayer_calculations_methods7">One-Seventh of the Night</string>
+    <string name="settings_dialogs_asr_methods1">Shafi (and Others)</string>
+    <string name="settings_dialogs_asr_methods2">Hanafi</string>
+    <string name="adjustments">Adjustments</string>
+    <string name="settings_layouts_manual_times_adjustments_widget1">Important Notice</string>
+    <string name="settings_layouts_manual_times_adjustments_widget2">Fajr Time</string>
+    <string name="settings_layouts_manual_times_adjustments_widget3">Zuhr Time</string>
+    <string name="settings_layouts_manual_times_adjustments_widget4">Asr Time</string>
+    <string name="settings_layouts_manual_times_adjustments_widget5">Maghrib Time</string>
+    <string name="settings_layouts_manual_times_adjustments_widget6">Isha Time</string>
+    <string name="settings_layouts_manual_times_adjustments_widget7">Reset Default Times</string>
+    <string name="settings_layouts_manual_times_adjustments_widget8">Sunrise Time</string>
+    <string name="settings_layouts_manual_times_adjustments_widget_details1">Before modifying times, make sure to select the best settings for your area, and choose the correct Time Zone from device settings</string>
+    <string name="settings_layouts_manual_times_adjustments_widget_details2">Current value in minutes:</string>
+    <string name="settings_layouts_manual_times_adjustments_widget_details7">Change the times of all prayers back to original values</string>
+    <string name="app_language">App Language</string>
+    <string name="settings_dialogs_app_theme1">White</string>
+    <string name="settings_dialogs_app_theme2">Black</string>
+    <string name="settings_dialogs_app_font1">Thin Font</string>
+    <string name="settings_dialogs_app_font2">Device Default Font</string>
+    <string name="settings_dialogs_app_font3">Device Bold Font</string>
+    <string name="settings_dialogs_widget_theme1">White</string>
+    <string name="settings_dialogs_widget_theme2">Black</string>
+    <string name="settings_dialogs_widget_theme3">Original color</string>
+    <string name="fajr">Fajr</string>
+    <string name="zuhr">Zuhr</string>
+    <string name="asr">Asr</string>
+    <string name="magrib">Magrib</string>
+    <string name="isha">Isha</string>
+    <string name="jumuah">Jumuah</string>
+    <string name="settings_layouts_prayer_notification_time_widget1">Notification Time</string>
+    <string name="settings_layouts_prayer_notification_time_widget2">Fajr Notification</string>
+    <string name="settings_layouts_prayer_notification_time_widget4">Zuhr Notification</string>
+    <string name="settings_layouts_prayer_notification_time_widget6">Asr Notification</string>
+    <string name="settings_layouts_prayer_notification_time_widget8">Magrib Notification</string>
+    <string name="settings_layouts_prayer_notification_time_widget10">Isha Notification</string>
+    <string name="settings_layouts_prayer_notification_time_widget12">Jumuah Notification</string>
+    <string name="settings_layouts_prayer_notification_time_widget_details1">Current value in minutes:</string>
+    <string name="settings_layouts_prayer_notification_time_widget_details2" />
+    <string name="settings_dialogs_notification_audio_type1">Phone Ring</string>
+    <string name="settings_dialogs_notification_audio_type2">Notifications</string>
+    <string name="settings_dialogs_notification_audio_type3">Multimedia (works on silent)</string>
+    <string name="settings_dialogs_notification_audio_type4">Alarm (works on silent)</string>
+    <string name="each_prayer_notification_tone">Each Prayer Notification Tone</string>
+    <string name="settings_layouts_prayer_notification_tone_widget1">Select From System Tones</string>
+    <string name="settings_layouts_prayer_notification_tone_widget2">Use SD Card</string>
+    <string name="settings_layouts_prayer_notification_tone_widget3">Select From SD Card</string>
+    <string name="settings_layouts_prayer_notification_tone_widget4">Use Different Tones</string>
+    <string name="settings_layouts_prayer_notification_tone_widget5">Fajr Notification Tone</string>
+    <string name="settings_layouts_prayer_notification_tone_widget6">Zuhr Notification Tone</string>
+    <string name="settings_layouts_prayer_notification_tone_widget7">Asr Notification Tone</string>
+    <string name="settings_layouts_prayer_notification_tone_widget8">Magrib Notification Tone</string>
+    <string name="settings_layouts_prayer_notification_tone_widget9">Isha Notification Tone</string>
+    <string name="settings_layouts_prayer_notification_tone_widget_details1">Select prayer notification tone from system tones</string>
+    <string name="settings_layouts_prayer_notification_tone_widget_details2">Activate using the SD card to choose your MP3 notification tone</string>
+    <string name="settings_layouts_prayer_notification_tone_widget_details3">The selected tone is:</string>
+    <string name="settings_layouts_prayer_notification_tone_widget_details4">Use different notification tone for each prayer</string>
+    <string name="settings_layouts_prayer_notification_tone_widget_details5">Select the prayer notification tone</string>
+    <string name="settings_layouts_iqama_reminder_time_widget1">Iqama Time</string>
+    <string name="settings_layouts_iqama_reminder_time_widget2">Fajr Reminder</string>
+    <string name="settings_layouts_iqama_reminder_time_widget4">Zuhr Reminder</string>
+    <string name="settings_layouts_iqama_reminder_time_widget6">Asr Reminder</string>
+    <string name="settings_layouts_iqama_reminder_time_widget8">Magrib Reminder</string>
+    <string name="settings_layouts_iqama_reminder_time_widget10">Isha Reminder</string>
+    <string name="settings_layouts_iqama_reminder_time_widget12">Jumuah Reminder</string>
+    <string name="before_prayer_time">Before Prayer Time</string>
+    <string name="no_tone_set">No tone selected from SD card</string>
+    <string name="after_prayer_time">After Prayer Time</string>
+    <string name="please_set_location_first">Please set location first!</string>
+    <string name="prayer_time_notification1">Fajr prayer time</string>
+    <string name="prayer_time_notification2">Zuhr prayer time</string>
+    <string name="prayer_time_notification3">Asr prayer time</string>
+    <string name="prayer_time_notification4">Magrib prayer time</string>
+    <string name="prayer_time_notification5">Isha prayer time</string>
+    <string name="prayer_time_notification6">Jumuah prayer time</string>
+    <string name="iqama_time_notification1">Fajr iqama time</string>
+    <string name="iqama_time_notification2">Zuhr iqama time</string>
+    <string name="iqama_time_notification3">Asr iqama time</string>
+    <string name="iqama_time_notification4">Magrib iqama time</string>
+    <string name="iqama_time_notification5">Isha iqama time</string>
+    <string name="iqama_time_notification6">Jumuah iqama time</string>
+    <string name="sahoor_alarm_stop">Stop</string>
+    <string name="sahoor_alarm_snooze">Snooze</string>
+    <string name="wake_up_fajr_prayer_is_near">Wake Up! Fajr prayer is near</string>
+    <string name="alarm_time_from_fajr_time">Alarm time (from fajr time)</string>
+    <string name="sahoor_activty_fajr_time_apex">Fajr Prayer:</string>
+    <string name="sahoor_activity_time_to_stop_dialog_title">After Fajr Alarm</string>
+    <string name="settings_layouts_silent_time_settings_widget1">Fajr Switch Time</string>
+    <string name="settings_layouts_silent_time_settings_widget2">Zuhr Switch Time</string>
+    <string name="settings_layouts_silent_time_settings_widget3">Asr Switch Time</string>
+    <string name="settings_layouts_silent_time_settings_widget4">Magrib Switch Time</string>
+    <string name="settings_layouts_silent_time_settings_widget5">Isha Switch Time</string>
+    <string name="settings_layouts_silent_time_settings_widget6">Jumuah Switch Time</string>
+    <string name="settings_layouts_silent_time_settings_widget7">Silent Period</string>
+    <string name="settings_layouts_silent_time_settings_widget8">Activate</string>
+    <string name="settings_layouts_silent_time_settings_widget_details1">Current value in minutes:</string>
+    <string name="settings_layouts_silent_time_settings_widget_details2" />
+    <string name="silent_period_in_minutes">Silent period in Minutes</string>
+    <string name="the_device_is_set_on_silent_mode">The device is set on silent mode</string>
+    <string name="remembrance">Remembrance</string>
+    <string name="azkar_spinner_list1">Morning Remembrance</string>
+    <string name="azkar_spinner_list2">Evening Remembrance</string>
+    <string name="azkar_spinner_list3">After Prayer</string>
+    <string name="azkar_spinner_list4">Before Sleeping</string>
+    <string name="please_enable_gps_first">Please check the gps is turned on!</string>
+    <string name="this_device_has_no_gps_equipment">This device has no gps equipment</string>
+    <string name="please_check_for_internet_connection">Please check for internet connection</string>
+    <string name="settings_dialogs_jumuah_time_different_array1">Use Zuhr time</string>
+    <string name="settings_dialogs_jumuah_time_different_array2">Choose different time</string>
+    <string name="adjustments_is_reset">Times restored</string>
+    <string name="settings_layouts_notifications_title1">@string/prayer_notification</string>
+    <string name="settings_layouts_notifications_title2">@string/iqama_reminders</string>
+    <string name="settings_layouts_notifications_title3">@string/general</string>
+    <string name="settings_layout_titles_backup_and_restore_title1" >@string/settings</string>
+    <string name="settings_layout_titles_backup_and_restore_title2" >@string/locations</string>
+    <string name="settings_layout_titles_display_options_title1" >@string/app_options</string>
+    <string name="settings_layout_titles_display_options_title2" >@string/widgets_options</string>
+    <string name="settings_layout_titles_fajr_and_sahoor_alarms_title1" >@string/alarm_settings</string>
+    <string name="settings_layout_titles_hijri_title1">@string/hijri_calendar</string>
+    <string name="settings_layout_titles_manual_times_adjustments_title1" >@string/adjustments</string>
+    <string name="settings_layout_titles_prayer_notification_time_title1" >@string/fajr</string>
+    <string name="settings_layout_titles_prayer_notification_time_title2" >@string/zuhr</string>
+    <string name="settings_layout_titles_prayer_notification_time_title3" >@string/asr</string>
+    <string name="settings_layout_titles_prayer_notification_time_title4" >@string/magrib</string>
+    <string name="settings_layout_titles_prayer_notification_time_title5" >@string/isha</string>
+    <string name="settings_layout_titles_prayer_notification_time_title6" >@string/jumuah</string>
+    <string name="settings_layout_titles_prayer_notification_tone_title1" >@string/asr</string>
+    <string name="settings_layout_titles_prayer_times_title1" >@string/calculations</string>
+    <string name="settings_layout_titles_silent_title1" >@string/silent_mode</string>
+    <string name="set_file_name">File Name</string>
+    <string name="backup_list">Backup List</string>
+    <string name="backup_and_restore_dialog3">Settings will be deleted, and reset back to defaults.</string>
+    <string name="sunrise">Sunrise</string>
+    <string name="current_location_not_found">Your current location was not found so the app will use the last known location on the device.\nIf it was wrong, try again agter restarting the device.</string>
+    <string name="current_location_not_found_and_last">The device couldn\'t detect your location.\nTry another method or restart the device.</string>
+    <string name="update_current_activity_last_known_location_not_found">Last known location not found!</string>
+    <string name="alert_dialog_updating_location">Updating location…</string>
+    <string name="toast_location_updated_successfully">Location updated successfully!</string>
+    <string name="toast_failed_to_update_location">Failed to update location</string>
+    <string name="alert_hijri_calendar_adjusted">Hijri calendar is adjusted from settings!</string>
+    <string name="toast_prayer_widget_click_was">Was</string>
+    <string name="toast_prayer_widget_click_hours">hours</string>
+    <string name="toast_prayer_widget_click_hours_more_than_ten">hours</string>
+    <string name="toast_prayer_widget_click_minutes">minutes</string>
+    <string name="toast_prayer_widget_click_and">and</string>
+    <string name="toast_prayer_widget_click_ago">ago</string>
+    <string name="toast_prayer_widget_click_remaining">remaining</string>
+    <string name="toast_prayer_widget_click_just">It\'s prayer time!</string>
+    <string name="toast_prayer_widget_click_one_minute">a minute</string>
+    <string name="toast_prayer_widget_click_two_minutes">two minutes</string>
+    <string name="toast_prayer_widget_click_two_hours">two hours</string>
+    <string name="toast_prayer_widget_click_one_hour">an hour</string>
+    <string name="alert_ignore_battery_opt_title">Ignore battery optimisations</string>
+    <string name="alert_ignore_battery_opt_msg">Do you want to add the app as an execption in the Battery Optimaization list to help it deliver notifications and switch to silent on time while the device is in standby mode?\n\nYou can change this later from the device\'s Battery settings.</string>
+    <string name="alert_ok">Ok</string>
+    <string name="alert_cancel">Cancel</string>
+    <string name="alert_restore_button">Restore</string>
+    <string name="alert_delete_button">Delete backup</string>
+    <string name="alert_no_backups">No Saved Backups</string>
+    <string name="toast_backup_restored">Backup restored</string>
+    <string name="toast_backup_saved">Backup saved</string>
+    <string name="toast_settings_reset_completed">Settings reset completed!</string>
+    <string name="alert_date_conversion_limits_title" >Limit exceeded!</string>
+    <string name="alert_date_conversion_limits_msg" >The limits of date conversion:\nFrom 14 March 1937 CE,\nto 16 November 2077 CE</string>
+    <string name="toast_no_location_data" >No location\'s information to save</string>
+    <string name="alert_add_current_location_msg" >Do you want to add current location to saved locations ?</string>
+    <string name="toast_maximum_saved_locations" >Maximum number of locations is five!</string>
+    <string name="toast_set_location_name_first" >You have to set a name for current location first!</string>
+    <string name="toast_location_already_exist" >Location already exist!</string>
+    <string name="alert_location_information_will_lost_title" >Discard the new data?</string>
+    <string name="alert_location_information_will_lost_msg" >Are you sure you want to exit without saving the new data?</string>
+    <string name="toast_choose_one_of_the_update_methods_first">Choose one of the update methods first</string>
+    <string name="toast_only_mp3_files" >Only mp3 files will appear</string>
+    <string name="toast_tone_saved" >Tone selected and saved</string>
+
+    <string-array name="prayer_time_notifications">
+        <item>@string/prayer_time_notification1</item>
+        <item>@string/prayer_time_notification2</item>
+        <item>@string/prayer_time_notification3</item>
+        <item>@string/prayer_time_notification4</item>
+        <item>@string/prayer_time_notification5</item>
+        <item>@string/prayer_time_notification6</item>
+    </string-array>
+    <string-array name="iqama_time_notifications">
+        <item>@string/iqama_time_notification1</item>
+        <item>@string/iqama_time_notification2</item>
+        <item>@string/iqama_time_notification3</item>
+        <item>@string/iqama_time_notification4</item>
+        <item>@string/iqama_time_notification5</item>
+        <item>@string/iqama_time_notification6</item>
+    </string-array>
+
+</resources>

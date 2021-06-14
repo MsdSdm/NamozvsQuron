@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="prayer_calculations_methods" >
+        <item>@string/settings_dialogs_prayer_calculations_methods1</item>
+        <item>@string/settings_dialogs_prayer_calculations_methods2</item>
+        <item>@string/settings_dialogs_prayer_calculations_methods3</item>
+        <item>@string/settings_dialogs_prayer_calculations_methods4</item>
+        <item>@string/settings_dialogs_prayer_calculations_methods5</item>
+        <item>@string/settings_dialogs_prayer_calculations_methods6</item>
+    </string-array>
+    <string-array name="asr_methods" >
+        <item>@string/settings_dialogs_asr_methods1</item>
+        <item>@string/settings_dialogs_asr_methods2</item>
+    </string-array>
+    <string-array name="app_theme" >
+        <item>@string/settings_dialogs_app_theme1</item>
+        <item>@string/settings_dialogs_app_theme2</item>
+    </string-array>
+    <string-array name="app_font" >
+        <item>@string/settings_dialogs_app_font1</item>
+        <item>@string/settings_dialogs_app_font2</item>
+        <item>@string/settings_dialogs_app_font3</item>
+    </string-array>
+    <string-array name="widget_theme" >
+        <item>@string/settings_dialogs_widget_theme1</item>
+        <item>@string/settings_dialogs_widget_theme2</item>
+        <item>@string/settings_dialogs_widget_theme3</item>
+    </string-array>
+    <string-array name="notification_audio_type" >
+        <item>@string/settings_dialogs_notification_audio_type1</item>
+        <item>@string/settings_dialogs_notification_audio_type2</item>
+        <item>@string/settings_dialogs_notification_audio_type3</item>
+        <item>@string/settings_dialogs_notification_audio_type4</item>
+    </string-array>
+    <string-array name="jumuah_time_different_array" >
+        <item>@string/settings_dialogs_jumuah_time_different_array1</item>
+        <item>@string/settings_dialogs_jumuah_time_different_array2</item>
+    </string-array>
+</resources>

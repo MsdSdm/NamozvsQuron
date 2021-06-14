@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/time_point"
+    android:orientation="vertical"
+    android:paddingTop="1.5dp"
+    android:paddingBottom="1.5dp"
+    android:layout_marginBottom="2dp"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:paddingLeft="1.5dp"
+    android:paddingRight="2.5dp"
+    android:elevation="5dp"
+    android:background="@drawable/shadowoftimepoint"
+    >
+
+    <TextView
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/time_point_time_container"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:gravity="center_vertical"
+            android:layout_gravity="center"
+            android:id="@+id/time_point_text"
+            android:textColor="#99000000"
+            android:textSize="23sp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+        android:text="@string/fajr"
+        />
+
+    <LinearLayout
+        android:id="@+id/time_point_time_container"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="match_parent"
+        android:paddingEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        >
+
+        <TextView
+            android:id="@+id/time_point_ampm"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|left"
+            android:textColor="#9A000000"
+            android:textSize="10sp"
+            android:layout_gravity="right"
+            android:text="PM"
+            />
+
+        <TextView
+            android:id="@+id/time_point_time"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:gravity="right|center_vertical"
+            android:textColor="#9A000000"
+            android:textSize="30sp"
+            android:layout_gravity="left"
+            android:text="@string/zero"
+             />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

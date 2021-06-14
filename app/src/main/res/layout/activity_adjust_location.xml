@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/widgetColorSettings"
+    android:padding="5dp"
+    tools:context="bilibqoy.mohirjonnnikibuilova.namozvsquron.Activities.AdjustLocationActivity">
+
+    <ImageView
+        android:id="@+id/adjust_location_activity_image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintHeight_percent="0.35"
+        android:src="@drawable/backgroundui"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_adjust_location_activity"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/gradient_layout"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ScrollView
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/adjust_location_activity_save_button"
+        app:layout_constraintTop_toBottomOf="@id/adjust_location_activity_image">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:background="@color/widgetColorSettingsBox"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/adjust_location_activity_current_location_title"
+                android:textColor="@android:color/darker_gray"
+                android:text="@string/current_location"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:gravity="start"
+                android:textColor="@android:color/white"
+                android:id="@+id/adjust_location_activity_current_location_edittext"
+                app:layout_constraintTop_toBottomOf="@id/adjust_location_activity_current_location_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/adjust_location_activity_time_location_title"
+                android:textColor="@android:color/darker_gray"
+                android:text="@string/the_time_location"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/adjust_location_activity_current_location_edittext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:gravity="start"
+                android:inputType="numberDecimal"
+                android:textColor="@android:color/white"
+                android:id="@+id/adjust_location_activity_time_location_edittext"
+                app:layout_constraintTop_toBottomOf="@id/adjust_location_activity_time_location_title"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/adjust_location_activity_time_location_gmt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="#E4E4E4"
+                android:text="GMT"
+                android:textSize="20sp"
+                android:layout_margin="5dp"
+                android:id="@+id/adjust_location_activity_time_location_gmt"
+                app:layout_constraintTop_toTopOf="@id/adjust_location_activity_time_location_edittext"
+                app:layout_constraintBottom_toBottomOf="@id/adjust_location_activity_time_location_edittext"
+                app:layout_constraintEnd_toStartOf="@id/adjust_location_activity_time_location_dst"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp" />
+            <TextView
+                android:text="+1.0 DST"
+                android:visibility="gone"
+                android:layout_margin="2dp"
+                android:textStyle="italic"
+                android:textColor="@android:color/white"
+                android:id="@+id/adjust_location_activity_time_location_dst"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="@id/adjust_location_activity_time_location_gmt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/adjust_location_activity_longitude_title"
+                android:textColor="@android:color/darker_gray"
+                android:text="@string/longitude"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/adjust_location_activity_time_location_edittext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:gravity="start"
+                android:textColor="@android:color/white"
+                android:inputType="numberDecimal"
+                android:id="@+id/adjust_location_activity_longitude_edittext"
+                app:layout_constraintTop_toBottomOf="@id/adjust_location_activity_longitude_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/adjust_location_activity_latitude_title"
+                android:textColor="@android:color/darker_gray"
+                android:text="@string/latitude"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/adjust_location_activity_longitude_edittext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:gravity="start"
+                android:textColor="@android:color/white"
+                android:inputType="numberDecimal"
+                android:id="@+id/adjust_location_activity_latitude_edittext"
+                app:layout_constraintTop_toBottomOf="@id/adjust_location_activity_latitude_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+    <TextView
+        android:id="@+id/adjust_location_activity_save_button"
+        android:text="@string/save"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:background="@color/buttons"
+        android:layout_margin="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,948 @@
+<resources>
+    <string name="app_name">Namoz va Qur\'on</string>
+    <string name="navigation_drawer_open">नेविगेशन दराज खोलें</string>
+    <string name="navigation_drawer_close">नेविगेशन ड्रॉअर बंद करें</string>
+    <string name="nav_header_title">Android स्टूडियो</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">नेविगेशन शीर्षक</string>
+    <string name="action_settings">समायोजन</string>
+    <string name="Background">fon</string>
+    <string name="current_location">वर्तमान स्थान</string>
+    <string name="choose_location_manually">स्थान चयन</string>
+    <string name="internet_search">इंटरनेट खोजें</string>
+    <string name="update_current_location">वर्तमान स्थान अपडेट करें</string>
+    <string name="adjust_current_location">वर्तमान स्थान सेट करें</string>
+    <string name="last_known_device_location">अंतिम ज्ञात स्थान</string>
+    <string name="gps">GPS</string>
+    <string name="the_network">नेटवर्क</string>
+    <string name="save">छाया</string>
+    <string name="the_time_location">समय का स्थान</string>
+    <string name="longitude">लंबाई</string>
+    <string name="latitude">चौड़ाई</string>
+    <string name="choose_the_country">देश का चयन करें</string>
+    <string name="search">असफल.</string>
+    <string name="choose_the_city">एक शहर का चयन करें</string>
+    <string name="stop">To \ &amp;#39;xta</string>
+    <string name="settings">समायोजन</string>
+    <string name="convert_date">कैलेंडर घुमाएँ</string>
+    <string name="compass">दिशा सूचक यंत्र</string>
+    <string name="about_application">इस एप्लिकेशन के बारे में</string>
+    <string name="problems_and_suggestions">समस्याएं और सुझाव</string>
+    <string name="locations">स्थान</string>
+    <string name="share_application">आवेदन साझा करें</string>
+
+    <string name="hijri_month_1">मोहर्रम</string>
+    <string name="hijri_month_2">सफर</string>
+    <string name="hijri_month_3">रबीउल अव्वल</string>
+    <string name="hijri_month_4">रबीउल ऑक्सिर</string>
+    <string name="hijri_month_5">जुमोदुल अव्वल</string>
+    <string name="hijri_month_6">जंबो-डल एंड</string>
+    <string name="hijri_month_7">रज्जब</string>
+    <string name="hijri_month_8">शा \'बंध</string>
+    <string name="hijri_month_9">रमज़ान</string>
+    <string name="hijri_month_10">Shavval</string>
+    <string name="hijri_month_11">जुल्का में</string>
+    <string name="hijri_month_12">जुल हिज्जा</string>
+
+    <string name="gregorian_month_1">जनवरी</string>
+    <string name="gregorian_month_2">फरवरी</string>
+    <string name="gregorian_month_3">मार्च</string>
+    <string name="gregorian_month_4">अप्रैल</string>
+    <string name="gregorian_month_5">मई</string>
+    <string name="gregorian_month_6">जून</string>
+    <string name="gregorian_month_7">एलुल का</string>
+    <string name="gregorian_month_8">अगस्त</string>
+    <string name="gregorian_month_9">बदला</string>
+    <string name="gregorian_month_10">अक्टूबर</string>
+    <string name="gregorian_month_11">नवंबर का</string>
+    <string name="gregorian_month_12">दिसम्बर</string>
+
+    <string name="day_of_week1">रविवार</string>
+    <string name="day_of_week2">यम अल- इथन</string>
+    <string name="day_of_week3">मंगलवार</string>
+    <string name="day_of_week4">बुधवार</string>
+    <string name="day_of_week5">गुरुवार</string>
+    <string name="day_of_week6">यम अल- जुमा</string>
+    <string name="day_of_week7">यम अल- सब्त</string>
+
+    <string name="adjust_time_manually">समय निर्धारित करें</string>
+    <string name="reset_time_settings">समय सेटिंग्स को पुनर्स्थापित करें</string>
+    <string name="activate_azan_notifications">अज़ान सूचनाओं का सक्रियण</string>
+    <string name="activate_iqama_notifications">इक़मा की सूचनाओं को सक्रिय करना</string>
+    <string name="choose_alarm_tone">अलार्म चयन</string>
+    <string name="prayer_time_settings">प्रार्थना का समय निर्धारित करना</string>
+    <string name="saved_locations">संग्रहित स्थान</string>
+    <string name="remaining_time">file in a filesystem</string>
+    <string name="add_location">स्थान जोड़ना</string>
+    <string name="prayer_time">प्रार्थना का समय</string>
+    <string name="iqama_time">इक़मा का समय</string>
+    <string name="convert_from_hijri">हिजरी से रूपांतरण</string>
+    <string name="convert_from_gregorian">ग्रेगोरियन से रूपांतरण</string>
+    <string name="add_current_location">वर्तमान स्थान जोड़ें</string>
+    <string name="choose_an_option">विकल्प चयन</string>
+    <string name="delete_location">स्थान हटाएं</string>
+    <string name="set_as_current_location">वर्तमान स्थान के रूप में सेट करें</string>
+
+    <string name="MainActivtyMasjid_Toast">GPS बंद है, GPS चालू करें और ऐप को सेवा का उपयोग करने की अनुमति दें। या प्रोग्राम ठीक से काम नहीं करता है।</string>
+    <string name="MainActivtyMasjid_builder">साइट प्रबंधक</string>
+    <string name="MainActivityMasjid_setMessage">मस्जिद का पता लगाने वाले डिवाइस को काम करने के लिए जीपीएस-इनेबल्ड डिवाइस की आवश्यकता होती है।</string>
+    <string name="MainActivityMasjid_Toast1">वेबसाइट नहीं मिली, कृपया वेबसाइट खोलें और ऐप को वेबसाइट और इंटरनेट का उपयोग करने की अनुमति दें।</string>
+    <string name="MainActivityMasjid_title394">आप यहाँ हैं</string>
+    <string name="MainActivityMasjid_395">आपकी अंतिम पंजीकृत साइट</string>
+    <string name="MainActivityMasjid_Toast2">कोई इंटरनेट कनेक्शन नहीं है और प्रोग्राम ठीक से काम नहीं करता है</string>
+    <string name="MainActivityMasjid_Toast4">साइट नहीं मिली, कृपया साइट खोलें और एप्लिकेशन को साइट और इंटरनेट का उपयोग करने की अनुमति दें।</string>
+    <string name="MainActivityMasjid_Toast6">सर्वर से डेटा पुनर्प्राप्त नहीं किया गया था</string>
+    <string name="MainActivityMasjid_Toast7">सर्वर से डेटा पुनर्प्राप्त नहीं किया गया था</string>
+    <string name="MainActivityMasjid_Toast8">कृपया इंटरनेट चालू करें, अन्यथा प्रोग्राम ठीक से काम नहीं करेगा।</string>
+    <string name="app">ओज</string>
+    <string name="kalibrovka">यदि यह गलत है, तो अपने सिस्टम को कॉन्फ़िगर करें</string>
+
+    <string name="prayer_times_settings">प्रार्थना के समय को समायोजित करना</string>
+    <string name="hijri_settings">HJ सेटिंग्स</string>
+    <string name="display_options">प्रदर्शन सेटिंग्स</string>
+    <string name="notification_settings">अधिसूचना सेटिंग</string>
+    <string name="fajr_and_sahoor_alarm">सुबह और सुबह अलार्म</string>
+    <string name="silent_settings">मौन सेटिंग्स</string>
+    <string name="backup_and_restore">बैकअप और पुनर्स्थापना</string>
+
+    <string name="settings_for_calculating_prayer_times">प्रार्थना के समय की गणना के लिए सेटिंग्स</string>
+    <string name="choose_hijri_date_settings">हिजरी तिथि सेटिंग का चयन करना</string>
+    <string name="change_language_and_colors_for_the_app_and_widgets">ऐप्स और विजेट के लिए भाषा और रंग बदलें</string>
+    <string name="select_your_notifications_and_reminders_settings">सूचनाएं और अनुस्मारक सेटिंग चुनें</string>
+    <string name="fajr_and_sahoor_wake_up_alarm_settings">सुबह और सुबह अलार्म सेटिंग सक्षम करें</string>
+    <string name="adjust_the_silent_mode_settings_for_each_prayer">प्रत्येक प्रार्थना समय के लिए \'साइलेंट मोड\' मोड सेट करें</string>
+    <string name="settings_backup_and_restore">बैकअप और पुनर्स्थापना सेटिंग्स</string>
+
+    <string name="choose_display_language">प्रदर्शन भाषा का चयन करें</string>
+    <string name="location_widget_details">विवरण और अन्य जानकारी:</string>
+    <string name="prayer_notification">प्रार्थना के बारे में संदेश</string>
+    <string name="iqama_reminders">इकोमा नोट</string>
+    <string name="general">ऊपर दायाँ खड़ा</string>
+    <string name="settings_layouts_notifications_widget1">प्रार्थना की घोषणा के समय</string>
+    <string name="settings_layouts_notifications_widget2">अधिसूचना</string>
+    <string name="settings_layouts_notifications_widget3">अधिसूचना ऑडियो प्रकार</string>
+    <string name="settings_layouts_notifications_widget4">एक स्वर जो प्रार्थना की घोषणा करता है</string>
+    <string name="settings_layouts_notifications_widget5">स्वचालित रूप से स्पष्ट अधिसूचना</string>
+    <string name="settings_layouts_notifications_widget6">समाशोधन समय</string>
+    <string name="settings_layouts_notifications_widget7">निवास समय</string>
+    <string name="settings_layouts_notifications_widget8">इक़मा ने नोट किया</string>
+    <string name="settings_layouts_notifications_widget9">अनुस्मारक, ऑडियो प्रकार</string>
+    <string name="settings_layouts_notifications_widget10">एक स्वर इकामा की याद दिलाता है</string>
+    <string name="settings_layouts_notifications_widget11">नोट को स्वचालित रूप से साफ़ करें</string>
+    <string name="settings_layouts_notifications_widget12">समाशोधन समय</string>
+    <string name="settings_layouts_notifications_widget13">कंपन</string>
+    <string name="settings_layouts_notifications_widget14">एलईडी अधिसूचना</string>
+    <string name="settings_layouts_notifications_widget_details1">प्रत्येक प्रार्थना के लिए एक प्रार्थना संदेश सेट करें</string>
+    <string name="settings_layouts_notifications_widget_details2">प्रार्थना के समय की अधिसूचना</string>
+    <string name="settings_layouts_notifications_widget_details3">सिस्टम में नोट ध्वनि का चयन करें \n मौन मोड में रिपोर्ट करने के लिए अलार्म प्रकार का उपयोग करें</string>
+    <string name="settings_layouts_notifications_widget_details4">प्रार्थना की घोषणा करने के लिए टोन का चयन करें</string>
+    <string name="settings_layouts_notifications_widget_details5">निर्दिष्ट समय के बाद अधिसूचना हटाएं</string>
+    <string name="settings_layouts_notifications_widget_details6">मिनट में वर्तमान मूल्य:</string>
+    <string name="settings_layouts_notifications_widget_details7">प्रत्येक प्रार्थना के लिए इक़मा अनुस्मारक सेटिंग</string>
+    <string name="settings_layouts_notifications_widget_details8">याद रखें कि प्रार्थना शुरू होने वाली है</string>
+    <string name="settings_layouts_notifications_widget_details9">सिस्टम में नोट ध्वनि का चयन करें \ n मौन मोड में रिपोर्ट करने के लिए अलार्म प्रकार का उपयोग करें</string>
+    <string name="settings_layouts_notifications_widget_details10">Iqama अनुस्मारक टोन का चयन करें</string>
+    <string name="settings_layouts_notifications_widget_details11">निर्दिष्ट समय के बाद नोट हटाएं</string>
+    <string name="settings_layouts_notifications_widget_details12">मिनट में वर्तमान मूल्य:</string>
+    <string name="settings_layouts_notifications_widget_details13">सूचना और अनुस्मारक के लिए कंपन सक्रिय करें</string>
+    <string name="settings_layouts_notifications_widget_details14">सूचना और अनुस्मारक के लिए एलईडी अधिसूचना को सक्रिय करें</string>
+    <string name="calculations">गणना</string>
+    <string name="settings_layouts_prayer_times_widget_details1">फज्र और हुफतन नमाज की गणना के विभिन्न तरीके</string>
+    <string name="settings_layouts_prayer_times_widget_details2">केवल उच्च अक्षांश के लिए चयनित गणना पद्धति के आधार पर रात को भागों में विभाजित करके सुबह और विश्वास की गणना करें। अल-क़ुरा पद्धति से संगत नहीं है</string>
+    <string name="settings_layouts_prayer_times_widget_details3">उम्म अल-क़ुरा की विधि से रमज़ान के महीने में हफ़्ते के समय में 30 मिनट जोड़ें</string>
+    <string name="settings_layouts_prayer_times_widget_details4">अस्र प्रार्थना की गणना की विधि</string>
+    <string name="settings_layouts_prayer_times_widget_details5">गर्मियों का समय निर्धारित करने के लिए 1 घंटे की सेटिंग (DST)</string>
+    <string name="settings_layouts_prayer_times_widget_details6">शुक्रवार की नमाज के लिए उपयुक्त समय दर्ज करें</string>
+    <string name="settings_layouts_prayer_times_widget_details7">प्रार्थना के समय को बदलना</string>
+    <string name="settings_layouts_prayer_times_widget7">टाइमर को मैन्युअल रूप से सेट करना</string>
+    <string name="settings_layouts_prayer_times_widget6">शुक्रवार प्रार्थना का समय</string>
+    <string name="settings_layouts_prayer_times_widget5">&amp;quot;ग्रीष्मकालीन समय की बचत&amp;quot; समय निर्धारित करें</string>
+    <string name="settings_layouts_prayer_times_widget4">सेंचुरी विधि</string>
+    <string name="settings_layouts_prayer_times_widget3">रमज़ान में हफ़्तेन (नाम.वैक) की स्थापना</string>
+    <string name="settings_layouts_prayer_times_widget2">कोण-आधारित विधि</string>
+    <string name="settings_layouts_prayer_times_widget1">तरीके</string>
+    <string name="settings_layouts_hijri_widget1">उम्म अल-क़ुरा कैलेंडर का उपयोग करना</string>
+    <string name="settings_layouts_hijri_widget2">मैनुअल की स्थापना</string>
+    <string name="settings_layouts_hijri_widget_details1">Google द्वारा प्रदान किए गए उम्म अल-क़ुरा स्वचालित कैलेंडर का सक्रियण। \n एंड्रॉइड 7.0 और केवल उच्चतर</string>
+    <string name="settings_layouts_hijri_widget_details2">हिजरी तारीख को बदलना</string>
+    <string name="hijri_calendar">हिजरी कैलेंडर</string>
+    <string name="app_options">अनुप्रयोग सेटिंग</string>
+    <string name="widgets_options">विजेट सेटिंग्स</string>
+    <string name="settings_layouts_display_options_widget_details1">प्रदर्शन भाषा और प्रार्थना के नाम बदलें</string>
+    <string name="settings_layouts_display_options_widget_details2">एप्लिकेशन में संख्याओं की भाषा बदलें। \n कुछ उपकरण इसका समर्थन नहीं कर सकते हैं</string>
+    <string name="settings_layouts_display_options_widget_details3">मुख्य कार्यक्रम के रंग बदलें</string>
+    <string name="settings_layouts_display_options_widget_details4">मुख्य प्रोग्राम फ़ॉन्ट बदलें। \n सभी डिवाइस सभी फोंट का समर्थन नहीं करते हैं</string>
+    <string name="settings_layouts_display_options_widget_details5" />
+    <string name="settings_layouts_display_options_widget_details6">विजेट रंग जो सभी प्रार्थना समय दिखाते हैं</string>
+    <string name="settings_layouts_display_options_widget_details7">क्षैतिज विजेट रंग जो अगली प्रार्थना के समय का संकेत देते हैं</string>
+    <string name="settings_layouts_display_options_widget_details8">क्षैतिज विजेट रंग जो सभी प्रार्थना समय दिखाते हैं</string>
+    <string name="settings_layouts_display_options_widget_details9">अगली प्रार्थना के समय को इंगित करने के लिए बड़े विजेट रंग</string>
+    <string name="settings_layouts_display_options_widget_details10">विजेट रंग जो लॉक स्क्रीन पर सभी प्रार्थना समय दिखाते हैं</string>
+    <string name="settings_layouts_display_options_widget1">भाषा</string>
+    <string name="settings_layouts_display_options_widget2">संख्याओं की भाषा</string>
+    <string name="settings_layouts_display_options_widget3">अनुप्रयोग विषय</string>
+    <string name="settings_layouts_display_options_widget4">फ़ॉन्ट अनुप्रयोग</string>
+    <string name="settings_layouts_display_options_widget5">24 (पीएम) घंटे का उपयोग करें</string>
+    <string name="settings_layouts_display_options_widget6">मेरी प्रार्थना के लिए विजेट</string>
+    <string name="settings_layouts_display_options_widget7">मेरी अगली प्रार्थना के लिए विजेट</string>
+    <string name="settings_layouts_display_options_widget8">मेरी प्रार्थना (क्षैतिज) विजेट</string>
+    <string name="settings_layouts_display_options_widget9">मेरी अगली प्रार्थना (बड़ी) विजेट है</string>
+    <string name="settings_layouts_display_options_widget10">मेरी प्रार्थना को अवरुद्ध करने के लिए एक विजेट</string>
+    <string name="alarm_settings">अलार्म सेटिंग</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget1">महत्वपूर्ण सूचना</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget2">सुबह अलार्म चालू करें</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget3">अलार्म घड़ी</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget4">अलार्म घड़ी</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget5">कंपन</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget6">स्क्रीन चालू करें</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget7">मूक मोड निष्क्रिय करें</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget8">स्‍वत: बंद करो</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget9">यह रुकने का समय है</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget10">विलम्ब</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details1">जब यह अलार्म सक्रिय होता है, तो अलार्म बंद होने तक सुबह की अधिसूचना और अनुस्मारक ध्वनियों को अनदेखा किया जाएगा।</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details2" />
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details3">मिनट में वर्तमान मूल्य:</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details4">एक अलार्म घड़ी का चयन करें</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details5">Fajr अलार्म के लिए कंपन सक्षम करें</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details6">अलार्म चालू होने पर स्क्रीन को चालू करें</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details7">यदि डिवाइस साइलेंट या वाइब्रेटिंग मोड में है, तो अलार्म बजने से पहले साइलेंट मोड को अस्थायी रूप से बंद कर दें, फिर रुकने के बाद वापस लौटें।</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details8">निर्धारित समय के बाद अलार्म बंद कर दें</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details9">मिनट में वर्तमान मूल्य:</string>
+    <string name="settings_layouts_fajr_and_sahoor_alarms_widget_details10">विलंब समय का चयन मिनटों में करें</string>
+    <string name="silent_mode">जिम मोड</string>
+    <string name="settings_layouts_silent_widget1">&amp;quot;साइलेंट मोड&amp;quot; मोड पर जाएं</string>
+    <string name="settings_layouts_silent_widget2">शांत समय सेटिंग</string>
+    <string name="settings_layouts_silent_widget3">कंपन</string>
+    <string name="settings_layouts_silent_widget4">इग्निशन के दौरान कंपन</string>
+    <string name="settings_layouts_silent_widget5">स्विच करने के बारे में एक संदेश प्रदर्शित करें</string>
+    <string name="settings_layouts_silent_widget_details1">प्रार्थना के दौरान मौन पर जाएं</string>
+    <string name="settings_layouts_silent_widget_details2">प्रत्येक प्रार्थना के लिए मौन मोड का प्रारंभ समय और अवधि निर्धारित करें</string>
+    <string name="settings_layouts_silent_widget_details3">मूक मोड में कंपन का सक्रियण</string>
+    <string name="settings_layouts_silent_widget_details4">साइलेंट मोड या मोड पर जाते समय एक बार वाइब्रेट करें</string>
+    <string name="settings_layouts_silent_widget_details5">साइलेंट मोड या मोड पर स्विच करते समय एक संदेश प्रदर्शित करें</string>
+    <string name="_settings">समायोजन</string>
+    <string name="_locations">स्थान</string>
+    <string name="settings_layouts_backup_and_restore_widget1">ध्यान दें</string>
+    <string name="settings_layouts_backup_and_restore_widget2">बैकअप सेटिंग्स</string>
+    <string name="settings_layouts_backup_and_restore_widget3">सेटिंग्स को पुनर्स्थापित</string>
+    <string name="settings_layouts_backup_and_restore_widget4">डिफ़ॉल्ट सेटिंग्स को पुनर्स्थापित करें</string>
+    <string name="settings_layouts_backup_and_restore_widget5">बैकअप क्षेत्रों</string>
+    <string name="settings_layouts_backup_and_restore_widget6">स्थानों की बहाली</string>
+    <string name="settings_layouts_backup_and_restore_widget_details1">ये सेटिंग्स बैक अप और प्रोग्राम सेटिंग्स और स्थान को थोड़ा बहाल करती हैं</string>
+    <string name="settings_layouts_backup_and_restore_widget_details2">एसडी कार्ड के लिए बैकअप सेटिंग्स</string>
+    <string name="settings_layouts_backup_and_restore_widget_details3">एसडी कार्ड से सेटिंग्स को पुनर्स्थापित करें या हटाएं</string>
+    <string name="settings_layouts_backup_and_restore_widget_details4">सेटिंग्स रीसेट करें</string>
+    <string name="settings_layouts_backup_and_restore_widget_details5">एसडी कार्ड के लिए स्थानों का बैकअप लें</string>
+    <string name="settings_layouts_backup_and_restore_widget_details6">एसडी कार्ड स्थानों को पुनर्स्थापित करें या हटाएं</string>
+    <string name="settings_dialogs_prayer_calculations_methods1">उम्म अल-क़ुरा विश्वविद्यालय</string>
+    <string name="settings_dialogs_prayer_calculations_methods2">मुस्लिम वर्ल्ड की लीग</string>
+    <string name="settings_dialogs_prayer_calculations_methods3">कराची में इस्लामी विज्ञान विश्वविद्यालय</string>
+    <string name="settings_dialogs_prayer_calculations_methods4">इलियेशन क्वेरी का सामान्य अधिकार है</string>
+    <string name="settings_dialogs_prayer_calculations_methods5">इस्लामिक यूनियन ऑफ नॉर्थ अमेरिका</string>
+    <string name="settings_dialogs_prayer_calculations_methods6">इंस्टीट्यूट ऑफ जियोफिजिक्स, तेहरान विश्वविद्यालय</string>
+    <string name="settings_dialogs_prayer_calculations_methods7">रात के सात में एक</string>
+    <string name="settings_dialogs_asr_methods1">शफी (आदि)</string>
+    <string name="settings_dialogs_asr_methods2">हनफ़ी स्कूल</string>
+    <string name="adjustments">सुधार</string>
+    <string name="settings_layouts_manual_times_adjustments_widget1">महत्वपूर्ण सूचना</string>
+    <string name="settings_layouts_manual_times_adjustments_widget2">सुबह का समय</string>
+    <string name="settings_layouts_manual_times_adjustments_widget3">लंच टाइम</string>
+    <string name="settings_layouts_manual_times_adjustments_widget4">शताब्दी का समय</string>
+    <string name="settings_layouts_manual_times_adjustments_widget5">शाम का समय</string>
+    <string name="settings_layouts_manual_times_adjustments_widget6">रात का समय</string>
+    <string name="settings_layouts_manual_times_adjustments_widget7">डिफ़ॉल्ट समय पुनर्स्थापित करें</string>
+    <string name="settings_layouts_manual_times_adjustments_widget8">सूर्योदय का समय</string>
+    <string name="settings_layouts_manual_times_adjustments_widget_details1">समय बदलने से पहले, सुनिश्चित करें कि आप अपने क्षेत्र के लिए सबसे अच्छी सेटिंग का चयन करें और डिवाइस सेटिंग्स से सही समय क्षेत्र का चयन करें।</string>
+    <string name="settings_layouts_manual_times_adjustments_widget_details2">मिनट में वर्तमान मूल्य:</string>
+    <string name="settings_layouts_manual_times_adjustments_widget_details7">मूल के लिए सभी प्रार्थनाओं के समय को बहाल करना</string>
+    <string name="app_language">अनुप्रयोग भाषा</string>
+    <string name="settings_dialogs_app_theme1">सफेद</string>
+    <string name="settings_dialogs_app_theme2">मूल</string>
+    <string name="settings_dialogs_app_font1">ललित फ़ॉन्ट</string>
+    <string name="settings_dialogs_app_font2">डिवाइस का मानक फ़ॉन्ट</string>
+    <string name="settings_dialogs_app_font3">डिवाइस का बोल्ड फ़ॉन्ट</string>
+    <string name="settings_dialogs_widget_theme1">सफेद</string>
+    <string name="settings_dialogs_widget_theme2">मूल</string>
+    <string name="settings_dialogs_widget_theme3">मूल रंग</string>
+    <string name="fajr">फज्र</string>
+    <string name="zuhr">दोपहर का भोजन</string>
+    <string name="asr">अस्र</string>
+    <string name="magrib">दिखावा</string>
+    <string name="isha">Xufton</string>
+    <string name="jumuah">यम अल- जुमा</string>
+    <string name="settings_layouts_prayer_notification_time_widget1">अधिसूचना का समय</string>
+    <string name="settings_layouts_prayer_notification_time_widget2">सुबह की सूचना</string>
+    <string name="settings_layouts_prayer_notification_time_widget4">दोपहर का भोजन</string>
+    <string name="settings_layouts_prayer_notification_time_widget6">सेंचुरी का नोटिस</string>
+    <string name="settings_layouts_prayer_notification_time_widget8">शाम की सूचना</string>
+    <string name="settings_layouts_prayer_notification_time_widget10">हफटन की सूचना</string>
+    <string name="settings_layouts_prayer_notification_time_widget12">शुक्रवार का नोटिस</string>
+    <string name="settings_layouts_prayer_notification_time_widget_details1">मिनट में वर्तमान मूल्य:</string>
+    <string name="settings_layouts_prayer_notification_time_widget_details2" />
+    <string name="settings_dialogs_notification_audio_type1">फ़ोन कॉल</string>
+    <string name="settings_dialogs_notification_audio_type2">सूचनाएं</string>
+    <string name="settings_dialogs_notification_audio_type3">मल्टीमीडिया (चुपचाप काम करता है)</string>
+    <string name="settings_dialogs_notification_audio_type4">अलार्म (चुपचाप चलाता है)</string>
+    <string name="each_prayer_notification_tone">हर प्रार्थना की सूचना के स्वर</string>
+    <string name="settings_layouts_prayer_notification_tone_widget1">सिस्टम टन का चयन</string>
+    <string name="settings_layouts_prayer_notification_tone_widget2">एसडी कार्ड का उपयोग करना</string>
+    <string name="settings_layouts_prayer_notification_tone_widget3">एसडी कार्ड से चयन करें</string>
+    <string name="settings_layouts_prayer_notification_tone_widget4">विभिन्न स्वरों का उपयोग करना</string>
+    <string name="settings_layouts_prayer_notification_tone_widget5">एक स्वर जो भोर का उद्घोष करता है</string>
+    <string name="settings_layouts_prayer_notification_tone_widget6">एक स्वर जो दोपहर के भोजन की घोषणा करता है</string>
+    <string name="settings_layouts_prayer_notification_tone_widget7">एक स्वर जो सदी के बारे में सूचित करता है</string>
+    <string name="settings_layouts_prayer_notification_tone_widget8">संध्या की घोषणा करने वाला एक स्वर</string>
+    <string name="settings_layouts_prayer_notification_tone_widget9">एक स्वर जो रात के बारे में सूचित करता है</string>
+    <string name="settings_layouts_prayer_notification_tone_widget_details1">सिस्टम टन से एक प्रार्थना संदेश टोन का चयन करें</string>
+    <string name="settings_layouts_prayer_notification_tone_widget_details2">अपने एमपी 3 अधिसूचना के टोन का चयन करने के लिए अपने एसडी कार्ड का उपयोग करके सक्रिय करें</string>
+    <string name="settings_layouts_prayer_notification_tone_widget_details3">चयनित रिंगटोन:</string>
+    <string name="settings_layouts_prayer_notification_tone_widget_details4">प्रत्येक प्रार्थना के लिए एक अलग स्वर का प्रयोग करें</string>
+    <string name="settings_layouts_prayer_notification_tone_widget_details5">प्रार्थना की घोषणा करने के लिए टोन का चयन करें</string>
+    <string name="settings_layouts_iqama_reminder_time_widget1">इक़मा का समय</string>
+    <string name="settings_layouts_iqama_reminder_time_widget2">भोर के बारे में एक नोट</string>
+    <string name="settings_layouts_iqama_reminder_time_widget4">लंच नोट</string>
+    <string name="settings_layouts_iqama_reminder_time_widget6">सेंचुरी नोट</string>
+    <string name="settings_layouts_iqama_reminder_time_widget8">शाम का नोट</string>
+    <string name="settings_layouts_iqama_reminder_time_widget10">मुझे रात की याद दिलाओ</string>
+    <string name="settings_layouts_iqama_reminder_time_widget12">\'शुक्रवार \' नोट</string>
+    <string name="before_prayer_time">प्रार्थना के समय से पहले</string>
+    <string name="no_tone_set">रिंगटोन का चयन एसडी कार्ड से नहीं किया गया था</string>
+    <string name="after_prayer_time">प्रार्थना के समय के बाद</string>
+    <string name="please_set_location_first">कृपया पहले स्थान चिह्नित करें!</string>
+    <string name="prayer_time_notification1">फज्र प्रार्थना का समय</string>
+    <string name="prayer_time_notification2">लंच टाइम</string>
+    <string name="prayer_time_notification3">अस्र प्रार्थना का समय है</string>
+    <string name="prayer_time_notification4">शाम का प्रार्थना समय</string>
+    <string name="prayer_time_notification5">यह रात की प्रार्थना का समय है</string>
+    <string name="prayer_time_notification6">शुक्रवार प्रार्थना का समय</string>
+    <string name="iqama_time_notification1">सुबह रहने का समय</string>
+    <string name="iqama_time_notification2">लंच टाइम</string>
+    <string name="iqama_time_notification3">सेंचुरी निवास समय</string>
+    <string name="iqama_time_notification4">शाम का समय</string>
+    <string name="iqama_time_notification5">हफटन इकमा समय</string>
+    <string name="iqama_time_notification6">शुक्रवार निवास का समय</string>
+    <string name="sahoor_alarm_stop">रुकें</string>
+    <string name="sahoor_alarm_snooze">दोहराएँ</string>
+    <string name="wake_up_fajr_prayer_is_near">उठो! फज्र की नमाज नजदीक है</string>
+    <string name="alarm_time_from_fajr_time">अलार्म घड़ी (सुबह के समय से)</string>
+    <string name="sahoor_activty_fajr_time_apex">सुबह की प्रार्थना:</string>
+    <string name="sahoor_activity_time_to_stop_dialog_title">सुबह अलार्म के बाद</string>
+    <string name="settings_layouts_silent_time_settings_widget1">सुबह का समय बदलना</string>
+    <string name="settings_layouts_silent_time_settings_widget2">लंच का समय बदला</string>
+    <string name="settings_layouts_silent_time_settings_widget3">सदी के समय को बदलना</string>
+    <string name="settings_layouts_silent_time_settings_widget4">शाम का समय बदलना</string>
+    <string name="settings_layouts_silent_time_settings_widget5">अलार्म का समय बदलें</string>
+    <string name="settings_layouts_silent_time_settings_widget6">शुक्रवार का समय बदलें</string>
+    <string name="settings_layouts_silent_time_settings_widget7">जिम मोड</string>
+    <string name="settings_layouts_silent_time_settings_widget8">सक्रियण</string>
+    <string name="settings_layouts_silent_time_settings_widget_details1">मिनट में वर्तमान मूल्य:</string>
+    <string name="settings_layouts_silent_time_settings_widget_details2" />
+    <string name="silent_period_in_minutes">प्रति मिनट साइलेंट मोड</string>
+    <string name="the_device_is_set_on_silent_mode">डिवाइस को साइलेंट मोड पर सेट किया गया है</string>
+    <string name="remembrance">दैनिक प्रार्थना और नोट्स</string>
+    <string name="azkar_spinner_list1">प्रातः स्मरण</string>
+    <string name="azkar_spinner_list2">शाम की याद दिलाता है</string>
+    <string name="azkar_spinner_list3">प्रार्थना के बाद</string>
+    <string name="azkar_spinner_list4">सोने से पहले</string>
+    <string name="please_enable_gps_first">कृपया सुनिश्चित करें कि GPS चालू है!</string>
+    <string name="this_device_has_no_gps_equipment">इस उपकरण में जीपीएस उपकरण नहीं हैं</string>
+    <string name="please_check_for_internet_connection">कृपया इंटरनेट से कनेक्ट करने के लिए जाँच करें</string>
+    <string name="settings_dialogs_jumuah_time_different_array1">दोपहर के भोजन के समय का उपयोग</string>
+    <string name="settings_dialogs_jumuah_time_different_array2">कोई और समय चुनें</string>
+    <string name="adjustments_is_reset">समय बहाल कर दिया गया है</string>
+    <string name="set_file_name">GFile</string>
+    <string name="backup_list">बैकअप सूची</string>
+    <string name="backup_and_restore_dialog3">सेटिंग्स हटा दी जाती हैं और रीसेट हो जाती हैं।</string>
+    <string name="sunrise">सनराइज</string>
+    <string name="current_location_not_found">आपका वर्तमान स्थान नहीं मिल सका, इसलिए एप्लिकेशन डिवाइस पर अंतिम ज्ञात स्थान का उपयोग करता है। \n यदि यह गलत है, तो डिवाइस को पुनरारंभ करें।</string>
+    <string name="current_location_not_found_and_last">उपकरण आपका स्थान निर्धारित नहीं कर सका। \ n किसी अन्य विधि का उपयोग करें या डिवाइस को पुनरारंभ करें।</string>
+    <string name="update_current_activity_last_known_location_not_found">अंतिम ज्ञात स्थान नहीं मिला!</string>
+    <string name="alert_dialog_updating_location">स्थान अपडेट किया जा रहा है …</string>
+    <string name="toast_location_updated_successfully">स्थान सफलतापूर्वक अपडेट किया गया!</string>
+    <string name="toast_failed_to_update_location">स्थान अपडेट नहीं किया गया</string>
+    <string name="alert_hijri_calendar_adjusted">हिजरी कैलेंडर सेटिंग से सेट किया गया है!</string>
+    <string name="toast_prayer_widget_click_was">यह किया गया है</string>
+    <string name="toast_prayer_widget_click_just">प्रार्थना का समय!</string>
+    <string name="toast_prayer_widget_click_one_minute">एक मिनट</string>
+    <string name="toast_prayer_widget_click_two_minutes">दो मिनट</string>
+    <string name="toast_prayer_widget_click_two_hours">दो घंटे</string>
+    <string name="toast_prayer_widget_click_one_hour">एक घंटा</string>
+    <string name="alert_ignore_battery_opt_title">बैटरी का अनुकूलन न करें</string>
+    <string name="alert_ignore_battery_opt_msg">क्या आप डिवाइस को स्टैंडबाय मोड में होने और समय पर तरीके से साइलेंट मोड में स्विच करने में मदद के लिए डिवाइस को बैटरी ऑप्टिमाइज़ेशन लिस्ट में प्लेबैक के रूप में जोड़ना चाहते हैं? \n \n आप इसे बाद में डिवाइस की बैटरी सेटिंग में बदल सकते हैं।</string>
+    <string name="alert_ok">सत्र का अंत</string>
+    <string name="alert_cancel">टालना रद्द करें@ info: whatsthis</string>
+    <string name="alert_restore_button">बहाल करें (R)</string>
+    <string name="alert_delete_button">बैकअप हटाएं</string>
+    <string name="alert_no_backups">कोई बैकअप नहीं बचा</string>
+    <string name="toast_backup_restored">बैकअप बहाल कर दिया गया है</string>
+    <string name="toast_backup_saved">बैकअप सहेजा गया</string>
+    <string name="toast_settings_reset_completed">सेटिंग रीसेट करना पूर्ण है!</string>
+    <string name="alert_date_conversion_limits_title">सीमा पार कर गया!</string>
+    <string name="alert_date_conversion_limits_msg">दिनांक रूपांतरण सीमाएँ: \n व्यावसायिक 14 मार्च, 1937, \n नवंबर 16, 2077 ई</string>
+    <string name="toast_no_location_data">भंडारण की कोई जानकारी नहीं</string>
+    <string name="alert_add_current_location_msg">क्या आप सहेजे गए स्थानों में वर्तमान स्थान जोड़ना चाहते हैं?</string>
+    <string name="toast_maximum_saved_locations">सीटों की अधिकतम संख्या पाँच है!</string>
+    <string name="toast_set_location_name_first">आपको पहले वर्तमान पते के लिए एक नाम दर्ज करना होगा!</string>
+    <string name="toast_location_already_exist">पहले से ही उपलब्ध स्थान!</string>
+    <string name="alert_location_information_will_lost_title">नया डेटा हटाएं?</string>
+    <string name="alert_location_information_will_lost_msg">क्या आप वास्तव में नए डेटा को सहेजे बिना बाहर निकलना चाहते हैं?</string>
+    <string name="toast_choose_one_of_the_update_methods_first">पहले अपडेट विधियों में से एक का चयन करें</string>
+    <string name="toast_only_mp3_files">केवल mp3 फाइलें दिखाई देंगी</string>
+    <string name="toast_tone_saved">वोट का चयन कर उसे बचा लिया गया</string>
+
+    <string name="toast_prayer_widget_click_hours">h</string>
+    <string name="toast_prayer_widget_click_hours_more_than_ten">h</string>
+    <string name="toast_prayer_widget_click_minutes">मि.</string>
+    <string name="toast_prayer_widget_click_and">और</string>
+    <string name="toast_prayer_widget_click_ago">इससे पहले</string>
+    <string name="toast_prayer_widget_click_remaining">बाकी</string>
+    <string name="exceptione">किसी अज्ञात त्रुटि को जल्द ही ठीक कर लिया जाएगा</string>
+    <string name="ilovani_ulashish">आवेदन साझा करें</string>
+    <string name="baho_berish">मूल्यांकन</string>
+
+    <string name="send__________send"><b>पुस्तकें</b>\n कुरान की तीन मूल प्रतियां, सस्वर पाठ, प्रार्थना की किताबें, दैनिक प्रार्थना \n <b>स्थान </b>\nQibla, मस्जिदें आपके पास \n <b>समायोजन में आसानी </b>\n5 विभिन्न भाषाओं, 2 अलग-अलग डिजिटल भाषाओं, ऐप में 2 अलग-अलग थीम। सूचनाओं के टोन को चुनने और बदलने की क्षमता</string>
+
+    <string name="appwidget_text">उदाहरण</string>
+    <string name="add_widget">विजेट जोड़ें</string>
+    <string name="title_activity_quran">मुख्य गतिविधि</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">डैशबोर्ड</string>
+    <string name="title_notifications">ध्वनि चेतावनीnotifications</string>
+    <string name="action_notification">अधिसूचना</string>
+    <string-array name="time">
+        <item>सवा घंटे</item>
+        <item>आधा घंटा</item>
+        <item>1 घंटा</item>
+        <item>दो घंटे</item>
+    </string-array>
+    <string name="activity_notification_set_q_text">आपके द्वारा पसंद किए जाने वाले समय को बचाएं, ताकि किसी भी कुरान को संदेशों के बिना संदेश के बिना लगातार भेजा जाए।</string>
+    <string name="actv_not_set_qtxt_">बार-बार अवधि</string>
+    <string name="act_set_bg_q_txt_">अपना पसंदीदा रंग चुनें</string>
+    <string name="format_quran_name_q_">Fotiha</string>
+    <string name="main_item_1">फ़ॉन्ट आकार</string>
+    <string name="main_it_2">fon</string>
+    <string name="main_it_3">एप्लिकेशन का मूल्यांकन करें</string>
+    <string name="tarjima">अनुवाद</string>
+    <string name="reset">रीसेट</string>
+    <string name="tasbeh_nomi_zikr">माला का नाम: ज़िक्र</string>
+    <string name="tasbeh_soni_100ta">रोजेदारों की संख्या: 100</string>
+    <string name="qo_shish">जोड़ना</string>
+    <string name="saqlash">छाया</string>
+    <string name="dial_settings_font_">Qm bạfm ạlḥjm mlmf ll lk</string>
+    <string name="dialog_settings_font_q_tx">Tm</string>
+    <string name="quron_item_dr">कुर \'पर</string>
+    <string name="tasbeh_item_dr">Tasbeh</string>
+    <string name="qibla_item_dr">किबला</string>
+    <string name="salovat">\'अलॉक्सुम्मा सोली ए\'ला सैय्यदीना मुहम्मदिन और एला अली सैय्यदीना मुहम्मद\'</string>
+    <string name="salovat_dasturchasi_AlarmSalovat_satrt_Oncreate">\'सलावत\' कार्यक्रम शुरू हो गया है</string>
+    <string name="notificationtext">अलॉक्सुम्मा सोली ए \' ला सैय्यदीना मुहम्मदिन और ए \ ला ला ए \ ली सैय्यदीना मोहम्मद</string>
+    <string name="prewdialog_assalomu_alykum">अस्सलामु अलयकुम वा रहमतुल्लाहि वा बरकोतक्स</string>
+    <string name="prewdialgo_o_qing">ओ \'क़िंग!</string>
+    <string name="prewdialog_qur_onnni_ko_rishingiz_uchun_iltimos_roziman_tugmasini_bosing_va_internetga_ulaning_bu_ilova_o_zi_kerakli_bo_lgan_documentlarni_tortib_oladi">\ n आवेदन में पर्याप्त दस्तावेज नहीं हैं। \ n कृपया इंटरनेट से कनेक्ट करें और \ &amp;quot;मैं सहमत हूँ \&amp;quot; पर क्लिक करें \ n \ n डाउनलोड किया गया (कुरान) दिखाई देगा</string>
+    <string name="prewdialog_qaytarilmasin">नहीं लौटा</string>
+    <string name="prewdialog_rozimasman">मैं इससे सहमत नहीं हूँ</string>
+    <string name="prewdialog_roziman">Roziman</string>
+    <string name="dowload_menu">डाउनलोड</string>
+    <string name="syns">अद्यतन</string>
+    <string name="qur_on_o_zbekcha" translatable="false">उज़्बेक कुरान</string>
+    <string name="Ducument">&amp;quot;दस्तावेज़&amp;quot;</string>
+    <string name="Muvaffaqiyat">दस्तावेज़ सफलतापूर्वक अपलोड किए गए थे</string>
+    <string name="ochib_korish">खुला हुआ</string>
+    <string name="xatolik">Ooooy! त्रुटि, एसडी कार्ड में कोई जगह नहीं है।</string>
+    <string name="iloji_bomadi">अभी तक नहीं देख सका।</string>
+    <string name="yuklanmoqda">एनकोडिंग:</string>
+    <string name="permission_necessary">अनुमति</string>
+    <string name="storage_permission_is_encessary_to_wrote_event">अपवाद</string>
+    <string name="qur_on_mp3">Qur \ &amp;#39;पर (।एमपी 3)</string>
+    <string name="f">फातिहा</string>
+    <string name="zero">0:00</string>
+    <string name="compass_dial" translatable="false">कम्पास डायल</string>
+    <string name="compass_hands" translatable="false">कम्पास हाथ</string>
+    <string name="gps_settings_title">जीपीएस सेटिंग्स</string>
+    <string name="gps_settings_text">GPS सक्षम नहीं है। क्या आप सेटिंग मेनू पर जाना चाहते हैं?</string>
+    <string name="settings_button_ok">समायोजन</string>
+    <string name="settings_button_cancel">टालना रद्द करें@ info: whatsthis</string>
+    <string name="msg_permission_not_granted_yet">स्थान की जानकारी अभी उपलब्ध नहीं है</string>
+    <string name="msg_permission_granted">स्थान की जानकारी को देखते हुए, जीपीएस बटन दबाएं।</string>
+    <string name="toast_permission_required">इस कार्यक्रम के लिए एक पहुंच पते की आवश्यकता होती है</string>
+    <string name="your_location">आपकी स्थिति:</string>
+    <string name="location_not_ready">स्थान तैयार नहीं है, फिर से बटन दबाएं।</string>
+    <string name="qibla_direction">काबा की दिशा उत्तर से है:</string>
+    <string name="pls_enable_location">कृपया स्थान चालू करें और फिर से बटन दबाएँ।</string>
+    <string name="degree_from_north">कोण</string>
+    <string name="using_last_location">अंतिम पते का उपयोग करें।</string>
+    <string name="namoz_kitob" translatable="false">प्रार्थना पुस्तिका</string>
+    <string name="namoz_kitobi" translatable="false">प्रार्थना पुस्तिका</string>
+    <string name="kun">उज्ज्वल थीम</string>
+    <string name="tun">रात का विषय</string>
+    <string name="configure" translatable="false">कॉन्फ़िगर</string>
+
+    <string name="masjidlar">मस्जिदों</string>
+
+    <string name="title_activity_welcome" translatable="false">होम स्क्रीन</string>
+    <string name="next">अगला</string>
+    <string name="skip">छोड़ें</string>
+    <string name="start">मै समझता हुँ</string>
+
+    <string name="slide_1_title">पुस्तकें</string>
+    <string name="slide_1_desc">तीन प्रकार की कुरान मूल, सस्वर पाठ, प्रार्थना पुस्तकें, दैनिक प्रार्थना</string>
+
+    <string name="slide_2_title">प्रार्थना का समय</string>
+    <string name="slide_2_desc">प्रार्थना के समय, अदन, इकामा, सहारिक, इफ्तार के समय</string>
+
+    <string name="slide_3_title">स्थान</string>
+    <string name="slide_3_desc">क़िबला, मस्जिद आपके नज़दीक</string>
+
+    <string name="slide_4_title">सेटिंग्स में आसानी</string>
+    <string name="slide_4_desc">आवेदन में 5 अलग-अलग भाषाएं, 2 अलग-अलग डिजिटल भाषाएं, 2 अलग-अलग विषय शामिल हैं। सूचनाओं के टोन को चुनने और बदलने की क्षमता</string>
+    <string name="remove">पिक्सेल मिटाने का रबर</string>
+    <string name="remove_tasbix">क्या आप माला साफ कर सकते हैं?</string>
+    <string name="removed_tasbix">माला साफ हो गई है</string>
+    <string name="play_again_desc">स्वागत स्लाइडर को फिर से देखने के लिए, गोटो सेटिंग्स -> ऐप्स -> स्वागत स्लाइडर -> स्पष्ट डेटा</string>
+    <string name="play_again">फिर से चालू करें</string>
+    <string name="assalomu_alaykum_va_rahmatullohi_va_barakotux">अस्सलामु अलयकुम \ n रवामुल्लाहही वा बरकोतक्स</string>
+    <string name="ilova_gidi">अनुप्रयोेग मार्गदर्शक</string>
+    <string name="keraklidoclaryo">कोई दस्तावेज़ आवश्यक नहीं? क्या आप डाउनलोड करते हैं?</string>
+
+
+
+
+
+    <string-array name="prayer_time_notifications">
+        <item>@string/prayer_time_notification1</item>
+        <item>@string/prayer_time_notification2</item>
+        <item>@string/prayer_time_notification3</item>
+        <item>@string/prayer_time_notification4</item>
+        <item>@string/prayer_time_notification5</item>
+        <item>@string/prayer_time_notification6</item>
+    </string-array>
+    <string-array name="iqama_time_notifications">
+        <item>@string/iqama_time_notification1</item>
+        <item>@string/iqama_time_notification2</item>
+        <item>@string/iqama_time_notification3</item>
+        <item>@string/iqama_time_notification4</item>
+        <item>@string/iqama_time_notification5</item>
+        <item>@string/iqama_time_notification6</item>
+    </string-array>
+    <string-array name="hijri_month">
+        <item>@string/hijri_month_1</item>
+        <item>@string/hijri_month_2</item>
+        <item>@string/hijri_month_3</item>
+        <item>@string/hijri_month_4</item>
+        <item>@string/hijri_month_5</item>
+        <item>@string/hijri_month_6</item>
+        <item>@string/hijri_month_7</item>
+        <item>@string/hijri_month_8</item>
+        <item>@string/hijri_month_9</item>
+        <item>@string/hijri_month_10</item>
+        <item>@string/hijri_month_11</item>
+        <item>@string/hijri_month_12</item>
+    </string-array>
+    <string-array name="gregorian_month">
+        <item>@string/gregorian_month_1</item>
+        <item>@string/gregorian_month_2</item>
+        <item>@string/gregorian_month_3</item>
+        <item>@string/gregorian_month_4</item>
+        <item>@string/gregorian_month_5</item>
+        <item>@string/gregorian_month_6</item>
+        <item>@string/gregorian_month_7</item>
+        <item>@string/gregorian_month_8</item>
+        <item>@string/gregorian_month_9</item>
+        <item>@string/gregorian_month_10</item>
+        <item>@string/gregorian_month_11</item>
+        <item>@string/gregorian_month_12</item>
+    </string-array>
+
+    <string-array name="day_of_week">
+        <item>@string/day_of_week1</item>
+        <item>@string/day_of_week2</item>
+        <item>@string/day_of_week3</item>
+        <item>@string/day_of_week4</item>
+        <item>@string/day_of_week5</item>
+        <item>@string/day_of_week6</item>
+        <item>@string/day_of_week7</item>
+    </string-array>
+    <string-array name="settings_menu">
+        <item>@string/prayer_times_settings</item>
+        <item>@string/hijri_settings</item>
+        <item>@string/display_options</item>
+        <item>@string/notification_settings</item>
+        <item>@string/silent_settings</item>
+        <item>@string/backup_and_restore</item>
+    </string-array>
+    <string-array name="prayer_time">
+        <item>@string/fajr</item>
+        <item>@string/sunrise</item>
+        <item>@string/zuhr</item>
+        <item>@string/asr</item>
+        <item>@string/magrib</item>
+        <item>@string/isha</item>
+    </string-array>
+    <string-array name="location_widget_options">
+        <item>@string/delete_location</item>
+        <item>@string/set_as_current_location</item>
+    </string-array>
+    <string-array name="settings_submenu">
+        <item>@string/settings_for_calculating_prayer_times</item>
+        <item>@string/choose_hijri_date_settings</item>
+        <item>@string/change_language_and_colors_for_the_app_and_widgets</item>
+        <item>@string/select_your_notifications_and_reminders_settings</item>
+        <item>@string/adjust_the_silent_mode_settings_for_each_prayer</item>
+        <item>@string/settings_backup_and_restore</item>
+    </string-array>
+    <string name="settings_layouts_notifications_title1">@string/prayer_notification</string>
+    <string name="settings_layouts_notifications_title2">@string/iqama_reminders</string>
+    <string name="settings_layouts_notifications_title3">@string/general</string>
+    <string name="settings_layout_titles_backup_and_restore_title1" >@string/settings</string>
+    <string name="settings_layout_titles_backup_and_restore_title2" >@string/locations</string>
+    <string name="settings_layout_titles_display_options_title1" >@string/app_options</string>
+    <string name="settings_layout_titles_display_options_title2" >@string/widgets_options</string>
+    <string name="settings_layout_titles_fajr_and_sahoor_alarms_title1" >@string/alarm_settings</string>
+    <string name="settings_layout_titles_hijri_title1">@string/hijri_calendar</string>
+    <string name="settings_layout_titles_manual_times_adjustments_title1" >@string/adjustments</string>
+    <string name="settings_layout_titles_prayer_notification_time_title1" >@string/fajr</string>
+    <string name="settings_layout_titles_prayer_notification_time_title2" >@string/zuhr</string>
+    <string name="settings_layout_titles_prayer_notification_time_title3" >@string/asr</string>
+    <string name="settings_layout_titles_prayer_notification_time_title4" >@string/magrib</string>
+    <string name="settings_layout_titles_prayer_notification_time_title5" >@string/isha</string>
+    <string name="settings_layout_titles_prayer_notification_time_title6" >@string/jumuah</string>
+    <string name="settings_layout_titles_prayer_notification_tone_title1" >@string/asr</string>
+    <string name="settings_layout_titles_prayer_times_title1" >@string/calculations</string>
+    <string name="settings_layout_titles_silent_title1" >@string/silent_mode</string>
+
+    <string name="qiroat">पढ़ें</string>
+    <string name="quran">कुरान</string>
+    <string name="duolar">प्रार्थना</string>
+    <string name="kitoblar_va_qur_on">पुस्तकें और कुरान</string>
+    <string name="namoz_kitobitr">प्रार्थना पुस्तिका</string>
+    <string name="kitab_alsalatr">Kitab Alsala</string>
+    <string name="sozlamalar">समायोजन</string>
+    <string name="ilova_bo_yicha">आवेदन के अनुसार</string>
+
+    <string name="url_kitob_uchun">https://raw.githubusercontent.com/MsdSdm/kitoblar/main/Quran_in_HINDI.pdf</string>
+    <string name="url_kitob_nomi">Quran_in_HINDI.pdf</string>
+
+    <string name="url_kitob_namoz">https://raw.githubusercontent.com/MsdSdm/kitoblar/main/hi5440.pdf</string>
+    <string name="url_kitob_namoz_name">hi5440.pdf</string>
+    <string name="allohning_99_ismlari">अल्लाह के 99 नाम</string>
+    <string name="notification_text">अल्लाह के 99 नामों को याद करो!</string>
+    <string name="davomi">अधिक पढ़ें ...</string>
+
+    <string name="sura1">अल-फ़ातिहा</string>
+    <string name="sura2">अल-बक़रा </string>
+    <string name="sura3">आल इमरान </string>
+    <string name="sura4">अन-निसा </string>
+    <string name="sura5">अल-माइदा </string>
+    <string name="sura6">अल-अनआम </string>
+    <string name="sura7">अल-आराफ़ </string>
+    <string name="sura8">अल-अनफ़ाल</string>
+    <string name="sura9">अत-तौबा </string>
+    <string name="sura10">यूनुस </string>
+    <string name="sura11">हूद </string>
+    <string name="sura12">यूसुफ़ </string>
+    <string name="sura13">अर-रअद </string>
+    <string name="sura14">इब्राहिम </string>
+    <string name="sura15">अल-हिज्र </string>
+    <string name="sura16">अन-नह्ल </string>
+    <string name="sura17">अल-इस्रा </string>
+    <string name="sura18">अल-कहफ़ </string>
+    <string name="sura19">मरयम</string>
+    <string name="sura20">ता हा </string>
+    <string name="sura21">अल-अंबिया </string>
+    <string name="sura22">अल-हज </string>
+    <string name="sura23">अल-मोमिनून </string>
+    <string name="sura24">अन-नूर </string>
+    <string name="sura25">अल-फ़ुरक़ान </string>
+    <string name="sura26">अश-शुआरा </string>
+    <string name="sura27">अन-नम्ल </string>
+    <string name="sura28">अल-कसस </string>
+    <string name="sura29">अल-अनकबूत </string>
+    <string name="sura30">अर-रुम </string>
+    <string name="sura31">लुकमान </string>
+    <string name="sura32">अस-सजदा </string>
+    <string name="sura33">अल-अहज़ाब</string>
+    <string name="sura34">सबा (सबा, </string>
+    <string name="sura35">अल-फ़ातिर </string>
+    <string name="sura36">या-सीन </string>
+    <string name="sura37">अस-साफ़्फ़ात </string>
+    <string name="sura38">साद </string>
+    <string name="sura39">अज़-जुमर </string>
+    <string name="sura40">ग़ाफ़िर </string>
+    <string name="sura41">फ़ुस्सिलात </string>
+    <string name="sura42">अश-शूरा  </string>
+    <string name="sura43">अज-ज़ुख़रुफ़ </string>
+    <string name="sura44">अद-दुखान </string>
+    <string name="sura45">अल-जासिया </string>
+    <string name="sura46">अल-अहक़ाफ़ </string>
+    <string name="sura47">मुहम्मद </string>
+    <string name="sura48">अल-फ़तह </string>
+    <string name="sura49">अल-हुजुरात </string>
+    <string name="sura50">क़ाफ़  </string>
+    <string name="sura51">अध-धारियात </string>
+    <string name="sura52">अत-तूर </string>
+    <string name="sura53">अन-नज्म </string>
+    <string name="sura54">अल-क़मर </string>
+    <string name="sura55">अर-रहमान </string>
+    <string name="sura56">अल-वाक़िया </string>
+    <string name="sura57">अल-हदीद </string>
+    <string name="sura58">अल-मुजादिला </string>
+    <string name="sura59">अल-हश्र </string>
+    <string name="sura60">अल-मुम्तहिना </string>
+    <string name="sura61">अस-साफ़्फ़ा  </string>
+    <string name="sura62">अल-जुमुआ </string>
+    <string name="sura63">अल-मुनाफ़िक़ून </string>
+    <string name="sura64">अत-तग़ाबुन </string>
+    <string name="sura65">अत-तलाक़ </string>
+    <string name="sura66">अत-तहरीम </string>
+    <string name="sura67">अल-मुल्क </string>
+    <string name="sura68">अल-क़लम </string>
+    <string name="sura69">अल-हाक़्क़ा </string>
+    <string name="sura70">अल-मआरिज </string>
+    <string name="sura71">अन-नूह </string>
+    <string name="sura72">अल-जिन्न </string>
+    <string name="sura73">अल-मुज़्ज़म्मिल </string>
+    <string name="sura74">अल-मुद्दस्सिर  </string>
+    <string name="sura75">अल-क़ियामह </string>
+    <string name="sura76">अल-इंसान </string>
+    <string name="sura77">अल-मुर्सलात </string>
+    <string name="sura78">अन-नबा  </string>
+    <string name="sura79">अन-नाज़िआत </string>
+    <string name="sura80">अबस </string>
+    <string name="sura81">अत-तकवीर </string>
+    <string name="sura82">अल-इन्फ़ितार </string>
+    <string name="sura83">अल-मुतफ़्फ़िफ़ीन </string>
+    <string name="sura84">अल-इनशिक़ाक़ </string>
+    <string name="sura85">अल-बुरूज </string>
+    <string name="sura86">अत-तारिक़</string>
+    <string name="sura87">अल-आला </string>
+    <string name="sura88">अल-ग़ाशियह </string>
+    <string name="sura89">अल-फ़ज्र </string>
+    <string name="sura90">अल-बलद </string>
+    <string name="sura91">अश-शम्स </string>
+    <string name="sura92">अल-लैल</string>
+    <string name="sura93">अद-धुहा </string>
+    <string name="sura94">अल-इंशिराह</string>
+    <string name="sura95">अत-तीन </string>
+    <string name="sura96">अल-अलक़ </string>
+    <string name="sura97">अल-क़द्र </string>
+    <string name="sura98">अल-बय्यिना </string>
+    <string name="sura99">अल-ज़लज़ला </string>
+    <string name="sura100">अल-आदियात </string>
+    <string name="sura101">अल-क़ारियह</string>
+    <string name="sura102">अत-तकाथुर </string>
+    <string name="sura103">अल-अस्र </string>
+    <string name="sura104">अल-हुमज़ह </string>
+    <string name="sura105">अल-फ़ील </string>
+    <string name="sura106">अल-कुरैश </string>
+    <string name="sura107">अल-माउन </string>
+    <string name="sura108">अल-कौथर </string>
+    <string name="sura109">अल-काफिरुन  </string>
+    <string name="sura110">अन-नस्र </string>
+    <string name="sura111">अल-मसद्द </string>
+    <string name="sura112">अल-इखलाक</string>
+    <string name="sura113">अल-फ़लक़ </string>
+    <string name="sura114">अल-नास </string>
+
+
+    <string name="name1"> अर-रहमान</string>
+    <string name="name2"> अर-रहीम/ ’ अर-रहीम</string>
+    <string name="name3"> अल-मालिक/ ’ अल-मलिक</string>
+    <string name="name4"> अल-क़ुद्दूस/ ’ अल-क़ुद्दूस</string>
+    <string name="name5"> अस-सलाम/ ’ अस-सलाम</string>
+    <string name="name6"> अल-मू ’ मिन/ ’ अल-मू ’ मिन</string>
+    <string name="name7"> अल-मुहैमिन</string>
+    <string name="name8"> अल- ‘ अज़ीज़</string>
+    <string name="name9"> अल-जब्बार</string>
+    <string name="name10">अल-मुतकब्बिर</string>
+    <string name="name11">अल-ख़ालिक़/ ’ अल-ख़ालिक़</string>
+    <string name="name12">अल-बारि ’ / ’ अल-बारी</string>
+    <string name="name13">अल-मुसव्विर</string>
+    <string name="name14">अल-ग़फ़्फ़ार/ ’ अल-गफ्फार</string>
+    <string name="name15">अल-क़हहार/ ’ अल-कहहार</string>
+    <string name="name16">अल-वह्हाब/</string>
+    <string name="name17">अर-रज़्ज़ाक़/</string>
+    <string name="name18">अल-फ़त्ताह</string>
+    <string name="name19">अल- ‘ अलीम</string>
+    <string name="name20">अल-क़ाबिज़ ’ अल-क़ाबिद</string>
+    <string name="name21">अल-बासित</string>
+    <string name="name22">अल-ख़ाफ़िद</string>
+    <string name="name23">अर-राफ़ी ‘</string>
+    <string name="name24">अल-मु ‘ इज्ज़</string>
+    <string name="name25">अल-मुदिल्ल / ’ अल-मुज़िल</string>
+    <string name="name26">अस-समी</string>
+    <string name="name27">अल-बसीर</string>
+    <string name="name28">अल-हकम</string>
+    <string name="name29">अल- ‘ अद्ल</string>
+    <string name="name30">अल-लतीफ़/</string>
+    <string name="name31">अल-ख़बीर /</string>
+    <string name="name32">अल-हलीम/</string>
+    <string name="name33">अल- ‘ अज़ीम</string>
+    <string name="name34">अल-ग़फ़ूर</string>
+    <string name="name35">अश-शकूर</string>
+    <string name="name36">अल- ‘ अली * /</string>
+    <string name="name37">अल-कबीर/</string>
+    <string name="name38">अल-हाफ़िज़</string>
+    <string name="name39">अल-मुक़ीत</string>
+    <string name="name40">अल-हसीब</string>
+    <string name="name41">अल-जलील</string>
+    <string name="name42">अल-करीम</string>
+    <string name="name43">अर-रक़ीब</string>
+    <string name="name44">अल-मुजीब</string>
+    <string name="name45">अल-वासि</string>
+    <string name="name46">अल-हकीम</string>
+    <string name="name47">अल-वदूद</string>
+    <string name="name48">अल-मजीद</string>
+    <string name="name49">अल-बा ‘ इथ/ ’ अल-बा ‘ इस</string>
+    <string name="name50">अश-शाहिद</string>
+    <string name="name51">ʾअल-हक्क़</string>
+    <string name="name52">अल-वकील</string>
+    <string name="name53">अल-क़वी</string>
+    <string name="name54">अल-मतीन</string>
+    <string name="name55">अल-वली</string>
+    <string name="name56">अल-हमीद</string>
+    <string name="name57">अल-मुहसि / ’ अल-मुह्सी</string>
+    <string name="name58">’अल-मुब्दी ’</string>
+    <string name="name59">अल-मु ‘ ईद</string>
+    <string name="name60">अल-मुह·यी * /</string>
+    <string name="name61">अल-मुमीत</string>
+    <string name="name62">अल-हय्य</string>
+    <string name="name63">अल-क़य्यूम</string>
+    <string name="name64">अल-वाजिद</string>
+    <string name="name65">अल-माजिद</string>
+    <string name="name66">अल-वाहिद</string>
+    <string name="name67">अल- ’ अहद</string>
+    <string name="name68">अस-समद</string>
+    <string name="name69">अल-क़ादिर</string>
+    <string name="name70">अल-मुक्तादिर</string>
+    <string name="name71">अल-मुक़द्दिम</string>
+    <string name="name72">अल-मु ’ अक्खिर</string>
+    <string name="name73">अल- ’ अव्वल</string>
+    <string name="name74">अल- ’ आख़िर</string>
+    <string name="name75">अज़-ज़ाहिर</string>
+    <string name="name76">अल-बातिन</string>
+    <string name="name77">अल-वालि</string>
+    <string name="name78">अल-मुत ‘ आलि</string>
+    <string name="name79">अल-बर्र</string>
+    <string name="name80">अत-तव्वाब</string>
+    <string name="name81">अल-मुन्तकिम</string>
+    <string name="name82">अल- ‘ अफ़ुव्व</string>
+    <string name="name83">अर-र ’ ऊफ़</string>
+    <string name="name84">मालिकु ʼ ल-मुल्क</string>
+    <string name="name85">ज़ुल-जलालि वल इकराम</string>
+    <string name="name86">अल-मुक़सित</string>
+    <string name="name87">अल-जामि</string>
+    <string name="name88">अल-ग़निय / ’ अल-ग़नी</string>
+    <string name="name89">अल-मुग़न्नी/</string>
+    <string name="name90">अल-मानि</string>
+    <string name="name91">अद-दार्र/</string>
+    <string name="name92">अन-नफ़ी ‘ / ’ अन-नाफ़ि ‘</string>
+    <string name="name93">अन-नूर</string>
+    <string name="name94">अल-हादी</string>
+    <string name="name95">अल-बदी</string>
+    <string name="name96">अल-बाक़ी/अल-बाकि</string>
+    <string name="name97">अल-वारिथ/ ’ अल-वारिस</string>
+    <string name="name98">अर-रशीद/ ’ अर-राशिद</string>
+    <string name="name99">अस-सबूर/</string>
+
+    <string name="mano1"> सबसे दयालु</string>
+    <string name="mano2"> सबसे दयालु</string>
+    <string name="mano3"> बादशाह</string>
+    <string name="mano4"> पवित्र</string>
+    <string name="mano5"> शान्ती</string>
+    <string name="mano6"> सुरक्षा प्रदान करने वाला</string>
+    <string name="mano7"> नियंत्रक</string>
+    <string name="mano8"> शक्तिशाली</string>
+    <string name="mano9"> बलवान</string>
+    <string name="mano10">सब से आला</string>
+    <string name="mano11">सृष्टिकर्ता</string>
+    <string name="mano12">विकासित्कार, निर्माता</string>
+    <string name="mano13">The Fashioner, The Shaper, The Designer</string>
+    <string name="mano14">The Repeatedly Forgiving</string>
+    <string name="mano15">The Subduer</string>
+    <string name="mano16">The Bestower</string>
+    <string name="mano17">प्रदाता, निर्वाहक</string>
+    <string name="mano18">शुरू करने वाला, विजय देने वाला</string>
+    <string name="mano19">जानने वाला</string>
+    <string name="mano20">संयमक, सरदार</string>
+    <string name="mano21">विस्तारक</string>
+    <string name="mano22">The Abaser, The Humiliator, The Downgrader</string>
+    <string name="mano23">The Exalter, The Upgrader</string>
+    <string name="mano24">सम्मान देने वाला</string>
+    <string name="mano25">ज़िल्लत देने वाला</string>
+    <string name="mano26">सुनने वाला</string>
+    <string name="mano27">सब कुछ देखने वाला</string>
+    <string name="mano28">न्यायाधीश, मध्यस्त</string>
+    <string name="mano29">न्यायाधीश</string>
+    <string name="mano30">सज्जन, संक्षेप में दयालु</string>
+    <string name="mano31">सब की ख़बर रखने वाला</string>
+    <string name="mano32">सहनशील, कृपालु</string>
+    <string name="mano33">महान, भव्य</string>
+    <string name="mano34">बहुत क्षमाशील</string>
+    <string name="mano35">आभारी</string>
+    <string name="mano36">शानदार</string>
+    <string name="mano37">महान</string>
+    <string name="mano38">हिफ़ाज़त करने वाला</string>
+    <string name="mano39">पौष्टिक</string>
+    <string name="mano40">न्याय लेकर आनेवाला</string>
+    <string name="mano41">आलीशान, ऊंचा</string>
+    <string name="mano42">उदार, उदार</string>
+    <string name="mano43">सतर्क</string>
+    <string name="mano44">उत्तरदायी, जवाबदही वाला</string>
+    <string name="mano45">व्यापक, सर्व-भूत, असीम</string>
+    <string name="mano46">समझदार</string>
+    <string name="mano47">स्नेही</string>
+    <string name="mano48">यशस्वी, आलीशान</string>
+    <string name="mano49">पुनर्निर्माण करने वाला</string>
+    <string name="mano50">गवाह</string>
+    <string name="mano51">सत्य, वास्तविकता</string>
+    <string name="mano52">भरोसेमंद, वकील</string>
+    <string name="mano53">बलवान</string>
+    <string name="mano54">दृढ़</string>
+    <string name="mano55">दोस्त, मददगार</string>
+    <string name="mano56">सराहनीय</string>
+    <string name="mano57">The Accounter, The Numberer of All</string>
+    <string name="mano58">पैदा करने वाला, उत्पादक, प्रारंभ करने वाला</string>
+    <string name="mano59">स्वस्थ करनेवाला, The Reinstater Who Brings Back All</string>
+    <string name="mano60">जीवन डाटा</string>
+    <string name="mano61">मौत देने वाला</string>
+    <string name="mano62">The Living</string>
+    <string name="mano63">संविद, स्वतन्त्र</string>
+    <string name="mano64">The Perceiver, खोजक, अमोघ</string>
+    <string name="mano65">शान वाला, शानदार</string>
+    <string name="mano66">अद्वितीय, एक</string>
+    <string name="mano67">The One, The Indivisible</string>
+    <string name="mano68">सनातन, पूर्ण, आत्मनिर्भर</string>
+    <string name="mano69">शक्तिशाली, वह जो सब कुछ करने की क्षमता रखता है</string>
+    <string name="mano70">The Determiner, The Dominant</string>
+    <string name="mano71">The Expediter, He Who Brings Forward</string>
+    <string name="mano72">The Delayer, He Who Puts Far Away</string>
+    <string name="mano73">The First, The Beginning-less</string>
+    <string name="mano74">अंतिम, अनंत</string>
+    <string name="mano75">ज़ाहिर, सबूत, बाहय</string>
+    <string name="mano76">छुपा हुवा, बग़ैर शक्ल का, अन्तर्यामी</string>
+    <string name="mano77">The Patron, The Protecting Friend, The Friendly Lord</string>
+    <string name="mano78">The Supremely Exalted, The Most High</string>
+    <string name="mano79">The Good, The Beneficent</string>
+    <string name="mano80">The Ever-Returning, Ever-Relenting</string>
+    <string name="mano81">The Avenger</string>
+    <string name="mano82">The Pardoner, The Effacer, The Forgiver</string>
+    <string name="mano83">The Kind, The Pitying</string>
+    <string name="mano84">The Owner of all Sovereignty</string>
+    <string name="mano85">The Owner, Lord of Majesty and Honour</string>
+    <string name="mano86">The Equitable, The Requiter</string>
+    <string name="mano87">The Gatherer, The Unifier</string>
+    <string name="mano88">अमीर, स्वतंत्र</string>
+    <string name="mano89">फ़ायेदा देने वाला, साम्राट</string>
+    <string name="mano90">The Withholder, The Shielder, The Defender</string>
+    <string name="mano91">The Distressor, The Harmer, The Afflictor</string>
+    <string name="mano92">लाभकारी, अच्छा स्रोत</string>
+    <string name="mano93">प्रकाश</string>
+    <string name="mano94">मार्गदर्शक, मार्ग</string>
+    <string name="mano95">उत्प्रेरक, अतुलनीय, अनैतिक, सुन्दर</string>
+    <string name="mano96">अपरिवर्तनीय, अनंत, अनंत काल</string>
+    <string name="mano97">उत्तराधिकारी, सभी का प्रवेशकर्ता</string>
+    <string name="mano98">सही पथ का मार्गदर्शक</string>
+    <string name="mano99">कालातीत, सब्र करने वाला</string>
+
+
+</resources>

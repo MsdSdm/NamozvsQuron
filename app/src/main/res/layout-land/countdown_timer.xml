@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_height="43dp"
+    android:padding="2dp">
+    <TextView
+        android:id="@+id/countdown_timer_widget_hours_number"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/countdown_timer_widget_hours_text"
+        android:text="--"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/widgetColor"
+        android:layout_marginRight="1dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+    <TextView
+        app:layout_constraintLeft_toRightOf="@id/countdown_timer_widget_hours_number"
+        app:layout_constraintRight_toLeftOf="@id/countdown_timer_widget_minutes_number"
+        android:id="@+id/countdown_timer_widget_hours_text"
+        android:text="H"
+        android:textSize="15sp"
+        android:gravity="center_vertical"
+        android:textColor="@color/widgetColor"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+    <TextView
+        app:layout_constraintLeft_toRightOf="@id/countdown_timer_widget_hours_text"
+        app:layout_constraintRight_toLeftOf="@id/countdown_timer_widget_minutes_text"
+        android:id="@+id/countdown_timer_widget_minutes_number"
+        android:text="--"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/widgetColor"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="1dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+    <TextView
+        app:layout_constraintLeft_toRightOf="@id/countdown_timer_widget_minutes_number"
+        app:layout_constraintRight_toLeftOf="@id/countdown_timer_widget_seconds_number"
+        android:id="@+id/countdown_timer_widget_minutes_text"
+        android:text="M"
+        android:textColor="@color/widgetColor"
+        android:textSize="15sp"
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+    <TextView
+        app:layout_constraintLeft_toRightOf="@id/countdown_timer_widget_minutes_text"
+        app:layout_constraintRight_toLeftOf="@id/countdown_timer_widget_seconds_text"
+        android:id="@+id/countdown_timer_widget_seconds_number"
+        android:text="--"
+        android:textColor="@color/widgetColor"
+        android:textSize="30sp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="1dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+    <TextView
+        app:layout_constraintLeft_toRightOf="@id/countdown_timer_widget_seconds_number"
+        app:layout_constraintRight_toRightOf="parent"
+        android:id="@+id/countdown_timer_widget_seconds_text"
+        android:text="S"
+        android:gravity="center_vertical"
+        android:textColor="@color/widgetColor"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
